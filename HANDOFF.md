@@ -44,7 +44,9 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Website v2** | Specified, not built | Prompts ready in `prompts/claude-code/` |
 | **Second event** | Not scheduled | Venue is booked monthly for nine months |
 | **Physician recruitment** | Zero MDs to date | Two documented dropouts, both structural |
-| **Sponsorship** | No conversations started | Deliberately sequenced after proof |
+| **Corporate outreach** | Strategy, firmographic screen and named target list written. No conversations started | Vendor readiness pack. See `docs/11-corporate-outreach.md` and `ADR-015` |
+| **Testimonial consent** | Not collected | Attendees gave positive feedback at room one. None has consented in writing, so none is usable. An afternoon of work |
+| **Per-specialty convening** | Unproven | Room one was mixed across three professions. The claim that twelve dentists can be seated in one room is a hypothesis. Room two is the test |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
 
 ---
@@ -53,11 +55,15 @@ The strategic question was resolved in late July: the room that actually assembl
 
 1. **Run migration 0007** in Supabase. Unblocks the platform.
 2. **Get CGL insurance quotes.** Longest lead time, real exposure, required by external venues and corporate procurement.
-3. **Register the business name** ($60).
-4. **Interview 8 to 12 clinicians from the first room** for the insight brief. This is the only product sellable before anything else exists, and the raw material is already in the network.
-5. **Approach the condo board in writing** for amenity permission, from a position of transparency.
-6. **Schedule room 2** using the booked venue.
-7. **Approach five buyers** with the insight brief concept.
+3. **Register the business name** ($60). Without it there is no invoice carrying a GST/HST number, and corporate accounts payable bounces it.
+4. **Collect written testimonial consent** from six to eight room-one attendees. Free, one afternoon, and every commercial conversation is weaker without it.
+5. **Ask room one "which company should be in this room?"** Highest-converting outreach channel available and it costs nothing. See `docs/10-growth-flywheel.md`.
+6. **Interview 8 to 12 clinicians from the first room** for the insight brief, with the two buyer-discovery questions added. This is the only product sellable before anything else exists, and the raw material is already in the network.
+7. **Approach the condo board in writing** for amenity permission, from a position of transparency.
+8. **Schedule room 2 as a named dental room**, unsponsored, with the outreach funnel instrumented. Per-specialty convening is currently a hypothesis and this is the test.
+9. **Work the Tier A target list.** 25 named companies to produce 8 conversations to produce 3 or 4 closes. See `data/corporate-targets.md`.
+
+The vendor readiness pack (items 2 and 3, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
 
 ---
 

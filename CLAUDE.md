@@ -73,6 +73,8 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | Who is in the room? | `docs/03-icp-and-segments.md` |
 | What do things cost? | `docs/04-membership-pricing.md` |
 | How does it make money? | `docs/05-monetization.md` |
+| Who do we sell to, and how? | `docs/11-corporate-outreach.md` |
+| Which companies specifically? | `data/corporate-targets.md` |
 | What are the unit economics? | `docs/06-financial-model.md` |
 | How should I write? | `docs/07-brand-and-voice.md` |
 | What can we legally claim? | `docs/08-legal-and-compliance.md` |
