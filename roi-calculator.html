@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<!--
+  MedTech North — Internal & Investor Deck
+  SLIDE: Live ROI Calculator
+
+  INTEGRATION NOTES FOR CLAUDE DESIGN
+  -----------------------------------
+  1. Drop this in as a <section class="slide"> inside the existing deck shell.
+     Everything is scoped under .mtn-roi so it will not collide with deck styles.
+  2. Colour and type inherit from the deck's design system via CSS custom
+     properties. The var() fallbacks below are only used if a token is absent.
+     Do not hardcode replacements; extend the token list instead.
+  3. All geometry is drawn SVG. No icon fonts, no emoji, no stock icons,
+     no blur filters. Everything sits on an 8px grid.
+  4. The hollow-dot marker before every input label is the assumption marker
+     defined in the deck design instructions. Inputs are assumptions,
+     outputs are calculations. Never mark an output.
+  5. Every calculated figure reveals its arithmetic on hover, per the deck's
+     signature interaction. Do not remove the data-formula attributes.
+  6. Canonical constants live in MTN_CONSTANTS. They are carried from the
+     approved internal financial model. Do not edit them here; edit the model,
+     then mirror the change.
+-->
+<div class="mtn-roi" id="mtnRoi">
+<style>
+.mtn-roi{
+  --ink:        var(--mn-ink, #16191d);
+  --red:        var(--mn-red, #c41230);
+  --paper:      var(--mn-paper, #ffffff);
+  --line:       var(--mn-line, #dcdfe3);
+  --muted:      var(--mn-muted, #6b7280);
+  --surface:    var(--mn-surface, #f6f7f8);
+  --positive:   var(--mn-positive, #1f6b4a);
+  --attention:  var(--mn-attention, #b0561a);
+  --neutral:    var(--mn-neutral, #8a9099);
+  --font:       var(--mn-font, "Inter", system-ui, -apple-system, sans-serif);
+  --mono:       var(--mn-mono, "IBM Plex Mono", ui-monospace, monospace);
+
+  width:1920px; height:1080px; box-sizing:border-box;
+  padding:56px 64px 40px; background:var(--paper); color:var(--ink);
+  font-family:var(--font); position:relative; overflow:hidden;
+  display:flex; flex-direction:column;
+}
+.mtn-roi *,.mtn-roi *::before,.mtn-roi *::after{box-sizing:border-box}
+
+/* ---------- header ---------- */
+.mtn-roi .hd{display:flex;justify-content:space-between;align-items:flex-end;
+  border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:24px;flex:0 0 auto}
+.mtn-roi .hd h2{font-size:38px;line-height:1.05;margin:0;font-weight:600;letter-spacing:-.02em}
+.mtn-roi .hd .sub{font-size:15px;color:var(--muted);margin-top:8px}
+.mtn-roi .stamp{font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--red);font-weight:600;border:1px solid var(--red);padding:5px 10px;border-radius:2px}
+
+/* ---------- layout ---------- */
+.mtn-roi .body{display:grid;grid-template-columns:600px 1fr;gap:40px;flex:1 1 auto;min-height:0}
+
+/* ---------- inputs ---------- */
+.mtn-roi .panel{background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  padding:24px;display:flex;flex-direction:column;gap:16px;overflow:hidden}
+.mtn-roi .presets{display:flex;gap:8px}
+.mtn-roi .presets button{flex:1;font-family:var(--font);font-size:13px;font-weight:600;
+  padding:9px 0;border:1px solid var(--line);background:var(--paper);color:var(--ink);
+  border-radius:2px;cursor:pointer;transition:all .16s ease-out;letter-spacing:.02em}
+.mtn-roi .presets button:hover{border-color:var(--ink);transform:translateY(-1px)}
+.mtn-roi .presets button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+.mtn-roi .grp{border-top:1px solid var(--line);padding-top:14px}
+.mtn-roi .grp>h3{font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 12px;font-weight:600}
+.mtn-roi .ctl{display:grid;grid-template-columns:1fr 96px;gap:6px 12px;align-items:center;margin-bottom:12px}
+.mtn-roi .ctl label{font-size:13.5px;display:flex;align-items:center;gap:7px;line-height:1.25}
+/* hollow dot = this figure is an assumption, not a calculation */
+.mtn-roi .ctl label::before{content:"";width:7px;height:7px;border:1.5px solid var(--neutral);
+  border-radius:50%;flex:0 0 auto}
+.mtn-roi .ctl output{font-family:var(--mono);font-size:14px;font-weight:600;text-align:right;
+  font-variant-numeric:tabular-nums}
+.mtn-roi .ctl input[type=range]{grid-column:1/-1;width:100%;height:3px;-webkit-appearance:none;
+  appearance:none;background:var(--line);border-radius:2px;outline:none;margin:2px 0 0}
+.mtn-roi .ctl input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;
+  border-radius:50%;background:var(--red);cursor:pointer;border:2px solid var(--paper);
+  box-shadow:0 0 0 1px var(--red);transition:transform .14s ease-out}
+.mtn-roi .ctl input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.18)}
+.mtn-roi .ctl input[type=range]::-moz-range-thumb{width:14px;height:14px;border-radius:50%;
+  background:var(--red);cursor:pointer;border:2px solid var(--paper);box-shadow:0 0 0 1px var(--red)}
+
+/* ---------- outputs ---------- */
+.mtn-roi .out{display:flex;flex-direction:column;gap:18px;min-height:0}
+.mtn-roi .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.mtn-roi .kpi{border:1px solid var(--line);border-radius:3px;padding:16px 18px;background:var(--paper);
+  position:relative;transition:border-color .16s ease-out,transform .16s ease-out}
+.mtn-roi .kpi:hover{border-color:var(--ink);transform:translateY(-2px)}
+.mtn-roi .kpi .k{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.mtn-roi .kpi .v{font-family:var(--mono);font-size:34px;font-weight:600;margin-top:8px;
+  letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+.mtn-roi .kpi .n{font-size:11.5px;color:var(--muted);margin-top:7px;line-height:1.3}
+.mtn-roi .kpi.hero{border-color:var(--ink);border-width:2px}
+.mtn-roi .kpi.pos .v{color:var(--positive)}
+.mtn-roi .kpi.att .v{color:var(--attention)}
+
+.mtn-roi .row2{display:grid;grid-template-columns:1fr 470px;gap:18px;flex:1 1 auto;min-height:0}
+.mtn-roi .card{border:1px solid var(--line);border-radius:3px;padding:18px 20px;background:var(--paper);
+  display:flex;flex-direction:column;min-height:0}
+.mtn-roi .card>h3{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);
+  margin:0 0 14px;font-weight:600}
+
+/* detail table */
+.mtn-roi table{width:100%;border-collapse:collapse;font-size:13px}
+.mtn-roi td{padding:5.5px 0;border-bottom:1px solid var(--line)}
+.mtn-roi td:last-child{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500}
+.mtn-roi tr:last-child td{border-bottom:none}
+.mtn-roi tr.tot td{font-weight:700;border-top:1.5px solid var(--ink);border-bottom:none;padding-top:8px}
+.mtn-roi tr.sec td{padding-top:13px;font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;border-bottom:none}
+/* formula reveal: the deck's signature interaction */
+.mtn-roi [data-formula]{position:relative;cursor:help}
+.mtn-roi [data-formula]:hover{background:var(--surface)}
+.mtn-roi [data-formula]::after{content:attr(data-formula);position:absolute;left:0;bottom:calc(100% + 6px);
+  background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:11px;padding:7px 10px;
+  border-radius:2px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .16s ease-out;z-index:40}
+.mtn-roi [data-formula]:hover::after{opacity:1}
+
+/* capacity gauge */
+.mtn-roi .gauge{margin-top:2px}
+.mtn-roi .gauge .lbl{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:7px}
+.mtn-roi .gauge .track{height:12px;background:var(--surface);border:1px solid var(--line);
+  border-radius:2px;position:relative;overflow:hidden}
+.mtn-roi .gauge .fill{height:100%;background:var(--positive);transition:width .22s ease-out,background .22s ease-out}
+.mtn-roi .gauge .fill.warn{background:var(--attention)}
+.mtn-roi .gauge .mark{position:absolute;top:-3px;bottom:-3px;width:1.5px;background:var(--ink);left:90%}
+.mtn-roi .gauge .note{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.35}
+
+/* valuation verdict */
+.mtn-roi .verdict{border-left:3px solid var(--neutral);padding:12px 0 12px 14px;margin-top:auto}
+.mtn-roi .verdict.ok{border-left-color:var(--positive)}
+.mtn-roi .verdict.no{border-left-color:var(--attention)}
+.mtn-roi .verdict .t{font-size:15px;font-weight:600;line-height:1.3}
+.mtn-roi .verdict .d{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}
+
+.mtn-roi .ft{flex:0 0 auto;margin-top:18px;padding-top:12px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.mtn-roi .ft .legend{display:flex;align-items:center;gap:7px}
+.mtn-roi .ft .legend i{width:7px;height:7px;border:1.5px solid var(--neutral);border-radius:50%;display:inline-block}
+
+@media (prefers-reduced-motion: reduce){
+  .mtn-roi *{transition:none !important}
+}
+</style>
+
+<div class="hd">
+  <div>
+    <h2>What moves the outcome</h2>
+    <div class="sub">Steady-state annual model. Drag any assumption and every figure recalculates. Base settings reproduce year two of the financial model.</div>
+  </div>
+  <div class="stamp">Internal</div>
+</div>
+
+<div class="body">
+
+  <!-- ============ INPUTS ============ -->
+  <div class="panel">
+    <div class="presets">
+      <button data-preset="bear">Bear</button>
+      <button data-preset="base" class="on">Base</button>
+      <button data-preset="bull">Bull</button>
+    </div>
+
+    <div class="grp">
+      <h3>Programme</h3>
+      <div class="ctl"><label for="chapters">City chapters live</label><output id="o-chapters"></output>
+        <input type="range" id="chapters" min="1" max="8" step="1"></div>
+      <div class="ctl"><label for="cadence">Dinners per chapter, per year</label><output id="o-cadence"></output>
+        <input type="range" id="cadence" min="4" max="12" step="1"></div>
+      <div class="ctl"><label for="util">Seat capacity filled</label><output id="o-util"></output>
+        <input type="range" id="util" min="40" max="100" step="1"></div>
+      <div class="ctl"><label for="summits">Summits per year</label><output id="o-summits"></output>
+        <input type="range" id="summits" min="0" max="4" step="1"></div>
+      <div class="ctl"><label for="satt">Summit attendees, all summits</label><output id="o-satt"></output>
+        <input type="range" id="satt" min="100" max="800" step="10"></div>
+    </div>
+
+    <div class="grp">
+      <h3>Cost and sponsorship levers</h3>
+      <div class="ctl"><label for="ph">Dinners in partner-hosted venues</label><output id="o-ph"></output>
+        <input type="range" id="ph" min="0" max="100" step="5"></div>
+      <div class="ctl"><label for="att">Dinners with a sponsor</label><output id="o-att"></output>
+        <input type="range" id="att" min="0" max="100" step="5"></div>
+      <div class="ctl"><label for="chq">Sponsor cheque per dinner</label><output id="o-chq"></output>
+        <input type="range" id="chq" min="2000" max="8000" step="250"></div>
+      <div class="ctl"><label for="anc">Anchor partners</label><output id="o-anc"></output>
+        <input type="range" id="anc" min="0" max="3" step="1"></div>
+      <div class="ctl"><label for="cat">Category-exclusive partners</label><output id="o-cat"></output>
+        <input type="range" id="cat" min="0" max="8" step="1"></div>
+    </div>
+
+    <div class="grp">
+      <h3>The round</h3>
+      <div class="ctl"><label for="cap">Capital invested</label><output id="o-cap"></output>
+        <input type="range" id="cap" min="50000" max="1000000" step="25000"></div>
+      <div class="ctl"><label for="eq">Equity taken</label><output id="o-eq"></output>
+        <input type="range" id="eq" min="5" max="40" step="1"></div>
+      <div class="ctl"><label for="mult">Exit multiple on net contribution</label><output id="o-mult"></output>
+        <input type="range" id="mult" min="3" max="8" step="0.5"></div>
+    </div>
+  </div>
+
+  <!-- ============ OUTPUTS ============ -->
+  <div class="out">
+
+    <div class="kpis">
+      <div class="kpi hero"><div class="k">Net contribution</div>
+        <div class="v" id="k-net"></div><div class="n" id="k-net-n"></div></div>
+      <div class="kpi"><div class="k">Return on capital</div>
+        <div class="v" id="k-roi"></div><div class="n">Annual net contribution divided by capital invested</div></div>
+      <div class="kpi"><div class="k">Capital payback</div>
+        <div class="v" id="k-pay"></div><div class="n">Years of net contribution to return the cheque</div></div>
+      <div class="kpi"><div class="k">Modelled enterprise value</div>
+        <div class="v" id="k-ev"></div><div class="n" id="k-ev-n"></div></div>
+    </div>
+
+    <div class="row2">
+
+      <div class="card">
+        <h3>Where the money comes from and goes</h3>
+        <table>
+          <tr class="sec"><td colspan="2">Revenue</td></tr>
+          <tr><td data-formula="paying members × $784 blended ARPU">Membership</td><td id="r-mem"></td></tr>
+          <tr><td data-formula="dinners × sponsor cheque × attach rate">Dinner sponsorship</td><td id="r-dsp"></td></tr>
+          <tr><td data-formula="anchors × $35,000 + categories × $15,000">Anchor and category partners</td><td id="r-part"></td></tr>
+          <tr><td data-formula="summits × $25,000 + attendees × $237">Summit sponsorship, tickets and booths</td><td id="r-sum"></td></tr>
+          <tr><td data-formula="paying members × $147">Event à la carte</td><td id="r-alc"></td></tr>
+          <tr class="tot"><td>Total revenue</td><td id="r-tot"></td></tr>
+          <tr class="sec"><td colspan="2">Cost</td></tr>
+          <tr><td data-formula="dinners × 40 seats × blended seat cost">Dinner delivery</td><td id="c-din"></td></tr>
+          <tr><td data-formula="attendees × $200 per head">Summit delivery</td><td id="c-sum"></td></tr>
+          <tr><td data-formula="kits, platform, cohorts and acquisition">Member servicing and acquisition</td><td id="c-mem"></td></tr>
+          <tr><td data-formula="$42,000 base + $16,000 per chapter">Fixed operating and team</td><td id="c-fix"></td></tr>
+          <tr class="tot"><td>Total cost</td><td id="c-tot"></td></tr>
+        </table>
+        <div class="verdict" id="dinnerVerdict" style="margin-top:14px">
+          <div class="t" id="dv-t"></div>
+          <div class="d" id="dv-d"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>The constraint</h3>
+        <div class="gauge">
+          <div class="lbl"><span>Paying members</span><span id="g-txt"></span></div>
+          <div class="track"><div class="fill" id="g-fill"></div><div class="mark"></div></div>
+          <div class="note" id="g-note"></div>
+        </div>
+
+        <h3 style="margin-top:24px">Room supply</h3>
+        <table>
+          <tr><td data-formula="chapters × dinners per chapter">Dinners convened per year</td><td id="d-din"></td></tr>
+          <tr><td data-formula="40 seats × 50% reserved for paying members">Paying seats per dinner</td><td id="d-seats"></td></tr>
+          <tr><td data-formula="paying seat-slots ÷ 2.3 dinners attended">Ceiling on paying members</td><td id="d-ceil"></td></tr>
+          <tr><td data-formula="$105 restaurant, $55 partner-hosted, blended">Blended dinner seat cost</td><td id="d-cost"></td></tr>
+          <tr><td data-formula="paying members × 1.5">Hosted guests required</td><td id="d-guest"></td></tr>
+        </table>
+
+        <h3 style="margin-top:24px">Does the round clear</h3>
+        <table>
+          <tr><td data-formula="capital ÷ equity taken">Implied post-money</td><td id="v-post"></td></tr>
+          <tr><td data-formula="net contribution × exit multiple">Modelled enterprise value</td><td id="v-ev"></td></tr>
+          <tr class="tot"><td>Gap</td><td id="v-gap"></td></tr>
+        </table>
+        <div class="verdict" id="valVerdict">
+          <div class="t" id="vv-t"></div>
+          <div class="d" id="vv-d"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="ft">
+  <div class="legend"><i></i><span>Hollow dot marks an assumption. Unmarked figures are calculated.</span></div>
+  <div>CAD, exclusive of applicable taxes. Assumption-based planning model, not financial advice. Constants carried from the internal financial model.</div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Constants carried unchanged from the internal financial model workbook.
+     Edit the model first, then mirror any change here. */
+  var C = {
+    seatsPerDinner:   40,
+    payingSeatShare:  0.50,
+    dinnersAttended:  2.30,
+    costRestaurant:   105,
+    costPartnerHost:  55,
+    summitCostHead:   200,
+    summitRevHead:    237,   // derived: $90,000 over 380 attendees
+    alaCartePerMember:147,   // derived: $22,000 over 150 members
+    kitBlended:       54,    // 53/35/12 tier mix over $45/$45/$120
+    platformPerMember:25,
+    cohortAnnual:     1200,
+    cacBlended:       220,
+    newMemberShare:   0.50,
+    guestRatio:       1.50,
+    anchorFee:        35000,
+    categoryFee:      15000,
+    summitSponsorFee: 25000,
+    arpu:             0.53*290 + 0.35*790 + 0.12*2950   // = 784.20
+  };
+
+  var PRESETS = {
+    bear: {chapters:3, cadence:4, util:65, summits:1, satt:180, ph:25, att:50, chq:3000, anc:1, cat:1, cap:150000, eq:15, mult:4},
+    base: {chapters:5, cadence:4, util:86, summits:2, satt:380, ph:50, att:80, chq:4000, anc:1, cat:3, cap:150000, eq:15, mult:5},
+    bull: {chapters:5, cadence:8, util:95, summits:2, satt:450, ph:75, att:100,chq:5000, anc:2, cat:5, cap:150000, eq:15, mult:6}
+  };
+
+  var IDS = ["chapters","cadence","util","summits","satt","ph","att","chq","anc","cat","cap","eq","mult"];
+  var $ = function(id){ return document.getElementById(id); };
+  var root = $("mtnRoi");
+
+  /* ---------- formatting ---------- */
+  function money(n){
+    var s = n < 0 ? "-" : "";
+    return s + "$" + Math.round(Math.abs(n)).toLocaleString("en-CA");
+  }
+  function pct(n, dp){ return (n*100).toFixed(dp === undefined ? 1 : dp) + "%"; }
+
+  /* ---------- the model ---------- */
+  function compute(v){
+    var dinners        = v.chapters * v.cadence;
+    var payingSeats    = C.seatsPerDinner * C.payingSeatShare;          // 20
+    var seatSlots      = dinners * payingSeats;
+    var ceiling        = seatSlots / C.dinnersAttended;
+    var members        = ceiling * (v.util/100);
+    var guests         = members * C.guestRatio;
+    var seatCost       = C.costRestaurant*(1 - v.ph/100) + C.costPartnerHost*(v.ph/100);
+    var satt           = v.summits > 0 ? v.satt : 0;
+
+    // revenue
+    var revMembership  = members * C.arpu;
+    var revDinnerSpon  = dinners * v.chq * (v.att/100);
+    var revPartners    = v.anc * C.anchorFee + v.cat * C.categoryFee;
+    var revSummit      = v.summits * C.summitSponsorFee + satt * C.summitRevHead;
+    var revAlaCarte    = members * C.alaCartePerMember;
+    var revenue        = revMembership + revDinnerSpon + revPartners + revSummit + revAlaCarte;
+
+    // cost
+    var costDinner     = dinners * C.seatsPerDinner * seatCost;
+    var costSummit     = satt * C.summitCostHead;
+    var costMember     = members * C.kitBlended
+                       + (members + guests) * C.platformPerMember
+                       + C.cohortAnnual
+                       + members * C.newMemberShare * C.cacBlended;
+    var costFixed      = (22000 + v.chapters*8000) + (20000 + v.chapters*8000);
+    var cost           = costDinner + costSummit + costMember + costFixed;
+
+    var net            = revenue - cost;
+    var dinnerNet      = revDinnerSpon - costDinner;
+    var ev             = net * v.mult;
+    var post           = v.cap / (v.eq/100);
+
+    return {
+      dinners:dinners, payingSeats:payingSeats, ceiling:ceiling, members:members,
+      guests:guests, seatCost:seatCost,
+      revMembership:revMembership, revDinnerSpon:revDinnerSpon, revPartners:revPartners,
+      revSummit:revSummit, revAlaCarte:revAlaCarte, revenue:revenue,
+      costDinner:costDinner, costSummit:costSummit, costMember:costMember,
+      costFixed:costFixed, cost:cost,
+      net:net, margin:revenue > 0 ? net/revenue : 0, dinnerNet:dinnerNet,
+      roi:net/v.cap, payback: net > 0 ? v.cap/net : null,
+      ev:ev, post:post, gap:ev - post,
+      utilisation: v.util/100
+    };
+  }
+
+  /* ---------- read inputs ---------- */
+  function readValues(){
+    var v = {};
+    IDS.forEach(function(id){ v[id] = parseFloat($(id).value); });
+    return v;
+  }
+
+  /* ---------- render ---------- */
+  function render(){
+    var v = readValues();
+    var r = compute(v);
+
+    // input readouts
+    $("o-chapters").textContent = v.chapters;
+    $("o-cadence").textContent  = v.cadence;
+    $("o-util").textContent     = v.util + "%";
+    $("o-summits").textContent  = v.summits;
+    $("o-satt").textContent     = v.summits > 0 ? v.satt : "n/a";
+    $("o-ph").textContent       = v.ph + "%";
+    $("o-att").textContent      = v.att + "%";
+    $("o-chq").textContent      = money(v.chq);
+    $("o-anc").textContent      = v.anc;
+    $("o-cat").textContent      = v.cat;
+    $("o-cap").textContent      = money(v.cap);
+    $("o-eq").textContent       = v.eq + "%";
+    $("o-mult").textContent     = v.mult + "x";
+
+    // KPIs
+    var netEl = $("k-net").parentElement;
+    $("k-net").textContent   = money(r.net);
+    $("k-net-n").textContent = "Net margin " + pct(r.margin) + " on " + money(r.revenue) + " of revenue";
+    netEl.classList.toggle("pos", r.net > 0);
+    netEl.classList.toggle("att", r.net <= 0);
+
+    $("k-roi").textContent = pct(r.roi, 0);
+    $("k-pay").textContent = r.payback === null ? "n/a" :
+      (r.payback < 10 ? r.payback.toFixed(1) + " yrs" : "10+ yrs");
+    $("k-ev").textContent   = money(r.ev);
+    $("k-ev-n").textContent = "At " + v.mult + "x net contribution. Events businesses trade in a wide band; treat as directional.";
+
+    // revenue and cost table
+    $("r-mem").textContent  = money(r.revMembership);
+    $("r-dsp").textContent  = money(r.revDinnerSpon);
+    $("r-part").textContent = money(r.revPartners);
+    $("r-sum").textContent  = money(r.revSummit);
+    $("r-alc").textContent  = money(r.revAlaCarte);
+    $("r-tot").textContent  = money(r.revenue);
+    $("c-din").textContent  = money(r.costDinner);
+    $("c-sum").textContent  = money(r.costSummit);
+    $("c-mem").textContent  = money(r.costMember);
+    $("c-fix").textContent  = money(r.costFixed);
+    $("c-tot").textContent  = money(r.cost);
+
+    // finding three: the dinner programme
+    var dv = $("dinnerVerdict");
+    dv.classList.remove("ok","no");
+    if (r.dinnerNet >= 0){
+      dv.classList.add("ok");
+      $("dv-t").textContent = "The dinner programme funds itself, with " + money(r.dinnerNet) + " to spare.";
+      $("dv-d").textContent = "Sponsorship and donated venues cover delivery. Every membership dollar drops to contribution.";
+    } else {
+      dv.classList.add("no");
+      $("dv-t").textContent = "The dinner programme costs " + money(-r.dinnerNet) + " a year.";
+      $("dv-d").textContent = "Membership revenue is paying for food. Raise partner-hosted venues or sponsor attach before adding members.";
+    }
+
+    // capacity
+    var u = Math.min(r.utilisation, 1);
+    var fill = $("g-fill");
+    fill.style.width = (u*100) + "%";
+    fill.classList.toggle("warn", u > 0.90);
+    $("g-txt").textContent  = Math.round(r.members) + " of " + Math.round(r.ceiling) + " seats available";
+    $("g-note").textContent = u > 0.90
+      ? "Above 90 percent the room is oversubscribed. Open a chapter or raise cadence. Do not add seats: composition is the product."
+      : "Headroom for " + Math.round(r.ceiling - r.members) + " more paying members at this cadence before a new chapter is needed.";
+
+    // room supply
+    $("d-din").textContent   = r.dinners;
+    $("d-seats").textContent = r.payingSeats;
+    $("d-ceil").textContent  = Math.round(r.ceiling);
+    $("d-cost").textContent  = "$" + r.seatCost.toFixed(0);
+    $("d-guest").textContent = Math.round(r.guests);
+
+    // the round
+    $("v-post").textContent = money(r.post);
+    $("v-ev").textContent   = money(r.ev);
+    $("v-gap").textContent  = money(r.gap);
+    var vv = $("valVerdict");
+    vv.classList.remove("ok","no");
+    if (r.gap >= 0){
+      vv.classList.add("ok");
+      $("vv-t").textContent = "The round clears on these settings.";
+      $("vv-d").textContent = "Modelled value exceeds the implied post-money by " + money(r.gap) + ".";
+    } else {
+      vv.classList.add("no");
+      $("vv-t").textContent = "The round does not clear yet.";
+      $("vv-d").textContent = "Modelled value sits " + money(-r.gap) + " below the implied post-money. Raise cadence, add chapters or close more category partners.";
+    }
+
+    // preset highlight clears once anything is dragged
+    root.querySelectorAll(".presets button").forEach(function(b){
+      var p = PRESETS[b.dataset.preset];
+      var match = IDS.every(function(id){ return v[id] === p[id]; });
+      b.classList.toggle("on", match);
+    });
+  }
+
+  function applyPreset(name){
+    var p = PRESETS[name];
+    IDS.forEach(function(id){ $(id).value = p[id]; });
+    render();
+  }
+
+  IDS.forEach(function(id){ $(id).addEventListener("input", render); });
+  root.querySelectorAll(".presets button").forEach(function(b){
+    b.addEventListener("click", function(){ applyPreset(b.dataset.preset); });
+  });
+
+  applyPreset("base");
+})();
+</script>
+</div>

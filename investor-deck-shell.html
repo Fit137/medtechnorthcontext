@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  MedTech North — Internal & Investor Deck
+  SHELL + 15 slides (all except the ROI calculator).
+
+  INTEGRATION NOTES FOR CLAUDE DESIGN
+  -----------------------------------
+  1. This is the deck shell. The ROI calculator (slide-roi-calculator.html)
+     drops in where the <!-- SLIDE 12 --> placeholder sits, as its own
+     <section class="slide">. Do not renumber; the placeholder keeps the order.
+  2. Colour and type inherit from the MedTech North design system via CSS
+     custom properties. The :root fallbacks are only used if a token is absent.
+     Do not hardcode replacements; extend the token list.
+  3. All numbers are carried from the internal financial model workbook.
+     Do not recalculate or re-round.
+  4. Every calculated figure with a data-formula attribute reveals its
+     arithmetic on hover — the deck's signature interaction. Keep them.
+  5. The hollow-dot ".assume" marker means "this figure is an assumption".
+     Inputs and assumed drivers get it; calculated outputs never do.
+  6. Signal colour is semantic, not decorative: .pos contribution/healthy,
+     .att cost/risk/watch, .neu structural. Attention is "we know", not alarm.
+  7. Charts here are lightweight inline SVG placeholders built to the right
+     proportions and data. Claude Design should elevate them to the 3D objects
+     named in the design instructions (capacity cylinders, sensitivity surface,
+     scenario fan) while preserving the exact values.
+  8. This shell is print/deck-navigable: each <section class="slide"> is one
+     1920x1080 frame; export each individually as PNG.
+-->
+<head>
+<meta charset="utf-8">
+<title>MedTech North — Internal & Investor Deck</title>
+<style>
+:root{
+  --ink:#16191d; --red:#c41230; --paper:#ffffff; --line:#dcdfe3; --muted:#6b7280;
+  --surface:#f6f7f8; --positive:#1f6b4a; --attention:#b0561a; --neutral:#8a9099;
+  --font:"Inter",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#4a4d52;font-family:var(--font);color:var(--ink)}
+.slide{
+  width:1920px;height:1080px;background:var(--paper);position:relative;overflow:hidden;
+  margin:24px auto;box-shadow:0 8px 40px rgba(0,0,0,.35);
+  padding:56px 72px 44px;display:flex;flex-direction:column;
+}
+.stamp{position:absolute;top:40px;right:56px;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--red);font-weight:600;border:1px solid var(--red);
+  padding:5px 10px;border-radius:2px}
+.hd{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:32px;flex:0 0 auto}
+.hd .ey{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.hd h2{font-size:42px;line-height:1.04;margin:8px 0 0;font-weight:600;letter-spacing:-.02em}
+.hd .sub{font-size:16px;color:var(--muted);margin-top:10px}
+.body{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;justify-content:center}
+.ft{flex:0 0 auto;margin-top:24px;padding-top:14px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.legend{display:flex;align-items:center;gap:7px}
+.legend i{width:7px;height:7px;border:1.5px solid var(--neutral);border-radius:50%;display:inline-block}
+
+/* assumption marker */
+.assume{position:relative;padding-left:16px}
+.assume::before{content:"";position:absolute;left:0;top:.42em;width:7px;height:7px;
+  border:1.5px solid var(--neutral);border-radius:50%}
+
+/* tables */
+table{width:100%;border-collapse:collapse;font-size:19px}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td:not(:first-child),th:not(:first-child){text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:hover{background:var(--surface)}
+tr.tot td{font-weight:700;border-top:2px solid var(--ink)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+[data-formula]{cursor:help;position:relative}
+[data-formula]:hover{background:var(--surface)}
+[data-formula]::after{content:attr(data-formula);position:absolute;left:16px;bottom:calc(100% + 4px);
+  background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:12px;padding:7px 10px;
+  border-radius:2px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .16s;z-index:30}
+[data-formula]:hover::after{opacity:1}
+.pos{color:var(--positive)} .att{color:var(--attention)} .neu{color:var(--neutral)}
+
+/* big statement slides */
+.statement{font-size:58px;line-height:1.18;font-weight:600;letter-spacing:-.02em;max-width:1500px}
+.statement .em{color:var(--red)}
+.substmt{font-size:20px;color:var(--muted);margin-top:28px;max-width:1100px}
+
+/* KPI strip */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:8px 0}
+.kpi{border:1px solid var(--line);border-radius:3px;padding:24px 26px}
+.kpi.hero{border:2px solid var(--ink)}
+.kpi .k{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.kpi .v{font-family:var(--mono);font-size:44px;font-weight:600;margin-top:10px;letter-spacing:-.02em}
+.kpi .n{font-size:14px;color:var(--muted);margin-top:8px;line-height:1.35}
+
+/* chain */
+.chain{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin:12px 0 32px}
+.chain .step{background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  padding:16px 22px;font-size:19px;font-weight:500;text-align:center}
+.chain .step.res{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+.chain .arw{padding:0 14px;color:var(--muted);font-size:22px}
+
+/* three consequences */
+.cons{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:20px}
+.cons .c .n{font-family:var(--mono);font-size:40px;color:var(--red);font-weight:600}
+.cons .c h3{font-size:24px;margin:14px 0 10px;line-height:1.2}
+.cons .c p{font-size:16px;color:var(--muted);line-height:1.5;margin:0}
+
+/* diagram */
+.diagram{display:grid;grid-template-columns:1fr 320px 1fr;gap:28px;align-items:center;margin:12px 0}
+.flow{border:1px solid var(--line);border-radius:3px;padding:20px 22px}
+.flow .t{font-size:20px;font-weight:600;margin-bottom:8px}
+.flow .d{font-size:15px;color:var(--muted);line-height:1.4}
+.hub{background:var(--ink);color:var(--paper);border-radius:4px;padding:28px 24px;text-align:center}
+.hub .big{font-family:var(--mono);font-size:34px;font-weight:700}
+.hub .lbl{font-size:14px;opacity:.8;margin-top:8px}
+
+/* stacked bar */
+.stack{display:flex;gap:40px;align-items:flex-end;height:360px;margin:20px 0}
+.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;height:100%}
+.bar .seg{width:100%;display:flex;align-items:center;justify-content:center;font-size:14px;
+  font-weight:600;color:var(--paper)}
+.bar .yr{text-align:center;font-size:16px;font-weight:600;margin-top:12px}
+.bar .tot{text-align:center;font-family:var(--mono);font-size:14px;color:var(--muted)}
+
+.bottomline{margin-top:24px;border-left:3px solid var(--red);padding:14px 0 14px 18px;
+  font-size:20px;line-height:1.4;max-width:1400px}
+.bottomline.pos{border-left-color:var(--positive)}
+.caveat{margin-top:20px;border-left:3px solid var(--attention);padding:14px 0 14px 18px;
+  font-size:18px;line-height:1.45;color:var(--ink);max-width:1400px}
+.annot{font-size:16px;color:var(--muted);margin-top:6px;line-height:1.4}
+
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ============ SLIDE 1 — COVER ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="body" style="justify-content:center">
+    <div style="width:180px;height:180px;border:2px solid var(--ink);display:flex;align-items:center;
+      justify-content:center;margin-bottom:48px;color:var(--muted);font-size:13px">[extruded mark]</div>
+    <div class="ey" style="font-size:14px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:600">Internal and investor use</div>
+    <h1 style="font-size:76px;font-weight:600;letter-spacing:-.02em;margin:16px 0 0;line-height:1.02">Unit Economics<br>& Financial Basis</h1>
+    <div style="font-size:22px;color:var(--muted);margin-top:24px">Assumption-based planning model. Not the full financial model.</div>
+  </div>
+  <div class="ft"><span>MedTech North</span><span>CAD, exclusive of applicable taxes</span></div>
+</section>
+
+<!-- ============ SLIDE 2 — HONEST OPENING ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="body">
+    <div class="statement">This model projects a business that has <span class="em">not yet held its first dinner.</span> Every number is a hypothesis with arithmetic attached.</div>
+    <div class="substmt">We lead with that because it is what makes the next fifteen slides credible.</div>
+  </div>
+  <div class="ft"><span>02</span><span>Assumption-based planning model, not financial advice</span></div>
+</section>
+
+<!-- ============ SLIDE 3 — MODEL IN ONE PICTURE ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">The structure</div><h2>How the money actually works</h2></div>
+  <div class="body">
+    <div class="diagram">
+      <div>
+        <div class="flow" style="margin-bottom:20px"><div class="t">Guests flow in free</div><div class="d">Clinicians, researchers, academics, students, policy. The gravity.</div></div>
+        <div class="flow"><div class="t">Members pay to be near them</div><div class="d">Founders and operators. Membership is 29% of revenue.</div></div>
+      </div>
+      <div class="hub"><div class="big">The room</div><div class="lbl">40 seats, composed and vetted</div></div>
+      <div>
+        <div class="flow" style="margin-bottom:20px"><div class="t">Sponsors pay for composition</div><div class="d">One partner per category. Sponsorship is 50% of revenue.</div></div>
+        <div class="flow"><div class="t">The programme funds itself</div><div class="d">Sponsorship and donated venues cover the room.</div></div>
+      </div>
+    </div>
+    <div class="bottomline">Membership qualifies the room. Sponsorship monetises it. Neither works without the free tier at the centre.</div>
+  </div>
+  <div class="ft"><span>03</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 4 — FINDING 1: CEILING ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Finding 1</div><h2>Every chapter has a hard membership ceiling</h2></div>
+  <div class="body">
+    <div class="chain">
+      <div class="step">40 seats</div><div class="arw">→</div>
+      <div class="step">50% for guests</div><div class="arw">→</div>
+      <div class="step">20 paying seats</div><div class="arw">→</div>
+      <div class="step">×4 dinners = 80 slots</div><div class="arw">→</div>
+      <div class="step">÷2.3 attended</div><div class="arw">=</div>
+      <div class="step res">34.8 members</div>
+    </div>
+    <table>
+      <thead><tr><th>Dinners per city, per year</th><th>Ceiling per chapter</th><th>5 chapters, membership revenue</th></tr></thead>
+      <tbody>
+        <tr><td>4 &nbsp;<span class="neu">quarterly, launch cadence</span></td><td class="num" data-formula="80 slots ÷ 2.3">35</td><td class="num">$136,000</td></tr>
+        <tr><td>6 &nbsp;<span class="neu">every two months</span></td><td class="num" data-formula="120 slots ÷ 2.3">52</td><td class="num">$205,000</td></tr>
+        <tr><td>8 &nbsp;<span class="neu">six-weekly</span></td><td class="num" data-formula="160 slots ÷ 2.3">70</td><td class="num">$273,000</td></tr>
+        <tr><td>12 &nbsp;<span class="neu">monthly</span></td><td class="num" data-formula="240 slots ÷ 2.3">104</td><td class="num">$410,000</td></tr>
+      </tbody>
+    </table>
+    <div class="annot" style="margin-top:16px">Blended ARPU of $784 across a 53 / 35 / 12 tier mix.</div>
+  </div>
+  <div class="ft"><span>04</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 5 — WHAT IT MEANS ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Finding 1, continued</div><h2>Three consequences, and none is a pricing problem</h2></div>
+  <div class="body">
+    <div class="cons">
+      <div class="c"><div class="n">01</div><h3>Growth comes from cities and cadence</h3><p>Never from selling harder into a full chapter. A chapter at its ceiling is done, and that is by design.</p></div>
+      <div class="c"><div class="n">02</div><h3>Membership can never be the main line</h3><p>A 40-seat room that gives away half its seats caps out. This is exactly why the sponsorship architecture exists.</p></div>
+      <div class="c"><div class="n">03</div><h3>A waitlist is a feature</h3><p>It is the scarcity proof that prices the sponsorship. An oversubscribed room is worth more to a partner than an open one.</p></div>
+    </div>
+  </div>
+  <div class="ft"><span>05</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 6 — FINDING 2: REVENUE MIX ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Finding 2</div><h2>Membership is under 30% of revenue at every stage</h2></div>
+  <div class="body">
+    <div class="stack">
+      <div class="bar">
+        <div class="seg" style="height:29.1%;background:var(--ink)">Membership 29%</div>
+        <div class="seg" style="height:50.1%;background:var(--red)">Sponsorship 50%</div>
+        <div class="seg" style="height:20.8%;background:var(--neutral)">Other 21%</div>
+        <div class="yr">Year 1</div><div class="tot">$207,150</div>
+      </div>
+      <div class="bar">
+        <div class="seg" style="height:27.7%;background:var(--ink)">Membership 28%</div>
+        <div class="seg" style="height:45.8%;background:var(--red)">Sponsorship 46%</div>
+        <div class="seg" style="height:26.5%;background:var(--neutral)">Other 26%</div>
+        <div class="yr">Year 2</div><div class="tot">$423,380</div>
+      </div>
+      <div class="bar">
+        <div class="seg" style="height:24.9%;background:var(--ink)">Membership 25%</div>
+        <div class="seg" style="height:50.1%;background:var(--red)">Sponsorship 50%</div>
+        <div class="seg" style="height:25.0%;background:var(--neutral)">Other 25%</div>
+        <div class="yr">Year 3</div><div class="tot">$561,460</div>
+      </div>
+    </div>
+    <div class="bottomline">Membership is not the product being sold. It is the mechanism that makes the room provable enough to sell sponsorship against. The pricing work was a qualification exercise, not a revenue exercise.</div>
+  </div>
+  <div class="ft"><span>06</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 7 — UNIT ECONOMICS ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Finding 3, per member</div><h2>Contribution per member, per year</h2></div>
+  <div class="body">
+    <table>
+      <thead><tr><th>Tier</th><th>Fee</th><th>Contribution, unsponsored</th><th>Contribution, sponsored</th><th>Margin, sponsored</th></tr></thead>
+      <tbody>
+        <tr><td>Guest</td><td class="num">$0</td><td class="neu">acquisition cost ~$209</td><td class="neu">the magnet</td><td class="neu">n/a</td></tr>
+        <tr><td>Resident</td><td class="num">$290</td><td class="num att">$36</td><td class="num pos">$220</td><td class="num">76%</td></tr>
+        <tr style="background:var(--surface)"><td><strong>Attending</strong></td><td class="num"><strong>$790</strong></td><td class="num"><strong>$348</strong></td><td class="num pos"><strong>$580</strong></td><td class="num"><strong>73%</strong></td></tr>
+        <tr><td>Chief</td><td class="num">$2,950</td><td class="num">$1,625</td><td class="num pos">$2,105</td><td class="num">71%</td></tr>
+      </tbody>
+    </table>
+    <div class="annot" style="margin-top:20px"><strong>Guest is not a loss line.</strong> It is customer acquisition cost for the sponsorship business.</div>
+    <div class="annot"><strong>Resident at $36 unsponsored</strong> is the tier-level expression of Finding 3: without sponsored dinners it barely breaks even.</div>
+  </div>
+  <div class="ft"><span>07</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 8 — LTV ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Lifetime value</div><h2>LTV, and why you should not trust it yet</h2></div>
+  <div class="body">
+    <table>
+      <thead><tr><th>Tier</th><th>Annual contribution</th><th class="assume" style="text-align:right">Retention</th><th>Lifetime</th><th>LTV</th><th>CAC</th><th>LTV:CAC</th><th>Payback</th></tr></thead>
+      <tbody>
+        <tr><td>Resident</td><td class="num">$220</td><td class="num">65%</td><td class="num" data-formula="1 ÷ (1 − 0.65)">2.9 yrs</td><td class="num">$629</td><td class="num">$80</td><td class="num pos">7.9x</td><td class="num">4.4 mo</td></tr>
+        <tr><td>Attending</td><td class="num">$580</td><td class="num">75%</td><td class="num" data-formula="1 ÷ (1 − 0.75)">4.0 yrs</td><td class="num">$2,320</td><td class="num">$250</td><td class="num pos">9.3x</td><td class="num">5.2 mo</td></tr>
+        <tr><td>Chief</td><td class="num">$2,105</td><td class="num">85%</td><td class="num" data-formula="1 ÷ (1 − 0.85)">6.7 yrs</td><td class="num">$14,033</td><td class="num">$900</td><td class="num pos">15.6x</td><td class="num">5.1 mo</td></tr>
+      </tbody>
+    </table>
+    <div class="caveat"><strong>Retention carries no history.</strong> Every LTV here is a projection until two renewal cycles have run. Ratios above 7 on every tier more likely signal conservative pricing than exceptional economics, which means there is room to test Attending upward at the first renewal.</div>
+  </div>
+  <div class="ft"><span>08</span><span class="legend"><i></i>Retention is an assumption</span></div>
+</section>
+
+<!-- ============ SLIDE 9 — FINDING 3: SENSITIVITY ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Finding 3</div><h2>The dinners fund themselves, or they do not run</h2></div>
+  <div class="body">
+    <table>
+      <thead><tr><th class="assume" style="text-align:left">Partner-hosted ↓ / Sponsor →</th><th>$0</th><th>$2,000</th><th>$4,000</th><th>$6,000</th></tr></thead>
+      <tbody>
+        <tr><td>0% &nbsp;<span class="neu">all restaurant</span></td><td class="num att">−$84,000</td><td class="num att">−$44,000</td><td class="num att">−$4,000</td><td class="num pos">+$36,000</td></tr>
+        <tr><td>50% &nbsp;<span class="neu">base</span></td><td class="num att">−$64,000</td><td class="num att">−$24,000</td><td class="num pos"><strong>+$16,000</strong></td><td class="num pos">+$56,000</td></tr>
+        <tr><td>100% &nbsp;<span class="neu">all partner-hosted</span></td><td class="num att">−$44,000</td><td class="num pos">+$4,000</td><td class="num pos">+$36,000</td><td class="num pos">+$76,000</td></tr>
+      </tbody>
+    </table>
+    <div class="bottomline">A $160,000 annual swing on the dinner programme alone. No pricing decision in this business is worth as much as venue partnerships and sponsor attach. That is where founder time goes.</div>
+  </div>
+  <div class="ft"><span>09</span><span>Annual dinner programme net, 20 dinners</span></div>
+</section>
+
+<!-- ============ SLIDE 10 — THREE YEAR ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">The build</div><h2>Three years, with the founder cost shown, not hidden</h2></div>
+  <div class="body">
+    <table style="font-size:17px">
+      <thead><tr><th>Line</th><th>Year 1</th><th>Year 2</th><th>Year 3</th></tr></thead>
+      <tbody>
+        <tr><td class="assume">Chapters live</td><td class="num">3</td><td class="num">5</td><td class="num">5</td></tr>
+        <tr><td class="assume">Dinners / summits</td><td class="num">12 / 1</td><td class="num">20 / 2</td><td class="num">24 / 2</td></tr>
+        <tr><td class="assume">Guest members</td><td class="num">90</td><td class="num">200</td><td class="num">280</td></tr>
+        <tr><td class="assume">Paying members</td><td class="num">83</td><td class="num">150</td><td class="num">180</td></tr>
+        <tr><td>Capacity utilisation</td><td class="num">80%</td><td class="num">86%</td><td class="num">86%</td></tr>
+        <tr class="tot"><td>Total revenue</td><td class="num">$207,150</td><td class="num">$423,380</td><td class="num">$561,460</td></tr>
+        <tr><td>Total costs</td><td class="num">$137,520</td><td class="num">$300,950</td><td class="num">$413,675</td></tr>
+        <tr class="tot"><td>Net contribution</td><td class="num pos">$69,630</td><td class="num pos">$122,430</td><td class="num pos">$147,785</td></tr>
+        <tr><td>Net margin</td><td class="num">33.6%</td><td class="num">28.9%</td><td class="num">26.3%</td></tr>
+        <tr><td>Revenue per paying member</td><td class="num">$2,496</td><td class="num">$2,823</td><td class="num">$3,119</td></tr>
+      </tbody>
+    </table>
+    <div class="annot" style="margin-top:14px"><strong>Margin declines because founder compensation enters</strong> at $60,000 in year two and $130,000 in year three. That is intended, not a deterioration.</div>
+    <div class="annot"><strong>Revenue per paying member rises without any price increase.</strong> Sponsorship per member is the reason.</div>
+  </div>
+  <div class="ft"><span>10</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 11 — SCENARIOS ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Scenarios</div><h2>The bear case clears zero</h2></div>
+  <div class="body">
+    <table>
+      <thead><tr><th>Year two</th><th>Bear</th><th>Base</th><th>Bull</th></tr></thead>
+      <tbody>
+        <tr><td class="assume">Partner-hosted share</td><td class="num">25%</td><td class="num">50%</td><td class="num">75%</td></tr>
+        <tr><td class="assume">Sponsor attach</td><td class="num">50%</td><td class="num">80%</td><td class="num">100%</td></tr>
+        <tr><td class="assume">Paying members</td><td class="num">100</td><td class="num">150</td><td class="num">180</td></tr>
+        <tr><td class="assume">Category partners</td><td class="num">1</td><td class="num">3</td><td class="num">5</td></tr>
+        <tr><td class="assume">Summit tickets and booths</td><td class="num">$55,000</td><td class="num">$90,000</td><td class="num">$120,000</td></tr>
+        <tr><td>Total revenue</td><td class="num">$287,000</td><td class="num">$423,000</td><td class="num">$533,000</td></tr>
+        <tr class="tot"><td>Net contribution</td><td class="num pos">$31,800</td><td class="num pos">$147,200</td><td class="num pos">$236,840</td></tr>
+        <tr><td>Net margin</td><td class="num">11.1%</td><td class="num">34.8%</td><td class="num">44.4%</td></tr>
+      </tbody>
+    </table>
+    <div class="bottomline pos">The bear case assumes half the dinners unsponsored, one category partner, two underfilled chapters, and summit revenue 39% below plan. It still returns $31,800. Price is held constant across all three, because the risk is filling rooms and closing sponsors, not whether $790 is the right number.</div>
+  </div>
+  <div class="ft"><span>11</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 12 — ROI CALCULATOR ============ -->
+<!--
+  DROP IN slide-roi-calculator.html HERE as its own <section class="slide">.
+  It is fully self-contained and scoped under .mtn-roi.
+-->
+
+<!-- ============ SLIDE 13 — RISK REGISTER ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Risk</div><h2>What we know is soft</h2></div>
+  <div class="body">
+    <table style="font-size:15px">
+      <thead><tr><th>Risk</th><th style="text-align:left">What breaks</th><th>Severity</th><th style="text-align:left">De-risk before it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Retention is unproven</td><td style="text-align:left">Every LTV rests on assumed renewal</td><td class="att"><strong>High</strong></td><td style="text-align:left">Run two renewal cycles; report actuals</td></tr>
+        <tr><td>Summit revenue is weakest line</td><td style="text-align:left">$90K–$110K on one assumption</td><td class="att"><strong>High</strong></td><td style="text-align:left">Rebuild seat by seat before a venue</td></tr>
+        <tr><td>Sponsor attach rate</td><td style="text-align:left">Needs 80% of dinners sponsored</td><td class="att"><strong>High</strong></td><td style="text-align:left">Sell four dinner sponsors before scaling</td></tr>
+        <tr><td>Capacity misread as growth problem</td><td style="text-align:left">Selling into a full chapter kills composition</td><td class="att"><strong>High</strong></td><td style="text-align:left">Hold the ceiling; add cities, not seats</td></tr>
+        <tr><td>Guest supply</td><td style="text-align:left">If guests don't come, members leave</td><td class="att"><strong>High</strong></td><td style="text-align:left">Track guest:payer; pause below 1.2:1</td></tr>
+        <tr><td>Founder concentration</td><td style="text-align:left">One person does everything</td><td class="att"><strong>High</strong></td><td style="text-align:left">Chapter hosts by year 2; document method</td></tr>
+        <tr><td>Category partner ladder</td><td style="text-align:left">Year 3 assumes 5; 1 exists in plan</td><td class="neu">Medium</td><td style="text-align:left">Close one, publish its report, sell next</td></tr>
+        <tr><td>Venue cost inflation</td><td style="text-align:left">Restaurant-only pushes cost to $105</td><td class="neu">Medium</td><td style="text-align:left">Two venue partners per chapter</td></tr>
+        <tr><td>Tax and registration</td><td style="text-align:left">GST/HST threshold crossed year 1</td><td class="neu">Medium</td><td style="text-align:left">Register before first membership sold</td></tr>
+        <tr><td>Price is too low</td><td style="text-align:left">LTV:CAC above 7 on every tier</td><td class="neu">Low</td><td style="text-align:left">Hold year 1, test Attending up at renewal</td></tr>
+      </tbody>
+    </table>
+    <div class="bottomline">The four High-severity risks share one root: nothing here has happened yet. Presented that way, the model is credible.</div>
+  </div>
+  <div class="ft"><span>13</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 14 — ASSUMPTION REGISTER ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Assumptions</div><h2>Ranked by how much damage a wrong answer does</h2></div>
+  <div class="body">
+    <table>
+      <thead><tr><th class="assume" style="text-align:left">Assumption</th><th>Current</th><th>If wrong by</th><th style="text-align:left">Impact</th></tr></thead>
+      <tbody>
+        <tr><td>Sponsor attach rate</td><td class="num">80% (yr 2)</td><td class="num">↓ 50%</td><td style="text-align:left">Dinner programme swings to a $24,000 cost</td></tr>
+        <tr><td>Partner-hosted share</td><td class="num">50%</td><td class="num">↓ 25%</td><td style="text-align:left">Blended seat cost rises $80 → $92.50</td></tr>
+        <tr><td>Summit ticket & booth revenue</td><td class="num">$90,000</td><td class="num">↓ 40%</td><td style="text-align:left">$36,000 straight off net contribution</td></tr>
+        <tr><td>Resident retention</td><td class="num">65%</td><td class="num">↓ 40%</td><td style="text-align:left">LTV falls $629 → $367</td></tr>
+        <tr><td>Average dinners attended</td><td class="num">2.3 of 4</td><td class="num">↑ 3.2</td><td style="text-align:left">Chapter ceiling falls 35 → 25 members</td></tr>
+        <tr><td>Blended CAC</td><td class="num">$220</td><td class="num">↑ $400</td><td style="text-align:left">$17,000 additional cost in year 2</td></tr>
+      </tbody>
+    </table>
+    <div class="caveat"><strong>The counter-intuitive one:</strong> higher attendance <em>lowers</em> the chapter ceiling, because engaged members consume more of a fixed seat supply. Success on engagement is a constraint on membership growth, not relief from it.</div>
+  </div>
+  <div class="ft"><span>14</span><span class="legend"><i></i>All rows are assumptions</span></div>
+</section>
+
+<!-- ============ SLIDE 15 — WHAT WE BUILD NEXT ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="hd"><div class="ey">Roadmap</div><h2>Turning this into a full financial model</h2></div>
+  <div class="body">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px 48px">
+      <div class="flow"><div class="t">1 · Monthly cohort engine</div><div class="d">Members join on rolling dates; annual memberships create deferred revenue. Model cohorts by join month with per-cohort retention.</div></div>
+      <div class="flow"><div class="t">2 · Cash timing</div><div class="d">Sponsorship arrives in lumps, dinner costs are paid on the night, memberships collected up front. Build a 13-week cash view.</div></div>
+      <div class="flow"><div class="t">3 · Seat-by-seat summit build</div><div class="d">Replace the single blended line with pass types, booth tiers and sponsor cheques.</div></div>
+      <div class="flow"><div class="t">4 · Chapter unit model</div><div class="d">Make one chapter a repeatable P&L so expansion is modelled as adding units.</div></div>
+      <div class="flow" style="grid-column:1/-1"><div class="t">5 · Actuals capture</div><div class="d">After dinner one, replace assumed seat cost, guest-to-payer ratio and attendance with measured figures.</div></div>
+    </div>
+    <div class="bottomline pos">Three dinners of real data will move this model more than any amount of further modelling.</div>
+  </div>
+  <div class="ft"><span>15</span><span></span></div>
+</section>
+
+<!-- ============ SLIDE 16 — CLOSE ============ -->
+<section class="slide">
+  <div class="stamp">Internal</div>
+  <div class="body">
+    <div class="statement">What we are building is a room with a hard seat limit, funded by the people who want to be near the people who fill it.</div>
+  </div>
+  <div class="ft">
+    <span style="display:flex;align-items:center;gap:14px"><span style="width:48px;height:48px;border:1.5px solid var(--muted);display:inline-flex;align-items:center;justify-content:center;font-size:9px;color:var(--muted)">[mark]</span>MedTech North</span>
+    <span>16</span>
+  </div>
+</section>
+
+</body>
+</html>
