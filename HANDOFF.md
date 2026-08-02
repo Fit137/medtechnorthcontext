@@ -54,7 +54,8 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Second event** | Not scheduled | Venue is booked monthly for nine months |
 | **Physician recruitment** | Zero MDs to date | Two documented dropouts, both structural |
 | **Corporate outreach** | Strategy, firmographic screen and named target list written. No conversations started | Vendor readiness pack. See `docs/11-corporate-outreach.md` and `ADR-015` |
-| **Miro reference permission** | Not requested | Highest-value hour in the business. A named global software reference changes every conversation in `docs/12-convening-as-a-service.md` |
+| **Miro reference permission** | Not requested | Closing act on a finished engagement. No further Miro rooms are pursued: healthcare is not their ICP and the annual budget is spent. See `ADR-017` |
+| **Co-host list** | Profile and named list written, not researched at volume | Run the Perplexity prompts in `prompts/research/cohost-discovery.md`. See `data/cohost-targets.md` |
 | **Testimonial quote permission** | Not requested | Four public LinkedIn testimonials exist. Public already, so this is courtesy, but it must be held before quoting |
 | **Outreach funnel table** | Anecdote only | The ~70% figure is recoverable from LinkedIn and email send records in a few hours. It is the most persuasive asset available and it is currently unauditable |
 | **Event 002 log** | Not written | No date, attendance or composition recorded anywhere |
@@ -65,8 +66,8 @@ The strategic question was resolved in late July: the room that actually assembl
 
 ## Next actions, in order
 
-1. **Ask Miro for written permission to name them as a reference**, ideally with a two-line quote. Highest-value hour available. See `docs/12-convening-as-a-service.md`.
-2. **Take the expansion conversation to Miro**: a healthcare-specialty convening programme. Warmest five-figure conversation in the business, and it is an account expansion rather than a new sale.
+1. **Ask Miro for written permission to name them as a reference**, ideally with a two-line quote. Highest-value hour available. Miro is a reference, not a future client: healthcare is not their ICP and their annual budget for these rooms is spent. See `ADR-017`.
+2. **Build the co-host list.** Run the Perplexity prompts in `prompts/research/cohost-discovery.md`, score the output, work Mississauga and the GTA first. See `data/cohost-targets.md`.
 3. **Reconstruct the outreach funnel** from the actual send records for both rooms. Converts the ~70% claim from an anecdote into an auditable table.
 4. **Ask the four public testimonial authors** for permission to quote them in private material. Courtesy, not necessity, and it returns nominations.
 5. **Register the business name** ($60). Without it there is no invoice carrying a GST/HST number, and corporate accounts payable bounces it.
@@ -79,7 +80,7 @@ The strategic question was resolved in late July: the room that actually assembl
 12. **Schedule room 3 as a named single-specialty room**, with the outreach funnel instrumented from the first message. Specialty convening at volume is still the untested claim.
 13. **Work the target lists.** Co-host prospects first, then Tier A. See `docs/12-convening-as-a-service.md` and `data/corporate-targets.md`.
 
-The vendor readiness pack (items 2 and 3, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
+The vendor readiness pack (items 5 and 6, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
 
 ---
 
