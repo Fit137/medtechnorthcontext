@@ -6,7 +6,13 @@
 
 ## Where things stand
 
-One room has been held. The site is live. Nothing has been sold. No entity has been incorporated for MedTech North specifically.
+**Corrected 2 August 2026.** The previous entry said one room had been held and nothing had been sold. Both were understated.
+
+**Two rooms have been held, and both were commissioned by Miro**, who engaged the founder to convene attendees and run workshops on the Miro product. Room two was steered toward healthcare. Miro's official brand account endorsed the output publicly. Four attendees posted public, attributable LinkedIn testimonials under their own names, including a professor at McMaster University. Outreach across both rooms produced a self-reported ~70% positive reply rate, with volume deliberately held back by the condo's capacity rather than by demand.
+
+Convening as a service is therefore proven and has a paying client. What is unproven is convening a **single named specialty** at volume, and physicians remain the one segment showing resistance.
+
+The site is live. No entity has been incorporated for MedTech North specifically.
 
 The strategic question was resolved in late July: the room that actually assembles is dentists, clinical pharmacists, physiotherapists and researchers, not physicians. Rather than chase physicians, the plan monetises the room that exists, and lets that fund physician recruitment later. See `decisions/ADR-012`.
 
@@ -29,6 +35,9 @@ The strategic question was resolved in late July: the room that actually assembl
 | Printables and merch | 41 items specified with print specs |
 | Investor deck | Slide content, design instructions, ROI calculator HTML |
 | First event | Held 29 July 2026, 16 attendees |
+| Second event | Held. Steered toward healthcare. **Details not yet logged. Needs an event file** |
+| Convening as a service | **Proven and commissioned.** Miro engaged the founder for both rooms |
+| Testimonials | **Four public, attributable LinkedIn testimonials exist.** Written permission to quote not yet requested |
 | Miro boards | Business model board, event presentation board |
 
 ## Not done
@@ -45,23 +54,30 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Second event** | Not scheduled | Venue is booked monthly for nine months |
 | **Physician recruitment** | Zero MDs to date | Two documented dropouts, both structural |
 | **Corporate outreach** | Strategy, firmographic screen and named target list written. No conversations started | Vendor readiness pack. See `docs/11-corporate-outreach.md` and `ADR-015` |
-| **Testimonial consent** | Not collected | Attendees gave positive feedback at room one. None has consented in writing, so none is usable. An afternoon of work |
-| **Per-specialty convening** | Unproven | Room one was mixed across three professions. The claim that twelve dentists can be seated in one room is a hypothesis. Room two is the test |
+| **Miro reference permission** | Not requested | Highest-value hour in the business. A named global software reference changes every conversation in `docs/12-convening-as-a-service.md` |
+| **Testimonial quote permission** | Not requested | Four public LinkedIn testimonials exist. Public already, so this is courtesy, but it must be held before quoting |
+| **Outreach funnel table** | Anecdote only | The ~70% figure is recoverable from LinkedIn and email send records in a few hours. It is the most persuasive asset available and it is currently unauditable |
+| **Event 002 log** | Not written | No date, attendance or composition recorded anywhere |
+| **Per-specialty convening at volume** | Unproven | Both rooms were mixed. A single-specialty room has not been run. Room three is the test |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
 
 ---
 
 ## Next actions, in order
 
-1. **Run migration 0007** in Supabase. Unblocks the platform.
-2. **Get CGL insurance quotes.** Longest lead time, real exposure, required by external venues and corporate procurement.
-3. **Register the business name** ($60). Without it there is no invoice carrying a GST/HST number, and corporate accounts payable bounces it.
-4. **Collect written testimonial consent** from six to eight room-one attendees. Free, one afternoon, and every commercial conversation is weaker without it.
-5. **Ask room one "which company should be in this room?"** Highest-converting outreach channel available and it costs nothing. See `docs/10-growth-flywheel.md`.
-6. **Interview 8 to 12 clinicians from the first room** for the insight brief, with the two buyer-discovery questions added. This is the only product sellable before anything else exists, and the raw material is already in the network.
-7. **Approach the condo board in writing** for amenity permission, from a position of transparency.
-8. **Schedule room 2 as a named dental room**, unsponsored, with the outreach funnel instrumented. Per-specialty convening is currently a hypothesis and this is the test.
-9. **Work the Tier A target list.** 25 named companies to produce 8 conversations to produce 3 or 4 closes. See `data/corporate-targets.md`.
+1. **Ask Miro for written permission to name them as a reference**, ideally with a two-line quote. Highest-value hour available. See `docs/12-convening-as-a-service.md`.
+2. **Take the expansion conversation to Miro**: a healthcare-specialty convening programme. Warmest five-figure conversation in the business, and it is an account expansion rather than a new sale.
+3. **Reconstruct the outreach funnel** from the actual send records for both rooms. Converts the ~70% claim from an anecdote into an auditable table.
+4. **Ask the four public testimonial authors** for permission to quote them in private material. Courtesy, not necessity, and it returns nominations.
+5. **Register the business name** ($60). Without it there is no invoice carrying a GST/HST number, and corporate accounts payable bounces it.
+6. **Get CGL insurance quotes.** Longest lead time, real exposure, required by external venues and corporate procurement.
+7. **Log event 002.** Date, attendance, composition, what Miro bought and what was delivered.
+8. **Run migration 0007** in Supabase. Unblocks the platform.
+9. **Ask both rooms "which company should be in this room?"** Highest-converting outreach channel available and it costs nothing. See `docs/10-growth-flywheel.md`.
+10. **Interview 8 to 12 clinicians** for the insight brief, with the two buyer-discovery questions added. Fastest cash in the business and it attaches to every other product.
+11. **Approach the condo board in writing** for amenity permission, from a position of transparency.
+12. **Schedule room 3 as a named single-specialty room**, with the outreach funnel instrumented from the first message. Specialty convening at volume is still the untested claim.
+13. **Work the target lists.** Co-host prospects first, then Tier A. See `docs/12-convening-as-a-service.md` and `data/corporate-targets.md`.
 
 The vendor readiness pack (items 2 and 3, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
 

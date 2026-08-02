@@ -6,7 +6,7 @@ You are working on **MedTech North**, a curated network for Canadian health inno
 
 ## The project in six lines
 
-Canada is the 8th largest medical device market in the world and a new device still takes over a year to reach a Canadian patient. That is a proximity problem, not an invention problem. MedTech North convenes four groups in small invitation-only rooms so the right people meet early enough for it to matter. Clinicians and researchers attend free, permanently. Founders join by application. Corporates pay for structured access to insight and input, privately, never on the website. One room has been held.
+Canada is the 8th largest medical device market in the world and a new device still takes over a year to reach a Canadian patient. That is a proximity problem, not an invention problem. MedTech North convenes four groups in small invitation-only rooms so the right people meet early enough for it to matter. Clinicians and researchers attend free, permanently. Founders join by application. Corporates pay for structured access to insight and input, privately, never on the website. Two rooms have been held, both commissioned by Miro.
 
 ---
 
@@ -19,7 +19,7 @@ Clinicians, researchers, academics, students and public sector leaders attend at
 Sponsor, sponsorship, partner tier, anchor, category-exclusive, exhibitor, underwriter, booth, media rights, lead access. None of these appear on the website, in social content, in event material, or in anything a member reads. Monetisation lives in private documents shared on calls.
 
 ### 3. No claims of a track record
-One room has happened, with 16 people. Never write or imply member counts, attendee totals, testimonials, past-event galleries, logos, endorsements, or live-looking counters.
+Two rooms have happened, the first with 16 people. Never write or imply member counts, attendee totals, past-event galleries, logos, endorsements, or live-looking counters. Public testimonials and a client name now exist and are usable in **private** material once permission is held. Neither goes on the site without its own ADR. See `data/verified-stats.md`.
 
 ### 4. Every figure must trace to `data/verified-stats.md`
 No exceptions. If a number is not on that list, it does not ship. Note which figures carry age warnings.
@@ -73,6 +73,7 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | Who is in the room? | `docs/03-icp-and-segments.md` |
 | What do things cost? | `docs/04-membership-pricing.md` |
 | How does it make money? | `docs/05-monetization.md` |
+| What is the primary commercial line? | `docs/12-convening-as-a-service.md` |
 | Who do we sell to, and how? | `docs/11-corporate-outreach.md` |
 | Which companies specifically? | `data/corporate-targets.md` |
 | What are the unit economics? | `docs/06-financial-model.md` |

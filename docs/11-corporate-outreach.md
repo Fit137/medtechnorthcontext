@@ -5,6 +5,8 @@
 
 Companion file: `data/corporate-targets.md` carries the named target list and the research provenance behind it.
 
+> **Read `docs/12-convening-as-a-service.md` first.** Two rooms have been held and both were commissioned by Miro, which was not recorded when this document was written. Co-hosted convening, not per-event sponsorship, is now the primary commercial line per `ADR-016`. Everything below remains correct as the **secondary** motion, for buyers who cannot host, and the target list still applies.
+
 ---
 
 ## The reframe that decides everything
@@ -23,7 +25,9 @@ So the highest-probability buyer is a company whose sales motion runs direct to 
 
 Win probability and speed to cash are mostly determined by properties of the buyer, not by how good the pitch is.
 
-**Gate 1: Canadian signature.** The cheque must be signable by someone holding a Canadian profit and loss statement. A global brand team cannot approve $5,000 any faster than $500,000, because it is the same process either way. If the answer to "who signs this" sits in New Jersey or Basel, the deal is a month-six deal no matter how warm the conversation feels.
+**Gate 1: the cheque must be signable by someone who owns the outcome being sold.** For a session or a marketing slot, that means someone holding a Canadian profit and loss statement, because a global brand team cannot approve $5,000 any faster than $500,000. If the answer to "who signs this" sits in New Jersey or Basel and what you are selling is a marketing slot, it is a month-six deal no matter how warm the conversation feels.
+
+> **Corrected 2 August 2026.** This gate originally read "Canadian signature" as a flat rule. That was over-generalised. It holds for a marketing purchase competing for a slot in a Canadian marketing calendar. It does **not** hold for a market entry purchase, where the global team is the natural owner and having no Canadian division removes an approval layer rather than adding one. See `docs/12-convening-as-a-service.md` and `ADR-016`.
 
 **Gate 2: no promotional regulatory review.** Anything requiring PAAB pre-clearance or full medical, legal and regulatory review adds eight to twelve weeks and demands a vendor readiness pack that does not yet exist. Devices, software, services, distribution, finance and insurance carry none of this. Prescription drugs and vaccines carry all of it.
 
