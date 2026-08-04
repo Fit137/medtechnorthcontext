@@ -73,7 +73,7 @@ Annual dinner programme net, 20 dinners:
 | Dinner seat cost, partner-hosted | $55 | Donated venue, catering only |
 | Blended dinner seat cost | $80 | At 50/50 split. **Biggest cost lever** |
 | Summit cost per attendee | $200 | |
-| Summit revenue per attendee | $237 | Derived: $90K over 380 |
+| Summit revenue per attendee | $237 | Derived: $90K over 380. **The 380 is a stretch target. Realistic first event is 120 to 200. See `ADR-018`** |
 | À la carte per member | $147 | Derived: $22K over 150 |
 | Booth servicing cost | $400 | |
 | Welcome kit | $45 / $120 Circle | |

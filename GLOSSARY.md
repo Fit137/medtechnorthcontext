@@ -122,6 +122,8 @@ Every term used across this repo with a specific meaning. One line each. If a te
 | **The front desk room** | Planned room on what happens at the front desk of dental practices and pharmacies since July 2026. An administrative Patient Journey Jam |
 | **Second Opinion session** | Two or three vetted clinicians walk a founder's clinical journey live, 60 to 90 minutes |
 | **The signature moment** | The composing table on the website. Forty seats sort into balance |
+| **Day of rooms** | Six to eight composed rooms in one venue on one day, each a different specialty with its own funder. Our answer to a summit. No room exceeds 35 |
+| **Summit** | A single large conference with a stage and exhibitors. Not run in year one. See `ADR-018` |
 
 ---
 
