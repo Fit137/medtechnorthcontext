@@ -92,9 +92,9 @@ Booking and scheduling platforms, patient communication vendors, claims and insu
 
 ## What the buyer receives, and what they never do
 
-**Receives:** a written composition target before the room and a composition report after. A co-produced written report from the session, which for a content-led company is often worth more than the room itself, because primary clinician research in a vertical is exactly what they cannot manufacture. Recorded assets they may share on their own channels. Consented individual introductions afterwards, made personally.
+**Receives:** a written composition target before the room and a composition report after. An **insight brief** built from the room and the interviews around it (see `GLOSSARY.md`), which for a content-led company is often worth more than the room itself, because primary clinician research in a vertical is what they cannot produce themselves. Recorded assets they may share on their own channels. Consented individual introductions afterwards, made personally.
 
-**Never receives:** the attendee list, contact data, or any export. Guest list visibility before the room. Stage time beyond a welcome. A demo slot. Editorial control over the report. Any promised partnership, pipeline or commercial outcome, per `docs/08-legal-and-compliance.md`.
+**Never receives:** the attendee list, contact data, or any export. Guest list visibility before the room. Stage time beyond a welcome. A demo slot. Editorial control over the insight brief. Any promised partnership, pipeline or commercial outcome, per `docs/08-legal-and-compliance.md`.
 
 ---
 
@@ -105,10 +105,10 @@ They almost certainly cannot host thirty people at around thirty employees, so t
 | Line | Band |
 |---|---|
 | Session partner | $7,500 |
-| Co-produced front desk report | $12,000 to $18,000 |
+| Insight brief on the front desk | $12,000 to $18,000 |
 | **Bundle** | **$18,000 to $22,000** |
 
-**The tactical move that matters more than the price: a partnerships manager does not buy sponsorships, they buy partnerships.** The same money is far easier to approve as partner activation, market development or co-marketing than as an event sponsorship, because the first two are lines their function already owns and reports against. Structure it as a partnership between the two organisations with the room and the report as the activation. Never use the word sponsorship in the conversation, which is also `ADR-007` behaviour applied to a private setting.
+**The tactical move that matters more than the price: a partnerships manager does not buy sponsorships, they buy partnerships.** The same money is far easier to approve as partner activation, market development or co-marketing than as an event sponsorship, because the first two are lines their function already owns and reports against. Structure it as a partnership between the two organisations with the room and the insight brief as the activation. Never use the word sponsorship in the conversation, which is also `ADR-007` behaviour applied to a private setting.
 
 **Expect to be asked for measurability, and welcome it.** A company that reached this scale without outside funding did so by refusing spend it could not measure. That discipline is a reason to be unusually concrete about deliverables, not a reason to soften them. Composition is measurable and should be guaranteed in writing with a make-good. Outcomes are not measurable and must never be promised.
 
@@ -120,7 +120,7 @@ Since the buyer is reachable in Toronto, this is a conversation rather than a ca
 
 **First third, their questions.** What kinds of partners are working now, agency, embed, referral or integration. What their Canadian healthcare distribution looks like today, which is the hypothesis to test and the answer is probably none. How they currently source a qualified partner conversation in a vertical they have no presence in, and what that costs. That last question sets the price without a figure being quoted, which matters because no comparison figure exists in `data/verified-stats.md`.
 
-**Middle, the room.** Composition first, topic second, the report third. The never list stated plainly and early, because it protects them as much as it protects the room and it lands better as an opening than as a defence.
+**Middle, the room.** Composition first, topic second, the insight brief third. The never list stated plainly and early, because it protects them as much as it protects the room and it lands better as an opening than as a defence.
 
 **Last, one rung and one date.** A single session with a stated composition and a make-good. Not a programme, not a season.
 
