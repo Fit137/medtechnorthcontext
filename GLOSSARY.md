@@ -73,7 +73,10 @@ Every term used across this repo with a specific meaning. One line each. If a te
 | **Observer seat** | One free seat per room for a prospect. Same seat as everyone else, never a showcase |
 | **Category-exclusive** | One company holds a vertical alone for a year. $10K to $25K |
 | **Anchor** | Funds the core programme, woven into the identity. $25K to $60K a year |
-| **The never list** | What no funder receives at any price: attendee data, guest list before the room, stage time, editorial control, shared category, promised outcomes |
+| **The never list** | What we never **supply** to anyone: an attendee list, an export, or contact data. Also never sold: guest list before the room, stage time, editorial control, shared category, promised outcomes. We do not claim to stop people talking in a room |
+| **Category exclusivity** | The funder's category is locked to them for that room. No direct competitor is admitted at any price. **The only thing exactly one company can hold, so the only thing that carries a premium** |
+| **Conflict check** | We screen every commercial seat against the funder's category before confirming it, the way a law firm does. Refused seats are refunded |
+| **Price tracks extraction** | Clinicians create the value and never pay. Everyone else pays in proportion to what they take out of the room |
 | **Retained-rights clause** | Contract terms keeping the guest list, relationships, data and reinvitation rights with us. Without it we are doing work-for-hire |
 | **Work-for-hire** | A deal where the client owns the guest list. Same margin, but the network gains nothing. Price higher or decline |
 | **Vendor readiness pack** | The five things that turn a yes into cash: business name, liability insurance, incorporation decision, one-page agreement, composition report template |

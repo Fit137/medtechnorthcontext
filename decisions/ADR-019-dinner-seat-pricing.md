@@ -1,9 +1,9 @@
 # ADR-019: Seat fees cover food, the funder cheque is the profit
 
-**Status:** Accepted
+**Status:** Accepted. **Service provider price superseded by `ADR-020`: $350 becomes $500.**
 
 ## Decision
-Per dinner of 24 seats: 12 clinicians and researchers free, 7 builders at $150, 4 service providers at $350, 1 funder seat included in their fee.
+Per dinner of 24 seats: 12 clinicians and researchers free, 7 builders at $150, 4 service providers at $500, 1 funder seat included in their fee.
 
 Seat fees cover the food. The funder fee is the margin.
 
@@ -16,7 +16,7 @@ Too small to change behaviour, and it converts an invitation into a transaction.
 ## Rejected: 1:1 clinician to service provider at cost
 Twelve service providers in a room of 24 is a vendor floor. The first event turned service providers away and that was correct. Break-even also pays for food and pays the founder nothing.
 
-**Instead: cap service providers at 4 and charge $350.** Fewer seats, higher price, same revenue, no damage to composition. The price is also a qualification filter.
+**Instead: cap service providers at 4 and charge $500.** Fewer seats, higher price, same revenue, no damage to composition. The price is also a qualification filter.
 
 ## The suspicion problem, which the rules did not previously address
 A free dinner invitation from an unknown party reads as "you are the product." The answer is not a price, it is the invitation: named nomination, a stated seat count, an assigned neighbour, a role at the table, and a waitlist mentioned once. Being invited is the opposite of being the product.

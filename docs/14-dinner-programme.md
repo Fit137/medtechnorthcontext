@@ -25,10 +25,12 @@ Five cities × 24 = **120 seats per cycle.**
 |---|---|---|
 | Clinicians, practice owners, researchers | 12 | **$0** |
 | Builders (founders, operators) | 7 | **$150** |
-| Service providers (agencies, consultants, law, recruiters) | 4 | **$350** |
+| Service providers (agencies, consultants, law, recruiters) | 4 | **$500** |
 | Funder | 1 | Their fee |
 
 12 free, 11 paid. Holds the 1:1 rule and the service provider cap.
+
+**A seat buys attendance. The funder fee buys the category.** See section 3a and `ADR-020`.
 
 ---
 
@@ -39,16 +41,67 @@ Seat cost from the financial model: **$105 restaurant, $55 partner-hosted.**
 | | Restaurant | Partner-hosted |
 |---|---|---|
 | Food cost, 24 seats | $2,520 | $1,320 |
-| Seat revenue (7×$150 + 4×$350) | $2,450 | $2,450 |
-| **Before the funder** | **−$70** | **+$1,130** |
+| Seat revenue (7×$150 + 4×$500) | $3,050 | $3,050 |
+| **Before the funder** | **+$530** | **+$1,730** |
 | Funder fee | $3,500 to $7,500 | $3,500 to $7,500 |
-| **Net per dinner** | **$3,430 to $7,430** | **$4,630 to $8,630** |
+| **Net per dinner** | **$4,030 to $8,030** | **$5,230 to $9,230** |
 
-**20 dinners a year at partner-hosted: roughly $95,000 to $170,000 net.**
+**20 dinners a year at partner-hosted: roughly $105,000 to $185,000 net.**
 
 Two conclusions:
 - **Seat fees cover the food. The funder cheque is the profit.** That is the whole model.
 - **A donated venue is worth more than any price increase.** $1,200 a dinner, $24,000 a year across 20.
+
+---
+
+## 3a. What each tier gets, and why the prices differ
+
+Internal only. This is the value logic, not a rate card.
+
+**The one rule that makes the ladder hold: a seat buys attendance, the funder fee buys the category.** Attendance is a commodity, so it is priced like one. Category exclusivity is the only thing exactly one company can hold, so it is the only thing that carries a premium.
+
+| | Clinician | Builder | Service provider | Session funder | Co-host |
+|---|---|---|---|---|---|
+| **Price** | $0 | $150 | $500 | $3.5K to $7.5K | $25K to $45K |
+| **Seats** | 12 | 7 | 4 | 1 | 2 |
+| Attends, talks to anyone | Yes | Yes | Yes | Yes | Yes |
+| **Their category locked to them** | no | no | no | **Yes** | **Yes** |
+| **Direct competitors barred** | no | no | no | **Yes** | **Yes** |
+| **Can be refused if category taken** | no | no | **Yes** | no | no |
+| Shapes the question | no | no | no | **Yes** | **Yes** |
+| Welcome to the room | no | no | no | 30 seconds | 2 minutes |
+| Named on the invitation | no | no | no | no | **Yes** |
+| Composition report | no | no | no | **Yes** | **Yes** |
+| Insight brief included | no | no | no | no | **Yes** |
+| Consented introductions after | no | no | no | 3 | 5 |
+| First refusal on next quarter | no | no | no | no | **Yes** |
+| Venue | ours | ours | ours | ours | **theirs** |
+| Attendee list or contact data | **never** | **never** | **never** | **never** | **never** |
+| Pitching from the floor | **never** | **never** | **never** | **never** | **never** |
+
+### Why the prices are where they are
+
+**Price tracks extraction.** Clinicians create the value that everyone else is paying to be near, so they never pay. Everyone else pays in proportion to how much they take out of the room.
+
+| Who | What they extract | Price logic |
+|---|---|---|
+| Clinician | Peers, and a view of what is being built | Creates the value. Never charged |
+| Builder | Clinical input on their own product | Moderate. $150 |
+| Service provider | Prospects for a services business | Highest per person. $500 and capped at 4 |
+| Session funder | The room's category for that night | Different in kind, not degree |
+| Co-host | The above, plus the room happens inside their walls | Highest |
+
+### The competitor question, answered
+
+**A competitor cannot walk into a co-host's building for $500.** Their category is barred the moment the co-host signs. We run the conflict check on category before confirming any commercial seat, the way a law firm does. If the category is taken, the seat is refused and the money returned.
+
+The co-host never sees names and never approves individuals. **Category exclusion is a rule we enforce, not a favour we grant.** That distinction is what stops it becoming curation.
+
+### Close the Luma leak
+
+Luma shows the guest list to attendees by default. **Turn it off.** Otherwise a $500 seat buys the attendee list we tell funders nobody receives.
+
+State the never list honestly: **we never supply a list, an export or contact data, to anyone.** We do not claim to stop people talking in a room, because that claim would not survive one evening.
 
 ---
 
@@ -102,7 +155,7 @@ Free events run **40 to 60% no-show**. Paid run 10 to 30%. That gap is real and 
 - **Composition.** 1:1 puts 12 service providers in a room of 24. The first event turned them away and that was correct. Eight in a room of sixteen is a vendor floor with a few clinicians standing in it
 - **Break-even is not a business.** It pays for food and pays you nothing
 
-**The version that works:** cap them at 4 and charge $350, not $100. Fewer seats, higher price, same money, no damage. The price is also a filter. Someone who pays $350 to attend a dinner is serious.
+**The version that works:** cap them at 4 and charge $500, not $100. Fewer seats, higher price, same money, no damage. The price is also a filter. Someone who pays $500 to attend a dinner is serious. And their seat is refused outright if the funder's category is theirs, per `ADR-020`.
 
 ---
 
