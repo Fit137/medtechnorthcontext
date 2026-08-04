@@ -64,6 +64,38 @@ Miro sat in the bottom-left, which is exactly why the relationship ran out of ro
 
 No Canadian office. Product-led or self-serve sales motion. Healthcare absent from their vertical list. Under roughly 50 Canadian employees, meaning no field marketing function exists. Their product is the room's subject. A pharmaceutical company promoting a specific molecule, which is a different product entirely and belongs in an advisory roundtable format.
 
+### Four screening traps that will recur
+
+These are the ways a plausible-looking company passes a glance and fails the screen. Each will come up repeatedly once the Perplexity prompts start returning volume.
+
+**1. Published content is not a vertical.** A company with a healthcare blog post is doing search engine marketing, not selling into healthcare. A vertical means a named team, a Canadian person who owns the number, and customer stories. Check for the person, not the page.
+
+**2. Bootstrapped and profitable is a negative signal for this specific purchase, not a positive one.** It reads like strength and it is, but a company that reached scale without outside funding did so by refusing unmeasurable spend, and that discipline is cultural rather than situational. A venture-funded competitor at identical revenue, in a land-grab, with a field marketing team and a board expecting category presence, is a far likelier buyer. When a bootstrapped company screens well on everything else, look at its funded competitors instead.
+
+**3. Orthogonality is necessary and not sufficient.** A company can have no stake at all in the room's conclusions and still be a bad co-host, because nobody in the room is their buyer. Ask the harder question: which person in this room owns the budget for what they sell? If the answer is nobody, the fit is imaginary regardless of how clean the category position looks.
+
+**4. Global reach through self-serve is not a Canadian presence.** A product-led company can have thousands of Canadian users and no Canadian anything: no office, no field marketing, no country lead. There is nobody to sell to. Customers in a country and a business in a country are different facts.
+
+### Worked example: Chatbase, scored
+
+Useful because it looks plausible on two of the criteria and still scores below zero.
+
+**What they are** ✅: AI customer support agents across chat, voice, email and messaging. San Francisco headquarters, roughly 26 to 69 employees depending on the source, **bootstrapped with no outside funding**, profitable, about $10M ARR as of June 2026, customers in over 80 countries including IHG, Miele, National Grid and Noon. Self-serve plans from free to $500 a month, with a sales-gated enterprise tier above that. Their competitive set is Sierra, Decagon and Intercom's Fin.
+
+| Criterion | Result |
+|---|---|
+| 1. Canadian hostable space | **Fail.** No Canadian office found. At that headcount, none is plausible |
+| 2. Canadian healthcare vertical | **Fail.** They publish healthcare blog content, which is trap 1 |
+| 3. Canadian marketing function | **Fail.** Under 70 people globally |
+| 4. Considered sales motion | **Fail.** Top public plan is $6,000 a year. A co-host fee would be several times their likely average contract and a visible fraction of total revenue |
+| 5. Low category stake | **Pass.** Genuinely orthogonal |
+
+**Score: −5 of 100.** Ten points for orthogonality, minus fifteen because space is absent rather than merely unverified. Against a cut of 45.
+
+**The decisive fact is trap 3, not the geography.** Their buyer is a head of customer experience who owns a support ticket queue. The room is individual practitioners. Nobody in it owns a ticket queue, and the practices that would use the product buy at a price point that does not justify a room. A dental group or pharmacy banner operations lead would be their buyer, and none is in the room.
+
+**The useful output of this example is directional.** If the category is interesting, the funded competitors in it behave completely differently: land-grab phase, enterprise contract values, field marketing teams being built. They still need to clear criterion 1, which most will not, but they are the right names to check.
+
 ### Size band
 
 **200 to 20,000 Canadian employees**, or Canadian revenue above roughly $50M. For scale-ups, Series C or later with a Canadian office of 100 or more. Below that band there is space but no budget, or budget but no space.
@@ -140,3 +172,6 @@ Travel only against a confirmed meeting with a qualified co-host, never speculat
 - [Scotiabank Healthcare+ dentist banking](https://www.scotiabank.com/ca/en/healthcare-plus/dentist-banking.html)
 - [Top Toronto healthtech companies, Built In Toronto](https://builtintoronto.com/companies/type/healthtech-companies)
 - [18 digital health startups in Canada to watch, Accretive Edge](https://accretiveedge.com/articles/digital-health-startups-canada/)
+- [Chatbase reaches $10M ARR as a profitable challenger to Sierra, Decagon and Fin](https://www.blockislandtimes.com/online_features/press_releases/chatbase-reaches-10m-arr-as-a-profitable-challenger-to-sierra-decagon-and-fin/article_93a9193c-9b07-5c29-9eec-70fcf299c358.html)
+- [Chatbase company profile, Crunchbase](https://www.crunchbase.com/organization/chatbase)
+- [Chatbase pricing 2026, Chatarmin](https://chatarmin.com/en/blog/chatbase-pricing)
