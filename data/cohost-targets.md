@@ -96,6 +96,12 @@ Useful because it looks plausible on two of the criteria and still scores below 
 
 **The useful output of this example is directional.** If the category is interesting, the funded competitors in it behave completely differently: land-grab phase, enterprise contract values, field marketing teams being built. They still need to clear criterion 1, which most will not, but they are the right names to check.
 
+> **Superseded in part, 2 August 2026.** Two facts arrived after this was written. Tracxn lists the company as **Toronto-based**, founded 2023, around 30 people ✅, and its company and staff LinkedIn pages sit on the Canadian subdomain with a Toronto growth role posted ✅, which contradicts the San Francisco headquarters listing above. Separately, they have a **partnerships function with a person in Toronto and a budget**, observed directly rather than found in research.
+>
+> The co-host verdict stands, because thirty employees cannot host thirty guests. **The conclusion that they are not a buyer does not stand.** A partnerships manager is measured on partner conversations and installed-base access, not on leads, and that is a different room and a different product. See `docs/13-buyer-led-room-design.md`.
+>
+> **The lesson for the screen:** a failed co-host score is not a failed company. It rules out one product. Before discarding a name, ask which function inside it holds a budget and what that function is measured on, because the answer sometimes points at a room worth building.
+
 ### Size band
 
 **200 to 20,000 Canadian employees**, or Canadian revenue above roughly $50M. For scale-ups, Series C or later with a Canadian office of 100 or more. Below that band there is space but no budget, or budget but no space.
