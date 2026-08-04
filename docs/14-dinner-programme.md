@@ -62,7 +62,8 @@ Internal only. This is the value logic, not a rate card.
 
 | | Clinician | Builder | Service provider | Session funder | Co-host |
 |---|---|---|---|---|---|
-| **Price** | $0 | $150 | $500 | $3.5K to $7.5K | $25K to $45K |
+| **Price, our venue** | $0 | $150 | $500 | $7,500 | n/a |
+| **Price, their venue** | | | | $6,300 | **$6,300 and up by scope** |
 | **Seats** | 12 | 7 | 4 | 1 | 2 |
 | Attends, talks to anyone | Yes | Yes | Yes | Yes | Yes |
 | **Their category locked to them** | no | no | no | **Yes** | **Yes** |
@@ -73,10 +74,11 @@ Internal only. This is the value logic, not a rate card.
 | Named on the invitation | no | no | no | no | **Yes** |
 | Composition report | no | no | no | **Yes** | **Yes** |
 | Insight brief included | no | no | no | no | **Yes** |
-| Consented introductions after | no | no | no | 3 | 5 |
+| Consented introductions after | no | no | **2** | **3** | **5** |
 | First refusal on next quarter | no | no | no | no | **Yes** |
 | Venue | ours | ours | ours | ours | **theirs** |
 | Attendee list or contact data | **never** | **never** | **never** | **never** | **never** |
+| Extra introductions at $250 | no | no | up to 5 | up to 5 | up to 5 |
 | Pitching from the floor | **never** | **never** | **never** | **never** | **never** |
 
 ### Why the prices are where they are
@@ -96,6 +98,28 @@ Internal only. This is the value logic, not a rate card.
 **A competitor cannot walk into a co-host's building for $500.** Their category is barred the moment the co-host signs. We run the conflict check on category before confirming any commercial seat, the way a law firm does. If the category is taken, the seat is refused and the money returned.
 
 The co-host never sees names and never approves individuals. **Category exclusion is a rule we enforce, not a favour we grant.** That distinction is what stops it becoming curation.
+
+### Venue is a credit, not a premium
+
+A co-host does not pay more **because** they gave a room. They pay more only if they bought more. Same scope, their venue, always cheaper by the $1,200 the donated venue saves.
+
+| Scope | Our venue | Their venue |
+|---|---|---|
+| 1 dinner, seat, category locked, composition report, 3 introductions | $7,500 | **$6,300** |
+| Above plus the five-city insight brief | $22,000 | **$20,800** |
+| 4 dinners, brief, media, 5 introductions, first refusal | $45,000 | **$40,200** |
+
+**Venue is a credit against price. Scope is the price.** See `ADR-021`.
+
+### The attendee list is never sold, and introductions replace it
+
+Not before the room, not after, not to anyone, at any price. The reason is PIPEDA and CASL before it is anything else: a guest consented to attend a dinner, not to have their details passed to a company that will email them.
+
+**The replacement is better than the list.** After the room, each commercial guest names who they want to continue with. We ask that person. If they agree, we introduce them. Two introductions with a service provider seat, three with a funder, five with a co-host, more at $250 each.
+
+That calms the room, which was the real concern. People stop working the table when they know a mechanism exists. And a warm introduction from the convener beats a cold email to a supplied contact, so the buyer gets more, not less.
+
+**One list is allowed:** an opt-in list shared among attendees, where everyone who appears also receives it. That is a community feature, not a data sale. It never goes to a funder who was not on it.
 
 ### Close the Luma leak
 

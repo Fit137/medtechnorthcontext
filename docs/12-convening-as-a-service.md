@@ -70,6 +70,8 @@ Category-adjacent companies are not lost revenue. They are simply buyers of a di
 | Four-room annual programme, one specialty per quarter | $90,000 to $150,000 |
 | Add the category brief to either | $12,000 to $25,000 |
 
+> **These are scope prices, not venue premiums.** A co-hosted room costs more than a funded dinner because it is a larger production, not because the client supplied a room. Supplying the venue is always a **credit** against the price, worth the $1,200 a donated venue saves on a 24-seat room. Same scope in their building is always cheaper than the same scope in ours. See `ADR-021`.
+
 These sit above the bands in `docs/01-business-model.md`, deliberately. That document already notes the original $20,000 assumption is probably low. This is a produced service with a proven delivery and a marquee reference, not an event sponsorship, and it should not be priced as one.
 
 **The discovery question that sets the price:** "What does it cost you, all in, to produce one executive event today, and what did the last one actually produce?" Their number sets the anchor and it is nearly always higher than expected once staff time, agency fees, venue and travel are counted. Never quote a comparison figure, because no such figure exists in `data/verified-stats.md`.

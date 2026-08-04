@@ -42,8 +42,8 @@ Every term used across this repo with a specific meaning. One line each. If a te
 
 | Term | What it actually is | Price |
 |---|---|---|
-| **Co-hosted room** | We design, compose, produce and facilitate a room **inside the client's own offices**. They get co-host billing and a welcome. Primary commercial line | $25K to $45K |
-| **Session** | A room we host, funded by one company. They get a welcome, one seat, a composition report | $3.5K to $7.5K |
+| **Co-hosted room** | A larger produced scope inside the client's own offices: multiple rooms, insight brief, media, 5 introductions, first refusal. **Costs more because it is more, never because they gave a room** | $25K to $45K |
+| **Session** | A room funded by one company. They get a welcome, one seat, category exclusivity, a composition report, 3 consented introductions | **$7,500 our venue, $6,300 theirs** |
 | **Insight brief** | A written research document, 12 to 18 pages, built from clinician interviews and what rooms produce. Aggregated, anonymised, nobody named. **This is the thing we sell, not a summary of an event** | $12K to $25K commissioned, or $3.5K syndicated |
 | **Market validation** | For a foreign company entering Canada: one composed room, written intelligence, a map of who matters, and consented introductions | $20K to $35K |
 | **Advisory roundtable** | 8 to 15 clinicians give structured input on a client's question. Clinicians are paid honoraria here | $18K to $35K |
@@ -75,6 +75,9 @@ Every term used across this repo with a specific meaning. One line each. If a te
 | **Anchor** | Funds the core programme, woven into the identity. $25K to $60K a year |
 | **The never list** | What we never **supply** to anyone: an attendee list, an export, or contact data. Also never sold: guest list before the room, stage time, editorial control, shared category, promised outcomes. We do not claim to stop people talking in a room |
 | **Category exclusivity** | The funder's category is locked to them for that room. No direct competitor is admitted at any price. **The only thing exactly one company can hold, so the only thing that carries a premium** |
+| **Consented introduction** | After a room, we ask a commercial guest who they want to continue with, ask that person if they are open, and introduce only on a yes. Replaces the attendee list. 2 with a service provider seat, 3 with a funder, 5 with a co-host, $250 each after |
+| **Venue credit** | Supplying the venue lowers the price by what it saves us, about $1,200 on 24 seats. It never raises it. Venue is a credit, scope is the price |
+| **Opt-in shared list** | The only permitted list. Attendees actively choose to appear, and everyone who appears also receives it. A community feature, never a paid deliverable, never given to a funder who was not on it |
 | **Conflict check** | We screen every commercial seat against the funder's category before confirming it, the way a law firm does. Refused seats are refunded |
 | **Price tracks extraction** | Clinicians create the value and never pay. Everyone else pays in proportion to what they take out of the room |
 | **Retained-rights clause** | Contract terms keeping the guest list, relationships, data and reinvitation rights with us. Without it we are doing work-for-hire |
