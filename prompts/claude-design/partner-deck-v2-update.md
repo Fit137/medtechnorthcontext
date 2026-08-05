@@ -65,6 +65,12 @@ Paste everything below into Claude Design.
 
 ---
 
+## What this deck is for
+
+**The deck's job is to sell the Convening.** The Monthly Meetup and the Calendar Dinner appear so that a buyer can see the whole ladder and has a cheap way to test the room before committing. They are not given equal weight. If a slide has to choose, it explains the convening.
+
+All figures are Canadian dollars. State CAD once, on the first slide that carries a price.
+
 ## Context
 
 You are updating an existing 13-slide HTML deck called "MedTech North · Partner Deck". Keep the visual system exactly as it is: the red `#c41230`, the ink `#16191d`, the typography, the slide numbering, the running-on-its-own animated slides, and the general restraint. **This is a content and structure update, not a redesign.** Do not restyle anything that is not named below.
@@ -97,6 +103,33 @@ Replace the clinicians line with: *Dentists, clinical pharmacists, physiotherapi
 Change the closing line to: *Composed against a target ratio in the convening. The monthly meetup and the calendar dinner are mixed rooms, and we do not pretend otherwise.*
 
 Remove "table of forty" and "twelve times a year".
+
+## NEW SLIDE. Insert after slide 2. Proof
+
+The current deck asks for $25,000 and shows no evidence. This slide fixes that. It is the highest-value addition in this update.
+
+Headline: **Two rooms, both co-hosted, both paid for.**
+
+Three blocks, styled like the current slide 7 rule blocks:
+
+**A company paid to co-host, twice.**
+Two rooms have run in this series. A global software company co-hosted and paid for both, and their own brand account endorsed the output publicly.
+*Which is why this is not a format being launched. It is a format being extended.*
+
+**Attendees said so publicly, under their own names.**
+Four attendees posted unsolicited testimonials on LinkedIn, including a professor at McMaster University.
+*Nobody was asked to.*
+
+**Outreach converts at a rate the room can be filled on.**
+[HOLD THIS BLOCK UNTIL THE FUNNEL TABLE EXISTS. It must show sent, replied, confirmed, attended, by specialty. Do not put a percentage on a slide until it can be audited from send records.]
+
+### Naming rules for this slide, non-negotiable
+
+- **Do not name the co-hosting company, and do not use their logo, until written permission is held.** Until then write "a global software company" and nothing more. Build the slide so a name and a two-line quote can drop in later without a redesign
+- The four testimonials may be quoted in this private deck. Attribute by role and institution, and only after each author has been asked as a courtesy
+- **Never claim physicians attend.** They have been invited and have accepted. None has yet sat in a room. "Invited" is true. "Attend" is not. This applies to every slide
+
+---
 
 ## Slide 3. The problem
 
@@ -132,11 +165,15 @@ Footer line: *The meetup is a stage and a list. The convening is a room built to
 
 ## Slide 6. The teardown
 
-Keep the slide and the frame, it is the best commercial argument in the deck. Two changes.
+Keep the slide and the frame, it is the best commercial argument in the deck. **Build the question-led version by default.**
 
-**Rebase every figure to a convening of 50 invited, 25 attending**, not twelve dinners of forty.
+None of the current figures on this slide have a source. Rather than soften them, invert the slide: **name each cost line, leave the number blank, and let the buyer fill it in.** A blank the buyer completes is more persuasive than a number they can dispute, and it removes the risk of being asked where $35,000 an evening came from.
 
-**Every retained number needs a visible source line, or it goes.** Any figure without a source must be deleted rather than softened. Then add a closing block, styled as the emphasis line:
+Keep the line items, rebased to **one convening of 50 invited and 25 attending**: private dining and food, guest-list research, assembly and confirmation, seat mapping against a brief, follow-up and introductions, and equivalent custom research. Render each with a blank or a dotted rule where the figure sat.
+
+If sourced figures are supplied later, they drop straight into those blanks with a visible source line under each. Any figure without a source stays blank.
+
+Then the closing block, styled as the emphasis line:
 
 > *Every number above is what it would cost you to build it. We would rather use yours. What did your last assembled executive dinner cost, all in, and how many of the right people were in the room?*
 
@@ -237,4 +274,6 @@ Keep: *Every tier is by conversation. Nothing here is listed publicly, and it ne
 1. **Search the whole deck for em dashes and en dashes and remove every one.** Including inside number ranges
 2. **Search for "forty", "40 covers", "table of forty" and remove every instance.** Room sizes are now 30, 50 to 100, and target 50 floor 25
 3. **Search for "summit" and remove every instance**, including the $12,000 line item on the old slide 5 and the 2027 entry on slide 12
-4. **Search for "Royal College" and confirm it appears nowhere**
+4. **Search for "Royal College" and confirm it appears nowhere.** Also confirm no slide says or implies that physicians, doctors or MDs attend
+5. **Renumber every slide.** One slide is being inserted after slide 2, so the deck goes from 13 to 14. Update the visible slide numbers, the `slideno` elements, and any `data-mark` or `s13-mark` style attributes that encode position
+6. **Confirm CAD appears once**, on the first slide carrying a price
