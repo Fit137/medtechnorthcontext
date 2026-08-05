@@ -75,6 +75,8 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | How does it make money? | `docs/05-monetization.md` |
 | What is the primary commercial line? | `docs/12-convening-as-a-service.md` |
 | How do I design a room around a buyer? | `docs/13-buyer-led-room-design.md` |
+| How do the dinners work? | `docs/14-dinner-programme.md` |
+| What is wrong with the partner deck? | `docs/15-partner-deck-audit.md` |
 | Who do we sell to, and how? | `docs/11-corporate-outreach.md` |
 | Which companies specifically? | `data/corporate-targets.md` |
 | What are the unit economics? | `docs/06-financial-model.md` |
