@@ -80,6 +80,7 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | What is wrong with the partner deck? | `docs/15-partner-deck-audit.md` |
 | Who do we sell to, and how? | `docs/11-corporate-outreach.md` |
 | Which companies specifically? | `data/corporate-targets.md` |
+| Who do I call this week? | `data/prospects/` (CSV, schema, generated table) |
 | What are the unit economics? | `docs/06-financial-model.md` |
 | How should I write? | `docs/07-brand-and-voice.md` |
 | What can we legally claim? | `docs/08-legal-and-compliance.md` |

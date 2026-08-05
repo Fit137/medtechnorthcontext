@@ -1,0 +1,5592 @@
+{
+ "generated": "2026-08-05",
+ "rows": [
+  {
+   "id": "pharm-medessist",
+   "company": "MedEssist",
+   "city": "Toronto",
+   "source": "corporate-targets B1",
+   "status": "new",
+   "note": "Toronto, pharmacist-founded, 100 Ontario pharmacies onboarded. One hop to founder.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "hybrid",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "venture",
+   "m": 85,
+   "d": 60,
+   "c": 10,
+   "best": "Meetup",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.medessist.com/",
+    "https://betakit.com/medessists-access-to-care-program-has-turned-100-ontario-pharmacies-into-mini-clinics/"
+   ]
+  },
+  {
+   "id": "rehab-0",
+   "company": "Jane App",
+   "city": "North Vancouver",
+   "source": "corporate-targets C",
+   "status": "new",
+   "note": "PLG. Strong meetup fit, poor convening fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "plg",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "venture",
+   "m": 85,
+   "d": 25,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 Canadian office",
+     "-15 PLG, no list means no measurable outcome"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "-25 conflicted, cannot co-host",
+     "-20 PLG, will not buy a composed room"
+    ]
+   },
+   "evidence": [
+    "https://jane.app/"
+   ]
+  },
+  {
+   "id": "rehab-1",
+   "company": "Embodia",
+   "city": "Toronto",
+   "source": "corporate-targets C",
+   "status": "new",
+   "note": "PLG. Strong meetup fit, poor convening fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "plg",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "venture",
+   "m": 85,
+   "d": 25,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 Canadian office",
+     "-15 PLG, no list means no measurable outcome"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "-25 conflicted, cannot co-host",
+     "-20 PLG, will not buy a composed room"
+    ]
+   },
+   "evidence": [
+    "https://embodiaapp.com/h/cpa-members/"
+   ]
+  },
+  {
+   "id": "rehab-3",
+   "company": "Owl Practice",
+   "city": "Toronto",
+   "source": "corporate-targets C",
+   "status": "new",
+   "note": "PLG. Strong meetup fit, poor convening fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "plg",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "venture",
+   "m": 85,
+   "d": 25,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 Canadian office",
+     "-15 PLG, no list means no measurable outcome"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "-25 conflicted, cannot co-host",
+     "-20 PLG, will not buy a composed room"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "prof-0",
+   "company": "Deloitte Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Deloitte Greenhouse, Toronto. Purpose-built for convening.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": [
+    "https://www.deloitte.com/ca/en/services/consulting/services/deloitte-greenhouse.html"
+   ]
+  },
+  {
+   "id": "prof-1",
+   "company": "EY Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "EY wavespace, first in Canada, EY Tower.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": [
+    "https://www.newswire.ca/news-releases/new-ey-tower-brings-firms-purpose-to-life-631088003.html"
+   ]
+  },
+  {
+   "id": "prof-2",
+   "company": "PwC Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Convening is already their marketing model. Watch: they will want to fill the room with their clients.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "prof-3",
+   "company": "KPMG Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Convening is already their marketing model. Watch: they will want to fill the room with their clients.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "prof-4",
+   "company": "Accenture Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Convening is already their marketing model. Watch: they will want to fill the room with their clients.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "prof-5",
+   "company": "BDO Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Convening is already their marketing model. Watch: they will want to fill the room with their clients.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "prof-6",
+   "company": "Grant Thornton Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Convening is already their marketing model. Watch: they will want to fill the room with their clients.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "10000",
+   "funding": "partnership",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-0",
+   "company": "Osler",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-1",
+   "company": "Torys",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-2",
+   "company": "Fasken",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-3",
+   "company": "McCarthy Tetrault",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-4",
+   "company": "Blakes",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-5",
+   "company": "Gowling WLG",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-6",
+   "company": "Norton Rose Fulbright",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "law-7",
+   "company": "Borden Ladner Gervais",
+   "city": "Toronto",
+   "source": "cohost-targets A1",
+   "status": "new",
+   "note": "Life sciences practice. Service provider cap applies to their seats.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "partnership",
+   "m": 40,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-microsoft",
+   "company": "Microsoft Canada",
+   "city": "Mississauga and Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Meadowvale Blvd plus CIBC Square. Customer-facing tech displays incl. telemedicine.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "200000",
+   "funding": "public",
+   "m": 20,
+   "d": 85,
+   "c": 85,
+   "best": "Dinner",
+   "bestScore": 85,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": [
+    "https://www.microsoft.com/en-ca/about/facts",
+    "https://canadianbusiness.com/design/microsoft-canada-headquarters-toronto-cibc-square/"
+   ]
+  },
+  {
+   "id": "scaleup-2",
+   "company": "Maple",
+   "city": "Toronto",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "300",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-3",
+   "company": "Think Research",
+   "city": "Toronto",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "400",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-4",
+   "company": "Kii Health",
+   "city": "Toronto",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Formerly CloudMD.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "300",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://builtintoronto.com/companies/type/healthtech-companies"
+   ]
+  },
+  {
+   "id": "scaleup-5",
+   "company": "Greenspace Health",
+   "city": "Toronto",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Toronto and Kelowna.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "100",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 20,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://builtintoronto.com/companies/type/healthtech-companies"
+   ]
+  },
+  {
+   "id": "scaleup-9",
+   "company": "Cloud DX",
+   "city": "Kitchener",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "80",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 20,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-10",
+   "company": "Novari Health",
+   "city": "Kingston",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "60",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 20,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-11",
+   "company": "Myant",
+   "city": "Mississauga",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "200",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 20,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "scaleup-12",
+   "company": "Baylis Medical Technologies",
+   "city": "Mississauga",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "400",
+   "funding": "venture",
+   "m": 80,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 80,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "fin-scotia",
+   "company": "Scotiabank Healthcare+",
+   "city": "Toronto",
+   "source": "corporate-targets A3",
+   "status": "new",
+   "note": "Dedicated dentist and pharmacist programmes. The room is their acquisition target.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "90000",
+   "funding": "public",
+   "m": 25,
+   "d": 75,
+   "c": 75,
+   "best": "Dinner",
+   "bestScore": 75,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "+5 already sponsors health events",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 sponsors health events",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": [
+    "https://www.scotiabank.com/ca/en/healthcare-plus/dentist-banking.html"
+   ]
+  },
+  {
+   "id": "dental-mfr-0",
+   "company": "Align Technology Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A5",
+   "status": "new",
+   "note": "Study-club native. Will ask for stage time; screen for it.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "yes",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 50,
+   "d": 70,
+   "c": 15,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+5 already sponsors health events"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+10 sponsors health events"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 runs its own events",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-mfr-1",
+   "company": "Straumann Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A5",
+   "status": "new",
+   "note": "Study-club native. Will ask for stage time; screen for it.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "yes",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 50,
+   "d": 70,
+   "c": 15,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+5 already sponsors health events"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+10 sponsors health events"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 runs its own events",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-mfr-2",
+   "company": "Nobel Biocare",
+   "city": "no CA office",
+   "source": "corporate-targets A5",
+   "status": "new",
+   "note": "Study-club native. Will ask for stage time; screen for it.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "yes",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 50,
+   "d": 70,
+   "c": 15,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+5 already sponsors health events"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+10 sponsors health events"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 runs its own events",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-mfr-3",
+   "company": "Dentsply Sirona Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A5",
+   "status": "new",
+   "note": "Study-club native. Will ask for stage time; screen for it.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "yes",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 50,
+   "d": 70,
+   "c": 15,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+5 already sponsors health events"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+10 sponsors health events"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 runs its own events",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-mfr-4",
+   "company": "Ivoclar",
+   "city": "no CA office",
+   "source": "corporate-targets A5",
+   "status": "new",
+   "note": "Study-club native. Will ask for stage time; screen for it.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "yes",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 50,
+   "d": 70,
+   "c": 15,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+5 already sponsors health events"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+10 sponsors health events"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 runs its own events",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-0",
+   "company": "RBC Healthcare",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-1",
+   "company": "BMO",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-2",
+   "company": "TD",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-3",
+   "company": "CIBC",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-4",
+   "company": "MNP professional practice",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-5",
+   "company": "Baker Tilly",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-6",
+   "company": "CDSPI",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-7",
+   "company": "Sun Life",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-8",
+   "company": "Manulife",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "fin-9",
+   "company": "Green Shield Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A3",
+   "status": "new",
+   "note": "Fast signature, weakest thesis fit. Cap at one per room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "public",
+   "m": 40,
+   "d": 65,
+   "c": 70,
+   "best": "Convening",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+10 hostable space, bonus not a gate"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "banner-0",
+   "company": "Guardian / IDA / Remedy'sRx",
+   "city": "Ontario",
+   "source": "corporate-targets B2",
+   "status": "new",
+   "note": "852 Ontario locations. McKesson banner network.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "unknown",
+   "m": 40,
+   "d": 70,
+   "c": 55,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger"
+    ]
+   },
+   "evidence": [
+    "https://www.guardian-ida-remedysrx.ca/en/who-we-are/who-we-are"
+   ]
+  },
+  {
+   "id": "banner-1",
+   "company": "Pharmasave",
+   "city": "Ontario",
+   "source": "corporate-targets B2",
+   "status": "new",
+   "note": "486 Ontario locations.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "unknown",
+   "m": 40,
+   "d": 70,
+   "c": 55,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger"
+    ]
+   },
+   "evidence": [
+    "https://www.scrapehero.com/location-reports/10-largest-pharmacies-in-canada/"
+   ]
+  },
+  {
+   "id": "banner-2",
+   "company": "Whole Health Pharmacy Partners",
+   "city": "Ontario",
+   "source": "corporate-targets B2",
+   "status": "new",
+   "note": "Ontario, 200+. Nimblest banner.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "unknown",
+   "m": 40,
+   "d": 70,
+   "c": 55,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger"
+    ]
+   },
+   "evidence": [
+    "https://wholehealthpharmacy.ca/"
+   ]
+  },
+  {
+   "id": "banner-3",
+   "company": "Shoppers Drug Mart / Loblaw",
+   "city": "Ontario",
+   "source": "corporate-targets B2",
+   "status": "new",
+   "note": "Largest and slowest by an order of magnitude.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "unknown",
+   "m": 40,
+   "d": 70,
+   "c": 55,
+   "best": "Dinner",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "rehab-2",
+   "company": "Noterro",
+   "city": "no CA office",
+   "source": "corporate-targets C",
+   "status": "new",
+   "note": "PLG. Strong meetup fit, poor convening fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "plg",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "venture",
+   "m": 70,
+   "d": 10,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "-15 PLG, no list means no measurable outcome"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "-25 conflicted, cannot co-host",
+     "-20 PLG, will not buy a composed room",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "rehab-4",
+   "company": "Practice Perfect",
+   "city": "no CA office",
+   "source": "corporate-targets C",
+   "status": "new",
+   "note": "PLG. Strong meetup fit, poor convening fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "plg",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "venture",
+   "m": 70,
+   "d": 10,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "-15 PLG, no list means no measurable outcome"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "-25 conflicted, cannot co-host",
+     "-20 PLG, will not buy a composed room",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-0",
+   "company": "PointClickCare",
+   "city": "Mississauga",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "One of Canada's largest homegrown tech companies. Mississauga.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "2000",
+   "funding": "venture",
+   "m": 70,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "scaleup-1",
+   "company": "League",
+   "city": "Toronto",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "500",
+   "funding": "venture",
+   "m": 70,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-6",
+   "company": "AlayaCare",
+   "city": "Montreal",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "600",
+   "funding": "venture",
+   "m": 70,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-7",
+   "company": "Dialogue Health",
+   "city": "Montreal",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "700",
+   "funding": "venture",
+   "m": 70,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "scaleup-8",
+   "company": "WELL Health",
+   "city": "Vancouver",
+   "source": "cohost-targets A4",
+   "status": "new",
+   "note": "Founder signs in one call. Topic selection does real work.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "1000",
+   "funding": "venture",
+   "m": 70,
+   "d": 55,
+   "c": 25,
+   "best": "Meetup",
+   "bestScore": 70,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "+10 venture funded, discretionary spend"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dso-0",
+   "company": "dentalcorp",
+   "city": "Toronto",
+   "source": "corporate-targets A2",
+   "status": "new",
+   "note": "Employer brand budget. No regulatory review.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 40,
+   "d": 65,
+   "c": 45,
+   "best": "Dinner",
+   "bestScore": 65,
+   "tier": "A",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-sw-4",
+   "company": "Smilepass",
+   "city": "Toronto",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 60,
+   "d": 60,
+   "c": 30,
+   "best": "Meetup",
+   "bestScore": 60,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://dentalrx.ca/articles/canadian-dental-software"
+   ]
+  },
+  {
+   "id": "pharm-mapflow",
+   "company": "MAPflow",
+   "city": "no CA office",
+   "source": "corporate-targets B1",
+   "status": "new",
+   "note": "2,200+ pharmacies. Their product IS the 1 Jul change.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "hybrid",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "unknown",
+   "m": 60,
+   "d": 45,
+   "c": 0,
+   "best": "Meetup",
+   "bestScore": 60,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": [
+    "https://mapflow.ca/"
+   ]
+  },
+  {
+   "id": "pharm-telus",
+   "company": "TELUS Health (Kroll, PharmaClik Rx)",
+   "city": "Toronto",
+   "source": "corporate-targets B1",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "",
+   "funding": "public",
+   "m": 60,
+   "d": 60,
+   "c": 40,
+   "best": "Meetup",
+   "bestScore": 60,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.telus.com/en/health/health-professionals/pharmacies/add-ons/minor-ailments"
+   ]
+  },
+  {
+   "id": "poct-0",
+   "company": "Abbott (ID NOW)",
+   "city": "Mississauga",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 40,
+   "d": 60,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 60,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "misc-chatbase",
+   "company": "Chatbase",
+   "city": "Toronto",
+   "source": "cohost-targets worked example",
+   "status": "new",
+   "note": "~$10M ARR bootstrapped. Fails co-host on space. Partnerships function is a different buyer. See docs/13.",
+   "vertical": "no",
+   "space": "no",
+   "motion": "hybrid",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "30",
+   "funding": "bootstrapped",
+   "m": 60,
+   "d": 40,
+   "c": 30,
+   "best": "Meetup",
+   "bestScore": 60,
+   "tier": "B",
+   "unknowns": 2,
+   "why": {
+    "Meetup": [
+     "+20 product needs explaining",
+     "+15 lead-gen motion, a list of 30 is a real outcome",
+     "+15 can reach the GTA",
+     "+10 small enough that one person decides"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+15 named Canadian budget holder",
+     "+15 orthogonal, safe to co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.crunchbase.com/organization/chatbase",
+    "https://chatarmin.com/en/blog/chatbase-pricing"
+   ]
+  },
+  {
+   "id": "medtech-0",
+   "company": "Boston Scientific Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-1",
+   "company": "GE HealthCare Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-2",
+   "company": "Roche Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-3",
+   "company": "AstraZeneca Canada Ops",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-4",
+   "company": "GSK Canada Ops",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-5",
+   "company": "Amgen Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-6",
+   "company": "Johnson & Johnson Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-7",
+   "company": "Medtronic Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-8",
+   "company": "Abbott Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-9",
+   "company": "Stryker Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-10",
+   "company": "Philips Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "medtech-11",
+   "company": "Baxter Canada",
+   "city": "Mississauga / GTA",
+   "source": "cohost-targets A5",
+   "status": "new",
+   "note": "Biggest budgets, slowest, highest stake. Advisory roundtable beats an open room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "50000",
+   "funding": "public",
+   "m": 20,
+   "d": 55,
+   "c": 35,
+   "best": "Dinner",
+   "bestScore": 55,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+15 Canadian office"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host"
+    ]
+   },
+   "evidence": [
+    "https://www.investmississauga.ca/industries/life-sciences/medtech/"
+   ]
+  },
+  {
+   "id": "dso-1",
+   "company": "123Dentist",
+   "city": "no CA office",
+   "source": "corporate-targets A2",
+   "status": "new",
+   "note": "Employer brand budget. No regulatory review.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 25,
+   "d": 50,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 50,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dso-2",
+   "company": "Altima Dental",
+   "city": "no CA office",
+   "source": "corporate-targets A2",
+   "status": "new",
+   "note": "Employer brand budget. No regulatory review.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "adjacent",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 25,
+   "d": 50,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 50,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-sw-0",
+   "company": "ABELDent",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-sw-1",
+   "company": "MaxiDent",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": [
+    "https://slashdot.org/software/dental-practice-management/in-canada/"
+   ]
+  },
+  {
+   "id": "dental-sw-2",
+   "company": "ClearDent",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": [
+    "https://slashdot.org/software/dental-practice-management/in-canada/"
+   ]
+  },
+  {
+   "id": "dental-sw-3",
+   "company": "Dentitek",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": [
+    "https://slashdot.org/software/dental-practice-management/in-canada/"
+   ]
+  },
+  {
+   "id": "dental-sw-5",
+   "company": "Henry Schein One Canada (Dentrix)",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": [
+    "https://dentalrx.ca/articles/canadian-dental-software"
+   ]
+  },
+  {
+   "id": "dental-sw-6",
+   "company": "Curve Dental",
+   "city": "no CA office",
+   "source": "corporate-targets A1",
+   "status": "new",
+   "note": "Buyer is the practice owner. Conflicted as co-host in a dental room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "CDCP 2026-27 benefit year opened 1 Jul 2026; grids revised 1 Apr 2026",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 45,
+   "c": 15,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-0",
+   "company": "Pearl",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-1",
+   "company": "Overjet",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-2",
+   "company": "VideaHealth",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-3",
+   "company": "Denti.AI",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-4",
+   "company": "3Shape Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-5",
+   "company": "Medit",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-6",
+   "company": "SprintRay",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-7",
+   "company": "Planmeca Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-ai-8",
+   "company": "DEXIS / Envista",
+   "city": "no CA office",
+   "source": "corporate-targets A4",
+   "status": "new",
+   "note": "Product needs explaining. Strong meetup fit.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 45,
+   "d": 40,
+   "c": 5,
+   "best": "Meetup",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-1",
+   "company": "Roche Diagnostics Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-2",
+   "company": "bioMerieux",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-3",
+   "company": "Cepheid",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-4",
+   "company": "QuidelOrtho",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-5",
+   "company": "BD",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "poct-6",
+   "company": "Siemens Healthineers Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B3",
+   "status": "new",
+   "note": "",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 25,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+20 product needs explaining",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "otc-0",
+   "company": "Haleon Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B4",
+   "status": "new",
+   "note": "MLR exists but lighter than prescription.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "20000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "otc-1",
+   "company": "Kenvue",
+   "city": "no CA office",
+   "source": "corporate-targets B4",
+   "status": "new",
+   "note": "MLR exists but lighter than prescription.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "20000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "otc-2",
+   "company": "Bayer Consumer Health",
+   "city": "no CA office",
+   "source": "corporate-targets B4",
+   "status": "new",
+   "note": "MLR exists but lighter than prescription.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "20000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "otc-3",
+   "company": "Reckitt",
+   "city": "no CA office",
+   "source": "corporate-targets B4",
+   "status": "new",
+   "note": "MLR exists but lighter than prescription.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "20000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "otc-4",
+   "company": "Jamieson",
+   "city": "no CA office",
+   "source": "corporate-targets B4",
+   "status": "new",
+   "note": "MLR exists but lighter than prescription.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "20000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 20,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-0",
+   "company": "GSK Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-1",
+   "company": "Pfizer Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-2",
+   "company": "Merck Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-3",
+   "company": "Moderna Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-4",
+   "company": "Sanofi Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "vax-5",
+   "company": "AstraZeneca Canada",
+   "city": "no CA office",
+   "source": "corporate-targets B5",
+   "status": "new",
+   "note": "Largest cheques, slowest path. PAAB and full MLR. Sell the brief, not a room.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "Ontario minor ailments 19 to 28 on 1 Jul 2026; 6 new funded vaccines",
+   "employees": "50000",
+   "funding": "unknown",
+   "m": 5,
+   "d": 45,
+   "c": 30,
+   "best": "Dinner",
+   "bestScore": 45,
+   "tier": "B",
+   "unknowns": 3,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion",
+     "+5 dated trigger"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+10 dated trigger",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-dist-0",
+   "company": "Henry Schein Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A6",
+   "status": "new",
+   "note": "Will push for a booth. Sell the brief, not the room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 25,
+   "d": 40,
+   "c": 5,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-dist-1",
+   "company": "Patterson Dental Canada",
+   "city": "no CA office",
+   "source": "corporate-targets A6",
+   "status": "new",
+   "note": "Will push for a booth. Sell the brief, not the room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 25,
+   "d": 40,
+   "c": 5,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "dental-dist-2",
+   "company": "Sinclair Dental",
+   "city": "no CA office",
+   "source": "corporate-targets A6",
+   "status": "new",
+   "note": "Will push for a booth. Sell the brief, not the room.",
+   "vertical": "yes",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "conflicted",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "",
+   "funding": "unknown",
+   "m": 25,
+   "d": 40,
+   "c": 5,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 4,
+   "why": {
+    "Meetup": [
+     "+25 sells into health"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+15 relationship-led motion"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "-25 conflicted, cannot co-host",
+     "-15 no Canadian office and no stated expansion intent"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-0",
+   "company": "AWS Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-1",
+   "company": "Google Cloud Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-2",
+   "company": "Salesforce Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-3",
+   "company": "ServiceNow Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-4",
+   "company": "SAP Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-5",
+   "company": "IBM Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-6",
+   "company": "Cisco Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-7",
+   "company": "Dell Technologies Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-8",
+   "company": "Nvidia Canada",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-9",
+   "company": "Snowflake",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-10",
+   "company": "Databricks",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-11",
+   "company": "Okta",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-12",
+   "company": "Zoom",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-13",
+   "company": "Docusign",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-14",
+   "company": "Atlassian",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-15",
+   "company": "Figma",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-16",
+   "company": "Notion",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-17",
+   "company": "Twilio",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-18",
+   "company": "Thomson Reuters",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  },
+  {
+   "id": "plat-19",
+   "company": "OpenText",
+   "city": "Toronto",
+   "source": "cohost-targets A2",
+   "status": "new",
+   "note": "Verify a Canada-based healthcare industry lead. A hire in the last 12 months is the strongest trigger available.",
+   "vertical": "unknown",
+   "space": "unknown",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "unknown",
+   "trigger": "",
+   "employees": "5000",
+   "funding": "public",
+   "m": 15,
+   "d": 40,
+   "c": 40,
+   "best": "Dinner",
+   "bestScore": 40,
+   "tier": "C",
+   "unknowns": 5,
+   "why": {
+    "Meetup": [
+     "+15 can reach the GTA"
+    ],
+    "Dinner": [
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+20 considered sales motion",
+     "+15 orthogonal, safe to co-host",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": []
+  }
+ ],
+ "counts": {
+  "Meetup": 38,
+  "Dinner": 82,
+  "Convening": 10
+ },
+ "tiers": {
+  "A": 56,
+  "B": 51,
+  "C": 23
+ },
+ "unknowns": 465
+}
