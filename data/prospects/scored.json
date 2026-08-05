@@ -2,11 +2,61 @@
  "generated": "2026-08-05",
  "rows": [
   {
+   "id": "plat-microsoft",
+   "company": "Microsoft Canada",
+   "city": "Mississauga and Toronto",
+   "source": "cohost-targets A2",
+   "status": "qualified",
+   "note": "Meadowvale Blvd plus CIBC Square. Customer-facing tech displays incl. telemedicine.",
+   "vertical": "yes",
+   "space": "yes",
+   "motion": "sales-led",
+   "stake": "orthogonal",
+   "events": "yes",
+   "trigger": "",
+   "employees": "200000",
+   "funding": "public",
+   "m": 20,
+   "d": 85,
+   "c": 100,
+   "best": "Convening",
+   "bestScore": 100,
+   "tier": "A",
+   "unknowns": 1,
+   "why": {
+    "Meetup": [
+     "+25 sells into health",
+     "+15 can reach the GTA",
+     "-20 too large, $2,500 is below their floor"
+    ],
+    "Dinner": [
+     "+25 healthcare vertical",
+     "+20 already runs its own events",
+     "+15 relationship-led motion",
+     "+15 Canadian office",
+     "+10 category stake is manageable"
+    ],
+    "Convening": [
+     "+25 healthcare vertical",
+     "+20 considered sales motion",
+     "+15 named Canadian budget holder",
+     "+15 orthogonal, safe to co-host",
+     "+10 runs its own events",
+     "+10 hostable space, bonus not a gate",
+     "+5 large enough to hold budget"
+    ]
+   },
+   "evidence": [
+    "https://www.microsoft.com/en-ca/about/facts",
+    "https://canadianbusiness.com/design/microsoft-canada-headquarters-toronto-cibc-square/"
+   ]
+  },
+  {
    "id": "pharm-medessist",
    "company": "MedEssist",
    "city": "Toronto",
    "source": "corporate-targets B1",
-   "status": "new",
+   "status": "qualified",
    "note": "Toronto, pharmacist-founded, 100 Ontario pharmacies onboarded. One hop to founder.",
    "vertical": "yes",
    "space": "unknown",
@@ -18,11 +68,11 @@
    "funding": "venture",
    "m": 85,
    "d": 60,
-   "c": 10,
+   "c": 25,
    "best": "Meetup",
    "bestScore": 85,
    "tier": "A",
-   "unknowns": 4,
+   "unknowns": 3,
    "why": {
     "Meetup": [
      "+25 sells into health",
@@ -39,6 +89,7 @@
     ],
     "Convening": [
      "+25 healthcare vertical",
+     "+15 named Canadian budget holder",
      "+10 dated trigger",
      "-25 conflicted, cannot co-host"
     ]
@@ -53,7 +104,7 @@
    "company": "Jane App",
    "city": "North Vancouver",
    "source": "corporate-targets C",
-   "status": "new",
+   "status": "qualified",
    "note": "PLG. Strong meetup fit, poor convening fit.",
    "vertical": "yes",
    "space": "unknown",
@@ -69,7 +120,7 @@
    "best": "Meetup",
    "bestScore": 85,
    "tier": "A",
-   "unknowns": 4,
+   "unknowns": 3,
    "why": {
     "Meetup": [
      "+25 sells into health",
@@ -85,6 +136,7 @@
     ],
     "Convening": [
      "+25 healthcare vertical",
+     "+15 named Canadian budget holder",
      "-25 conflicted, cannot co-host",
      "-20 PLG, will not buy a composed room"
     ]
@@ -866,55 +918,6 @@
     ]
    },
    "evidence": []
-  },
-  {
-   "id": "plat-microsoft",
-   "company": "Microsoft Canada",
-   "city": "Mississauga and Toronto",
-   "source": "cohost-targets A2",
-   "status": "new",
-   "note": "Meadowvale Blvd plus CIBC Square. Customer-facing tech displays incl. telemedicine.",
-   "vertical": "yes",
-   "space": "yes",
-   "motion": "sales-led",
-   "stake": "orthogonal",
-   "events": "yes",
-   "trigger": "",
-   "employees": "200000",
-   "funding": "public",
-   "m": 20,
-   "d": 85,
-   "c": 85,
-   "best": "Dinner",
-   "bestScore": 85,
-   "tier": "A",
-   "unknowns": 2,
-   "why": {
-    "Meetup": [
-     "+25 sells into health",
-     "+15 can reach the GTA",
-     "-20 too large, $2,500 is below their floor"
-    ],
-    "Dinner": [
-     "+25 healthcare vertical",
-     "+20 already runs its own events",
-     "+15 relationship-led motion",
-     "+15 Canadian office",
-     "+10 category stake is manageable"
-    ],
-    "Convening": [
-     "+25 healthcare vertical",
-     "+20 considered sales motion",
-     "+15 orthogonal, safe to co-host",
-     "+10 runs its own events",
-     "+10 hostable space, bonus not a gate",
-     "+5 large enough to hold budget"
-    ]
-   },
-   "evidence": [
-    "https://www.microsoft.com/en-ca/about/facts",
-    "https://canadianbusiness.com/design/microsoft-canada-headquarters-toronto-cibc-square/"
-   ]
   },
   {
    "id": "scaleup-2",
@@ -2223,7 +2226,7 @@
    "company": "PointClickCare",
    "city": "Mississauga",
    "source": "cohost-targets A4",
-   "status": "new",
+   "status": "qualified",
    "note": "One of Canada's largest homegrown tech companies. Mississauga.",
    "vertical": "yes",
    "space": "unknown",
@@ -2235,11 +2238,11 @@
    "funding": "venture",
    "m": 70,
    "d": 55,
-   "c": 25,
+   "c": 40,
    "best": "Meetup",
    "bestScore": 70,
    "tier": "A",
-   "unknowns": 4,
+   "unknowns": 3,
    "why": {
     "Meetup": [
      "+25 sells into health",
@@ -2255,6 +2258,7 @@
     "Convening": [
      "+25 healthcare vertical",
      "+20 considered sales motion",
+     "+15 named Canadian budget holder",
      "+5 large enough to hold budget",
      "-25 conflicted, cannot co-host"
     ]
@@ -2525,7 +2529,7 @@
    "company": "MAPflow",
    "city": "no CA office",
    "source": "corporate-targets B1",
-   "status": "new",
+   "status": "qualified",
    "note": "2,200+ pharmacies. Their product IS the 1 Jul change.",
    "vertical": "yes",
    "space": "unknown",
@@ -2537,11 +2541,11 @@
    "funding": "unknown",
    "m": 60,
    "d": 45,
-   "c": 0,
+   "c": 10,
    "best": "Meetup",
    "bestScore": 60,
    "tier": "B",
-   "unknowns": 4,
+   "unknowns": 3,
    "why": {
     "Meetup": [
      "+25 sells into health",
@@ -2555,6 +2559,7 @@
     ],
     "Convening": [
      "+25 healthcare vertical",
+     "+15 named Canadian budget holder",
      "+10 dated trigger",
      "-25 conflicted, cannot co-host",
      "-15 no Canadian office and no stated expansion intent"
@@ -5580,13 +5585,13 @@
  ],
  "counts": {
   "Meetup": 38,
-  "Dinner": 82,
-  "Convening": 10
+  "Dinner": 81,
+  "Convening": 11
  },
  "tiers": {
   "A": 56,
   "B": 51,
   "C": 23
  },
- "unknowns": 465
+ "unknowns": 460
 }
