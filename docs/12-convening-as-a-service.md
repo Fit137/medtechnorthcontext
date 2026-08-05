@@ -10,16 +10,16 @@ Two product lines that sit above per-event sponsorship, both aimed at buyers who
 
 `HANDOFF.md` said one room had been held and nothing had been sold. Both statements were understated.
 
-**Two rooms have been held, and they were commissioned.** Miro engaged the founder to convene attendees and run workshops on the Miro product. The second was steered toward healthcare. Miro's own brand account responded publicly and positively to the output. Attendees posted public, unsolicited, attributable testimonials on LinkedIn, including a professor at McMaster University, two named founders and a pharmacy assistant.
+**Two rooms have been held, and Miro co-hosted and paid for both.** They are the first two of a recurring monthly series. Room 001 was go-to-market themed rather than healthcare. Room 002 was the patient journey map, steered toward healthcare. Miro's own brand account responded publicly and positively to the output. Attendees posted public, unsolicited, attributable testimonials on LinkedIn, including a professor at McMaster University, two named founders and a pharmacy assistant.
 
 **This is the single most valuable asset in the business and the repo was not carrying it.** What it proves:
 
 | Claim | Evidence |
 |---|---|
-| A global software company will pay for convening as a service | Miro commissioned it, twice |
+| A global software company will pay to co-host | **Miro co-hosted and paid, twice.** This is the co-host product, delivered |
 | The output satisfies the buyer | Miro's official account endorsed the work publicly |
 | Attendees value the room enough to say so in public, under their own names | Four public LinkedIn testimonials |
-| The format survives a healthcare audience | Room two was steered toward healthcare and held |
+| The format survives a healthcare audience | Room 002 only. Room 001 was go-to-market |
 | Outreach converts | ~70% positive reply rate, self-reported across both rooms, volume deliberately held back by venue capacity |
 
 Everything below is an extension of a proven motion into a defined vertical. That is a fundamentally different sale from launching an unproven format, and the pricing, the sequencing and the objection handling all change accordingly.

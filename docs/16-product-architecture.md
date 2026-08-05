@@ -20,7 +20,9 @@ Three products. They differ by **what is promised**, and price follows that, not
 
 ## 1. Monthly Meetup
 
-Already running monthly in Mississauga, described as Toronto for buyers outside Canada. Roughly 30 people, a mix of builders, clinicians and physicians. **No composition is briefed and none is promised.**
+Already running monthly in Mississauga, described as Toronto for buyers outside Canada. Roughly 30 people, a mix of builders, clinicians, researchers and students. Physicians are invited and have accepted; none has yet attended. **No composition is briefed and none is promised.**
+
+**The first two of this series were co-hosted and paid for by Miro.** That is the product already sold twice, at the co-host end of the ladder.
 
 **Sponsor: $2,500 per meetup. Annual, twelve meetups: $24,000 ($2,000 each).**
 
@@ -158,6 +160,8 @@ A $25,000 convening carries roughly $6,000 to $8,000 of hard cost. Step 1 costs 
 
 ## What still needs verifying
 
-**The monthly meetup stream is not recorded anywhere else in this repo.** `HANDOFF.md` records two rooms, both commissioned by Miro, and `data/verified-stats.md` records zero physicians attending. The monthly meetup is described as already running with roughly 30 people including physicians.
+**The monthly meetup is the existing room series, not a new one.** Two have run, Miro co-hosted both. Room 001 was go-to-market themed, room 002 was the patient journey map.
 
-Before either figure is used with a buyer: log the meetups as events, count the rooms, and count the physicians. **Until that exists, "roughly 30" and "physicians attend" are founder statements, not verified figures**, and rule 4 applies.
+**Room 002 has no event file.** Log it: date, attendance, composition, what Miro paid, what was delivered.
+
+**Never claim physicians attend.** Three accepted for room 002 and all three no-showed. Zero have sat in a room. The meetup may be described as a mixed room of builders and clinicians, and physicians may be described as invited, never as present.

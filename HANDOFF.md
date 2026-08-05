@@ -10,7 +10,9 @@
 
 **Two rooms have been held, and both were commissioned by Miro**, who engaged the founder to convene attendees and run workshops on the Miro product. Room two was steered toward healthcare. Miro's official brand account endorsed the output publicly. Four attendees posted public, attributable LinkedIn testimonials under their own names, including a professor at McMaster University. Outreach across both rooms produced a self-reported ~70% positive reply rate, with volume deliberately held back by the condo's capacity rather than by demand.
 
-Convening as a service is therefore proven and has a paying client. What is unproven is convening a **single named specialty** at volume, and physicians remain the one segment showing resistance.
+**Miro co-hosted both rooms, paid, and endorsed the output publicly.** That is the co-host product, sold and delivered twice, which is exactly what `docs/16-product-architecture.md` now prices at the top of the ladder.
+
+Room 001 was go-to-market themed rather than healthcare. Room 002 was the patient journey map. **Three physicians accepted for room 002 and all three no-showed on the day.** What is unproven is convening a **single named specialty** at volume.
 
 The site is live. No entity has been incorporated for MedTech North specifically.
 
@@ -59,7 +61,7 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Testimonial quote permission** | Not requested | Four public LinkedIn testimonials exist. Public already, so this is courtesy, but it must be held before quoting |
 | **Outreach funnel table** | Anecdote only | The ~70% figure is recoverable from LinkedIn and email send records in a few hours. It is the most persuasive asset available and it is currently unauditable |
 | **Event 002 log** | Not written | No date, attendance or composition recorded anywhere |
-| **Monthly meetup stream** | **Not logged at all** | Running monthly in the GTA, ~30 people, reportedly including physicians. Contradicts the zero-physician record. Log these as events before any figure is used with a buyer |
+| **Monthly room series** | Two held, only one logged | **These are the Miro rooms, not a separate stream.** A recurring monthly series, roughly 30 people, mixed. Miro co-hosted both. Room 002 still needs an event file |
 | **Per-specialty convening at volume** | Unproven | Both rooms were mixed. A single-specialty room has not been run. Room three is the test |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
 
