@@ -75,8 +75,16 @@
 |---|---|
 | A fixed seat count ("40 seats") | The first room held 16. Use "small rooms" |
 | Member counts | None exist |
-| Attendee totals across events | One event has happened |
-| Testimonials or endorsements | None consented |
-| Partner or sponsor names | None signed |
+| Attendee totals across events | Two events have happened. Neither total is large |
 | Live-looking counters | Nothing to count |
+
+## Changed status, 2 August 2026
+
+| Item | Old status | Current status |
+|---|---|---|
+| **Testimonials** | "None consented" | **Four public, attributable LinkedIn testimonials exist**, posted unprompted under their authors' own names. Usable in **private** material once permission to quote is requested as a courtesy. Publishing them on the site is a separate decision that rule 3 in `CLAUDE.md` currently forbids, and reversing that needs its own ADR |
+| **Client names** | "None signed" | **Miro commissioned both rooms** and endorsed the output publicly. Nameable in private material **only once written permission is held**. Never on the site |
+| **Number of events** | One | **Two** |
+| **Physician attendance** | "Zero MDs" | **Zero have attended. Three accepted for room 002 and no-showed on the day.** That is a show-rate problem, not an acquisition problem, and the two have different fixes. Never claim physicians attend |
+| **~70% positive outreach reply rate** | Not listed | Self-reported across both rooms. **Anecdote grade until reconstructed from send records.** Do not put it in front of a buyer until it is an auditable table |
 | Any figure appearing in an earlier site draft not on this list | Two map figures (1,219+ and 4,874+) appeared in a draft and are unsourced |
