@@ -42,6 +42,12 @@ Every term used across this repo with a specific meaning. One line each. If a te
 
 | Term | What it actually is | Price |
 |---|---|---|
+| **Monthly Meetup** | Our open monthly room in the GTA, roughly 30, mixed, **no composition promised**. Sells exposure: a presentation slot and the opted-in attendee list. $2,500, or $24,000 for twelve |
+| **Calendar Dinner** | A planned larger dinner, 50 to 100, mixed, **not tailored**. A welcome, two seats, category exclusivity for that night, no list. $4,500, or $14,400 for four |
+| **Convening** | Tailored to the buyer's written brief. Target 50, guaranteed floor 25. Their HQ, or a Toronto venue for US buyers. $25,000 single, $72,000 for four, $96,000 for six |
+| **The Brief** | $4,500 paid step before a convening. We return exactly who we would seat and whether we can get them, credited in full. **We only sign what we have shown we can fill** |
+| **The floor** | 50% of the stated target, because free-attendance events run 40 to 60% no-show. Miss it once, the next one is free. Miss twice, full refund and exit, or switch to pay-per-attendee at $700 |
+| **Opted-in attendees** | What the meetup sponsor actually receives. Unchecked box, sponsor named, non-consenters still attend. Never called "the attendee list" |
 | **Co-hosted room** | A larger produced scope inside the client's own offices: multiple rooms, insight brief, media, 5 introductions, first refusal. **Costs more because it is more, never because they gave a room** | $25K to $45K |
 | **Session** | A room funded by one company. They get a welcome, one seat, category exclusivity, a composition report, 3 consented introductions | **$7,500 our venue, $6,300 theirs** |
 | **Insight brief** | A written research document, 12 to 18 pages, built from clinician interviews and what rooms produce. Aggregated, anonymised, nobody named. **This is the thing we sell, not a summary of an event** | $12K to $25K commissioned, or $3.5K syndicated |

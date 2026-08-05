@@ -59,6 +59,7 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Testimonial quote permission** | Not requested | Four public LinkedIn testimonials exist. Public already, so this is courtesy, but it must be held before quoting |
 | **Outreach funnel table** | Anecdote only | The ~70% figure is recoverable from LinkedIn and email send records in a few hours. It is the most persuasive asset available and it is currently unauditable |
 | **Event 002 log** | Not written | No date, attendance or composition recorded anywhere |
+| **Monthly meetup stream** | **Not logged at all** | Running monthly in the GTA, ~30 people, reportedly including physicians. Contradicts the zero-physician record. Log these as events before any figure is used with a buyer |
 | **Per-specialty convening at volume** | Unproven | Both rooms were mixed. A single-specialty room has not been run. Room three is the test |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
 
