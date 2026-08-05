@@ -1,0 +1,2777 @@
+[
+ {
+  "company": "Microsoft Canada",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Microsoft Canada\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Microsoft Canada\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Microsoft Canada Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "MedEssist",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"MedEssist\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"MedEssist\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "MedEssist Head of Growth"
+  }
+ },
+ {
+  "company": "Jane App",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Jane App\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Jane App\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Jane App Head of Growth"
+  }
+ },
+ {
+  "company": "Embodia",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Embodia\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Embodia\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Embodia Head of Growth"
+  }
+ },
+ {
+  "company": "Owl Practice",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Owl Practice\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Owl Practice\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Owl Practice Head of Growth"
+  }
+ },
+ {
+  "company": "Deloitte Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Deloitte Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Deloitte Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Deloitte Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "EY Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"EY Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"EY Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "EY Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "PwC Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"PwC Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"PwC Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "PwC Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "KPMG Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"KPMG Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"KPMG Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "KPMG Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Accenture Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Accenture Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Accenture Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Accenture Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "BDO Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"BDO Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"BDO Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "BDO Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Grant Thornton Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Grant Thornton Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Grant Thornton Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Grant Thornton Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Osler",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Osler\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Osler\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Osler Industry Marketing"
+  }
+ },
+ {
+  "company": "Torys",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Torys\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Torys\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Torys Industry Marketing"
+  }
+ },
+ {
+  "company": "Fasken",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Fasken\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Fasken\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Fasken Industry Marketing"
+  }
+ },
+ {
+  "company": "McCarthy Tetrault",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"McCarthy Tetrault\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"McCarthy Tetrault\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "McCarthy Tetrault Industry Marketing"
+  }
+ },
+ {
+  "company": "Blakes",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Blakes\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Blakes\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Blakes Industry Marketing"
+  }
+ },
+ {
+  "company": "Gowling WLG",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Gowling WLG\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Gowling WLG\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Gowling WLG Industry Marketing"
+  }
+ },
+ {
+  "company": "Norton Rose Fulbright",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Norton Rose Fulbright\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Norton Rose Fulbright\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Norton Rose Fulbright Industry Marketing"
+  }
+ },
+ {
+  "company": "Borden Ladner Gervais",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Borden Ladner Gervais\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Borden Ladner Gervais\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Borden Ladner Gervais Industry Marketing"
+  }
+ },
+ {
+  "company": "Maple",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Maple\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Maple\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Maple Head of Growth"
+  }
+ },
+ {
+  "company": "Think Research",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Think Research\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Think Research\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Think Research Head of Growth"
+  }
+ },
+ {
+  "company": "Kii Health",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Kii Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Kii Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Kii Health Head of Growth"
+  }
+ },
+ {
+  "company": "Greenspace Health",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Founder",
+   "CEO",
+   "Head of Partnerships",
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing"
+  ],
+  "google_query": "site:linkedin.com/in \"Greenspace Health\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Greenspace Health\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Greenspace Health Founder"
+  }
+ },
+ {
+  "company": "Cloud DX",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Founder",
+   "CEO",
+   "Head of Partnerships",
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing"
+  ],
+  "google_query": "site:linkedin.com/in \"Cloud DX\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Cloud DX\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Cloud DX Founder"
+  }
+ },
+ {
+  "company": "Novari Health",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Founder",
+   "CEO",
+   "Head of Partnerships",
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing"
+  ],
+  "google_query": "site:linkedin.com/in \"Novari Health\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Novari Health\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Novari Health Founder"
+  }
+ },
+ {
+  "company": "Myant",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Myant\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Myant\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Myant Head of Growth"
+  }
+ },
+ {
+  "company": "Baylis Medical Technologies",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Baylis Medical Technologies\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Baylis Medical Technologies\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Baylis Medical Technologies Head of Growth"
+  }
+ },
+ {
+  "company": "Scotiabank Healthcare+",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Scotiabank Healthcare+\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Scotiabank Healthcare+\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Scotiabank Healthcare+ Industry Marketing"
+  }
+ },
+ {
+  "company": "Align Technology Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Align Technology Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Align Technology Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Align Technology Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Straumann Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Straumann Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Straumann Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Straumann Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Nobel Biocare",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Nobel Biocare\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Nobel Biocare\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Nobel Biocare Industry Marketing"
+  }
+ },
+ {
+  "company": "Dentsply Sirona Canada",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Dentsply Sirona Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Dentsply Sirona Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Dentsply Sirona Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Ivoclar",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Ivoclar\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Ivoclar\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Ivoclar Industry Marketing"
+  }
+ },
+ {
+  "company": "RBC Healthcare",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"RBC Healthcare\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"RBC Healthcare\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "RBC Healthcare Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "BMO",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"BMO\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"BMO\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "BMO Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "TD",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"TD\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"TD\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "TD Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "CIBC",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"CIBC\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"CIBC\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "CIBC Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "MNP professional practice",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"MNP professional practice\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"MNP professional practice\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "MNP professional practice Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "Baker Tilly",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Baker Tilly\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Baker Tilly\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Baker Tilly Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "CDSPI",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"CDSPI\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"CDSPI\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "CDSPI Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "Sun Life",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Sun Life\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Sun Life\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Sun Life Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "Manulife",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Manulife\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Manulife\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Manulife Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "Green Shield Canada",
+  "tier": "A",
+  "product": "Convening",
+  "titles": [
+   "Healthcare Industry Lead",
+   "Head of Healthcare",
+   "Life Sciences",
+   "Field Marketing",
+   "Country Manager",
+   "General Manager",
+   "Strategic Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Green Shield Canada\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Green Shield Canada\" (\"Healthcare Industry Lead\" OR \"Head of Healthcare\" OR \"Life Sciences\" OR \"Field Marketing\" OR \"Country Manager\" OR \"General Manager\" OR \"Strategic Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Green Shield Canada Healthcare Industry Lead"
+  }
+ },
+ {
+  "company": "Guardian / IDA / Remedy'sRx",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Guardian / IDA / Remedy'sRx\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Guardian / IDA / Remedy'sRx\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Guardian / IDA / Remedy'sRx Industry Marketing"
+  }
+ },
+ {
+  "company": "Pharmasave",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Pharmasave\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Pharmasave\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Pharmasave Industry Marketing"
+  }
+ },
+ {
+  "company": "Whole Health Pharmacy Partners",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Whole Health Pharmacy Partners\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Whole Health Pharmacy Partners\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Whole Health Pharmacy Partners Industry Marketing"
+  }
+ },
+ {
+  "company": "Shoppers Drug Mart / Loblaw",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Shoppers Drug Mart / Loblaw\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Shoppers Drug Mart / Loblaw\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Shoppers Drug Mart / Loblaw Industry Marketing"
+  }
+ },
+ {
+  "company": "Noterro",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Noterro\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Noterro\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Noterro Head of Growth"
+  }
+ },
+ {
+  "company": "Practice Perfect",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Practice Perfect\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Practice Perfect\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Practice Perfect Head of Growth"
+  }
+ },
+ {
+  "company": "PointClickCare",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"PointClickCare\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"PointClickCare\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "PointClickCare Head of Growth"
+  }
+ },
+ {
+  "company": "League",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"League\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"League\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "League Head of Growth"
+  }
+ },
+ {
+  "company": "AlayaCare",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"AlayaCare\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"AlayaCare\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "AlayaCare Head of Growth"
+  }
+ },
+ {
+  "company": "Dialogue Health",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Dialogue Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Dialogue Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Dialogue Health Head of Growth"
+  }
+ },
+ {
+  "company": "WELL Health",
+  "tier": "A",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"WELL Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"WELL Health\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "WELL Health Head of Growth"
+  }
+ },
+ {
+  "company": "dentalcorp",
+  "tier": "A",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"dentalcorp\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"dentalcorp\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "dentalcorp Industry Marketing"
+  }
+ },
+ {
+  "company": "Smilepass",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Smilepass\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Smilepass\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Smilepass Head of Growth"
+  }
+ },
+ {
+  "company": "MAPflow",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"MAPflow\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"MAPflow\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "MAPflow Head of Growth"
+  }
+ },
+ {
+  "company": "TELUS Health (Kroll, PharmaClik Rx)",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"TELUS Health (Kroll, PharmaClik Rx)\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"TELUS Health (Kroll, PharmaClik Rx)\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "TELUS Health (Kroll, PharmaClik Rx) Head of Growth"
+  }
+ },
+ {
+  "company": "Abbott (ID NOW)",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Abbott (ID NOW)\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Abbott (ID NOW)\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Abbott (ID NOW) Industry Marketing"
+  }
+ },
+ {
+  "company": "Chatbase",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Founder",
+   "CEO",
+   "Head of Partnerships",
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing"
+  ],
+  "google_query": "site:linkedin.com/in \"Chatbase\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Chatbase\" (\"Founder\" OR \"CEO\" OR \"Head of Partnerships\" OR \"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Chatbase Founder"
+  }
+ },
+ {
+  "company": "Boston Scientific Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Boston Scientific Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Boston Scientific Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Boston Scientific Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "GE HealthCare Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"GE HealthCare Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"GE HealthCare Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "GE HealthCare Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Roche Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Roche Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Roche Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Roche Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "AstraZeneca Canada Ops",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"AstraZeneca Canada Ops\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"AstraZeneca Canada Ops\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "AstraZeneca Canada Ops Industry Marketing"
+  }
+ },
+ {
+  "company": "GSK Canada Ops",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"GSK Canada Ops\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"GSK Canada Ops\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "GSK Canada Ops Industry Marketing"
+  }
+ },
+ {
+  "company": "Amgen Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Amgen Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Amgen Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Amgen Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Johnson & Johnson Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Johnson & Johnson Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Johnson & Johnson Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Johnson & Johnson Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Medtronic Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Medtronic Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Medtronic Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Medtronic Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Abbott Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Abbott Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Abbott Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Abbott Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Stryker Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Stryker Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Stryker Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Stryker Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Philips Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Philips Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Philips Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Philips Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Baxter Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Baxter Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Baxter Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Baxter Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "123Dentist",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"123Dentist\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"123Dentist\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "123Dentist Industry Marketing"
+  }
+ },
+ {
+  "company": "Altima Dental",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Altima Dental\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Altima Dental\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Altima Dental Industry Marketing"
+  }
+ },
+ {
+  "company": "ABELDent",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"ABELDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"ABELDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "ABELDent Head of Growth"
+  }
+ },
+ {
+  "company": "MaxiDent",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"MaxiDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"MaxiDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "MaxiDent Head of Growth"
+  }
+ },
+ {
+  "company": "ClearDent",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"ClearDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"ClearDent\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "ClearDent Head of Growth"
+  }
+ },
+ {
+  "company": "Dentitek",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Dentitek\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Dentitek\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Dentitek Head of Growth"
+  }
+ },
+ {
+  "company": "Henry Schein One Canada (Dentrix)",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Henry Schein One Canada (Dentrix)\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Henry Schein One Canada (Dentrix)\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Henry Schein One Canada (Dentrix) Head of Growth"
+  }
+ },
+ {
+  "company": "Curve Dental",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Curve Dental\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Curve Dental\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Curve Dental Head of Growth"
+  }
+ },
+ {
+  "company": "Pearl",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Pearl\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Pearl\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Pearl Head of Growth"
+  }
+ },
+ {
+  "company": "Overjet",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Overjet\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Overjet\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Overjet Head of Growth"
+  }
+ },
+ {
+  "company": "VideaHealth",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"VideaHealth\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"VideaHealth\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "VideaHealth Head of Growth"
+  }
+ },
+ {
+  "company": "Denti.AI",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Denti.AI\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Denti.AI\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Denti.AI Head of Growth"
+  }
+ },
+ {
+  "company": "3Shape Canada",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"3Shape Canada\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"3Shape Canada\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "3Shape Canada Head of Growth"
+  }
+ },
+ {
+  "company": "Medit",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Medit\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Medit\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Medit Head of Growth"
+  }
+ },
+ {
+  "company": "SprintRay",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"SprintRay\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"SprintRay\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "SprintRay Head of Growth"
+  }
+ },
+ {
+  "company": "Planmeca Canada",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"Planmeca Canada\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Planmeca Canada\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Planmeca Canada Head of Growth"
+  }
+ },
+ {
+  "company": "DEXIS / Envista",
+  "tier": "B",
+  "product": "Meetup",
+  "titles": [
+   "Head of Growth",
+   "Demand Generation",
+   "Growth Marketing",
+   "Field Marketing",
+   "Event Marketing",
+   "Community",
+   "Partnerships"
+  ],
+  "google_query": "site:linkedin.com/in \"DEXIS / Envista\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"DEXIS / Envista\" (\"Head of Growth\" OR \"Demand Generation\" OR \"Growth Marketing\" OR \"Field Marketing\" OR \"Event Marketing\" OR \"Community\" OR \"Partnerships\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "DEXIS / Envista Head of Growth"
+  }
+ },
+ {
+  "company": "Roche Diagnostics Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Roche Diagnostics Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Roche Diagnostics Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Roche Diagnostics Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "bioMerieux",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"bioMerieux\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"bioMerieux\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "bioMerieux Industry Marketing"
+  }
+ },
+ {
+  "company": "Cepheid",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Cepheid\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Cepheid\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Cepheid Industry Marketing"
+  }
+ },
+ {
+  "company": "QuidelOrtho",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"QuidelOrtho\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"QuidelOrtho\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "QuidelOrtho Industry Marketing"
+  }
+ },
+ {
+  "company": "BD",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"BD\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"BD\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "BD Industry Marketing"
+  }
+ },
+ {
+  "company": "Siemens Healthineers Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Siemens Healthineers Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Siemens Healthineers Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Siemens Healthineers Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Haleon Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Haleon Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Haleon Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Haleon Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Kenvue",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Kenvue\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Kenvue\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Kenvue Industry Marketing"
+  }
+ },
+ {
+  "company": "Bayer Consumer Health",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Bayer Consumer Health\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Bayer Consumer Health\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Bayer Consumer Health Industry Marketing"
+  }
+ },
+ {
+  "company": "Reckitt",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Reckitt\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Reckitt\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Reckitt Industry Marketing"
+  }
+ },
+ {
+  "company": "Jamieson",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Jamieson\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Jamieson\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Jamieson Industry Marketing"
+  }
+ },
+ {
+  "company": "GSK Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"GSK Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"GSK Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "GSK Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Pfizer Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Pfizer Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Pfizer Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Pfizer Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Merck Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Merck Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Merck Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Merck Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Moderna Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Moderna Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Moderna Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Moderna Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Sanofi Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Sanofi Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Sanofi Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Sanofi Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "AstraZeneca Canada",
+  "tier": "B",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"AstraZeneca Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"AstraZeneca Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "AstraZeneca Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Henry Schein Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Henry Schein Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Henry Schein Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Henry Schein Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Patterson Dental Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Patterson Dental Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Patterson Dental Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Patterson Dental Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Sinclair Dental",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Sinclair Dental\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Sinclair Dental\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Sinclair Dental Industry Marketing"
+  }
+ },
+ {
+  "company": "AWS Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"AWS Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"AWS Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "AWS Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Google Cloud Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Google Cloud Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Google Cloud Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Google Cloud Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Salesforce Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Salesforce Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Salesforce Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Salesforce Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "ServiceNow Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"ServiceNow Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"ServiceNow Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "ServiceNow Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "SAP Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"SAP Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"SAP Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "SAP Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "IBM Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"IBM Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"IBM Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "IBM Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Cisco Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Cisco Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Cisco Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Cisco Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Dell Technologies Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Dell Technologies Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Dell Technologies Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Dell Technologies Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Nvidia Canada",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Nvidia Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Nvidia Canada\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Nvidia Canada Industry Marketing"
+  }
+ },
+ {
+  "company": "Snowflake",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Snowflake\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Snowflake\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Snowflake Industry Marketing"
+  }
+ },
+ {
+  "company": "Databricks",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Databricks\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Databricks\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Databricks Industry Marketing"
+  }
+ },
+ {
+  "company": "Okta",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Okta\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Okta\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Okta Industry Marketing"
+  }
+ },
+ {
+  "company": "Zoom",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Zoom\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Zoom\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Zoom Industry Marketing"
+  }
+ },
+ {
+  "company": "Docusign",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Docusign\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Docusign\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Docusign Industry Marketing"
+  }
+ },
+ {
+  "company": "Atlassian",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Atlassian\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Atlassian\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Atlassian Industry Marketing"
+  }
+ },
+ {
+  "company": "Figma",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Figma\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Figma\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Figma Industry Marketing"
+  }
+ },
+ {
+  "company": "Notion",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Notion\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Notion\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Notion Industry Marketing"
+  }
+ },
+ {
+  "company": "Twilio",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Twilio\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Twilio\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Twilio Industry Marketing"
+  }
+ },
+ {
+  "company": "Thomson Reuters",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"Thomson Reuters\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"Thomson Reuters\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "Thomson Reuters Industry Marketing"
+  }
+ },
+ {
+  "company": "OpenText",
+  "tier": "C",
+  "product": "Dinner",
+  "titles": [
+   "Industry Marketing",
+   "Field Marketing",
+   "Brand Marketing",
+   "Business Development Director",
+   "Head of Marketing",
+   "Country Manager"
+  ],
+  "google_query": "site:linkedin.com/in \"OpenText\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)",
+  "actor_input": {
+   "queries": [
+    "site:linkedin.com/in \"OpenText\" (\"Industry Marketing\" OR \"Field Marketing\" OR \"Brand Marketing\" OR \"Business Development Director\" OR \"Head of Marketing\" OR \"Country Manager\") (Canada OR Toronto OR Ontario)"
+   ],
+   "maxItems": 5,
+   "searchQuery": "OpenText Industry Marketing"
+  }
+ }
+]
