@@ -1,4 +1,4 @@
-# Room 003: The Long Table. Full publishing kit
+# The MedTech North Table. Room 003 publishing kit
 
 > **Public copy is final and ready to publish.** Format decision: `ADR-023`. Format detail: `docs/17-event-formats.md`.
 >
@@ -8,21 +8,40 @@
 
 ---
 
-## 1. What the public page is now for
+## 1. The name
+
+**Series name: The MedTech North Table.**
+
+It carries the brand and it is built from the word the brand already owns. `docs/07-brand-and-voice.md` lists the load-bearing vocabulary as room, table, composition, curated, invited, seated, balance, and the positioning line is four groups at one table, seated by hand. So the event name is not a new idea bolted onto the business, it is the business named.
+
+**Shorthand, once people know it: the Table.** "Are you coming to the Table on the 27th." That is the test of whether a name has landed, and this one can take it.
+
+**How often the brand appears matters more than whether it does.** Naming the series MedTech North buys the legitimacy. Repeating it inside warm copy spends it. The rule used throughout this kit:
+
+| Where the brand appears | Where it does not |
+|---|---|
+| The event title | Mid-sentence in the description |
+| The footer of every image | More than once in any post |
+| Slide 1 of the carousel | The body of a direct message, beyond the opening |
+| The first line of a direct message, as the thing you run | Anywhere it would make a human sentence sound like a press release |
+
+**Do not number editions publicly.** Internally this is room 003. Publicly, an edition number invites somebody to ask what happened at the first two, and `CLAUDE.md` rule 3 forbids the answer.
+
+## 2. What the public page is for
 
 Holding the media back changes the page's job, and it is worth being clear-eyed about it.
 
 **The public page will not fill this room.** It is a landing surface, not an acquisition engine. Somebody reads it after your message reaches them, checks that it looks real and well run, and registers. Cold traffic off a LinkedIn post is a bonus, not the plan.
 
-That is a deliberate trade, and it puts all the persuasion in the direct messages in section 6. The page carries the legitimacy, the logistics and the rules. The reason to come is delivered privately.
+That is a deliberate trade and it puts all the persuasion into the direct messages in section 7. The page carries the name, the legitimacy, the logistics and the rules. The reason to come is delivered privately.
 
-**What survives publicly, and it is more than it sounds:** a small mixed table, no pitching, no presentations, Chatham House, and one question everybody answers over dinner. **The question stays public. The camera does not.** That gives the page something specific and unusual to describe without touching the media.
+**What survives publicly, and it is more than it sounds:** a small mixed table, no pitching, no presentations, Chatham House, and one question everybody answers over dinner. **The question stays public. The camera does not.**
 
-## 2. How the fallback works
+## 3. How the fallback works
 
 **The public copy describes the evening. It never requires a particular audience to be there.**
 
-Dinner happens, one question goes round the table, nobody pitches. That is true whether the room fills with practice owners, non-owner clinicians, researchers or founders.
+Dinner happens, one question goes round the table, nobody pitches. True whether the room fills with practice owners, non-owner clinicians, researchers or founders.
 
 | Day | What you do | What changes publicly |
 |---|---|---|
@@ -36,7 +55,7 @@ Same title, same description, same images, same posts. Only the direct message c
 
 **Holds regardless of mix:** the room is not majority service providers. Cap them as always (`docs/03-icp-and-segments.md`).
 
-## 3. The one question
+## 4. The one question
 
 **"What's the one thing people outside your work always get wrong about it?"**
 
@@ -49,29 +68,29 @@ Publish it. Knowing the question in advance removes the only anxiety the evening
 
 ---
 
-## 4. Event title
+## 5. Event title
 
 **Primary:**
 
 ```
-The Long Table: A Small Dinner for People Who Work in Health
+The MedTech North Table: A Small Dinner for People Who Work in Health
 ```
 
 **Alternates:**
 
 ```
-The Long Table, Mississauga: One Table, One Question
-The Long Table: Dinner and One Good Question, Mississauga
+The MedTech North Table: One Table, One Question. Mississauga
+The MedTech North Table, Mississauga
 ```
 
 Never name a single profession in the title. The moment it reads "for clinic owners", the fallback is dead.
 
 ---
 
-## 5. Event description (Luma). Final copy, publish as written
+## 6. Event description (Luma). Final copy, publish as written
 
 ```
-A small dinner in Mississauga for people who work in health. One table, no talks, no slides, and nobody selling anything to anybody.
+The MedTech North Table is a small dinner in Mississauga for people who work in health. One table, no talks, no slides, and nobody selling anything to anybody.
 
 **Who's at the table**
 
@@ -114,24 +133,26 @@ No cost, and dinner is covered
 Ali
 ```
 
+**Note the brand appears once, in the first four words, and never again.** That is enough for a Luma page where the host name already sits at the top of the screen. Adding it a second time is what makes an invitation read like an announcement.
+
 **Do not add:** a headcount, a past-event photo, a testimonial, anything about cameras or media, the word sponsor, or a line about limited spots.
 
-**Why the "who's at the table" section is written that way.** Four groups listed, none required. That is the fallback doing its work in plain sight. The review line does the composition gating honestly without ranking anyone and without urgency pressure, which is the `docs/07-brand-and-voice.md` rule on scarcity stated as a property of the format.
+**Why "who's at the table" is written that way.** Four groups listed, none required. That is the fallback working in plain sight. The review line does composition gating honestly, without ranking anyone and without urgency pressure, which is the scarcity rule in `docs/07-brand-and-voice.md`.
 
 ---
 
-## 6. Confirmation email. Required, not optional
+## 7. Confirmation email. Required, not optional
 
-The public page no longer discloses that filming happens, so **the disclosure has to live somewhere before the door.** Direct messages cover everyone you invite personally. This email covers anyone who registers off a link.
+The public page no longer discloses that filming happens, so **the disclosure has to live somewhere before the door.** Direct messages cover everyone you invite personally. This covers anyone who registers off a link.
 
 Send on registration, and again 48 hours before.
 
 ```
-Subject: You're in for Thursday the 27th
+Subject: You're in for the Table on Thursday
 
 Hi [name],
 
-You're confirmed for the dinner on Thursday 27 August, 6:30 to 9:30. The address is [address], and there's parking at [detail].
+You're confirmed for the MedTech North Table on Thursday 27 August, 6:30 to 9:30. The address is [address], and there's parking at [detail].
 
 One thing to know in advance, because I'd rather you heard it now than at the door.
 
@@ -145,18 +166,18 @@ See you Thursday,
 Ali
 ```
 
-That email is also your best second touch. A person who replies to book a slot has committed twice.
+Also your best second touch. Someone who replies to book a slot has committed twice.
 
 ---
 
-## 7. Private outreach ladder
+## 8. Private outreach ladder
 
-Four messages, one event. The media offer lives here and only here.
+Four messages, one event. The media offer lives here and only here. The brand appears once, in the opening line, where it does the work of telling a stranger this is a thing that exists rather than a one-off invitation from someone they have never met.
 
 ### Message A. Clinic and practice owners. Days 1 to 15
 
 ```
-Hi [name], I run a small dinner in Mississauga once a month for people who work in health. Twelve or so around one table, no talks, nobody selling anything.
+Hi [name], I run a dinner series in Mississauga called the MedTech North Table. Twelve or so people who work in health around one table, once a month. No talks, nobody selling anything.
 
 The reason I'm writing to you specifically. I bring in a photographer and a proper lighting setup, and every practice owner in the room gets a professional portrait and a short filmed piece about their own work. Five minutes for the photo, ninety seconds for the film. You get all of it a few days later and it's yours outright. Website, ads, profile, whatever you want. No cost and no catch.
 
@@ -172,7 +193,7 @@ That last line turns a decline into the on-site feature in `docs/17-event-format
 ### Message B. Clinicians who don't own the practice. Days 11 to 20
 
 ```
-Hi [name], I run a small dinner in Mississauga once a month for people who work in health. Around twelve people, one table, no talks and no pitching.
+Hi [name], I run a dinner series in Mississauga called the MedTech North Table. Around twelve people who work in health, one table, no talks and no pitching.
 
 Over dinner everyone answers the same question: what's the one thing people outside your work always get wrong about it. Nothing to prepare, and the answers are the best part of the night.
 
@@ -186,7 +207,7 @@ Thursday 27 August, 6:30 to 9:30. Dinner's on me, and it stays free for clinicia
 ### Message C. Founders and operators. Days 16 to 20
 
 ```
-Hi [name], I run a small dinner in Mississauga once a month. One table, people who work in health: clinicians, practice owners, researchers, and a few people building in the space.
+Hi [name], I run a dinner series in Mississauga called the MedTech North Table. One table, people who work in health: clinicians, practice owners, researchers, and a few people building in the space.
 
 Being straight with you about what this is and isn't. No stage time, no demo, no pitching, and I'll stop it if it starts. What you get is a seat next to people who actually do the work, a proper headshot from the photographer who'll be there, and a filmed answer to the question of the night, both of which you keep.
 
@@ -198,7 +219,7 @@ Thursday 27 August, 6:30 to 9:30.
 ### Message D. Researchers, and students for the runner seat. Days 16 to 20, capped
 
 ```
-Hi [name], I run a small dinner in Mississauga once a month for people working in health. No talks, no pitching, dinner and one question that goes round the table.
+Hi [name], I run a dinner series in Mississauga called the MedTech North Table. People working in health, one table, no talks or pitching, and one question that goes round over dinner.
 
 There's a photographer there too, so you can come away with a proper headshot and a short clip of your answer if you want them.
 
@@ -209,19 +230,21 @@ Thursday 27 August, 6:30 to 9:30. No cost.
 
 ---
 
-## 8. Image generation prompts
+## 9. Image generation prompts
 
 **Two hard rules:**
 
 1. **No people, no crowds, no dinner-party scenes.** An image of a full table implies attendance you cannot evidence (`CLAUDE.md` rule 3). Objects, empty rooms and typography only
-2. **No cameras, lights, tripods or studio equipment in any public image.** That is the media, and the media is private now
+2. **No cameras, lights, tripods or studio equipment in any public image.** That is the media, and the media is private
+
+Every rendered asset carries the wordmark in the footer, added at layout rather than generated. Do not ask an image model to render the words MedTech North; it will mangle the letterforms.
 
 ### Direction 1: The Empty Table
 
 *Warm, drawn, non-corporate. Best match for the register.*
 
 ```
-A single long dining table drawn in confident hand-inked line work, seen from a slight three-quarter angle. Set simply for a shared meal: plates, water glasses, a jug, a few small serving dishes, folded napkins, two candles unlit. Chairs pulled in along both sides. Completely empty of people. Warm cream paper background with visible tooth. Ink lines in near-black. One accent colour only, a deep crimson, on two or three small objects. Flat, no gradients, no blur, no lens effects. The feel of an illustrated cookbook or a letterpress dinner invitation, not a corporate event graphic. Generous empty space across the upper third for typography.
+A single long dining table drawn in confident hand-inked line work, seen from a slight three-quarter angle. Set simply for a shared meal: plates, water glasses, a jug, a few small serving dishes, folded napkins, two unlit candles. Chairs pulled in along both sides. Completely empty of people. Warm cream paper background with visible tooth. Ink lines in near-black. One accent colour only, a deep crimson, on two or three small objects. Flat, no gradients, no blur, no lens effects. The feel of an illustrated cookbook or a letterpress dinner invitation, not a corporate event graphic. Generous empty space across the upper third for typography, and a clear band across the bottom for a footer.
 ```
 
 ### Direction 2: Two Chairs
@@ -229,7 +252,7 @@ A single long dining table drawn in confident hand-inked line work, seen from a 
 *Quieter and more intimate. Good carousel cover.*
 
 ```
-Two simple wooden chairs pulled close together at the corner of a table, angled toward each other as if two people have just stepped away mid-conversation. Two half-finished plates, two glasses, a folded napkin left on a seat. Nobody in frame. Rendered as a limited-palette screen print: three flat colours only, warm cream, deep ink, one crimson accent, with visible halftone texture and a slight registration offset. No photographic realism, no gradients, no blur. Calm and warm rather than clinical. Space at the top of the frame for a headline.
+Two simple wooden chairs pulled close together at the corner of a table, angled toward each other as if two people have just stepped away mid-conversation. Two half-finished plates, two glasses, a folded napkin left on a seat. Nobody in frame. Rendered as a limited-palette screen print: three flat colours only, warm cream, deep ink, one crimson accent, with visible halftone texture and a slight registration offset. No photographic realism, no gradients, no blur. Calm and warm rather than clinical. Space at the top of the frame for a headline and a clear band at the bottom for a footer.
 ```
 
 ### Direction 3: Typographic Only
@@ -237,7 +260,7 @@ Two simple wooden chairs pulled close together at the corner of a table, angled 
 *Cheapest, most on-brand, best at thumbnail size in a feed.*
 
 ```
-A typographic poster. The sentence "What's the one thing people outside your work always get wrong about it?" set large in a confident modern serif, filling most of the frame, broken across five or six lines, ragged right. Deep ink text on a warm cream field. One short line beneath in small letter-spaced capitals. A single thin crimson rule under one word. Nothing else in the frame: no illustration, no decoration, no icons. Letterpress feel with slight ink texture at the letterform edges. Confident and quiet.
+A typographic poster. The sentence "What's the one thing people outside your work always get wrong about it?" set large in a confident modern serif, filling most of the frame, broken across five or six lines, ragged right. Deep ink text on a warm cream field. One short line beneath in small letter-spaced capitals. A single thin crimson rule under one word. Nothing else in the frame: no illustration, no decoration, no icons. Letterpress feel with slight ink texture at the letterform edges. Confident and quiet. Leave a clear band across the bottom eighth of the frame.
 ```
 
 ### Sizes for each direction
@@ -254,17 +277,19 @@ Generate direction 1 first. If the warmth reads as twee, fall back to direction 
 
 ---
 
-## 9. Prompt to paste into Claude for design
+## 10. Prompt to paste into Claude for design
 
 Everything below the line is the prompt.
 
 ---
 
-Build a social asset set for a small monthly dinner in Mississauga called **The Long Table**, run by MedTech North. Output every asset as its own frame, individually exportable as PNG. Do not put them on a shared canvas.
+Build a social asset set for **The MedTech North Table**, a small monthly dinner in Mississauga run by MedTech North. Output every asset as its own frame, individually exportable as PNG. Do not put them on a shared canvas.
 
 **What the evening is, so the design has the right temperature:** twelve or so people who work in health sit around one table. No talks, no slides, no pitching. Over dinner one question goes round and everybody answers it. It is a dinner, not a conference. The design should feel like a warm invitation from a person, not an event brand.
 
 **This is a deliberate departure from the MedTech North institutional register.** Keep the craft standards, drop the formality.
+
+**Brand handling, and this is the part to get right.** The series name is The MedTech North Table. It appears in full on the Luma cover and on carousel slide 1, and as a small wordmark in the footer of every other frame. It never appears twice in the same frame and never inside body copy. The brand is the container, not the message. If a frame reads as an announcement from an organisation rather than an invitation from a person, the balance is wrong.
 
 **Design system**
 
@@ -278,7 +303,7 @@ Build a social asset set for a small monthly dinner in Mississauga called **The 
 
 **Assets**
 
-1. **Luma cover**, 1080 × 1080. Drawn line-art long table, set for dinner, empty. Title across the upper third
+1. **Luma cover**, 1080 × 1080. Drawn line-art long table, set for dinner, empty. Series name across the upper third, "Mississauga, Thursday 27 August" beneath it at a quarter of the size
 2. **Announcement frame**, 1080 × 1350. Typographic. Headline: *One table. One question.* Support: *Mississauga, Thursday 27 August*
 3. **The question frame**, 1080 × 1350. The question as the entire image, five or six lines, ragged right, one word underlined in crimson
 4. **The rules frame**, 1080 × 1350. Three lines stacked with generous leading: *Nobody presents. / Nobody pitches. / Nothing leaves the table.* No illustration
@@ -287,7 +312,7 @@ Build a social asset set for a small monthly dinner in Mississauga called **The 
 
 **Carousel copy. Typeset exactly, do not rewrite or add words**
 
-1. *The Long Table.* / A small dinner for people who work in health. Mississauga, Thursday 27 August
+1. *The MedTech North Table.* / A small dinner for people who work in health. Mississauga, Thursday 27 August
 2. *Twelve or so people. One table.*
 3. *Nobody presents. Nobody pitches. Nothing leaves the table.*
 4. *Somewhere around quarter past seven, one question goes round.*
@@ -298,18 +323,18 @@ Build a social asset set for a small monthly dinner in Mississauga called **The 
 
 Frames 1 and 5 carry the most visual weight. Frame 5 is the payoff and should be the largest type in the set. Frames 2, 3, 6 and 8 are quiet by comparison. Swiping should feel the rhythm lift at 5.
 
-**Footer on every frame:** wordmark small on the left, "Mississauga" on the right, plain sans, small. Nothing else.
+**Footer on frames 2 through 8:** the MedTech North wordmark small on the left, "Mississauga" on the right, plain sans, small. Nothing else. Frame 1 carries the full series name at headline scale instead, so it takes no footer.
 
 ---
 
-## 10. Social content kit
+## 11. Social content kit
 
-Six posts across twenty days. No mention of cameras, portraits or media in any of them.
+Six posts across twenty days. No mention of cameras, portraits or media in any of them. The series name appears once per post, never twice.
 
 ### Post 1. Day 1, announcement
 
 ```
-Next dinner is Thursday 27 August in Mississauga.
+Next MedTech North Table is Thursday 27 August in Mississauga.
 
 Twelve or so people who work in health around one table. Dentists, pharmacists, physios, researchers, a few people building software that ends up in clinics.
 
@@ -331,14 +356,14 @@ Genuine question for anyone who works in health.
 
 What's the one thing people outside your work always get wrong about it?
 
-Not the noble version. The petty, specific, slightly annoying thing that people assume about your job that isn't true.
+Not the noble version. The petty, specific, slightly annoying thing people assume about your job that isn't true.
 
 I'm putting it to a table of twelve on the 27th and I suspect the dentists and the pharmacists will have completely different complaints, and both will be fair.
 
-Curious what yours is. Reply and tell me, or come and say it at dinner. Mississauga, Thursday 27 August, link in the comments.
+Curious what yours is. Reply and tell me, or come and say it at the Table. Mississauga, Thursday 27 August, link in the comments.
 ```
 
-That post recruits and produces engagement at the same time, and everyone who replies is a warm invite.
+Recruits and produces engagement at once, and everyone who replies is a warm invite.
 
 ### Post 3. Day 9, the rules
 
@@ -355,15 +380,15 @@ If you meet someone worth talking to, tell me afterwards and I'll ask them for y
 
 Costs the room nothing and it's the only reason people come twice.
 
-Next one is Thursday 27 August, Mississauga. Link in the comments.
+Next MedTech North Table is Thursday 27 August, Mississauga. Link in the comments.
 ```
 
 ### Post 4. Day 14, carousel caption
 
 ```
-What actually happens at the dinner on the 27th, in eight slides.
+What actually happens at the MedTech North Table, in eight slides.
 
-Short version: you turn up, you eat, one question goes round the table, and you go home by half past nine knowing twelve people who understand your job.
+Short version: you turn up, you eat, one question goes round, and you go home by half past nine knowing twelve people who understand your job.
 
 Mississauga, Thursday 27 August. Link in the comments.
 ```
@@ -383,7 +408,7 @@ A few seats left. Mississauga, Thursday 27 August, no cost, dinner's covered.
 ### Post 6. Day 19, the day before
 
 ```
-Dinner's tomorrow.
+Table's tomorrow.
 
 Mississauga, 6:30, food's ordered, and I've got one question to ask everybody.
 
@@ -392,13 +417,13 @@ If you've been meaning to reply, today's the day. Link's in the comments.
 
 ---
 
-## 11. Carousel, slide by slide
+## 12. Carousel, slide by slide
 
 Eight frames, 1080 × 1350.
 
 | Slide | On-image copy | Visual weight |
 |---|---|---|
-| 1 | The Long Table. / A small dinner for people who work in health. Mississauga, Thursday 27 August | Heavy. Line-art table |
+| 1 | The MedTech North Table. / A small dinner for people who work in health. Mississauga, Thursday 27 August | Heavy. Line-art table. Carries the full name at headline scale |
 | 2 | Twelve or so people. One table. | Quiet, typographic |
 | 3 | Nobody presents. Nobody pitches. Nothing leaves the table. | Three lines stacked, generous leading |
 | 4 | Somewhere around quarter past seven, one question goes round. | Builds |
@@ -409,10 +434,11 @@ Eight frames, 1080 × 1350.
 
 ---
 
-## 12. Never appears in public copy or images
+## 13. Never appears in public copy or images
 
 - Cameras, portraits, filming, footage, headshots, media, or any recording equipment
 - A headcount, past or expected. The first room held 16 (`data/verified-stats.md`)
+- A public edition number, which invites a question about the previous ones
 - Photos of a previous event, or any image containing people
 - Sponsor, sponsorship, partner tier, exhibitor, booth, lead access (`ADR-007`)
 - Any professional title used as a label (`CLAUDE.md` rule 5)
@@ -420,8 +446,10 @@ Eight frames, 1080 × 1350.
 - Limited spots, last chance, filling fast, or any countdown
 - Em dashes, en dashes, exclamation marks
 
-## 13. Two flags
+## 14. Three flags
 
-**Consent has to live somewhere before the door.** With the media off the public page, the confirmation email in section 6 is now load-bearing rather than a courtesy. Anyone who registers from a link and never receives a direct message learns about the camera from that email or from nothing. Send it on registration and again at 48 hours, and take a signed release at the station on the night.
+**Consent has to live somewhere before the door.** With the media off the public page, the confirmation email in section 7 is load-bearing rather than courteous. Anyone who registers from a link and never receives a direct message learns about the camera there or nowhere. Send on registration and again at 48 hours, and take a signed release at the station on the night.
+
+**The name commits you to a series.** Calling it The MedTech North Table rather than a one-off event title means the second one has to happen, and reasonably soon, or the name works against you. That is a good pressure and it matches the venue being booked monthly, but it is a commitment being made here rather than an obvious consequence of a copy decision.
 
 **This copy departs from the register in `docs/07-brand-and-voice.md`**, which says write as you would to a hospital chief of staff. Right for the website, wrong for a dinner invitation. Every other rule in that document is intact: no em dashes, no exclamation marks, no urgency devices, no banned words, no headcounts, scarcity stated as a property of the format. If the warmer voice becomes standing practice for event copy, it needs its own ADR before it drifts onto the site.
