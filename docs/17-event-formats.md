@@ -209,7 +209,7 @@ You already identified this as a separate opportunity. It is not separate. It is
 | 7:00 | Capture station opens. Runner brings people over in a set order, two at a time, so nobody queues |
 | 7:00 to 8:45 | Dinner and tables run continuously. Capture never interrupts the room |
 | 8:45 | Station closes. Feature slots booked for whoever wants one |
-| 8:50 | Close. The nomination question. Who else should be in this room |
+| 8:50 | Close. Two minutes, thanks and nothing else. The nomination question is asked to people individually as they leave, never to the room |
 | 9:15 | Ends |
 
 **12 owners at 7 minutes is 84 minutes and fits comfortably in one station.** 16 is 112 minutes and is tight but workable if the station opens at 6:50. Beyond 16, add a second operator rather than shortening the slot.
