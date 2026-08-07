@@ -77,6 +77,7 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | How do I design a room around a buyer? | `docs/13-buyer-led-room-design.md` |
 | What do we actually sell? | `docs/16-product-architecture.md` |
 | How do the dinners work? | `docs/14-dinner-programme.md` |
+| What format does a room run? | `docs/17-event-formats.md` |
 | What is wrong with the partner deck? | `docs/15-partner-deck-audit.md` |
 | Who do we sell to, and how? | `docs/11-corporate-outreach.md` |
 | Which companies specifically? | `data/corporate-targets.md` |
