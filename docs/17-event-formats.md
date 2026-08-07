@@ -243,6 +243,76 @@ The likely commercial consequence: On Record sits at the **$7,500 session partne
 
 **The cheap version, if the first room runs unfunded:** one operator, no separate photographer, stills pulled from video frames. Quality drops and it is still worth doing once, because you cannot sell this format without sample footage and you cannot get sample footage without running it.
 
+---
+
+# Part 4: what the co-host is buying, and who the question serves
+
+> Proposal. Needs its own ADR once decided. Extends `ADR-023`.
+
+## The framing that loses the sale
+
+"Fund a production and twelve practice owners get free marketing" is not a purchase. Any buyer hears it as charity with a logo attached, and the first question back is why they should pay for someone else's advertising.
+
+**The production is not the deliverable. It is the admission price, paid in kind.** Owners attend free and always will (`ADR-002`), so the value that gets them out of the practice has to flow to them as something other than cash. The co-host is not funding a video. They are funding **the reason twelve owner-operators clear an evening**, in a room where no competitor of theirs is present.
+
+That sentence is the whole sale, and it is honest.
+
+## What the co-host actually receives
+
+| Item | Detail |
+|---|---|
+| **The room** | Twelve to sixteen practice owners, in person, three hours, category exclusivity for that room (`ADR-020`) |
+| **Their own footage** | The set is lit and the operator is already paid for. Their Canadian lead gets a filmed piece at marginal cost, recorded away from the room and never shown to it |
+| **Composition report** | Who was there, by role. Existing product, existing promise |
+| **Consented introductions** | Three to five, made personally, owner consents first. Same gate as founders |
+| **The synthesis** | Twelve owners on the record answering the same question. After three rooms that is thirty-six, and it is primary research they cannot produce |
+| **Association, unpromised** | When owners post their clips, the room travels. Never mandated, never guaranteed, never sold as reach |
+
+**On that last row, the rule that protects it: owners get two exports.** One clean, one carrying a small end card naming the room and the co-host. They pick. Requiring a tag turns the gift into an invoice and the format dies in one round.
+
+**Cost per owner is the number to hold in your head.** At $7,500 for a room of twelve that is $625 for three hours of in-person presence with an owner-operator. Do not quote a comparison figure, because none exists in `data/verified-stats.md`. Use the discovery question from `docs/12-convening-as-a-service.md` instead: what did you spend last year to get in front of practice owners, and how many did you actually meet. Their number sets the anchor.
+
+**The disqualifying signal:** a buyer who wants leads. They will be unhappy, they will push on the never list, and they will produce a bad reference. Sell them nothing.
+
+## Can the question serve them
+
+Partly, and the line is already drawn in `docs/12-convening-as-a-service.md` under **topical orthogonality**: the co-host's product must be orthogonal to the room's subject. A dental software vendor co-hosting a room about running a dental practice turns the evening into a sales meeting, and owners read that in about ten minutes.
+
+So tuning the question toward the co-host's category is precisely the thing that breaks the co-host product. But the same document already says category-adjacent companies are not lost revenue, they are buyers of a different thing, with **the interest disclosed and bounded**. That resolves your question cleanly, because there are two buyers and only one of them may touch the question.
+
+| Buyer | Relationship to the subject | What they buy | Does the question serve them |
+|---|---|---|---|
+| **Co-host** | Must be orthogonal | The room, footage, report, introductions, category exclusivity | **No.** The question is written for the owner |
+| **Brief buyer** | May be category-adjacent | The synthesised answers, on the record | **Yes, openly.** They commission the territory and the room is told |
+
+**A commissioned question does not feel forced. A hidden one does.** Owners answer commissioned research every week of their lives and think nothing of it, as long as they know who is asking and can decline without consequence. What they cannot forgive is finding out afterwards that the friendly question was market research they were not told about.
+
+## The two questions
+
+**Question 1, the series question. Every owner, every room, unchanged.** Written entirely for them. This is the one that builds the library and the one that has to pass the test below.
+
+**Question 2, commissioned. Only exists when a brief has been sold.** Announced before the camera rolls, in one sentence: this one was put to us by [company], you can skip it, and nothing changes if you do. Skipping has to be genuinely costless or the disclosure is theatre.
+
+**The test that governs both: would the owner post this clip to their own audience, unedited?**
+
+If yes, the question serves them and the buyer benefits by association. If no, it has been captured, and the format is spent. "What frustrates you most about your current booking software" fails instantly, because it produces a clip about a problem rather than about their expertise, and no owner posts that. "What did you change about how the practice runs this year that you would tell another owner to copy" passes, produces a postable clip, and still generates commentary a practice-operations company would pay for.
+
+Territory can be steered. Wording cannot. **The buyer names the territory, MedTech North writes the question, and the postability test is the veto.**
+
+**Timing cost:** the second question adds roughly 90 seconds per owner, taking the station from about 7 minutes to about 8.5. Twelve owners then fills the capture window almost exactly. Past twelve with two questions, add the second operator.
+
+## Three configurations
+
+1. **Orthogonal co-host, one question.** The cleanest and the Miro shape. They fund the evening, the question belongs to the owner
+2. **Orthogonal co-host plus brief.** They also buy the synthesis of the series answers. Still no commissioned question, because the material already exists
+3. **Category-adjacent buyer, brief only.** No co-host position, not named to the room as a host, not present. They commission question two, it is declared, and they receive the synthesis
+
+Configuration 3 can run at the same room as configuration 1 with a different company, provided the two are not in the same category. That roughly doubles what a single evening can carry without touching the never list, because the brief buyer never enters the room and never sees a name.
+
+## What neither buyer ever gets
+
+Attendee contact data. Guest list before the room. Editorial control over the brief or any edit. Stage time. Any claim that owners endorse them. Any promised commercial outcome. **Unflattering answers are delivered as given**, and a buyer who commissions a question about their own category and dislikes the result receives it anyway. Say that at signature, not afterwards.
+
 ## The founders' path, made explicit
 
 This is the inversion, written as a mechanic rather than a principle.
