@@ -1,6 +1,6 @@
 # Event Formats: Room 003 Onwards
 
-> **INTERNAL. Status: proposal, decision pending.** Formats for the first room MedTech North runs on its own theme. Part 1 records a rejected set and why, because the reason is the useful part. Part 2 is the current set. No ADR yet. Related: `docs/13-buyer-led-room-design.md`, `docs/16-product-architecture.md`, `ADR-012`, `ADR-016`.
+> **INTERNAL. Status: Format D chosen. See `ADR-023` and the production model in Part 3.** Part 1 records a rejected set and why, because the reason is the useful part. Part 2 is the set that replaced it. Part 3 is how D actually runs inside an evening. Related: `docs/13-buyer-led-room-design.md`, `docs/16-product-architecture.md`, `ADR-012`, `ADR-016`.
 
 ---
 
@@ -148,6 +148,100 @@ Not folded into the score above, because these are your constraints rather than 
 They are complementary rather than competing. On Record needs something for people to do between filming slots, and a curated non-competing catchment table is the best possible answer, so the same evening delivers a produced asset and a referral relationship without asking the owner for anything either time.
 
 **Hold F.** It is a good event and a real business, but it serves a different buyer and it gives founders nothing, which breaks the sequencing that makes everything else work. Revisit it once the owner room exists and can be borrowed against.
+
+---
+
+# Part 3: how On Record actually runs
+
+## The throughput problem
+
+A twenty-minute interview per owner does not fit inside an evening and it never will.
+
+| Owners | At 20 min | At 12 min | At 7 min | At 5 min |
+|---|---|---|---|---|
+| 20 | 6h 40m | 4h 00m | 2h 20m | 1h 40m |
+| 16 | 5h 20m | 3h 12m | 1h 52m | 1h 20m |
+| 12 | 4h 00m | 2h 24m | 1h 24m | 1h 00m |
+| 8 | 2h 40m | 1h 36m | 56m | 40m |
+
+A 6:30 to 9:30 evening is 180 minutes. After arrival, food and an opening, the usable capture window is about **105 minutes**, and it has to run without stopping the dinner, because a room where nobody talks to each other is a worse room.
+
+So the honest read: **at twenty minutes, only eight owners fit, and only if the entire evening is a production schedule.** That is not the event.
+
+## Three assumptions worth breaking before compromising
+
+1. **That interview length equals deliverable length.** It does not. Twenty minutes of raw is what an unstructured interview needs to find a story. With four fixed questions and an instruction to answer in full sentences, three good minutes produces a usable vertical cut, and ten produces a long-form edit.
+2. **That everyone needs the same capture.** They do not. The status and the money value sit in different objects, and the cheap one takes five minutes.
+3. **That the best footage comes from the event.** It does not. The best footage of a practice owner is shot **in their practice**: their space, their team, their front desk. A backdrop at a dinner venue produces generic footage no matter how long the interview runs.
+
+Breaking the third one resolves the constraint entirely, because the deep interview was always in the wrong place.
+
+## The two-tier capture model
+
+**Tier 1: the Portrait and the Question. Everyone, on the night.**
+
+One lit station running continuously alongside dinner. Each owner comes over when it suits them.
+
+| Step | Time |
+|---|---|
+| Walk over, mic up | 1.5 min |
+| Two or three portrait frames | 1.5 min |
+| One question to camera, two takes | 3 min |
+| Unmic, thank, release back to the table | 1 min |
+| **Per owner** | **~7 min** |
+
+They leave having been professionally photographed and filmed, and they receive edited stills plus a captioned vertical clip within a week. A current professional headshot is something most owners need, most owners have an outdated one, and it costs them nothing and five minutes.
+
+**The question is the same for everyone, every room.** Something that positions them as the expert and that they will happily post: what patients get wrong about their field, or the one change they made this year they would tell another owner to make. Identical questions make editing consistent, remove all preparation, and produce a series that compounds across months. Twenty owners answering the same question is a content format. One owner answering twenty questions is an interview.
+
+**Tier 2: the Feature. A few owners, at their own clinic, on another day.**
+
+Forty-five to sixty minutes on site, including footage of the space and the team. This is the asset with real market value, and it is better in every respect than anything shot at a dinner. It also gets you a second, unhurried touchpoint with a qualified owner, in their building, which is worth more than the evening itself.
+
+You already identified this as a separate opportunity. It is not separate. It is where the twenty minutes was always supposed to live.
+
+## Run of show, room of 12 to 16 owners
+
+| Time | What happens |
+|---|---|
+| 6:30 | Arrival, food, tables seated by catchment and discipline |
+| 6:50 | Open. Two minutes. What the night is, what happens with the footage, what nobody will do to them |
+| 7:00 | Capture station opens. Runner brings people over in a set order, two at a time, so nobody queues |
+| 7:00 to 8:45 | Dinner and tables run continuously. Capture never interrupts the room |
+| 8:45 | Station closes. Feature slots booked for whoever wants one |
+| 8:50 | Close. The nomination question. Who else should be in this room |
+| 9:15 | Ends |
+
+**12 owners at 7 minutes is 84 minutes and fits comfortably in one station.** 16 is 112 minutes and is tight but workable if the station opens at 6:50. Beyond 16, add a second operator rather than shortening the slot.
+
+**The runner is the role that makes this work**, and it is the right job for a student: they hold the running order, collect the release form, brief the next person on the question while the current one films, and keep the station from ever sitting idle. It also gives a student a real reason to be in the room without taking an owner's seat.
+
+## Scale reality check
+
+Room 001 had 16 attendees in total, of whom 10 or more were practising clinicians and none were confirmed as owner-operators of seven-figure practices. **Room 003 will not have 20 owners.** Designing the production around 20 is solving a problem you do not have yet. Design for 12, prove the footage is good, and add a second station the month the room outgrows one.
+
+## Answering the two compromises directly
+
+**Fewer people interviewed is the worse compromise.** It splits the room into the featured and the attending, it makes the unfeatured evening a plain dinner, and it forces a selection nobody asked you to make. Any owner who works out they were not chosen has been ranked, and `CLAUDE.md` rule 6 exists precisely because ranking guests is unrecoverable.
+
+**Shorter is survivable, and the fix is not duration.** What makes a person feel rushed is setup overhead eating their time and being cut off mid-answer. Both are solvable:
+
+- Pre-light and pre-frame the station before anyone arrives. Nobody watches you adjust a light
+- Fixed questions, so no thinking time is spent deciding what to ask
+- **The last question is always "anything you want to add."** They control the ending, so nobody is cut off
+- Tell them the format up front: short on the night, and a longer one at their clinic if they want it. An owner who knows a five-minute slot is a five-minute slot does not feel rushed. One who expected twenty does
+
+**If you must pick one of the two, pick shorter.** But the two-tier model means you do not have to.
+
+## What this does to the price
+
+A produced room is not a $2,500 monthly meetup. One operator, lighting, mics and edit turnaround is a real cost per room, and two operators is roughly double.
+
+**ASSUMPTION, and the first thing to replace with reality:** get two quotes for a single operator with lighting and a one-week edit turnaround for an evening in the GTA, and one for a photographer running a portrait station. Until those exist, the pricing below is a shape rather than a number.
+
+The likely commercial consequence: On Record sits at the **$7,500 session partner** line in `docs/13-buyer-led-room-design.md` rather than the $2,500 meetup line in `docs/16-product-architecture.md`, because the co-host is funding a production rather than an evening. That is a better sale, not a worse one, and the footage gives the co-host something concrete without ever touching the attendee list.
+
+**The cheap version, if the first room runs unfunded:** one operator, no separate photographer, stills pulled from video frames. Quality drops and it is still worth doing once, because you cannot sell this format without sample footage and you cannot get sample footage without running it.
 
 ## The founders' path, made explicit
 
