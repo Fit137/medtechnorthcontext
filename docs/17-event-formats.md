@@ -1,207 +1,196 @@
 # Event Formats: Room 003 Onwards
 
-> **INTERNAL. Status: proposal, decision pending.** Three candidate formats for the first room MedTech North runs on its own theme. No ADR yet. Write one once a format is chosen. Related: `docs/13-buyer-led-room-design.md`, `docs/16-product-architecture.md`, `ADR-012`, `ADR-016`.
+> **INTERNAL. Status: proposal, decision pending.** Formats for the first room MedTech North runs on its own theme. Part 1 records a rejected set and why, because the reason is the useful part. Part 2 is the current set. No ADR yet. Related: `docs/13-buyer-led-room-design.md`, `docs/16-product-architecture.md`, `ADR-012`, `ADR-016`.
 
 ---
 
-## Why a new format is needed
+## The constraint that reset the brief
 
-Rooms 001 and 002 were commissioned by Miro. The theme served the co-host: a patient journey mapped live on a Miro board, because the board was the product being demonstrated. That was correct for a paid engagement and it is finished. Miro is a reference now, not a client (`ADR-017`).
+The target is not "clinicians" in general. It is **owner-operators**: practice owners running businesses at six and mostly seven figures of annual revenue. `docs/03-icp-and-segments.md` lists practice owners under leadership, and `ADR-012` already says a dentist owns a practice and can buy in three weeks. This sharpens that from a sub-segment into the person the room is built for.
 
-Room 003 carries no co-host and no borrowed theme, so the format has to earn attendance on its own. It also has to survive being sold later, which means it must pass the no-funder gate in `docs/13-buyer-led-room-design.md`: state the topic and composition with no company attached, and ask whether it is a room worth running. All three formats below are scored against that.
+Three things follow, and they kill most event formats outright:
 
-## What room 001 actually taught
+1. **Their hour has a price they can calculate.** An evening is not free to them, it is chargeable time they are choosing not to bill.
+2. **They are pitched constantly.** Every vendor, agency, banker and platform in the sector is already asking for the same evening. An invitation that smells like one more of those is deleted, not declined.
+3. **They are tired.** They will not come out to do exercises, quizzes, mapping or structured discussion. Those are work, and they have work.
 
-From `data/events/2026-07-29-patient-journey-jam.md`:
+A free dinner does not clear this bar, because everyone offers a free dinner.
 
-| Observation | What it implies for format design |
-|---|---|
-| 16 attended. 10+ practising clinicians, zero physicians | Design for dentists, clinical pharmacists, physiotherapists and researchers. Not physicians, not students, not vendors |
-| A dentist and a clinical pharmacist read the same patient journey differently and both were right | Cross-disciplinary disagreement is the thing that worked. Build the format around producing it on purpose |
-| Presenters left with an artifact. Everyone else left with an evening | Value was concentrated in a few people. Spread it |
-| An MD founder withdrew over low physician count | People come for peer density before they come for content |
-| Three physicians accepted for room 002 and all three no-showed | Acceptance is not attendance. A role held on the night is the only lever available |
-| Service providers were turned away, correctly | Any format must have a natural cap on vendors, not a door policy argued at the door |
+## Part 1: the rejected set
 
-The design brief that falls out of this: **zero preparation for guests, a named job for as many people as possible, clinicians as the authority rather than the audience, and an artifact the room produces together rather than one presenter takes home.**
+Recorded because the failure mode is the reusable insight.
 
----
+| Format | What it was | Why it was rejected |
+|---|---|---|
+| **A. Verdict** | Founders show, clinicians score them on cards | Unpaid evaluation work for a stranger's company. The clinician is the supplier, not the beneficiary |
+| **B. The Friction List** | Clinicians name one friction each, room ranks them | Still work. Ninety seconds of public speaking and a ranking exercise is a task, dressed as participation |
+| **C. What Changed** | Dated policy hook, field notes, open table | A discussion. Informal, casual, and the owner gains nothing they can bank |
 
-## Format A: Verdict
+The common defect: **all three treated the clinician's attention as the input and gave the value to founders, to the room, or to a future insight brief.** That is backwards for this ICP.
 
-*Founders show, clinicians score.*
+## The rule that replaces them
 
-Four founders get four minutes each. No slides, no demo. Each brings one question they want answered. Every clinician in the room holds a card with three fixed lines: does this fit the way you actually work, would you use it, what would stop you. Cards are collected, scored and sent to each founder as a single sheet. Founders may not respond in the room.
+**The scarce side receives. The abundant side works and pays.**
 
-**Roles:** every clinician is a reviewer, named on the sheet. One timekeeper. One person reads the aggregate back at the end.
+Founders have time, they are proactive, and what they want is owner access. So they are the ones who apply, who pay, who get no stage time, and who earn a relationship after the room rather than during it. Owners receive something with a price on it and are asked for nothing.
 
-**Artifact:** a scored sheet per founder, clinician-sourced, role-attributed only with consent.
+This also fixes the sequencing problem. Guarantee the owners first and founders become easy to fill, because a founder buys a room on its composition. Chasing both at once has never worked here.
 
-**The problem with it:** the clinician is being asked to do unpaid evaluation work for a stranger's company. That is the same offer room 002 made to three physicians who did not turn up. It is the most familiar format of the three and the most replaceable.
+Three consequences that are now non-negotiable in any format below:
 
-**Naming note:** do not call this Second Opinion. That name belongs to the private 2 to 3 clinician product and reusing it at room scale dilutes the thing being sold.
-
----
-
-## Format B: The Friction List
-
-*Clinicians speak first. Founders respond, and only by attaching to something a clinician said.*
-
-The whole evening runs on one prompt: **one thing in your week that cost you time or money.** Every clinician gives theirs in ninety seconds, or writes it on a card and has it read out. Items go on the board, numbered as they land. After each block of five, someone from a different discipline says whether the same thing happens in theirs.
-
-Founders speak last and speak short. Sixty seconds each, and the only permitted opening is a number from the wall: "number seven, that is what we build against." That is the company share, and it is constrained on purpose, because a founder who has just been told the problem by the person who has it gives a better sixty seconds than one who was given a slot.
-
-The room then ranks the list. Top five get read back. Everyone leaves with the full numbered list within 48 hours.
-
-**Roles:** contributor (everyone, with a number), three openers asked personally, one timekeeper, two scribes at the board, cross-check speakers between blocks, founder responders, one closer. Scribe is the right seat for a student: a real job that does not consume a clinician's chair.
-
-**Artifact:** a dated, numbered, discipline-tagged list of what breaks in Canadian dental practices and community pharmacies. That is the insight brief seed (`ADR-011`) and it is precisely the thing `docs/13-buyer-led-room-design.md` says a corporate buyer cannot produce for itself.
-
-**Why the show rate should be the highest of the three:** the item is collected at RSVP. Someone who has typed their friction has co-authored the agenda, and the room is visibly holding a slot with their number on it. That is a smaller psychological gap to close than "I said I would come to a networking evening."
+- **No pitching, no deck, no demo, no stage time for founders.** Already house rule (`docs/13-buyer-led-room-design.md`), now load-bearing rather than decorative
+- **No task is assigned to an owner.** Not a card, not a vote, not a map
+- **The owner's benefit is stated in the first message and is legible in one line**
 
 ---
 
-## Format C: What Changed
+## Part 2: the current set
 
-*A dated policy hook, pointed at one profession at a time.*
+## Format D: On Record
 
-Ontario pharmacy scope went from 19 minor ailments to 28 on 1 July 2026, with six newly funded vaccines. The CDCP 2026-27 benefit year opened the same day. Both are on the verified list. The room asks what actually changed at the counter and in the chair since then.
+*The owner leaves owning a professional asset about their own practice.*
 
-Three or four clinicians give five minutes of field notes each, no slides, invited weeks in advance. Then the table opens. Founders in the room respond to what they heard.
+The evening runs a small production set alongside dinner. Each owner takes a booked twenty-minute slot: proper lighting, a real camera, a lav mic, an interviewer who has read about their practice. They talk about their own work. What they treat, what they have built, what patients get wrong about their field, what they wish referrers understood.
 
-**Roles:** heavy for the four who speak, light for everyone else. This is the format's weakness and it is structural, not a detail to be fixed with a run of show.
+They leave owning the footage outright. Edited long form, vertical cuts for social, stills, and a written profile drawn from the transcript. Theirs to run as advertising, put on their site, or send to a referrer. No cost, no obligation, no watermark demanded.
 
-**Artifact:** a short written brief. Highly saleable, and it dates fast.
+**What the owner receives:** an asset with a market price, plus the status of being the one who was interviewed. Both, in one object, on the night.
 
-**What it is really for:** this is the single-specialty room that item 12 of `HANDOFF.md` calls the untested claim. Convening a named specialty at volume has never been done here. Both prior rooms were mixed.
+**Effort asked of them:** turn up presentable and talk about themselves for twenty minutes. No preparation, no reading, no homework.
+
+**Why it is hard to say no:** they are not being asked for their opinion on somebody else's product. They are being told that their practice is worth a professional feature and that someone else will do all of the work.
+
+**Where founders sit:** at the tables, over dinner, with no airtime whatsoever. They meet owners as people between filming slots.
+
+**ASSUMPTION.** A comparable production booked privately runs into the low thousands. Get two real quotes before this number is used in any conversation.
+
+## Format E: The Catchment Table
+
+*The other people at the table send patients to practices like yours.*
+
+Eight to twelve owners, deliberately non-competing and geographically adjacent. A dentist, a physiotherapist, a community pharmacy owner, an optometrist, a massage or chiropractic clinic owner, all inside the same catchment, none in the same discipline. Dinner, no programme, no exercise. The seating plan is the entire product.
+
+Afterwards, consented introductions are made individually by MedTech North, which is already how the dinner product works (`docs/16-product-architecture.md`).
+
+**What the owner receives:** referral relationships in their own catchment, which is recurring revenue rather than a one-off.
+
+**Effort asked of them:** none. This is the lowest-effort format available.
+
+**The weakness, stated plainly:** the value arrives over months, not on the night, and the curation that makes it valuable is invisible until they are already sitting down. It is also the format that most resembles a referral networking group, and an owner at seven figures has usually already declined three of those. Differentiate hard on the things those groups do that this does not: no dues, no attendance requirement, no obligation to produce referrals, invitation only.
+
+## Format F: The Bench
+
+*The people the owner needs to hire are in the room.*
+
+Staffing is the operational emergency in dental, physiotherapy and community pharmacy right now. Owners pay real money to fill a chair or a bench and wait months to do it.
+
+The room puts owners together with final-year students and recent graduates in the disciplines they actually hire, nominated by faculty rather than self-selected. No booths, no résumé tables, no career fair staging. Dinner, and the owners are the reason the students are there.
+
+This inverts the student problem in `docs/03-icp-and-segments.md`. Students stop being seats that dilute the room and become the reason the owner attends.
+
+**What the owner receives:** a hiring pipeline they would otherwise pay a recruiter for.
+
+**Effort asked of them:** none, and it is flattering, because they spend the evening being courted.
+
+**The weakness:** an owner who is fully staffed this month has no reason to come, and you cannot tell who that is without asking at invitation. Founders also have close to no reason to be in this room, which breaks the sequencing logic the whole design rests on.
+
+**ASSUMPTION.** Recruiter placement fees for these roles in the GTA are commonly quoted as a percentage of first-year salary. Do not use a figure until one is sourced into `data/verified-stats.md`.
 
 ---
 
 ## Scoring
 
-Weights reflect what the room has to do: attract clinicians, hold them to the date, explain itself in one message, cost the guest nothing, and carry a commercial layer later.
+Weights reflect the reset brief: the owner is the constraint, the value must be immediate and bankable, and nothing may be asked of them.
 
-Clinician attraction 0.22 · show rate 0.20 · explainability in outreach 0.16 · commercial carrying capacity 0.14 · guest effort 0.12 · founder stake 0.10 · advertisability 0.06
+Owner pull 0.26 · immediate money or status value 0.18 · show rate 0.14 · owner effort 0.12 · outreach explainability 0.10 · founder pull and willingness to pay 0.08 · co-host carrying capacity 0.07 · advertisability 0.05
 
-| Criterion | A. Verdict | B. Friction List | C. What Changed |
+| Criterion | D. On Record | E. Catchment Table | F. The Bench |
 |---|---|---|---|
-| Clinician attraction | 6 | 9 | 8 |
-| Show rate | 7 | 9 | 7 |
-| Explainability | 8 | 9 | 10 |
-| Commercial carrying capacity | 7 | 8 | 10 |
-| Guest effort (higher is easier) | 9 | 9 | 7 |
-| Founder stake | 9 | 7 | 5 |
-| Advertisability | 8 | 9 | 9 |
-| **Weighted total** | **7.44** | **8.66** | **8.04** |
+| Owner pull | 9 | 7 | 8 |
+| Immediate money or status value | 10 | 6 | 8 |
+| Show rate | 9 | 7 | 8 |
+| Owner effort (higher is easier) | 9 | 10 | 9 |
+| Outreach explainability | 9 | 8 | 10 |
+| Founder pull and willingness to pay | 8 | 6 | 5 |
+| Co-host carrying capacity | 9 | 8 | 7 |
+| Advertisability | 10 | 5 | 8 |
+| **Weighted total** | **9.15** | **7.17** | **8.01** |
 
 ### Reading the scores
 
-**Clinician attraction.** A asks a clinician to work on a founder's problem. B asks them to talk about their own week and hear how three other disciplines handle the same thing. C asks about their own revenue, which is the strongest hook of all, but only for the one profession named.
+**Owner pull.** D is the only one where the offer is a gift rather than an invitation. E is a dinner, and the reset brief says dinners do not clear the bar on their own. F is strong but conditional on the owner hiring this month.
 
-**Show rate.** B is the only format where the guest has already contributed something before the day. A and C both leave most of the room in an audience seat, and an audience seat is the easiest thing in the world to skip.
+**Immediate value.** D delivers on the night, in an object they can hold. F is quantifiable but arrives weeks later as a hire. E is the slowest and the vaguest, which is its real problem.
 
-**Explainability.** C wins outright because it is news and needs no explanation at all. B needs one extra sentence. A sounds like a pitch night, which is legible but crowded.
+**Show rate.** D has the strongest no-show deterrent available anywhere: a booked slot, at a named time, with a crew and a set waiting. Missing it wastes something visible. E is a dinner seat and dinner seats are the easiest thing in the world to skip, partly recoverable by naming the other seven people to each guest.
 
-**Commercial carrying capacity.** C is the room a pharmacy-adjacent company already has a budget line for. B builds an asset that compounds across editions instead of expiring with the news cycle. A is the weakest, because a founder showcase is cheap in this market and the buyer for it is not the buyer described in `data/corporate-targets.md`.
+**Founder pull.** D gives founders a room of owners and a credible reason to accept zero airtime. F barely justifies their presence at all, which is why it scores lowest despite being a good event.
 
-**Founder stake.** A gives founders the most airtime, C the least. B gives them the least airtime of any format that still counts as a share, but arguably the best sixty seconds, because they respond to a stated problem rather than opening cold.
+**Advertisability.** D compounds. Every clip an owner posts to their own audience carries the room with it, and it is the only format that produces public material without breaking the no-track-record rule, because the material is about the owner rather than about MedTech North.
 
-**Advertisability.** All three are advertisable within the rules. None may carry attendee counts, member counts, past-event galleries or logos (`CLAUDE.md` rule 3, `data/verified-stats.md`). What can be advertised is the format, the prompt, the disciplines invited and the artifact.
+## What each one costs you
 
----
+Not folded into the score above, because these are your constraints rather than the guest's. They matter more than usual given revenue to date is $0.
+
+| | D. On Record | E. Catchment Table | F. The Bench |
+|---|---|---|---|
+| Cash per room | Production on top of catering | Catering only | Catering only |
+| Your operational load | High. Slot booking, running a set, edit turnaround | Low | Medium. Faculty sourcing takes lead time |
+| Fit with the convening business | Strong. The footage is also your own evidence base | Strong. It is the existing dinner product with better seating | Weak. A talent room has a different buyer than `data/corporate-targets.md` |
+| It fails if | The footage is not genuinely good. Below a quality bar, the gift becomes an embarrassment | The curation is not real, or one vendor gets in | Owners are not hiring that month |
+
+**If cost were weighted, D still leads**, because a single co-host fee at the existing $2,500 meetup rate is sized to cover an evening of production almost exactly. But D is the one format that cannot be run badly on a budget, and a mediocre video is worse than no video.
 
 ## Recommendation
 
-**Run B as the format. Point edition one at C's topic.**
+**Run D. Apply E's seating discipline to the dinner half of the same night.**
 
-They are not mutually exclusive and treating them as such wastes the better half of each. The Friction List is the recurring container: same prompt, same roles, same artifact, every month, so it accumulates. What Changed is a theme the container can be pointed at, and it happens to be the sharpest theme available for the next two months while the 1 July changes are still fresh.
+They are complementary rather than competing. On Record needs something for people to do between filming slots, and a curated non-competing catchment table is the best possible answer, so the same evening delivers a produced asset and a referral relationship without asking the owner for anything either time.
 
-So room 003 is The Friction List, and the prompt for that edition is narrowed: *one thing that has cost you time since the scope change on 1 July.* Pharmacists and dentists both answer it, both have a live commercial reason to care, and the cross-discipline check between blocks is exactly the mechanism that produced the best moment of room 001.
+**Hold F.** It is a good event and a real business, but it serves a different buyer and it gives founders nothing, which breaks the sequencing that makes everything else work. Revisit it once the owner room exists and can be borrowed against.
 
-Format A is not worthless, it is mistimed. Once there is a paying co-host and an external venue, a scored founder review has a buyer. Running it now, unfunded and in the condo, spends the clinician goodwill that everything else depends on.
+## The founders' path, made explicit
 
----
+This is the inversion, written as a mechanic rather than a principle.
 
-## The roles ledger
+| Stage | What the founder gets |
+|---|---|
+| Before | Applies. Pays. Told plainly there is no stage time, no deck, no demo, no pitching |
+| On the night | A seat at a table with owners, and nothing else. They are a guest at someone else's feature |
+| After | They submit which owners they want to reach and why, to MedTech North |
+| The gate | The owner is asked privately and says yes or no. No is final and is not reported back as a maybe |
+| The outcome | A consented introduction, made personally. Three to five per room, per `docs/16-product-architecture.md` |
 
-Show rate is the whole argument for this design, so the roles are listed as an operational checklist rather than a description.
+The point of routing the ask through you rather than the room: **the owner is never pitched at the event.** That is the single thing that makes them willing to come back, and it is also what a founder is actually paying for, because a warm introduction from the convener converts better than a cornered conversation at a dinner.
 
-| Role | How many | Asked when | Effort on the night |
-|---|---|---|---|
-| Contributor | Everyone | At RSVP | 90 seconds, or a card read for them |
-| Opener | 3 | Personally, one week out | Goes first, nothing else |
-| Timekeeper | 1 | On arrival | Calls time. Good returning-guest job |
-| Scribe | 2 | One week out | Writes items on the board. Student seat |
-| Cross-check | 4 to 6 | On the night, by discipline | One sentence between blocks |
-| Founder responder | Each founder | At RSVP | 60 seconds, must open with a number |
-| Closer | 1 | On the night | Reads the top five back |
+## Outreach, first message to an owner
 
-Role names avoid every regulated title in `CLAUDE.md` rule 5. Nobody is a chair, a lead, or anything that reads as clinical rank. Check any new role name against that list before it goes on a card.
-
-## Show-rate mechanics
-
-Free-attendance events run 40 to 60% no-show and `docs/16-product-architecture.md` states that plainly rather than pretending otherwise. Roles improve the number, they do not solve it. Stated honestly so the first edition is not judged against a fantasy.
-
-1. **Collect the item at RSVP.** Single highest-value mechanic. It converts an RSVP into a contribution.
-2. **Send the number back.** "You are number seven." Three days out.
-3. **Ask the openers personally.** Three people who know the evening starts with them.
-4. **Send the previous edition's list to everyone confirmed**, 48 hours out, once one exists. Proof the artifact is real.
-5. **Text on the day, not email.** One line, mid-afternoon. Room 001's pre-event blast went by email and carried a broken video link.
-6. **Close with the nomination question.** "Who else should be on this list?" Item 9 of `HANDOFF.md`, and the cheapest recruitment channel in the business.
-7. **Venue.** The condo held for dentists and pharmacists and repelled physicians, costing a confirmed speaker. Keep it for unfunded editions only, per `ADR-013`.
-
-**ASSUMPTION.** No-show improvement from the role mechanic is untested here. Instrument the funnel from the first message so edition one produces a real number rather than another anecdote (`HANDOFF.md` item 3).
-
-## The commercial layer
-
-Public and private are separate documents and separate vocabularies. `CLAUDE.md` rule 2 and `ADR-007` are absolute: the words sponsor, sponsorship, partner tier, anchor, exhibitor, booth and lead access do not appear on the site, on Luma, in social copy, or in anything a guest reads.
-
-**In public, a paying company is a co-host and is named as one.** That is exactly what Miro was, it is already established practice for this room series, and it needs no euphemism.
-
-**In private,** the pricing already exists and should not be reinvented here:
-
-| Line | Price | Source |
-|---|---|---|
-| Monthly meetup co-host | $2,500 per room, $24,000 for twelve | `docs/16-product-architecture.md` |
-| Session partner, themed room | $7,500 | `docs/13-buyer-led-room-design.md` |
-| Insight brief built from the room | $12,000 to $18,000 | same |
-| Bundle | $18,000 to $22,000 | same |
-
-The Friction List is unusually well suited to the bundle, because the room and the brief are the same object. The list a company funds in March is the brief it reads in April.
-
-**Category exclusivity is one company per room** (`ADR-020`). The co-host influences the theme and may nominate. MedTech North composes the room (`docs/13-buyer-led-room-design.md`).
-
-## What must never happen to this format
-
-- No attendee list is ever sold from a dinner or a convening. The meetup carries a named, unchecked, express-consent opt-in and nothing else (`docs/16-product-architecture.md`)
-- Clinicians pay nothing, in this format and every future one (`ADR-002`)
-- The friction list is published at pattern level. No named clinician and no named employer without written permission
-- No claim that physicians attend. Three accepted for room 002 and none has yet sat in a room
-- Vendors are capped in the composition, not argued with at the door. Six in a room of forty, fewer in a smaller one (`docs/03-icp-and-segments.md`)
-
-## Outreach copy, first message
-
-Written for a clinical pharmacist. Swap the hook for the CDCP benefit year when writing to a dentist.
-
-> Hi [name]. I run a small monthly room in Mississauga for people working in Canadian health: dentists, pharmacists, physiotherapists, researchers, and some of the people building software for them.
+> Hi [name]. I run a small monthly room in Mississauga for people running clinical practices across the GTA.
 >
-> The next one is [date] and the whole evening runs on one question. Since scope expanded on 1 July, what is actually costing you time at the counter?
+> The next one is [date] and it works differently to most invitations you get. We bring in a proper camera setup and interview each practice owner in the room for twenty minutes about their own work. You leave owning the footage: the full interview, short cuts for social, stills and a written profile. Yours to use however you want, including as advertising for the practice.
 >
-> Everyone gives one item, ninety seconds, no slides, nothing to prepare. They go on the board, the room ranks them, and the founders in the room respond to the ones they are building against. You leave with the full list.
+> Nothing to prepare, nothing to present, and nobody is selling you anything on the night. Dinner is provided and there is no cost to you, permanently.
 >
-> Clinicians attend at no cost, permanently. Food is provided.
->
-> If you want a slot, reply with the one thing you would put on the list and I will hold you a number.
+> If you want a slot, tell me which evening time suits and I will hold it for you.
 
-The last line is the mechanism, not a flourish. It converts a reply into a commitment and gives the follow-up something concrete to confirm.
+The last line is the show-rate mechanic. A held time with a crew attached is a much harder commitment to walk away from than an RSVP to an evening.
 
-Every figure usable in the surrounding campaign is in `data/verified-stats.md`: 19 to 28 minor ailments as of 1 July 2026, five more in early 2027 reaching 33, six newly funded vaccines, over 99% of Ontario pharmacies participating, 2.4 million assessments delivered, and for dentistry the 2026-27 CDCP benefit year, 6.5 million covered, over 4 million treated, roughly $13 billion across five years.
+Companion line for founders, which must never appear in the owner's message: no stage time, no demo, introductions afterwards and only with the owner's consent.
+
+## Before the first room
+
+- [ ] **Two real production quotes.** One operator, lighting, mics, edit turnaround. The whole format depends on this number being affordable and the output being good
+- [ ] **Sample footage exists before the first invitation goes out.** Film one friendly owner first. Nobody books a slot on a promise, and you cannot claim a track record (`CLAUDE.md` rule 3)
+- [ ] **Ownership and permission in writing.** They own their footage outright. Any use by MedTech North needs separate written permission, and putting it on the site needs its own ADR
+- [ ] **No patient information on camera.** Ever. No charts, no screens, no identifiable case detail
+- [ ] **Verify professional advertising rules per college** before the first shoot. Dentistry, pharmacy and physiotherapy each regulate how a member may advertise, and comparative or superlative claims are the likely exposure. **ASSUMPTION until checked with the actual college guidance.** Simplest mitigation: brief every interviewee that the edit will not carry superlatives, and let them approve their cut
+- [ ] **Venue.** A residential amenity lounge is not a set, and it already cost one confirmed speaker (`ADR-013`). A production night is the strongest possible reason to fund an external venue
 
 ## Open questions
 
 | Question | Why it matters | Who decides |
 |---|---|---|
-| Mixed room or single specialty for edition one? | Single specialty tests the unproven claim. Mixed protects the cross-discipline moment that worked | Ali |
-| Does the ninety-second round scale past about 20 speakers? | At 30 attendees the round alone runs an hour. Blocks and card reading are the mitigation, untested | Test in edition one |
-| Is a co-host approached before or after edition one runs unfunded? | Selling a format nobody has seen is harder. Running it free costs a month | Ali |
-| Does the list get published, and where? | It is the most saleable asset in the business and giving it away free changes the brief's price | Needs its own ADR |
+| Is the ICP now formally owner-operators rather than clinicians broadly? | It changes `docs/03-icp-and-segments.md` and probably needs an ADR | Ali |
+| One discipline per room or mixed catchment? | Mixed serves the referral half. Single discipline is the untested volume claim in `HANDOFF.md` | Ali |
+| Does room 003 run unfunded to produce the sample, or wait for a co-host? | Selling a format nobody has seen is hard. Running it costs production money you do not have yet | Ali |
+| Who conducts the interviews? | Founder-led is cheaper and warmer. It also makes you the bottleneck on a night you are already hosting | Ali |
