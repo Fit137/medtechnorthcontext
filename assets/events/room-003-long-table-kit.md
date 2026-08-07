@@ -2,7 +2,7 @@
 
 > **Public copy is final and ready to publish.** Format decision: `ADR-023`. Format detail: `docs/17-event-formats.md`.
 >
-> **Date:** twenty days from 7 August 2026 is **Thursday 27 August 2026**.
+> **Date: Wednesday 26 August 2026, 6:30 to 9:00 pm.** Confirmed by Ali. Every occurrence below is the real date, not a derived one.
 
 ---
 
@@ -47,7 +47,7 @@ It carries the brand and is built from a word the brand already owns. `docs/07-b
 
 All the persuasion sits in the direct messages in section 7. The page carries the name, the legitimacy, the logistics and the rules.
 
-**What the page has to sell, now that the media is private and there is no programme:** an evening where nothing whatsoever is asked of the guest. For a clinic owner who gets pitched every week and is tired by Thursday, that is not a thin offer. It is the offer. Written properly, "there is no agenda and nothing to prepare" is more attractive than any format would be.
+**What the page has to sell, now that the media is private and there is no programme:** an evening where nothing whatsoever is asked of the guest. For a clinic owner who gets pitched every week and is tired by midweek, that is not a thin offer. It is the offer. Written properly, "there is no agenda and nothing to prepare" is more attractive than any format would be.
 
 The second thing it sells is the seating, which is real work, requires nothing from the guest, and is already house practice.
 
@@ -102,11 +102,13 @@ Kept mixed on purpose, and kept small:
 - Researchers and academics working in health
 - A small number of people building health technology
 
+A dentist and a pharmacist describe the same patient completely differently, and both of them are right. That's the reason for the mix.
+
 Registration is reviewed so the table stays balanced. If it's already full for your group I'll tell you straight and hold you for the next one.
 
 **There's no programme**
 
-That's the design, not an omission. No agenda, no exercises, nothing going round the table, nothing to prepare and nothing to present. Food is out from 6:30 and the evening is dinner and conversation until half past nine. If you've had a long week you can sit and eat and say very little, and that's a perfectly good way to spend it.
+That's the design, not an omission. No agenda, no exercises, nothing going round the table, nothing to prepare and nothing to present. Food is out from 6:30 and the evening is dinner and conversation until nine. If you've had a long week you can sit and eat and say very little, and that's a perfectly good way to spend it.
 
 The one part I put real work into is the seating. You won't be picking your own chair. I place people, and I think about it for a long time before the night.
 
@@ -118,13 +120,13 @@ The one part I put real work into is the seating. You won't be picking your own 
 
 **What you leave with**
 
-- A few people who now understand what you actually do, without you having had to explain it three times
-- Whoever I sat you beside, chosen deliberately. A dentist and a pharmacist describe the same patient completely differently, and both of them are right
-- Introductions afterwards if you want them, made properly, and only ever after I've asked the other person
+- People who understand your work without you explaining it
+- A seat chosen for you, and whoever ends up beside you
+- Introductions afterwards, if you want them
 
 **Details**
 
-Thursday 27 August, 6:30 to 9:30 pm
+Wednesday 26 August, 6:30 to 9:00 pm
 Mississauga. Register and I'll send you the address
 No cost, and dinner is covered
 
@@ -146,11 +148,11 @@ The public page does not disclose that filming happens, so **the disclosure has 
 Send on registration, and again 48 hours before.
 
 ```
-Subject: You're in for the Table on Thursday
+Subject: You're in for the Table on Wednesday
 
 Hi [name],
 
-You're confirmed for the MedTech North Table on Thursday 27 August, 6:30 to 9:30. The address is [address], and there's parking at [detail].
+You're confirmed for the MedTech North Table on Wednesday 26 August, 6:30 to 9:00. The address is [address], and there's parking at [detail].
 
 One thing to know in advance, because I'd rather you heard it now than at the door.
 
@@ -160,7 +162,7 @@ It's entirely optional and it happens off to the side, not in front of everyone.
 
 If you'd like a photo slot, reply and I'll hold you a time.
 
-See you Thursday,
+See you Wednesday,
 Ali
 ```
 
@@ -183,7 +185,7 @@ The reason I'm writing to you specifically. I bring in a photographer and a prop
 
 The rest of the table is people like you running clinics across the GTA, plus a few researchers and people building software for practices. Nobody pitches you. That's a rule, not a hope.
 
-Thursday 27 August, 6:30 to 9:30, dinner's covered, and there's nothing to prepare.
+Wednesday 26 August, 6:30 to 9:00, dinner's covered, and there's nothing to prepare.
 
 If it's a yes I'll hold you a photo slot. If the evening doesn't work, I do these at people's own clinics too, and honestly the footage comes out better there.
 ```
@@ -199,7 +201,7 @@ There's a photographer there with proper lighting, so if you want one you can co
 
 Mostly I think you'd enjoy the table. Dentists, pharmacists, physios, researchers, a few people building health software. It's the rare room where you don't have to explain your job before you can talk about it.
 
-Thursday 27 August, 6:30 to 9:30. Dinner's on me, and it stays free for clinicians permanently.
+Wednesday 26 August, 6:30 to 9:00. Dinner's on me, and it stays free for clinicians permanently.
 ```
 
 ### Message C. Founders and operators. Days 16 to 20
@@ -211,7 +213,7 @@ Being straight with you about what this is and isn't. No stage time, no demo, no
 
 If you meet someone worth following up with, tell me afterwards and I'll ask them. If they say yes I'll make the introduction properly. If they say no, that's the end of it.
 
-Thursday 27 August, 6:30 to 9:30.
+Wednesday 26 August, 6:30 to 9:00.
 ```
 
 ### Message D. Researchers, and students for the runner seat. Days 16 to 20, capped
@@ -223,7 +225,7 @@ There's a photographer there too, so you can come away with a proper headshot an
 
 [Students only] I also need one person to help run the photo station: hold the running order, let people know when their slot's up, keep it from sitting idle. It's a real job for the evening and it means you'll have spoken to everyone in the room by the end of it. Interested?
 
-Thursday 27 August, 6:30 to 9:30. No cost.
+Wednesday 26 August, 6:30 to 9:00. No cost.
 ```
 
 ---
@@ -297,8 +299,8 @@ Build a social asset set for **The MedTech North Table**, a small monthly dinner
 
 **Assets**
 
-1. **Luma cover**, 1080 × 1080. Drawn line-art long table, set for dinner, empty. Series name across the upper third, "Mississauga, Thursday 27 August" beneath at a quarter of the size
-2. **Announcement frame**, 1080 × 1350. Typographic. Headline: *One table. No agenda.* Support: *Mississauga, Thursday 27 August*
+1. **Luma cover**, 1080 × 1080. Drawn line-art long table, set for dinner, empty. Series name across the upper third, "Mississauga, Wednesday 26 August" beneath at a quarter of the size
+2. **Announcement frame**, 1080 × 1350. Typographic. Headline: *One table. No agenda.* Support: *Mississauga, Wednesday 26 August*
 3. **The rules frame**, 1080 × 1350. Three lines stacked with generous leading: *Nobody presents. / Nobody pitches. / Nothing leaves the table.* No illustration. This is the strongest frame in the set and should be the largest type
 4. **The seating frame**, 1080 × 1350. Headline: *You don't pick your chair.* Support: *That part I do, and I take a while over it.* Optional single drawn chair in line work
 5. **Story versions**, 1080 × 1920, of assets 2 and 3, all copy inside the middle 70% vertically
@@ -306,14 +308,14 @@ Build a social asset set for **The MedTech North Table**, a small monthly dinner
 
 **Carousel copy. Typeset exactly, do not rewrite or add words**
 
-1. *The MedTech North Table.* / A small dinner for people who work in health. Mississauga, Thursday 27 August
+1. *The MedTech North Table.* / A small dinner for people who work in health. Mississauga, Wednesday 26 August
 2. *Twelve or so people who work in health. One table.*
 3. *There's no programme. Nothing to prepare, nothing to present.*
 4. *Nobody presents. Nobody pitches. Nothing leaves the table.*
 5. *The only part I actually work on is who sits beside who.*
 6. *A dentist and a pharmacist describe the same patient completely differently. Both of them are right.*
-7. *Eat. Talk. Home by half past nine.*
-8. *Thursday 27 August, 6:30. Dinner's covered.* / Link below
+7. *Eat. Talk. Home by nine.*
+8. *Wednesday 26 August, 6:30. Dinner's covered.* / Link below
 
 Frames 1 and 4 carry the most visual weight, frame 4 heaviest of all. Frames 2, 3, 7 and 8 are quiet. Swiping should feel the rhythm lift at 4 and settle again after.
 
@@ -328,7 +330,7 @@ Six posts across twenty days. No cameras, no media, and nothing that describes a
 ### Post 1. Day 1, announcement
 
 ```
-Next MedTech North Table is Thursday 27 August in Mississauga.
+Next MedTech North Table is Wednesday 26 August in Mississauga.
 
 Twelve or so people who work in health around one table. Dentists, pharmacists, physios, researchers, a few people building software that ends up in clinics.
 
@@ -352,7 +354,7 @@ So I move people around a lot in the week before. Not by seniority, not by who r
 
 You don't get to pick your chair. A couple of people have found that funny. Nobody's minded.
 
-Next one's Thursday 27 August, Mississauga. Link in the comments.
+Next one's Wednesday 26 August, Mississauga. Link in the comments.
 ```
 
 ### Post 3. Day 9, the rules
@@ -370,7 +372,7 @@ If you meet someone worth talking to, tell me afterwards and I'll ask them for y
 
 Costs the room nothing and it's the only reason people come twice.
 
-Next MedTech North Table is Thursday 27 August, Mississauga. Link in the comments.
+Next MedTech North Table is Wednesday 26 August, Mississauga. Link in the comments.
 ```
 
 ### Post 4. Day 14, carousel caption
@@ -378,19 +380,19 @@ Next MedTech North Table is Thursday 27 August, Mississauga. Link in the comment
 ```
 What actually happens at the MedTech North Table, in eight slides.
 
-Short version: nothing is asked of you. You turn up, you eat, you talk to the people I sat you next to, and you're home by half past nine.
+Short version: nothing is asked of you. You turn up, you eat, you talk to the people I sat you next to, and you're home by nine.
 
-Mississauga, Thursday 27 August. Link in the comments.
+Mississauga, Wednesday 26 August. Link in the comments.
 ```
 
 ### Post 5. Day 17, works whichever way the room went
 
 ```
-The table for the 27th is coming together and the mix is good. Practice owners, a couple of researchers, people building software that ends up in clinics.
+The table for the 26th is coming together and the mix is good. Practice owners, a couple of researchers, people building software that ends up in clinics.
 
 That mix is the entire point. A dentist and a pharmacist will describe the same patient completely differently and both of them are right, and you only find that out if they're sitting close enough to argue about it over dinner.
 
-A few seats left. Mississauga, Thursday 27 August, no cost, dinner's covered.
+A few seats left. Mississauga, Wednesday 26 August, no cost, dinner's covered.
 ```
 
 > Change the groups named in line one to whoever actually confirmed. Never state a number.
@@ -411,14 +413,14 @@ If you've been meaning to reply, today's the day. Link's in the comments.
 
 | Slide | On-image copy | Visual weight |
 |---|---|---|
-| 1 | The MedTech North Table. / A small dinner for people who work in health. Mississauga, Thursday 27 August | Heavy. Line-art table. Full name at headline scale |
+| 1 | The MedTech North Table. / A small dinner for people who work in health. Mississauga, Wednesday 26 August | Heavy. Line-art table. Full name at headline scale |
 | 2 | Twelve or so people who work in health. One table. | Quiet, typographic |
 | 3 | There's no programme. Nothing to prepare, nothing to present. | Builds |
 | 4 | Nobody presents. Nobody pitches. Nothing leaves the table. | **Heaviest frame in the set** |
 | 5 | The only part I actually work on is who sits beside who. | Medium |
 | 6 | A dentist and a pharmacist describe the same patient completely differently. Both of them are right. | Medium |
-| 7 | Eat. Talk. Home by half past nine. | Quiet |
-| 8 | Thursday 27 August, 6:30. Dinner's covered. / Link below | Quiet close, crimson on the link line |
+| 7 | Eat. Talk. Home by nine. | Quiet |
+| 8 | Wednesday 26 August, 6:30. Dinner's covered. / Link below | Quiet close, crimson on the link line |
 
 ---
 

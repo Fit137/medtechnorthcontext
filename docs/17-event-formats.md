@@ -200,19 +200,23 @@ Forty-five to sixty minutes on site, including footage of the space and the team
 
 You already identified this as a separate opportunity. It is not separate. It is where the twenty minutes was always supposed to live.
 
-## Run of show, room of 12 to 16 owners
+## Run of show, room of 12 to 14 owners
+
+Room 003 runs **6:30 to 9:00**, which is 150 minutes rather than the 180 assumed earlier. The capture window shrinks with it.
 
 | Time | What happens |
 |---|---|
 | 6:30 | Arrival, food, tables seated by catchment and discipline |
-| 6:50 | Open. Two minutes. What the night is, what happens with the footage, what nobody will do to them |
-| 7:00 | Capture station opens. Runner brings people over in a set order, two at a time, so nobody queues |
-| 7:00 to 8:45 | Dinner and tables run continuously. Capture never interrupts the room |
-| 8:45 | Station closes. Feature slots booked for whoever wants one |
-| 8:50 | Close. Two minutes, thanks and nothing else. The nomination question is asked to people individually as they leave, never to the room |
-| 9:15 | Ends |
+| 6:45 | Open. Two minutes. What the night is, what happens with the footage, what nobody will do to them |
+| 6:50 | Capture station opens. Runner brings people over in a set order, two at a time, so nobody queues |
+| 6:50 to 8:30 | Dinner and tables run continuously. Capture never interrupts the room |
+| 8:30 | Station closes. Feature slots booked for whoever wants one |
+| 8:35 | Close. Two minutes, thanks and nothing else. The nomination question is asked to people individually as they leave, never to the room |
+| 9:00 | Ends |
 
-**12 owners at 7 minutes is 84 minutes and fits comfortably in one station.** 16 is 112 minutes and is tight but workable if the station opens at 6:50. Beyond 16, add a second operator rather than shortening the slot.
+**The capture window is now 100 minutes, not 105.** 12 owners at 7 minutes is 84 minutes and still fits one station with room to spare. **The one-station ceiling drops from about 16 to about 14.** Beyond that, add a second operator rather than shortening the slot, because a shortened slot is the compromise that makes someone feel rushed.
+
+With a commissioned second question at roughly 8.5 minutes per owner, one station carries **11**. That is the number to hold if a brief has been sold.
 
 **The runner is the role that makes this work**, and it is the right job for a student: they hold the running order, collect the release form, brief the next person on the question while the current one films, and keep the station from ever sitting idle. It also gives a student a real reason to be in the room without taking an owner's seat.
 
