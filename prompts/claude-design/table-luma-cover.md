@@ -1,27 +1,30 @@
 # Prompt: Luma cover for The MedTech North Table
 
-> For Claude Design, which already holds the MedTech North design system. Everything about palette, type, grid and craft is deliberately omitted so the system governs it. Paste everything below the rule.
+> For Claude Design. **No design system is briefed on purpose.** Palette, type, layout and craft are left entirely to Claude Design's native system. Only content, format and the three honesty constraints are specified, because those are the things it cannot infer.
 >
-> Supersedes `prompts/claude-code/table-image-assets.md`, which built the full 14-frame set as code and restated design rules unnecessarily.
+> Reflects the published page: edition numbering (`ADR-024`), "health tech" rather than health, and no seating or food claims.
 
 ---
 
-Design the Luma event cover for **The MedTech North Table**, a small monthly dinner in Mississauga for people who work in health. Use the MedTech North design system.
+Design a Luma event cover for **The MedTech North Table**, a small monthly dinner in Mississauga for people who work in health tech.
+
+**Use your own design system.** Do not ask me for brand guidelines and do not wait on any. Apply your native system and make the visual calls yourself.
 
 **Format:** 1080 × 1080.
 
-**Subject:** one long dining table, set for a shared meal and completely empty. Plates, glasses, a jug, folded napkins, unlit candles. Chairs pulled in along both sides.
+**Subject:** one long dining table, simply set and completely empty, with chairs along both sides.
 
 **Copy, typeset exactly as written:**
 
 - The MedTech North Table
-- A small dinner for people who work in health
+- Table #3
+- A small dinner for people who work in health tech
 - Mississauga, Wednesday 26 August
 
-**Temperature:** a warm invitation from a person, not an announcement from an organisation. It is a dinner, not a conference. If it reads as an event brand, it is wrong.
+**Temperature:** a warm invitation from a person, not an announcement from an organisation. A dinner, not a conference.
 
 **Three constraints that are not style choices and cannot be relaxed:**
 
-- **No people, faces or hands anywhere.** An image implying attendance at a past event is a claim that cannot be evidenced
+- **No people, faces or hands.** An image implying attendance at a past event is a claim that cannot be evidenced
 - **No camera, tripod, light or recording equipment**
-- **No object implying an activity.** No pens, cards, notebooks, laptops or phones. The promise of the evening is that nothing is asked of anyone, and a pen on the table contradicts it
+- **No pens, cards, notebooks, laptops or phones.** Nothing is asked of anyone at this dinner, and an object implying a task contradicts that
