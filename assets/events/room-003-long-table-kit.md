@@ -46,7 +46,7 @@ It carries the brand and is built from a word the brand already owns. `docs/07-b
 | Carousel slide 1 | The body of a direct message, beyond the opening |
 | First line of a direct message | Anywhere it makes a human sentence sound like a press release |
 
-**Do not number editions publicly.** Internally this is room 003. Publicly, a number invites a question about the previous two.
+**Number every edition publicly.** The live page says "Table #3". A number signals a series someone can join at #4 rather than a launch nobody has heard of. Standing practice, per `ADR-024`.
 
 ## 2. What the public page is for
 
@@ -56,13 +56,13 @@ All the persuasion sits in the direct messages in section 7. The page carries th
 
 **What the page has to sell, now that the media is private and there is no programme:** an evening where nothing whatsoever is asked of the guest. For a clinic owner who gets pitched every week and is tired by midweek, that is not a thin offer. It is the offer. Written properly, "there is no agenda and nothing to prepare" is more attractive than any format would be.
 
-The second thing it sells is the seating, which is real work, requires nothing from the guest, and is already house practice.
+**It sells the format and never the room.** No agenda, nothing to prepare, nobody selling anything, a stated finish time. All four are inside Ali's control on the night. Who turns up is not, so the page does not promise it (`ADR-024`).
 
 ## 3. How the fallback works
 
 **The public copy describes the evening. It never requires a particular audience to be there.**
 
-Dinner happens, seating is done by hand, nobody pitches. True whether the room fills with practice owners, non-owner clinicians, researchers or founders.
+Dinner happens, there is no agenda, nobody pitches. True whether the room fills with practice owners, non-owner clinicians, researchers or founders.
 
 | Day | What you do | What changes publicly |
 |---|---|---|
@@ -70,7 +70,7 @@ Dinner happens, seating is done by hand, nobody pitches. True whether the room f
 | 11 to 15 | Keep working operators, open message B to non-owner clinicians | Nothing |
 | 16 to 20 | If owner count is short, open messages C and D to founders and researchers | **Nothing** |
 
-Same title, same description, same images, same posts. Only the direct message changes, and the seating on the night.
+Same title, same description, same images, same posts. Only the direct message changes.
 
 **The portrait is the private lever that works on every segment.** A clinic owner wants a current headshot. So does a founder, a researcher, a pharmacist who does not own the pharmacy. That is why the private offer needs no rewriting when the target shifts.
 
@@ -140,15 +140,28 @@ Wednesday 26 August, 6:30 to 9:00 pm Mississauga. Register and I'll send you the
 
 **The standing lesson: write it shorter than feels finished.** Every single edit was a cut. Nothing was added except the edition number and the physicians. Draft at roughly half the length next time and let Ali add back rather than strip out.
 
-**On "Table #3".** My rule said never number publicly, because a number invites a question about the previous editions. Ali numbered it anyway and he is probably right: the honest answer is that Miro commissioned the first two and endorsed the output publicly, which is an asset rather than an embarrassment. **The rule is relaxed, with one condition: numbering is fine as long as the answer to "what were 1 and 2" is ready and does not require permission that is not yet held** (`ADR-017` on the Miro reference).
+**On "Table #3". Numbering is now standing practice for every edition.** My rule against it is withdrawn. A number signals a series someone can join at #4 rather than a launch nobody has heard of, which is the more useful signal. See `ADR-024`.
 
-**On listing medical doctors first.** Not a rule violation. The line says who is invited, not who attends, which is the distinction `data/verified-stats.md` requires. The live risk is the documented one: an MD founder withdrew from room 001 on being told the physician count was low, and three physicians accepted for room 002 and none arrived. If MDs register expecting peer density and find none, that is the same failure again. **Mitigation, if any MD registers: do not let them arrive uninformed.** A one-line note before the night costs nothing and protects the relationship.
+**On listing medical doctors first.** Correct, and the caution I attached to it was built on bad evidence. The physician who withdrew from room 001 was a resource-constrained founder selling to doctors, not a clinician evaluating a peer room, and he was screened out correctly. **That incident supports no conclusion about physician behaviour and is retired** (`data/events/2026-07-29-patient-journey-jam.md`). Physicians are invited, listed publicly, and expected.
 
-**On the "no programme" body.** "Genuine conversations and meaningful connection" is the register the `ai-slop-humanizer` catalogue flags as vague positive descriptors doing decorative work. It could describe any event ever held. The instinct to cut was right, the replacement is the weakest sentence on the page. A shorter fix that keeps the cut and says something only this dinner can say:
+**On the "no programme" body.** The instinct to cut was right. The replacement is the weakest line on the page: "genuine conversations and meaningful connection" could describe any event ever held, and the `ai-slop-humanizer` catalogue flags exactly that pattern as vague positive descriptors doing decorative work.
 
-> No agenda and nothing to prepare. If you've had a long week you can sit and eat and say very little, and that's a perfectly good way to spend it.
+Constraints on any replacement, from Ali: no reference to sitting and eating, no emphasis on the food as generosity, no promise about seating or who anyone will meet.
 
-Two sentences, shorter than the draft, and it is the one thing a tired practice owner actually wants to hear.
+Three options, shortest first. All are shorter than the draft.
+
+**1.**
+> No agenda, no format, nothing to prepare. Three hours, and whatever comes of it.
+
+**2.**
+> No agenda, no format, nothing to prepare. Three hours with people working in different corners of the same field.
+
+**3, recommended.**
+> No agenda, no format, nothing to prepare. Three hours with people working in different corners of the same field, and nobody working the room.
+
+Option 3 does two things at once. It says what the evening is not, which is the part in Ali's control, and "nobody working the room" restates the no-pitch promise in language that sounds like a person rather than a policy. None of the three promises composition, seating, or a specific outcome.
+
+**One typo-level fix.** "healthTech" is inconsistently capitalised in the second line people read.
 
 **One typo-level fix.** "healthTech" is inconsistently capitalised in the second line people read. "health tech" or "health technology".
 
@@ -205,9 +218,9 @@ Three pieces of this kit were written against parts of the page that no longer e
 
 | Asset | Problem | Fix |
 |---|---|---|
-| **Post 2**, the seating post | The page no longer mentions seating at all, so the post asserts something a visitor cannot verify | Still publishable. The seating is real work whether or not the page says so, and the post is the better place for it. No change needed, but the page and the post now disagree in emphasis |
+| **Post 2**, formerly the seating post | Promised deliberate seating, which an in-house dinner cannot keep once no-shows reshuffle the room | **Replaced.** Post 2 is now about why there is no agenda |
 | **Post 3**, the rules post | Built entirely on the three-line rules block that was cut | Still works. "No pitch" survives in line one of the page, and the post is where the rule earns its explanation |
-| **Carousel slides 3, 4, 5, 7** | Slide 4 is the three rules, slide 5 is the seating, slide 3 is the no-programme line | Slides carry copy the page does not. That is fine for a carousel, which is allowed to say more than a listing, but check it reads as the same event |
+| **Carousel slides 5, 7, 8** | Slide 5 was the seating, 7 and 8 leaned on the food | **Rewritten.** See section 11 |
 
 **The real question underneath all three:** the page is now much thinner than the social kit. If the posts stay as written, they are carrying the argument and the page is only handling logistics. That is a workable split and probably the right one, given the page was never the acquisition engine. Just be deliberate about it rather than surprised by it.
 
@@ -352,7 +365,7 @@ Everything below the line is the prompt.
 
 Build a social asset set for **The MedTech North Table**, a small monthly dinner in Mississauga run by MedTech North. Output every asset as its own frame, individually exportable as PNG. Do not put them on a shared canvas.
 
-**What the evening is, so the design has the right temperature:** twelve or so people who work in health sit around one table and have dinner. There is no programme, no agenda, no exercise and nothing to prepare. Nobody presents and nobody pitches. The only thing that has been worked on is who sits beside whom. It is a dinner, not a conference. The design should feel like a warm invitation from a person, not an event brand.
+**What the evening is, so the design has the right temperature:** a small table of people who work in health tech, having dinner. There is no programme, no agenda, no exercise and nothing to prepare. Nobody presents and nobody pitches. It is a dinner, not a conference. The design should feel like a warm invitation from a person, not an event brand.
 
 **This is a deliberate departure from the MedTech North institutional register.** Keep the craft standards, drop the formality.
 
@@ -374,7 +387,7 @@ Build a social asset set for **The MedTech North Table**, a small monthly dinner
 1. **Luma cover**, 1080 × 1080. Drawn line-art long table, set for dinner, empty. Series name across the upper third, "Mississauga, Wednesday 26 August" beneath at a quarter of the size
 2. **Announcement frame**, 1080 × 1350. Typographic. Headline: *One table. No agenda.* Support: *Mississauga, Wednesday 26 August*
 3. **The rules frame**, 1080 × 1350. Three lines stacked with generous leading: *Nobody presents. / Nobody pitches. / Nothing leaves the table.* No illustration. This is the strongest frame in the set and should be the largest type
-4. **The seating frame**, 1080 × 1350. Headline: *You don't pick your chair.* Support: *That part I do, and I take a while over it.* Optional single drawn chair in line work
+4. **The no-agenda frame**, 1080 × 1350. Headline: *No agenda. Nothing to prepare.* Support: *Three hours, and whatever comes of it.*
 5. **Story versions**, 1080 × 1920, of assets 2 and 3, all copy inside the middle 70% vertically
 6. **Carousel**, eight frames at 1080 × 1350, copy below, typeset exactly as written
 
@@ -384,10 +397,10 @@ Build a social asset set for **The MedTech North Table**, a small monthly dinner
 2. *Twelve or so people who work in health. One table.*
 3. *There's no programme. Nothing to prepare, nothing to present.*
 4. *Nobody presents. Nobody pitches. Nothing leaves the table.*
-5. *The only part I actually work on is who sits beside who.*
+5. *Three hours with people working in different corners of the same field.*
 6. *A dentist and a pharmacist describe the same patient completely differently. Both of them are right.*
-7. *Eat. Talk. Home by nine.*
-8. *Wednesday 26 August, 6:30. Dinner's covered.* / Link below
+7. *Turn up. Talk. Leave when you want to.*
+8. *Table #3. Wednesday 26 August, 6:30. No cost.* / Link below
 
 Frames 1 and 4 carry the most visual weight, frame 4 heaviest of all. Frames 2, 3, 7 and 8 are quiet. Swiping should feel the rhythm lift at 4 and settle again after.
 
@@ -410,23 +423,23 @@ There's no programme. No talks, no slides, no agenda, nothing to prepare. Food's
 
 Three rules and they're the whole format. Nobody presents. Nobody pitches. Nothing leaves the table.
 
-The only part I actually work on is the seating, and I work on it for a while.
-
-Dinner's covered, there's no cost. Link's in the comments.
+Third one I've run. No cost to attend. Link's in the comments.
 ```
 
-### Post 2. Day 5, the seating
+### Post 2. Day 5, why there is no programme
+
+*Replaces an earlier seating post. Seating is a paid promise now and belongs to the restaurant track, not here (`ADR-024`).*
 
 ```
-I spend more time on the seating plan for these dinners than I do on the food.
+I've taken the agenda off these dinners.
 
-Sounds precious. It isn't. Who someone sits beside for three hours is the whole difference between a pleasant evening and one they're still thinking about in March.
+The earlier ones had a format. People mapped things out, worked through exercises, answered questions in turn. It went fine and I've cut all of it.
 
-So I move people around a lot in the week before. Not by seniority, not by who registered first. Mostly by what I think someone will find genuinely interesting about the person on their left.
+Everyone I invite has already had a long week. The last thing they need is a third obligation on a Wednesday that asks something of them the moment they walk in.
 
-You don't get to pick your chair. A couple of people have found that funny. Nobody's minded.
+So there's nothing scheduled now. You turn up, you talk to people, you leave when you want to.
 
-Next one's Wednesday 26 August, Mississauga. Link in the comments.
+Third one's Wednesday 26 August in Mississauga. No cost. Link in the comments.
 ```
 
 ### Post 3. Day 9, the rules
@@ -474,7 +487,7 @@ A few seats left. Mississauga, Wednesday 26 August, no cost, dinner's covered.
 ```
 Table's tomorrow.
 
-Mississauga, 6:30. Food's ordered and the seating plan is finally done.
+Mississauga, 6:30. Everything's set.
 
 If you've been meaning to reply, today's the day. Link's in the comments.
 ```
@@ -489,10 +502,10 @@ If you've been meaning to reply, today's the day. Link's in the comments.
 | 2 | Twelve or so people who work in health. One table. | Quiet, typographic |
 | 3 | There's no programme. Nothing to prepare, nothing to present. | Builds |
 | 4 | Nobody presents. Nobody pitches. Nothing leaves the table. | **Heaviest frame in the set** |
-| 5 | The only part I actually work on is who sits beside who. | Medium |
+| 5 | Three hours with people working in different corners of the same field. | Medium |
 | 6 | A dentist and a pharmacist describe the same patient completely differently. Both of them are right. | Medium |
-| 7 | Eat. Talk. Home by nine. | Quiet |
-| 8 | Wednesday 26 August, 6:30. Dinner's covered. / Link below | Quiet close, crimson on the link line |
+| 7 | Turn up. Talk. Leave when you want to. | Quiet |
+| 8 | Table #3. Wednesday 26 August, 6:30. No cost. / Link below | Quiet close, crimson on the link line |
 
 ---
 
@@ -513,6 +526,6 @@ If you've been meaning to reply, today's the day. Link's in the comments.
 
 **Consent has to live somewhere before the door.** With the media off the public page, the confirmation email in section 6 is load-bearing rather than courteous. Send on registration and again at 48 hours, and take a signed release at the station.
 
-**The seating claim has to be true.** The public page now promises that seating is deliberate and worked on. That is a promise a guest can check by looking left. Build the seating plan properly or take the claim out.
+**The free dinner promises the format, never the room** (`ADR-024`). No copy anywhere in this kit may promise seating, composition, or who anyone will meet. Those are what a restaurant ticket buys.
 
 **The name commits you to a series.** Calling it the Table rather than titling a one-off means the second one has to happen reasonably soon. That matches the venue being booked monthly, but it is a commitment being made here.
