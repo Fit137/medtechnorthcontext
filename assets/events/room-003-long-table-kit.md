@@ -412,19 +412,37 @@ Frames 1 and 4 carry the most visual weight, frame 4 heaviest of all. Frames 2, 
 
 Six posts across twenty days. No cameras, no media, and nothing that describes an activity guests perform.
 
-### Post 1. Day 1, announcement
+### Post 1. Announcement
+
+Two versions. **Use the short one.** Every edit made at publish so far has been a cut, and the long one carries an admin paragraph the link already handles.
+
+**Short, recommended:**
 
 ```
-Next MedTech North Table is Wednesday 26 August in Mississauga.
+Table #3 is Wednesday 26 August in Mississauga.
 
-Twelve or so people who work in health around one table. Dentists, pharmacists, physios, researchers, a few people building software that ends up in clinics.
+A small dinner for people who work in health tech. Founders, clinicians, practice owners, researchers, one table. No pitch, no slides, no programme, nothing to prepare.
 
-There's no programme. No talks, no slides, no agenda, nothing to prepare. Food's out from half six and the rest of the evening is dinner.
+You turn up, you talk to people, you leave when you want to.
 
-Three rules and they're the whole format. Nobody presents. Nobody pitches. Nothing leaves the table.
-
-Third one I've run. No cost to attend. Link's in the comments.
+No cost. Link's in the comments.
 ```
+
+**Longer, if the gating line is worth the extra paragraph:**
+
+```
+Third one of these on Wednesday 26 August, in Mississauga.
+
+A small dinner for people who work in health tech. Founders, clinicians, practice owners, researchers. No pitch, no slides, and nobody selling anything to anybody.
+
+There's no programme either. Nothing to prepare, nothing to present. You turn up, you talk to people, you leave when you want to.
+
+No cost. Registration's reviewed so the table stays balanced, so if it's full for your group I'll say so and hold you for the next one.
+
+Link's in the comments.
+```
+
+Both open on a fact rather than a hook, carry the edition number so it reads as a series rather than a launch, and never state a headcount. Neither mentions the camera.
 
 ### Post 2. Day 5, why there is no programme
 
@@ -496,8 +514,20 @@ If you've been meaning to reply, today's the day. Link's in the comments.
 
 ## 11. Carousel, slide by slide
 
+Six frames, 1080 × 1350. Copy mirrors the live Luma page. Design prompt: `prompts/claude-design/table-linkedin-carousel.md`.
+
 | Slide | On-image copy | Visual weight |
 |---|---|---|
+| 1 | The MedTech North Table / Table #3 / Mississauga, Wednesday 26 August | Cover. Drawn long table, empty |
+| 2 | A small dinner for people who work in health tech. | Quiet |
+| 3 | No pitch. No slides. Nobody selling anything. | **Peak. Largest type in the set** |
+| 4 | There's no programme. Nothing to prepare, nothing to present. | Just under the peak |
+| 5 | Founders, clinicians, practice owners, researchers. Kept mixed on purpose. | Quiet |
+| 6 | Wednesday 26 August, 6:30. No cost. / Link below | Quiet close, red on the link line |
+
+Cut from eight to six. Nothing in the old slides 5 and 7 survived the seating and food decisions, and shorter matches how every draft has been edited at publish.
+
+---|---|---|
 | 1 | The MedTech North Table. / A small dinner for people who work in health. Mississauga, Wednesday 26 August | Heavy. Line-art table. Full name at headline scale |
 | 2 | Twelve or so people who work in health. One table. | Quiet, typographic |
 | 3 | There's no programme. Nothing to prepare, nothing to present. | Builds |
