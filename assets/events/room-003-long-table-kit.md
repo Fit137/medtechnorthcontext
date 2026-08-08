@@ -17,8 +17,15 @@ These were decided and are not reopened. When a change removes something from th
 | **Any public mention of cameras, portraits, filming, footage or media** | Private lever only. Direct messages and the confirmation email |
 | **Naming a single profession in the title or as a requirement** | Kills the fallback |
 | **Founders getting stage time, a deck, a demo or floor pitching** | `ADR-023`. The scarce side receives, the abundant side works |
-| **Headcounts, edition numbers, past-event photos, any image with people in it** | `CLAUDE.md` rule 3 |
+| **Headcounts, past-event photos, any image with people in it** | `CLAUDE.md` rule 3 |
 | **Sponsor language in public** | `ADR-007` |
+
+**Two of my rules were overridden at publish and the override stands.**
+
+- **Edition numbers are allowed.** The live page says "Table #3". Condition: the answer to "what were 1 and 2" must be ready before the number goes out, and must not need permission that is not yet held (`ADR-017`)
+- **Physicians may be listed among the invited.** The live page names medical doctors first. Saying who is invited is not the same as claiming who attends, and the second remains forbidden
+
+**Revealed preference, worth more than any rule here: every edit at publish was a cut.** Draft at roughly half the length that feels finished.
 
 **The question exists. It is asked one to one, at the portrait station, by the interviewer, to whoever chooses to sit down.** It is not asked to the room, it does not go round the table, and it appears nowhere in public copy. Losing that distinction is what turned an optional ninety seconds at a camera into a performance in front of eleven strangers.
 
@@ -88,7 +95,64 @@ The MedTech North Table, Mississauga
 
 ---
 
-## 5. Event description (Luma). Final copy, publish as written
+## 5. Event description. What actually shipped
+
+**This is live on Luma. It is the record, not a draft.** Published by Ali, edited down from the draft in 5b. Roughly 40% of the draft survived.
+
+```
+The MedTech North Table is a small dinner for people who work in healthTech. One table, no pitch, no slides, and nobody selling anything. Table #3 in Mississauga.
+
+Who's at the table
+
+Kept mixed on purpose, and kept small:
+
+* Founders building health technology
+* Medical doctors, Dentists, pharmacists, physiotherapists and other practising clinicians
+* People who own or run a clinic or a practice
+* Researchers and academics working in health
+
+Registration is reviewed so the table stays balanced. If it's already full for your group I'll tell you straight and hold you for the next one.
+
+There's no programme
+
+Genuine conversations and meaningful connection. Relaxed atmosphere, no structured program.
+
+Details
+
+Wednesday 26 August, 6:30 to 9:00 pm Mississauga. Register and I'll send you the address No cost, and dinner is covered
+```
+
+### 5a. What changed, and what it teaches
+
+| Draft | Shipped | What it tells me |
+|---|---|---|
+| "people who work in health" | "people who work in **healthTech**" | Narrower than intended. A dentist does not describe themselves as working in health tech, and the bullets underneath are mostly clinicians |
+| "no talks" | "**no pitch**" in the opening line | The rules section was cut, so the single most important promise was pulled up into sentence one. Correct move |
+| Founders last, "a small number of" | **Founders first, no cap language** | Deliberate reordering. Founders are proactive and will now register hardest |
+| Clinicians listed without physicians | "**Medical doctors**, Dentists, pharmacists..." MDs first | Overrides the repo's caution. Ali's call |
+| No edition number | "**Table #3** in Mississauga" | Overrides my no-numbering rule. See below |
+| Three-line rules block | **Cut entirely** | Survives only as "no pitch" in line one |
+| "What you leave with", three bullets | **Cut entirely** | |
+| The seating paragraph | **Cut entirely** | The seating is no longer a public promise |
+| Dentist and pharmacist line | **Cut** | |
+| "There's no programme" body, 3 sentences | "Genuine conversations and meaningful connection. Relaxed atmosphere, no structured program." | Shorter, and the one place the edit went the wrong way. See below |
+| Sign-off "Ali" | **Cut** | |
+
+**The standing lesson: write it shorter than feels finished.** Every single edit was a cut. Nothing was added except the edition number and the physicians. Draft at roughly half the length next time and let Ali add back rather than strip out.
+
+**On "Table #3".** My rule said never number publicly, because a number invites a question about the previous editions. Ali numbered it anyway and he is probably right: the honest answer is that Miro commissioned the first two and endorsed the output publicly, which is an asset rather than an embarrassment. **The rule is relaxed, with one condition: numbering is fine as long as the answer to "what were 1 and 2" is ready and does not require permission that is not yet held** (`ADR-017` on the Miro reference).
+
+**On listing medical doctors first.** Not a rule violation. The line says who is invited, not who attends, which is the distinction `data/verified-stats.md` requires. The live risk is the documented one: an MD founder withdrew from room 001 on being told the physician count was low, and three physicians accepted for room 002 and none arrived. If MDs register expecting peer density and find none, that is the same failure again. **Mitigation, if any MD registers: do not let them arrive uninformed.** A one-line note before the night costs nothing and protects the relationship.
+
+**On the "no programme" body.** "Genuine conversations and meaningful connection" is the register the `ai-slop-humanizer` catalogue flags as vague positive descriptors doing decorative work. It could describe any event ever held. The instinct to cut was right, the replacement is the weakest sentence on the page. A shorter fix that keeps the cut and says something only this dinner can say:
+
+> No agenda and nothing to prepare. If you've had a long week you can sit and eat and say very little, and that's a perfectly good way to spend it.
+
+Two sentences, shorter than the draft, and it is the one thing a tired practice owner actually wants to hear.
+
+**One typo-level fix.** "healthTech" is inconsistently capitalised in the second line people read. "health tech" or "health technology".
+
+### 5b. The draft, kept for reference
 
 ```
 The MedTech North Table is a small dinner in Mississauga for people who work in health. One table, no talks, no slides, and nobody selling anything to anybody.
@@ -133,11 +197,19 @@ No cost, and dinner is covered
 Ali
 ```
 
-**The brand appears once, in the first four words, and never again.**
-
-**Why "there's no programme" is a heading rather than a line.** It is the strongest thing the page can say to the person you most want in the room. Burying it in a paragraph wastes it.
-
 **Do not add:** a headcount, a past-event photo, a testimonial, anything about cameras or media, any activity a guest performs, the word sponsor, or a line about limited spots.
+
+### 5c. Knock-on effects of the cuts
+
+Three pieces of this kit were written against parts of the page that no longer exist. Fix or drop before publishing them.
+
+| Asset | Problem | Fix |
+|---|---|---|
+| **Post 2**, the seating post | The page no longer mentions seating at all, so the post asserts something a visitor cannot verify | Still publishable. The seating is real work whether or not the page says so, and the post is the better place for it. No change needed, but the page and the post now disagree in emphasis |
+| **Post 3**, the rules post | Built entirely on the three-line rules block that was cut | Still works. "No pitch" survives in line one of the page, and the post is where the rule earns its explanation |
+| **Carousel slides 3, 4, 5, 7** | Slide 4 is the three rules, slide 5 is the seating, slide 3 is the no-programme line | Slides carry copy the page does not. That is fine for a carousel, which is allowed to say more than a listing, but check it reads as the same event |
+
+**The real question underneath all three:** the page is now much thinner than the social kit. If the posts stay as written, they are carrying the argument and the page is only handling logistics. That is a workable split and probably the right one, given the page was never the acquisition engine. Just be deliberate about it rather than surprised by it.
 
 ---
 
