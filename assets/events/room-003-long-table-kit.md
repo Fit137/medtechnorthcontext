@@ -334,7 +334,7 @@ A single long dining table drawn in confident hand-inked line work, seen from a 
 ### Direction 2: Two Chairs
 
 ```
-Two simple wooden chairs pulled close together at the corner of a table, angled toward each other as if two people have just stepped away mid-conversation. Two half-finished plates, two glasses, a folded napkin left on a seat. Nobody in frame, nothing on the table but the meal. Rendered as a limited-palette screen print: three flat colours only, warm cream, deep ink, one crimson accent, with visible halftone texture and a slight registration offset. No photographic realism, no gradients, no blur. Calm and warm rather than clinical. Space at the top for a headline and a clear band at the bottom for a footer.
+Two simple wooden chairs pulled close together at the corner of a table, angled toward each other as if two people have just stepped away mid-conversation. Two half-finished plates, two glasses, a folded napkin left on a seat. Nobody in frame, nothing on the table but the meal. Rendered as a limited-palette screen print in the MedTech North system: ink #16191d, one or two grays from the family, red #c41230 on a single element, on white. No photographic realism, no gradients, no blur. Calm and warm rather than clinical. Space at the top for a headline and a clear band at the bottom for a footer.
 ```
 
 ### Direction 3: The Rules, Typographic
@@ -342,7 +342,7 @@ Two simple wooden chairs pulled close together at the corner of a table, angled 
 *Cheapest, most on-brand, best at thumbnail size.*
 
 ```
-A typographic poster. Three short sentences stacked with generous leading, set large in a confident modern serif, filling most of the frame, left aligned: "Nobody presents." then "Nobody pitches." then "Nothing leaves the table." Deep ink text on a warm cream field. A single thin crimson rule under the last line. Nothing else in the frame: no illustration, no decoration, no icons. Letterpress feel with slight ink texture at the letterform edges. Confident and quiet. Leave a clear band across the bottom eighth.
+A typographic poster. Three short sentences stacked with generous leading, set large in a confident modern serif, filling most of the frame, left aligned: "Nobody presents." then "Nobody pitches." then "Nothing leaves the table." Ink #16191d on white. A single thin red #c41230 rule under the last line. Nothing else in the frame: no illustration, no decoration, no icons. Letterpress feel with slight ink texture at the letterform edges. Confident and quiet. Leave a clear band across the bottom eighth.
 ```
 
 ### Sizes for each direction
@@ -373,7 +373,7 @@ Build a social asset set for **The MedTech North Table**, a small monthly dinner
 
 **Design system**
 
-- Palette: warm cream field (roughly #F4EFE6), deep ink text (#16191d), one accent crimson (#c41230) used sparingly, one emphasis per frame. No other colours
+- Palette: the real system in `assets/design/design-system-tokens.md`. Ink #16191d, the gray family through #8a9299, light neutrals #e9edf1 down to #b9bfc5, white, and red #c41230 for one emphasis per frame. **Cool, not warm. No cream.** Earlier drafts of this kit specified a cream field that was invented and is not in the system
 - Type: a confident serif for headlines, set large and ragged right. A plain sans for support copy and footers. At least a 4:1 size ratio between headline and support
 - **Craft bans, absolute:** no emoji, no icon fonts, no stock icon libraries, no stock photography, no blur, no gradients, no drop shadows, nothing left at a default size. Illustration drawn as SVG line work
 - **Never depict people, faces, or a populated room.** Empty table, empty chairs, plates, glasses
