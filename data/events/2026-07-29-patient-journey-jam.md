@@ -46,9 +46,19 @@
 
 **A confirmed MD speaker withdrew on learning the venue was a residential unit.** For a physician, venue is a legitimacy test before it is a logistics detail. This was a known risk. It is now a measured cost.
 
-**An MD founder, whose app targets doctors, asked how many physicians would attend and withdrew when told the count was low.** He was not coming to meet founders or students. He was coming for peer density.
+**An MD founder, whose app targets doctors, asked how many physicians would attend and withdrew when told the count was low.**
 
-**The inference:** the model assumed clinicians come to see what is being built. This suggests **MDs come for other MDs**, and everything else is secondary. If that holds, MD acquisition is a cold-start problem that only breaks with critical mass committed before the next invitation goes out.
+> **CORRECTION, added 8 August 2026 by Ali. The inference below was wrong and is retired.**
+>
+> This person was not a physician attending as a clinician. He was an early-stage founder whose ideal customer profile is doctors, and physicians were his sales target rather than his peer group. On the call he asked for an ROI analysis on the time he would spend preparing slides and driving twenty minutes, misrepresented the size of his company, and was rude. Ali ended the call and removed him.
+>
+> **What that makes him: a transactional, resource-constrained founder who was screened out correctly.** It makes him evidence about founder screening, not about physician behaviour. He was never a data point on why doctors do or do not attend.
+>
+> **Nothing about physician recruitment should be built on this incident.** Any rule, caution or copy decision that traces back to it is unsupported. Physicians are invited and are expected to attend.
+>
+> Two other observations from these rooms are unaffected and stand on their own: a confirmed MD speaker withdrew over the residential venue, and three physicians accepted for room 002 and did not arrive.
+
+~~**The inference:** the model assumed clinicians come to see what is being built. This suggests **MDs come for other MDs**, and everything else is secondary. If that holds, MD acquisition is a cold-start problem that only breaks with critical mass committed before the next invitation goes out.~~ **Retired. See correction above.**
 
 ---
 
