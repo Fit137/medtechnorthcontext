@@ -1,6 +1,8 @@
 # Who Belongs in the Room: the CEO-only question, scored
 
-> **INTERNAL. Never published.** Decision brief for room 003, written 11 August 2026 while the room is roughly 17 days out. No ADR yet, because the decision is the founder's. The scoring below is the argument, not the ruling.
+> **INTERNAL. Never published.** Decision brief for room 003, written 11 August 2026 while the room is roughly 17 days out. The scoring below is the argument, not the ruling.
+>
+> **Revised 11 August 2026, same day, after challenge.** Section 4 of the first draft argued that geography and venue dominated the decision and that senior guests should be routed out of the building. **That was wrong on three counts** and the corrections are in section 4a. The venue policy is now settled in `ADR-023`. The recommendation survives, on two reasons rather than five.
 
 ---
 
@@ -20,7 +22,7 @@ Seven things, all of them true and none of them to be argued with.
 
 1. **Open registration with no cost of entry produces indifference.** The evidence is in hand: no reaction to the directory listing, late RSVPs, and a documented 40 to 60% no-show rate on free rooms.
 2. **Service providers must never get free proximity to executives.** Already project policy. A salesperson working a CEO at a table burns the room permanently.
-3. **The condo is the wrong venue for senior guests.** `ADR-013` states it plainly: the amenity repels physicians and anyone making a legitimacy judgment. It has already cost one confirmed speaker.
+3. **The building is the right venue for a small confidential room.** Free, private, noise-isolated, controllable, no minimum spend, no certificate required. The first draft argued the opposite and was wrong. Settled in `ADR-023`. The one physician who withdrew over the residential venue remains a single data point from a mixed room.
 4. **Charging changes the founder's relationship to a no-show.** Psychologically accurate and worth acting on.
 5. **Named seats, personalisation, a stated cap and a guest list circulated in advance all raise attendance.** Correct, and this is the cheapest available lever in the entire operation.
 6. **Founder energy is a real asset, not a soft one.** `HANDOFF.md` lists founder concentration as a high-severity risk. A format the founder resents will not survive twelve months, and inconsistency kills a series faster than a small room does.
@@ -56,13 +58,17 @@ In the composed-room market, the repo's own research found no direct equivalent.
 
 ### Error 4. CEOs are being modelled as easier to fill than a mixed room
 
-They are the hardest segment available, by a wide margin. Seven more CEOs, cold, in seventeen days, working alone, with no incorporated entity, no insurance, no reference permission from Miro, and nothing citable.
+> **Partly conceded in section 4a.** The pool is larger than this section assumed. The conversion problem stands.
 
-The 70% positive reply rate came from a mixed and mostly junior audience. Executive conversion runs an order of magnitude lower.
+Seven more CEOs, cold, in seventeen days, working alone, with no incorporated entity, no insurance, no reference permission from Miro, and nothing citable.
+
+The 70% positive reply rate came from a mixed and mostly junior audience. Executive conversion runs well below it. Naming eight target companies is not the same act as seating eight chief executives, and the distance between a list and a table is the whole business.
 
 ---
 
-## 4. The variable nobody has scored, and it dominates everything
+## 4. The geography argument, as first written and now withdrawn
+
+> **Retained for the record. Superseded by section 4a and `ADR-023`.**
 
 **622 College Street to a Mississauga condo, on a weeknight, is a 45 to 70 minute drive each way.**
 
@@ -82,6 +88,65 @@ Venue and geography move his attendance by roughly a factor of two. Format, CEO-
 
 ---
 
+## 4a. Three corrections to the above
+
+### Correction 1. He accepted the location in writing
+
+The outreach message named Mississauga. He read it and registered anyway. That is real information and the first draft ignored it.
+
+The commute figure was also asserted from the company's College Street address without knowing where he lives. For a chief executive of that company size, living in Oakville, Mississauga or Burlington is entirely plausible, in which case the amenity is **closer** than downtown.
+
+| Configuration | First draft | Revised |
+|---|---|---|
+| Amenity, no confirmation ritual | 30 to 35% | 40% |
+| Amenity, full confirmation ritual | 45 to 50% | **55 to 60%** |
+| Amenity, full ritual, resident west of Toronto | not modelled | 65 to 70% |
+| Downtown restaurant, full ritual | 65 to 70% | 65 to 70% |
+
+**The claimed factor of two was wrong.** The real gap is roughly ten points and may be zero or negative. Resolve it by asking whether he is travelling from the office or from home, which is an ordinary hosting question.
+
+What survives: accepting a location in advance and driving to it on a weeknight are different acts. The 40 to 60% no-show figure is composed entirely of people who had already agreed.
+
+### Correction 2. Pool size and conversion rate were conflated
+
+"Executives are hard to fill" is a claim about **conversion**. It is not a claim about **pool**, and on pool the first draft was simply wrong.
+
+Mississauga, Oakville, Burlington, Brampton, Milton and Hamilton form a dense corridor holding Trillium Health Partners and a large pharmaceutical and device cluster. For eight seats the constraint is conversion, not supply. The argument reverses at scale: fifty mixed seats are easier downtown, where people arrive after work without a car.
+
+**Trillium Health Partners is ten minutes from the venue.** Health system executives are the segment with zero attendance across three rooms, and their recruiting pool is next door to a venue that has been treated as a liability.
+
+Revised fill probabilities, seventeen days, solo, cold, accepting the pool argument:
+
+| Outcome | First draft | Revised |
+|---|---|---|
+| 7 or more CEOs seated | 5% | **12%** |
+| 5 or more | 15% | 30% |
+| 3 or more | 35% | 55% |
+| 2 or fewer | 50% | 30% |
+
+Materially better. The modal outcome is still three to five, not eight.
+
+### Correction 3. ADR-013 was cited against the amenity when it supports it
+
+`ADR-013` restricts the amenity to free ungated rooms because commercial use is assumed prohibited. It is a rule about **money changing hands in the building**, not about guest seniority. A free executive dinner in-house, with every ticketed event held outside, applies that rule correctly.
+
+The privacy case is also stronger than the first draft allowed. Chatham House is a rule in every room, and a confidential executive conversation cannot be held in a restaurant dining room. A genuine private room for eight carries a minimum spend near $1,000 before the food is considered.
+
+And the insurance point runs the other way: external venues **require** a CGL certificate that is not in force. Until it is, the amenity carries less friction, not more.
+
+**Settled in `ADR-023`.** Small, senior, confidential and free runs in the building. Large, mixed and ticketed runs outside it.
+
+### What survives all three corrections
+
+Two reasons, down from five.
+
+1. **The promise, not the format.** Announcing a CEO-only table and seating four demonstrates to the most valuable prospect in the pipeline that we cannot compose a room, which is the exact claim the $25,000 product rests on. A table of four executives and four clinicians never described as CEO-only is a good dinner.
+2. **Composition is what is sold.** A table of eight CEOs contains no clinician composition. Untouched by geography or venue.
+
+Plus the unchanged objection to cancelling the three existing registrations, which breaks rule 1 if they are then charged.
+
+---
+
 ## 5. The options, scored
 
 Weights, and why:
@@ -95,13 +160,22 @@ Weights, and why:
 | Cash risk | 0.10 | No revenue, no insurance |
 | Learning value | 0.10 | The funnel is still an anecdote |
 
+**Rescored after the section 4a corrections.** First-draft scores in brackets where they moved.
+
 | Option | Smile | Exec | Rules | Energy | Cash | Learn | **Score** |
 |---|---|---|---|---|---|---|---|
-| **A. CEO-only table of 8, cancel the rest** | 3 | 2 | 4 | 9 | 6 | 5 | **4.40** |
+| **A. CEO-only table of 8, cancel the rest** | 4 [3] | 4 [2] | 4 | 9 | 7 [6] | 6 [5] | **5.25** [4.40] |
 | **B. Mixed, split into two sorted rooms** | 5 | 6 | 2 | 5 | 7 | 4 | **4.70** |
 | **C. Two rooms, two dates** | 5 | 4 | 5 | 3 | 5 | 5 | **4.50** |
-| **D. Upgrade the mixed room: nomination-only, senior-weighted, composed seating, condo** | 8 | 8 | 9 | 6 | 8 | 9 | **8.00** |
-| **E. Same as D, moved to a downtown Toronto restaurant, commercial seats paid** | 9 | 6 | 9 | 8 | 4 | 9 | **7.75** |
+| **D. Nomination-only mixed room of 12 to 15, in-house** | 8 | 8 | 9 | 6 | 8 | 9 | **8.00** |
+| **E. Same as D, downtown restaurant, commercial seats paid** | 7 [9] | 5 [6] | 8 [9] | 6 [8] | 3 [4] | 8 [9] | **6.35** [7.75] |
+| **F. Composed table of eight, in-house, not announced as CEO-only** | 9 | 9 | 9 | 8 | 9 | 8 | **8.75** |
+
+**A rose by 0.85** because the pool argument is sound and the fill odds are better than first modelled. It still loses, on the two reasons in section 4a.
+
+**E fell by 1.40** because the restaurant buys no attendance advantage over the amenity, loses the closed door that Chatham House depends on, costs roughly $1,000 in minimum spend, and requires a CGL certificate that is not in force.
+
+**F is new** and it emerged from the challenge. It is the eight-seat lounge table, used as the founder described it, composed rather than sorted, with no headcount or composition announced in advance.
 
 ### Why A scores 3 on the Smile criterion
 
@@ -150,17 +224,20 @@ It doubles the number of solo nights for the person who has just said the curren
 
 ## 7. Recommendation
 
-**Do not convert room 003 to CEO-only. Run option D, and move to E as soon as cash allows.**
+**Run option F. The eight-seat lounge table, in the building, composed rather than sorted, never announced as CEO-only.**
 
-Concretely, in order of value:
+Four seats are already held: the health data CEO, the professor, the pharmacist, the researcher. Four remain.
 
-1. **Close the open link.** Room 003 becomes nomination-only from today. Anyone arriving late is offered room 004.
-2. **Keep all three current registrations.** See section 8. Cancelling on people who said yes, in order to hold seats for people who have not, is the worst reputational trade available in a small community.
-3. **Move the venue if at all possible.** A downtown Toronto restaurant, small private table, roughly doubles the probability that the guest who matters actually arrives. If the cash is not there, keep the condo and accept a lower number.
-4. **Weight the room senior without announcing it.** Target three or four additional people at director level or above, sourced by nomination from the four already registered.
-5. **Run the confirmation ritual.** Detailed in section 9. Expected lift from roughly 50% to 75 to 80% attendance, at zero cost.
-6. **Never state a headcount.** `data/verified-stats.md` already forbids publishing a seat count. A table of six that was described as a small table is a dinner. A table of six that was described as eight is a shortfall.
-7. **Instrument every message.** Room 003 is the outreach funnel table the business has been missing.
+1. **Close the open link.** Room 003 becomes nomination-only from today. Latecomers are offered room 004.
+2. **Keep all three current registrations.** Section 8. Cancelling on people who said yes, to hold seats for people who have not, is the worst reputational trade available in a small community.
+3. **Stay in the building.** `ADR-023`. Free, private, closed door, full control of seating and timing, no certificate required.
+4. **Fill the remaining four weighted senior**, from the west GTA corridor, including one Trillium Health Partners executive if reachable.
+5. **Name roles, never people.** "Confirmed so far: the chief executive of a Toronto health data platform, a professor of health sciences, a community pharmacist." Honest, needs nobody's consent, and it is a genuine draw for the remaining seats.
+6. **Run the confirmation ritual.** Section 9. Expected lift from roughly 50% to 75 to 80%, at no cost.
+7. **Never state a headcount or a composition promise.** A table of six described as a small table is a dinner. A table of six described as eight executives is a shortfall.
+8. **Instrument every message.** Room 003 is the outreach funnel table the business has been missing.
+
+**Four more people in seventeen days is achievable. Seven more chief executives is not.** That single difference is the entire gap between option F and option A, and it costs nothing that was actually wanted: the small table, the building, the free venue, the privacy, the place cards, the manageable check-in count and the higher production are all preserved.
 
 ---
 
@@ -230,10 +307,10 @@ It is wrong **now**, for one reason. Filling it requires a name to open the door
 
 | Stage | Prerequisite |
 |---|---|
-| Room 003 delivered well, Duncan attends | Confirmation ritual, better venue |
+| Room 003 delivered well, Duncan attends | Confirmation ritual, composed table of eight |
 | Composition report and three consented introductions sent | Delivered within 48 hours |
 | He is asked for two nominations, and for permission to name him | Earned by delivery, not requested cold |
-| Executive table of eight, external venue, Q4 | Business name, GST number, CGL certificate in force |
+| Pure executive table of eight, in the building, Q4 | Business name, GST number, CGL certificate in force |
 
 With his permission and two of his nominations, P(filling eight seats) moves from roughly 5% to somewhere near 50%. Without it, the format is a cold-outreach problem with a seventeen-day clock.
 
