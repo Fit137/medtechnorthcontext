@@ -1,6 +1,8 @@
-# Practice Dinner: vertical selection
+# Clinician vertical selection
 
-> **INTERNAL.** Which profession the first Practice Dinner is built for, and why. Format decision: `ADR-025`.
+> **STATUS: DEFERRED, NOT WITHDRAWN.** `ADR-025` moved the restaurant format to a builders room with no clinicians in it, because practice owners are the hardest audience in Canadian outpatient health to reach cold and four weeks is not enough. **The analysis below stays valid and unchanged for whenever a clinician-led room is attempted.** Dentistry remains the correct first vertical when that happens.
+>
+> **INTERNAL.** Which profession a clinician-led room should be built for, and why.
 
 ---
 

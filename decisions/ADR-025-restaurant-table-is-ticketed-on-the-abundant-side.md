@@ -1,82 +1,100 @@
-# ADR-025 — The Practice Dinner is a third format, and it is not a room
+# ADR-025 — The Builders Dinner is the top of the convening funnel
 
-**Status:** Proposed. Supersedes the earlier draft of this ADR, which framed the restaurant event as a variant of the dinner track. It is not a variant. Needs Ali's confirmation on the vertical, the date, and the image consent question in section 6.
+**Status:** Proposed. Supersedes both earlier drafts of this ADR. The first framed the restaurant event as a variant of the dinner track, the second as a clinician-led Practice Dinner. Both are withdrawn. Needs Ali's confirmation on the date and on the image consent question in section 7.
 
 ## Context
 
-`ADR-024` split dinners into in-house and restaurant and left open who pays for a restaurant ticket. That framing was wrong, because it assumed the restaurant event was the same product in a different building. It is not. The event being planned has three stated objectives and none of them is composition:
+The restaurant event has been designed three times against three different rooms. The third attempt priced a room of dental practice owners with founders paying to sit near them. It was abandoned for one reason: **practice owners are the hardest audience in Canadian outpatient health to reach cold**, and reaching them in four weeks with no track record is not a plan, it is a hope.
 
-1. **Quick time to MVP.** Something sellable and runnable inside six weeks
-2. **Proof of revenue.** The event covers itself and profits without a co-host cheque
-3. **Marketing.** Images, reach, and brand recognition among people who have never heard of MedTech North
-
-Composition and convening serve none of those. Composition is slow, unphotographable by design, and its whole value is that it is closed. Convening needs a buyer with a brief before it can exist. Neither can be stood up in six weeks and neither produces public marketing material.
+The event has three stated objectives: time to MVP, proof of revenue, and marketing. A fourth was implicit and is now explicit and dominant. **This event exists to produce the first convening contract.**
 
 ## Decision
 
-**A third format exists: the Practice Dinner.** It sits below composition and convening and does different work.
+**The room is health company builders. They all pay. There are no clinicians in it.**
 
-| | Practice Dinner | Composition | Convening |
+| | Builders Dinner | Composition | Convening |
 |---|---|---|---|
-| What is sold | **A seat and an object** | Who is in the room | A room built to a brief |
+| Who fills it | Health company founders and operators | Clinicians and researchers | Composed to a brief |
+| Who pays | **Everyone in the paying class** | Funder | Buyer |
 | Composition promised | **None** | Yes | Yes, to their brief |
-| Registration | **Open, lightly qualified** | Nomination | Invitation |
+| Registration | **Open, stage-qualified** | Nomination | Invitation |
 | Size | **24 to 48** | 8 to 24 | Target 50 |
-| Media | **Central. It is the product** | Private lever only | Private |
 | Public images | **Yes, with consent** | No | No |
-| Named vertical | **Yes, always** | Optional | Set by the brief |
-| Draw | **A named guest and one number** | The room | The brief |
+| Its real job | **Pipeline** | Relationships and proof | Revenue |
 
-**The Practice Dinner does not promise the room, mention composition, or produce a composition report.** Anyone who buys one and later buys a convening must be told plainly that they are different purchases. Blurring them is how the premium dies.
+`ADR-002` and `CLAUDE.md` rule 1 are not engaged by this format, because the protected classes are not in the room. If a clinician or researcher is ever invited to a Builders Dinner, they attend free, without exception.
 
-## What is actually sold, and why it is not a seat
+## The scarce side was swapped, not removed
 
-**The paid tier is a seat plus a professionally produced film the buyer owns outright.** Not access. An object.
+A room of 48 founders is 48 sellers and no buyers. Founders detect that inside twenty minutes, and edition two is half the size of edition one.
 
-This is the whole design. People pay reluctantly for access to a room they cannot yet evaluate, from a brand they have not heard of, in six weeks. They pay readily for a deliverable with a known market price. A 60-second professionally shot and edited film quotes at $800 to $1,200 from a freelance videographer. Bundled here at $650 with the dinner attached, it is an easy yes, and the marginal cost of the second, fifth and twelfth film on a night the crew is already hired is close to zero.
+**The scarce side in a builders room is investors and operators two or three stages ahead.** Six to eight of them, free, named in the invitation with their permission. They are the reason anyone pays, and naming them converts harder than any description of the evening.
 
-**It also solves objective 3 for free.** Every buyer posts their own film, with the event's identity in it, to their own network. Twelve paid attendees are twelve distribution channels that paid to be distribution channels. Ali's own posting reaches a fraction of that.
+## The free seats do double duty, and this is the whole design
 
-## Seat classes
+To the paying room, a free seat is the draw.
 
-| Class | Who | Price | Gets |
-|---|---|---|---|
-| **Invited** | Clinicians, researchers, academics, students, public sector | **$0** | The dinner, and three edited portraits |
-| **Room and Film** | Founders, operators, builders, service providers | **$650** | The dinner, three portraits, and a 60-second owned film |
-| **Category Hold** | One company per category | **$1,500**, private | The above, plus the category for the night, a longer film, and two consented introductions |
+**To us, every free seat is a convening prospect.** Free seats are not filled with whoever is available. They are filled against the firmographic screen in `data/corporate-targets.md`: a Canadian P&L, 20 to 500 Canadian headcount, someone holding real discretionary budget, a commercial motion that needs access to clinicians.
 
-The invited side stays free. `CLAUDE.md` rule 1 and `ADR-002` are untouched, and this format does not press on them, because the paying side here is large enough to carry the room on its own. Everyone leaves with portraits, so nobody is being photographed for someone else's benefit.
+That means Series B and later health companies with a Canadian commercial team, Canadian country offices of multinationals, corporate venture arms whose parent is the actual buyer, and scaled operators who now run commercial somewhere larger.
 
-## Single vertical, always
+**Nobody is misled by this.** The founders get genuine access to people they cannot otherwise reach. We get six qualified buyer conversations an evening. Both are true at once and neither is disguised.
 
-**One profession per dinner. The first is dental practice owners in the GTA.** Scoring and reasoning in `docs/19-practice-dinner-vertical-selection.md`.
+## Two things a founder room permits that a clinician room does not
 
-The constraint driving this is the paying side, not the guests. A vendor buys a defined audience. "Dentistry, healthcare and pharma" is three audiences, and a dental software company prices that room at a third. Stacking verticals is correct for a $12 open mixer, where the goal is raw top-of-funnel volume and nobody is buying a defined audience. It is wrong here.
+**Founders will do work at an event.** `ADR-023` rejected three formats because they asked the scarcest person in the room to work and gave the value to somebody else. That constraint does not apply here. The paying side is the working side and the work benefits them directly.
 
-**The one permitted widening: along the vertical's own referral chain, never across unrelated professions.** Dentists plus the specialists they refer to plus dental lab owners is still one ecosystem and one commercial category. Dentists plus pharmacists is two rooms sharing a bill.
+**Founders need video and mostly cannot afford it.** A seed-stage health founder needs a founder film for the site, clips for LinkedIn, and footage for a raise. The film tier is worth more to this audience than it was to the last one.
+
+## Pricing
+
+| Class | Price | Who |
+|---|---|---|
+| **Seat** | **$250** | Founders and operators |
+| **Seat and film** | **$550** | The same, plus a 60 second owned film |
+| **Free** | $0 | 6 to 8 investors, scaled operators, the named guest |
+
+A single flat ticket was requested and is rejected. A cold founder dinner from an unrecognised brand supports about $150, and $150 against a $105 landed seat cost will not carry a media operation. **The $250 tier mostly exists to make $550 read as correct.** A 60 second edited film quotes at $800 to $1,200 standalone, so the $300 delta is not a decision for anyone who needs one.
+
+Room of 40: revenue $12,200, cost about $7,200, **margin $5,000 at 41%**. Floor room of 24: revenue $7,150, cost $5,320, **margin $1,830**. Detail in `docs/18-builders-dinner-runbook.md`.
+
+## Stage-homogeneous paying room, asymmetry supplied by the free seats
+
+**The paying room is seed and pre-Series-A.** A room of shared problems works. A room with something to learn from works. A random spread of pre-seed through Series C is the one version that fails, because nobody's problem is anyone else's.
+
+All the asymmetry comes from the free seats. That keeps the room easy to describe, easy to fill, and makes investor presence the obvious headline.
+
+## What this is honestly for
+
+**It does not build the backbone for composition.** A convening buyer wants clinicians in the room, and forty founder dinners does not prove we can assemble clinicians. Anyone telling themselves otherwise will be surprised later.
+
+**It builds the backbone for the sale.** Convening customers are health companies. A room of forty health companies every month is the convening pipeline, in person, having already paid us and had a good evening. That is a warmer route to a $25,000 conversation than any cold list.
+
+Conversion mechanics: `docs/20-convening-conversion-path.md`.
+
+## The data collection moves into the room
+
+An earlier draft proposed cold-surveying the vertical to build a list and produce a number. In a builders room that is unnecessary. **The table-level blocker round collects the same data in person, at forty responses an evening, at zero marginal cost and much higher quality.**
+
+Three dinners produce roughly 120 ranked founder blockers. That is an insight brief (`ADR-011`) and it is the artifact that proves we can hear a market, which is the thing a convening buyer is actually assessing.
 
 ## Media consent, and the collision with rule 3
 
-Objective 3 requires publishing images of the event. `CLAUDE.md` rule 3 forbids past-event galleries and images implying a track record.
+Objective three requires publishing images. Rule 3 forbids past-event galleries implying a track record.
 
-**The rule's purpose is to stop fabricated scale, not to stop showing that something happened.** The line that holds:
+**Depicting is allowed. Tallying is not.** A photograph of a real dinner, captioned with the real edition and date, claims only that the dinner happened. No member counts, no attendee totals, no counters, no image used to imply endorsement. Written consent from everyone identifiable, collected on paper at check-in, refusable without any effect on attendance.
 
-- **Depicting is allowed. Tallying is not.** A photograph of a real dinner, captioned with the real edition and date, claims only that the dinner happened
-- **No aggregate anywhere.** No member counts, no attendee totals, no "join 400 practice owners", no counters
-- **Written consent from everyone identifiable, collected on the night, on paper, before the first frame**
-- **No image is used to imply a person endorses MedTech North.** Presence is not endorsement
+**This still needs Ali's explicit sign-off. It amends a hard rule and this ADR does not settle it alone.**
 
-**This still needs Ali's explicit sign-off, because it is an amendment to a hard rule and I am not treating it as settled by this ADR alone.**
+## Name
 
-## What this format is for, beyond its own margin
+**Toronto Health Founders Dinner**, numbered by edition, MedTech North in the footer and the first line of every invitation.
 
-It is the cheapest way to buy the two things composition and convening are currently missing: a reason for a stranger in the sector to recognise the name, and evidence that people pay. A convening buyer asked "who have you done this for" currently has one answer, and it needs permission (`ADR-017`). Six Practice Dinners give a different answer.
-
-**It is not a stepping stone that turns into a convening.** It is a separate line that funds and markets the ones that matter.
+Literal beats clever here. Founders find things by searching, and a clever name costs discovery the brand cannot yet afford.
 
 ## Prerequisites
 
-- **GST/HST number.** A $1,500 invoice without one bounces at corporate accounts payable
+- **GST/HST number.** A $4,500 Brief invoice without one bounces at accounts payable, and the Brief is the point of the whole exercise
 - **Commercial general liability insurance, or written confirmation the venue does not require a certificate**
 - **Cash bar on individual tabs.** The restaurant's licence carries the alcohol liability
-- **A sample film and sample portraits**, shot at the 26 August dinner. The paid tier cannot be sold without one
+- **A sample film**, shot the week of 17 August. The $550 tier cannot be sold without one, and waiting for the 26 August dinner costs two weeks of selling
