@@ -1,81 +1,82 @@
-# ADR-025 — The restaurant table is ticketed on the abundant side only, and it names a vertical
+# ADR-025 — The Practice Dinner is a third format, and it is not a room
 
-**Status:** Proposed. Closes the open question in `ADR-024`. Amends the commercial seat price in `ADR-020`. Needs Ali's confirmation on the vertical and the date.
+**Status:** Proposed. Supersedes the earlier draft of this ADR, which framed the restaurant event as a variant of the dinner track. It is not a variant. Needs Ali's confirmation on the vertical, the date, and the image consent question in section 6.
 
 ## Context
 
-`ADR-024` created two dinner tracks and left one question open: who pays for a restaurant ticket. The pressure to answer it is now commercial rather than theoretical. The in-house room does not cover its own cost, cannot be sold against in advance because attendance only firms up three or four days out, and produces no revenue. The founder needs a room that funds itself without a co-host cheque, and needs it soon enough to validate the model before committing to other cities.
+`ADR-024` split dinners into in-house and restaurant and left open who pays for a restaurant ticket. That framing was wrong, because it assumed the restaurant event was the same product in a different building. It is not. The event being planned has three stated objectives and none of them is composition:
 
-A competing Toronto event (dentistry, healthcare and pharma networking, $12, open registration, standing format) was raised as evidence that clinicians will pay. It is not evidence for this model. That event sells the same thing to every attendee: exposure to the other attendees. This model sells clinician presence to a commercial buyer, which makes the clinician a different party to the transaction, not a cheaper one.
+1. **Quick time to MVP.** Something sellable and runnable inside six weeks
+2. **Proof of revenue.** The event covers itself and profits without a co-host cheque
+3. **Marketing.** Images, reach, and brand recognition among people who have never heard of MedTech North
+
+Composition and convening serve none of those. Composition is slow, unphotographable by design, and its whole value is that it is closed. Convening needs a buyer with a brief before it can exist. Neither can be stood up in six weeks and neither produces public marketing material.
 
 ## Decision
 
-**Restaurant tables are ticketed. Clinicians, researchers, academics, students and public sector leaders are not ticketed.** `ADR-002` and `CLAUDE.md` rule 1 stand unamended.
+**A third format exists: the Practice Dinner.** It sits below composition and convening and does different work.
 
-Three seat classes per table of 24:
-
-| Class | Who | Seats | Price |
+| | Practice Dinner | Composition | Convening |
 |---|---|---|---|
-| **Invited** | Clinicians, researchers, academics, students, public sector | 12 | $0, by nomination |
-| **Builder** | Founders, operators, builders in health | 9 | **$225** |
-| **Category Hold** | Companies selling into the room | 3 | **$750**, private, one seat each |
+| What is sold | **A seat and an object** | Who is in the room | A room built to a brief |
+| Composition promised | **None** | Yes | Yes, to their brief |
+| Registration | **Open, lightly qualified** | Nomination | Invitation |
+| Size | **24 to 48** | 8 to 24 | Target 50 |
+| Media | **Central. It is the product** | Private lever only | Private |
+| Public images | **Yes, with consent** | No | No |
+| Named vertical | **Yes, always** | Optional | Set by the brief |
+| Draw | **A named guest and one number** | The room | The brief |
 
-**Category Hold replaces the $500 service provider seat from `ADR-020` at restaurant venues only.** The in-house rate is unchanged. The reason is scope and cost, not extraction: a restaurant seat costs $105 against $55 partner-hosted (`ADR-021`), and the Category Hold carries a composition report, two consented introductions, category exclusivity and a portrait, none of which a Builder seat carries.
+**The Practice Dinner does not promise the room, mention composition, or produce a composition report.** Anyone who buys one and later buys a convening must be told plainly that they are different purchases. Blurring them is how the premium dies.
 
-## Why not charge the invited side
+## What is actually sold, and why it is not a seat
 
-Three reasons, in descending order of how much they matter.
+**The paid tier is a seat plus a professionally produced film the buyer owns outright.** Not access. An object.
 
-1. **It is the hard rule, and reversing it needs its own argument, not a venue decision.** `ADR-024` said this explicitly and it remains correct.
-2. **It slows the fill, and the fill is the bottleneck.** A cold clinician who has never heard of MedTech North converts to a paid ticket at a small fraction of the rate they convert to a named invitation. The stated goal is speed. Charging the scarce side is the slowest available path to a full room.
-3. **Affordability is not the barrier and never was.** A dentist can afford $200. What a dentist buys with professional money is credentials and education, which rule 7 forbids us from offering or implying (`ADR-019`). A priced seat is evaluated against CE courses and study clubs. An invitation is not evaluated against anything.
+This is the whole design. People pay reluctantly for access to a room they cannot yet evaluate, from a brand they have not heard of, in six weeks. They pay readily for a deliverable with a known market price. A 60-second professionally shot and edited film quotes at $800 to $1,200 from a freelance videographer. Bundled here at $650 with the dinner attached, it is an easy yes, and the marginal cost of the second, fifth and twelfth film on a night the crew is already hired is close to zero.
 
-## Where clinician-side revenue is legitimate
+**It also solves objective 3 for free.** Every buyer posts their own film, with the event's identity in it, to their own network. Twelve paid attendees are twelve distribution channels that paid to be distribution channels. Ali's own posting reaches a fraction of that.
 
-**The Feature** (`ADR-023`, tier two): a 45 to 60 minute shoot at the owner's own practice, on another day, producing a film they own. That is a service with a deliverable and a market price. Charging for it does not breach rule 1, because rule 1 governs the price of attendance, not the price of production work commissioned afterwards.
+## Seat classes
 
-**The rule: never charge for the seat, charge for the thing made after it.**
+| Class | Who | Price | Gets |
+|---|---|---|---|
+| **Invited** | Clinicians, researchers, academics, students, public sector | **$0** | The dinner, and three edited portraits |
+| **Room and Film** | Founders, operators, builders, service providers | **$650** | The dinner, three portraits, and a 60-second owned film |
+| **Category Hold** | One company per category | **$1,500**, private | The above, plus the category for the night, a longer film, and two consented introductions |
 
-## Named vertical, not mixed composition
+The invited side stays free. `CLAUDE.md` rule 1 and `ADR-002` are untouched, and this format does not press on them, because the paying side here is large enough to carry the room on its own. Everyone leaves with portraits, so nobody is being photographed for someone else's benefit.
 
-Restaurant tables name a single profession. The first is **dental practice owners in the GTA**.
+## Single vertical, always
 
-The `assets/events/room-003-long-table-kit.md` exclusion against naming a profession applies to the free in-house room, where the fallback has to exist because the room happens regardless. **A paid table has a different fallback: the go/no-go trigger.** If the named vertical does not assemble, the table is cancelled and money is returned. Backfilling a dental room with researchers would deliver a Category Hold buyer something other than what they bought.
+**One profession per dinner. The first is dental practice owners in the GTA.** Scoring and reasoning in `docs/19-practice-dinner-vertical-selection.md`.
 
-A Category Hold cannot be priced without a defined category, and a category cannot be defined without a defined room. Naming the vertical is what makes the commercial line sellable at all.
+The constraint driving this is the paying side, not the guests. A vendor buys a defined audience. "Dentistry, healthcare and pharma" is three audiences, and a dental software company prices that room at a third. Stacking verticals is correct for a $12 open mixer, where the goal is raw top-of-funnel volume and nobody is buying a defined audience. It is wrong here.
 
-## Sequence: composition first, money second
+**The one permitted widening: along the vertical's own referral chain, never across unrelated professions.** Dentists plus the specialists they refer to plus dental lab owners is still one ecosystem and one commercial category. Dentists plus pharmacists is two rooms sharing a bill.
 
-The founder's stated model was sell tickets, count them, then approach a sponsor. That is the mixer playbook and it inverts this one. A commercial buyer's first question is who is in the room, and the honest answer has to already exist.
+## Media consent, and the collision with rule 3
 
-**Order: confirm 6 to 8 named invited guests, then sell Category Holds against the composition described by role and specialty, then fill Builder seats.** Names are never disclosed to the buyer, before or after (`ADR-020`, `ADR-021`).
+Objective 3 requires publishing images of the event. `CLAUDE.md` rule 3 forbids past-event galleries and images implying a track record.
 
-## Commitment without payment, on the invited side
+**The rule's purpose is to stop fabricated scale, not to stop showing that something happened.** The line that holds:
 
-Payment is not the only commitment device and is a weak one at this income level. In order of effect:
+- **Depicting is allowed. Tallying is not.** A photograph of a real dinner, captioned with the real edition and date, claims only that the dinner happened
+- **No aggregate anywhere.** No member counts, no attendee totals, no "join 400 practice owners", no counters
+- **Written consent from everyone identifiable, collected on the night, on paper, before the first frame**
+- **No image is used to imply a person endorses MedTech North.** Presence is not endorsement
 
-1. A stated seat count and a named seat, confirmed by reply in a direct message
-2. The name and role of the person they will be sitting beside
-3. A voice call at 48 hours, not a text
-4. A waitlist mentioned once, truthfully
-5. Overbooking the invited side by 25%, with the final count given to the restaurant at 72 hours
+**This still needs Ali's explicit sign-off, because it is an amendment to a hard rule and I am not treating it as settled by this ADR alone.**
 
-**Escalation, pre-agreed rather than argued later:** if invited-side no-show exceeds 25% at this table, the next one adds the $50 refundable deposit already sanctioned by `ADR-019`. Returned at the door, so rule 1 is intact.
+## What this format is for, beyond its own margin
 
-## Pricing stays off the public page for the commercial line
+It is the cheapest way to buy the two things composition and convening are currently missing: a reason for a stranger in the sector to recognise the name, and evidence that people pay. A convening buyer asked "who have you done this for" currently has one answer, and it needs permission (`ADR-017`). Six Practice Dinners give a different answer.
 
-The public page shows one number, the Builder seat. The Category Hold is quoted privately after a qualifying form, per `ADR-005` and `CLAUDE.md` rule 2. Two prices on one page invites exactly the seat-to-seat comparison the Category Hold exists to avoid, and a public tier table reads as a sponsorship rate card regardless of the words used.
+**It is not a stepping stone that turns into a convening.** It is a separate line that funds and markets the ones that matter.
 
-**"Mini sponsorship" and every variant of it are rejected as a name, including in private material.** Private documents get forwarded, and the word prices the thing against conference sponsorship, where $750 buys a logo. **Category Hold** names what is actually sold.
+## Prerequisites
 
-## Prerequisites before a single Category Hold is sold
-
-- **Business name registration and a GST/HST number.** Corporate accounts payable bounces an invoice without one (`HANDOFF.md` item 5)
-- **Commercial general liability insurance, or a written confirmation the restaurant does not require a certificate.** Some venues require one to hold a semi-private space
-- **Cash bar, individual tabs.** The restaurant's licence carries the alcohol liability. We do not host the alcohol
-
-## What this does not decide
-
-Whether the ICP is formally owner-operators rather than clinicians broadly. Still open from `ADR-023` and still waiting on rooms running.
-
-Whether clinicians would pay. **Ask them, do not assume either way.** At this table, ask departing invited guests what they would have paid for the evening. That produces a real number at zero cost, and it is the only thing that could ever justify a future ADR arguing the reversal directly.
+- **GST/HST number.** A $1,500 invoice without one bounces at corporate accounts payable
+- **Commercial general liability insurance, or written confirmation the venue does not require a certificate**
+- **Cash bar on individual tabs.** The restaurant's licence carries the alcohol liability
+- **A sample film and sample portraits**, shot at the 26 August dinner. The paid tier cannot be sold without one
