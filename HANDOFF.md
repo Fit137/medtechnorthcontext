@@ -32,7 +32,8 @@ The strategic question was resolved in late July: the room that actually assembl
 | Website v1 | Live. Next.js on Vercel with Supabase, member directory, admin panel, invite-gated apply flow |
 | Website v2 spec | Content, design brief and build prompt written. Not yet built |
 | Brand voice | Codified |
-| Launch social campaign | 12 assets specified |
+| Launch social campaign | 12 assets specified. **LinkedIn only.** Superseded as an Instagram plan by `ADR-025`, and two of its frames render a forty-seat table |
+| Instagram plan | **Written, not executed.** Strategy, account metadata, six-week calendar and 19 scripts in `assets/social/`. Build brief in `prompts/claude-design/instagram-visual-system.md`. Decision: `ADR-025` |
 | Keynote | "The Room", 18 minutes, six-phase package |
 | Printables and merch | 41 items specified with print specs |
 | Investor deck | Slide content, design instructions, ROI calculator HTML |
@@ -64,6 +65,8 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Monthly room series** | Two held, only one logged | **These are the Miro rooms, not a separate stream.** A recurring monthly series, roughly 30 people, mixed. Miro co-hosted both. Room 002 still needs an event file |
 | **Per-specialty convening at volume** | Unproven | Both rooms were mixed. A single-specialty room has not been run. Room three is the test |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
+| **Instagram account** | Not opened | Handle not checked, ManyChat not connected, CASL position on the follow trigger not checked, no assets rendered. Calendar starts Monday 17 August. See `ADR-025` |
+| **Sample On Record footage** | Not shot | Now blocking twice over. `docs/17` already requires it before the first invitation goes out, and five Instagram slots in September depend on it. One friendly owner, one afternoon |
 
 ---
 
@@ -82,6 +85,9 @@ The strategic question was resolved in late July: the room that actually assembl
 11. **Approach the condo board in writing** for amenity permission, from a position of transparency.
 12. **Schedule room 3 as a named single-specialty room**, with the outreach funnel instrumented from the first message. Specialty convening at volume is still the untested claim.
 13. **Work the target lists.** Co-host prospects first, then Tier A. See `docs/12-convening-as-a-service.md` and `data/corporate-targets.md`.
+
+14. **Shoot sample On Record footage with one friendly owner.** Blocks the format sale, the first invitation, and five Instagram slots in September. One afternoon. See `docs/17-event-formats.md` and `ADR-025`.
+15. **Open the Instagram account and run the six-week block.** Metadata, ManyChat keywords, then the best-of-nine test in weeks 1 and 2. Three sign-offs are outstanding, listed at the bottom of `ADR-025`.
 
 The vendor readiness pack (items 5 and 6, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
 
