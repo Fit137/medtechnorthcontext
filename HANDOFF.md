@@ -63,6 +63,7 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Event 002 log** | Not written | No date, attendance or composition recorded anywhere |
 | **Monthly room series** | Two held, only one logged | **These are the Miro rooms, not a separate stream.** A recurring monthly series, roughly 30 people, mixed. Miro co-hosted both. Room 002 still needs an event file |
 | **Per-specialty convening at volume** | Unproven | Both rooms were mixed. A single-specialty room has not been run. Room three is the test |
+| **Online interview series** | Format, guest map and topic set written. Recorded one-on-one recommended over live webinar, `ADR-025` proposed and awaiting confirmation. Nothing shot | Two proof episodes, and per-college advertising rules checked. See `docs/18-interview-series-strategy.md` |
 | **Trademark** | Not filed | ~$640 CIPO fees. Wait until after incorporation |
 
 ---
