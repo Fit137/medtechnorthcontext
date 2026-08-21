@@ -91,6 +91,7 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | Who do I email this week, and in what order? | `docs/20-outreach-campaign-sequence.md` |
 | Whose building could we use? | `data/venue-host-targets.md` |
 | What is the site copy? | `assets/website/sitemap-and-content.md` |
+| How do I stress-test a plan or a new line? | `.claude/skills/pressure-test/` (generic tool, not MedTech North specific) |
 | What happened at the first event? | `data/events/2026-07-29-patient-journey-jam.md` |
 
 ---

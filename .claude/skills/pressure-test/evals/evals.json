@@ -1,0 +1,27 @@
+{
+  "skill_name": "pressure-test",
+  "notes": "Three cases chosen to test the properties that matter: does it read before asking, does it ask well, is the register specific enough to fail the swap test, does the escape hatch behave, and does a re-run diff rather than restart. Deliberately non-overlapping industries to check that nothing in the skill is domain-bound.",
+  "evals": [
+    {
+      "id": 0,
+      "name": "brief-exists-b2b-logistics",
+      "prompt": "I've written up a short brief for my company in brief.md. We sell delivery-estimate software to mid-size distributors. Two paying customers, both came through my old boss. I'm about to raise a seed round and I want to know what I'm actually betting on and what I should test before I go out. Can you pressure test it?",
+      "expected_output": "Reads brief.md before asking anything, opens by summarising what it learned and naming gaps, then runs a real interview rather than producing a document immediately. Final register is specific to this company (warm-sourced customers, the switching-versus-reporting distinction, the gap between stated frustration and observed switching) rather than generic. Test plan leads with an ask-based test carrying a kill number and a date.",
+      "files": ["brief.md"]
+    },
+    {
+      "id": 1,
+      "name": "no-brief-founder-in-a-hurry",
+      "prompt": "I don't have anything written down. Consumer marketplace connecting dog owners with local groomers, live in two cities, about 400 bookings last month. I've got maybe fifteen minutes before a call, just tell me what's most likely to kill this.",
+      "expected_output": "Does not dump a generic register. Asks the highest-yield questions first (pre-mortem, invisible veto, what has actually happened with dates). If it produces a register under time pressure, every unverified entry is stamped ASSUMED, NOT CONFIRMED, a banner states what fraction is unconfirmed, and it ends with the three questions that would most change the document. Surfaces supply-side and concentration beliefs, not only demand.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "rerun-with-existing-register",
+      "prompt": "We ran this three months ago, the register is in pressure-test/register.md. Since then the channel test came back badly and we changed the pricing model. Run it again.",
+      "expected_output": "Reads the existing register and log first, carries forward every prior verdict rather than starting from a blank page, and presents the run as a diff: what broke, what held, what is newly load-bearing because the pricing model changed. Appends to log.md rather than rewriting it. Does not re-surface beliefs already recorded as settled.",
+      "files": ["pressure-test/register.md", "pressure-test/log.md"]
+    }
+  ]
+}
