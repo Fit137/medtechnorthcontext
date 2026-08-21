@@ -1,6 +1,6 @@
 # Handoff — Current State
 
-**Last updated:** 2026-07-30
+**Last updated:** 2026-08-21
 
 ---
 
@@ -17,6 +17,29 @@ Room 001 was go-to-market themed rather than healthcare. Room 002 was the patien
 The site is live. No entity has been incorporated for MedTech North specifically.
 
 The strategic question was resolved in late July: the room that actually assembles is dentists, clinical pharmacists, physiotherapists and researchers, not physicians. Rather than chase physicians, the plan monetises the room that exists, and lets that fund physician recruitment later. See `decisions/ADR-012`.
+
+---
+
+## The current push: a hosted day of rooms, 12 November 2026
+
+**Decided 21 August 2026.** The goal is a large event in Canada before December, national reach, and a US inbound line, with cold outreach scaled against all three. `ADR-025` sets the shape: **six to eight composed rooms in one hosted building on one day, no room over 35, and no fixed cost committed before a host agreement is signed.** This is not a summit and `ADR-018` is not reversed.
+
+**Three asks, split, run at different speeds.** Venue host gives a building and receives media and presence, no money in either direction, 2 to 4 weeks to yes. Room funder pays $7,500 to $25,000 for a composed room. Co-host does both and is the slowest. Bundling them lets the slowest set the date.
+
+**The city is an output of the campaign, not an input.** The host campaign runs in every corridor at once. No host is signed in any city until 12 practising clinicians there have replied positively.
+
+**Hard gate: a host agreement signed by 30 September 2026**, or the day moves to Q1 2027 and November becomes a single room in the GTA.
+
+**Room 003 on 26 August is the asset shoot for the whole host campaign.** The consideration offered to a host is media and there is no sample reel. A two minute cut plus verticals is needed by 2 September.
+
+| What | Where |
+|---|---|
+| Which beliefs would end the business if wrong | `docs/18-hypothesis-risk-and-falsification.md` |
+| Why an organisation hosts for free, and what media is worth | `docs/19-host-incentives-and-the-media-floor.md` |
+| Six campaigns, kill numbers, CASL architecture, critical path | `docs/20-outreach-campaign-sequence.md` |
+| Named Canada-wide host candidates by archetype | `data/venue-host-targets.md` |
+| Send-ready copy | `assets/outreach/value-propositions/venue-host-institutional.md`, `corporate-room-funder.md` |
+| Decisions | `ADR-025`, `ADR-026` |
 
 ---
 
@@ -69,23 +92,27 @@ The strategic question was resolved in late July: the room that actually assembl
 
 ## Next actions, in order
 
-1. **Ask Miro for written permission to name them as a reference**, ideally with a two-line quote. Highest-value hour available. Miro is a reference, not a future client: healthcare is not their ICP and their annual budget for these rooms is spent. See `ADR-017`.
-2. **Build the co-host list.** Run the Perplexity prompts in `prompts/research/cohost-discovery.md`, score the output, work Mississauga and the GTA first. See `data/cohost-targets.md`.
-3. **Reconstruct the outreach funnel** from the actual send records for both rooms. Converts the ~70% claim from an anecdote into an auditable table.
-4. **Ask the four public testimonial authors** for permission to quote them in private material. Courtesy, not necessity, and it returns nominations.
-5. **Register the business name** ($60). Without it there is no invoice carrying a GST/HST number, and corporate accounts payable bounces it.
-6. **Get CGL insurance quotes.** Longest lead time, real exposure, required by external venues and corporate procurement.
-7. **Log event 002.** Date, attendance, composition, what Miro bought and what was delivered.
-8. **Run migration 0007** in Supabase. Unblocks the platform.
-9. **Ask both rooms "which company should be in this room?"** Highest-converting outreach channel available and it costs nothing. See `docs/10-growth-flywheel.md`.
-10. **Interview 8 to 12 clinicians** for the insight brief, with the two buyer-discovery questions added. Fastest cash in the business and it attaches to every other product.
-11. **Approach the condo board in writing** for amenity permission, from a position of transparency.
-12. **Schedule room 3 as a named single-specialty room**, with the outreach funnel instrumented from the first message. Specialty convening at volume is still the untested claim.
-13. **Work the target lists.** Co-host prospects first, then Tier A. See `docs/12-convening-as-a-service.md` and `data/corporate-targets.md`.
+**Reordered 21 August 2026 against the 12 November date.** Items 1 to 7 are the week that gates everything else. See `docs/20-outreach-campaign-sequence.md` section 2.
 
-The vendor readiness pack (items 5 and 6, plus the incorporation decision, a one-page agreement and a composition report template) is roughly $400 plus an insurance premium and is the highest-return week available. A verbal yes is not cash until it exists.
+1. **Register the business name** ($60). Now on the critical path for outreach as well as invoicing: CASL requires a valid mailing address and sender identification in every message.
+2. **Get CGL insurance quotes and bind.** Longest lead time on the page, and a facilities team asks for a certificate before it gives a date.
+3. **Ask Miro for written permission to name them as a reference**, with a two-line quote. Still the highest-value hour available, and every campaign is weaker without it. `ADR-017`.
+4. **Reconstruct the outreach funnel from the actual send records.** Every kill number in the campaign plan is meaningless without this baseline, and the ~70% figure cannot go in front of a buyer until it is a table.
+5. **Shoot room 003 properly on 26 August.** It is the asset shoot for the host campaign. Two minute reel plus three verticals by 2 September. Get two production quotes at the same time.
+6. **Ask both rooms two questions:** which organisation should be in this room, and whose building should we use. Free, and the second half is aimed straight at campaign 1.
+7. **Write the one-page host agreement and one-page funder agreement.** Their legal drafting from scratch costs weeks we do not have before 30 September.
+8. **Launch campaign 1, the building**, at low volume immediately and full volume from 2 September. 60 qualified sends by 11 September.
+9. **Launch campaign 2, the convener premise**, in parallel. 80 sends over four weeks. It tests the founding assumption and it costs nothing to run alongside.
+10. **Ask the four public testimonial authors for permission to quote them** in private material. Courtesy, and it returns nominations.
+11. **Campaign 3, composition against exposure**, from week 3. Same price both arms, random assignment fixed before sending.
+12. **Campaign 4, rooms inside the day**, once a host and a date exist. Two sold by 15 October or the day runs at reduced scale.
+13. **Campaign 6, the clinician side**, instrumented from message one, in whichever city the host campaign chose. This is the gate on everything sold in 3, 4 and 5.
+14. **Log event 002.** Date, attendance, composition, what was bought and what was delivered.
+15. **Run migration 0007** in Supabase. Unblocks the platform, does not block the event.
+16. **Interview 8 to 12 clinicians** for the insight brief, with the two buyer-discovery questions added.
+17. **Approach the condo board in writing** for amenity permission.
 
----
+The vendor readiness pack (items 1, 2 and 7, plus the incorporation decision and a composition report template) is roughly $400 plus an insurance premium and it is the highest-return week available. A verbal yes is not cash until it exists, and a donated building is not a booking until there is a certificate of insurance.
 
 ## Open questions
 

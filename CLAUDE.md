@@ -86,6 +86,10 @@ Register is **executive**. Write as you would to a hospital chief of staff.
 | How should I write? | `docs/07-brand-and-voice.md` |
 | What can we legally claim? | `docs/08-legal-and-compliance.md` |
 | Why was X decided? | `decisions/` |
+| What could be wrong, and how would we know? | `docs/18-hypothesis-risk-and-falsification.md` |
+| Why would anyone host us for free? | `docs/19-host-incentives-and-the-media-floor.md` |
+| Who do I email this week, and in what order? | `docs/20-outreach-campaign-sequence.md` |
+| Whose building could we use? | `data/venue-host-targets.md` |
 | What is the site copy? | `assets/website/sitemap-and-content.md` |
 | What happened at the first event? | `data/events/2026-07-29-patient-journey-jam.md` |
 

@@ -21,6 +21,8 @@ The library grows by conversation, not by extrapolation. Breadth first, then mat
 | Segment | File | Status |
 |---|---|---|
 | Practising clinician, private or community practice | `clinician-private-practice.md` | Draft, one live conversation |
+| Institutional venue host | `venue-host-institutional.md` | Draft, **zero** live conversations. Campaign 1 |
+| Canadian corporate room funder | `corporate-room-funder.md` | Draft, **zero** live conversations. Campaigns 2 and 3 |
 | Hospital or health-system clinician | not written | |
 | Academic and research | not written | |
 | Student and early career | not written | |
@@ -31,6 +33,13 @@ The library grows by conversation, not by extrapolation. Breadth first, then mat
 **Status ladder:** draft (written for one conversation) → tested (survived several in the
 same segment, wording stable) → settled (safe to template, and worth an ADR if it changes a
 public surface).
+
+**Two files are drafted ahead of a conversation rather than because of one**, which is a
+deliberate exception to rule 1 below and not a new practice. They exist because
+`docs/20-outreach-campaign-sequence.md` runs campaigns whose whole purpose is to test a
+stated hypothesis, and a campaign cannot carry a written falsifier if the wording is
+improvised per send. They stay at draft until real replies settle them, and they carry
+their untested claims in a table at the foot of each file.
 
 ## Adding a segment
 
