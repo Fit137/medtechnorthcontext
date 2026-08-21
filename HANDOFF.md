@@ -20,11 +20,17 @@ The strategic question was resolved in late July: the room that actually assembl
 
 ---
 
-## The current push: a hosted day of rooms, 12 November 2026
+## The current push: two paths, and the Stage is the new one
 
-**Decided 21 August 2026.** The goal is a large event in Canada before December, national reach, and a US inbound line, with cold outreach scaled against all three. `ADR-025` sets the shape: **six to eight composed rooms in one hosted building on one day, no room over 35, and no fixed cost committed before a host agreement is signed.** This is not a summit and `ADR-018` is not reversed.
+**Revised 21 August 2026, see `ADR-027`.** Two formats now run in parallel and are never merged. **The Table** continues unchanged at 25 to 35, sold on composition, filled by direct outreach. **The Stage** is new: 50 to 100 people, a stage, panels and recorded interviews, in a hosted venue, targeted at October or November.
 
-**Three asks, split, run at different speeds.** Venue host gives a building and receives media and presence, no money in either direction, 2 to 4 weeks to yes. Room funder pays $7,500 to $25,000 for a composed room. Co-host does both and is the slowest. Bundling them lets the slowest set the date.
+**Why the Stage exists.** A room sold on composition cannot be advertised, because the guest list is confidential by design. A named speaker consents to their name and image, so a panel can be published where a dinner cannot. Speakers recruit speakers, and they recruit attendees.
+
+**The Stage promises the programme, never the room.** No composition promise at this size, no attendance figure published, no fixed cost before a host is signed. `ADR-018`'s actual argument, which was about committing cash before revenue, is unchanged.
+
+**Four asks now, split, run at different speeds.** Venue host gives a building. Funder pays. Co-host does both. **Speaker** is the new one and it is now the bottleneck: without three named speakers who have consented in writing to their name and image, the Stage cannot be advertised and loses its only advantage over the Table.
+
+**Venue from institutions, money from commercial, speakers from clinical leaders.** Legitimacy transfers one way: an institutional venue makes commercial funders easier to sell, a commercial venue does not make clinical speakers easier to recruit.
 
 **The city is an output of the campaign, not an input.** The host campaign runs in every corridor at once. No host is signed in any city until 12 practising clinicians there have replied positively.
 
@@ -37,9 +43,9 @@ The strategic question was resolved in late July: the room that actually assembl
 | Which beliefs would end the business if wrong | `docs/18-hypothesis-risk-and-falsification.md` |
 | Why an organisation hosts for free, and what media is worth | `docs/19-host-incentives-and-the-media-floor.md` |
 | Six campaigns, kill numbers, CASL architecture, critical path | `docs/20-outreach-campaign-sequence.md` |
-| Named Canada-wide host candidates by archetype | `data/venue-host-targets.md` |
+| Named host candidates, 88 scored and ranked | `data/venue-host-targets.md` |
 | Send-ready copy | `assets/outreach/value-propositions/venue-host-institutional.md`, `corporate-room-funder.md` |
-| Decisions | `ADR-025`, `ADR-026` |
+| Decisions | `ADR-025`, `ADR-026`, **`ADR-027`** |
 
 ---
 
