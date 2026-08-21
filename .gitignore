@@ -1,0 +1,2 @@
+# Packaged skill bundles are build artifacts, rebuilt from .claude/skills/
+*.skill
