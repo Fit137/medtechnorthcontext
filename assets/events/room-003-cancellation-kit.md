@@ -1,182 +1,143 @@
-# Room 003. Moving the date. Message kit
+# Room 003. Cancellation messages
 
 > **Written 22 August 2026, four days before the published date of Wednesday 26 August.**
-> Room 003 did not compose. Confirmations arrived late, several confirmed guests withdrew, and the expected show rate on a free evening put the real table well below the number the format and the venue need.
-> Event kit: `assets/events/room-003-long-table-kit.md`. Format: `ADR-023`. Policy set by this decision: `ADR-025`.
+> Room 003 is cancelled outright. No replacement date is offered, because the format is being retired rather than rescheduled. Decision: `ADR-025`. Event kit, now historical: `assets/events/room-003-long-table-kit.md`.
 
 ---
 
-## 0. The position, and why it is this one
+## 0. What the messages are optimised for
 
-**Public position: the room is moving to a new date because the table did not compose.** True, complete enough, and the strongest available framing.
+**The brief is least possible damage.** That means being precise about where the damage actually comes from, because it is not where it feels like it is.
 
-It works because it is already the published standard. `docs/07-brand-and-voice.md` states composition over headcount as one of the four rules that do not bend. A host who moves a room rather than run a thin one is enforcing the thing he sells. That is a better story than the one where the evening runs and eleven people notice the empty chairs.
+Cancelling a free dinner four days out, to a list that had not properly confirmed, costs very little. People who had not committed feel nothing. People who had committed reclaim a Wednesday. Two weeks later almost nobody is thinking about it.
 
-**Do not invent a cause.** No venue failure, no supplier, no illness, no scheduling conflict. The list is small, local, and connected, the dining lounge is one phone call away, and the downside of being caught is not proportionate to the small amount of comfort a fabricated reason buys. There is no need for one. The real reason is more flattering than anything invented.
+**Three things do real damage, and all three happen after this weekend:**
 
-**Say "moving", not "cancelled", only if a next date is genuinely coming.** If the series is pausing instead, use variant B in section 2. A date that never arrives does more damage than the cancellation.
+| Risk | Why it is worse than the cancellation | How the messages below avoid it |
+|---|---|---|
+| A promised date that never arrives | Turns one cancelled evening into an open loop that goes stale in public. Every week without the date is a small withdrawal | No date is offered. Nothing is promised except that they will hear from you |
+| Silence, then reappearing to sell | Three months of nothing followed by a paid invitation reads as a bait and switch, whether or not it is one | Say plainly that the format is changing. That is the honest version, and it pre-explains the eventual relaunch |
+| Telling this list that the free room is now for one job title | Everybody who is not that job title reads it as a demotion. `CLAUDE.md` rule 6. Unrecoverable once noticed | The CEO table is **never** mentioned in any message that a mixed list receives. It is a private, one to one invitation only |
 
-**Numbers stay out of every message.** No headcount, no confirmation rate, no "only a handful". `CLAUDE.md` rule 3, and it is also just weak. "The table didn't come together the way it needs to" says everything required and concedes nothing.
+**One reason, forward-looking, no numbers.** "I'm changing the format" is true, it is a decision rather than a shortfall, and it does not invite the question you do not want to answer. Do not mention the mix, the confirmations, or how many were coming. Any reason that describes a shortage invites arithmetic.
 
----
-
-## 1. Order of operations, Saturday
-
-1. **The venue first**, before any guest hears it. Section 5. They hold the booking and the relationship is worth more than the evening.
-2. **One to one messages to anyone who confirmed personally.** Section 3. These go before the mass send, and they go from you, not from Luma.
-3. **The mass note to everyone registered.** Section 2. Send it as an email through Luma or your own client, then update the Luma page.
-4. **The people who withdrew or went quiet.** Section 4. Short, blameless, no follow-up required from them.
-5. **Nothing on social.** There was no public countdown to unwind. Silence is the correct public posture, and section 6 covers the one case where somebody asks.
+**No venue line is needed.** The room is in your building and costs nothing. Nobody outside is inconvenienced and there is nothing to apologise to anyone for.
 
 ---
 
-## 2. The mass note. Everyone registered
-
-### Variant A. A new date is coming. Use this one if you will run in September
+## 1. The message. Everyone registered
 
 ```
-Subject: The Table on Wednesday is moving
+Subject: Wednesday's Table is cancelled
 
 Hi [name],
 
-I'm moving Wednesday's Table to a later date, and I'd rather you heard that from me than from a calendar notification.
+Wednesday's dinner isn't going ahead. I'm changing the way these evenings run, and I'd rather stop now than put on one more of the current version because it's already in the calendar.
 
-The evening depends on the mix around the table. Confirmations for this one landed late in the week and the balance across clinicians, founders and researchers didn't come together the way it has to. I'm not going to run a smaller version of it and give it the same name.
+Nothing needed from you, and nothing to cancel. Sorry for the short notice.
 
-Your registration carries over. The new date is Wednesday [23 September], same time, same format, dinner covered, and you keep your seat without doing anything.
-
-If that Wednesday is bad for you, reply with the weeks that work. I'm setting the date around the people already in.
-
-Apologies for the change this close to the day.
+When the next one is built properly I'll come to you first.
 
 Ali
 ```
 
-### Variant B. No new date yet
+**The subject line says cancelled on purpose.** Someone who never opens the email still gets the message. The worst available outcome on Wednesday is one person standing outside a building, and a soft subject line is how that happens.
 
-Same message with the third paragraph replaced:
+**What each line is doing:**
 
-```
-Your registration carries over. I'm picking the new date this week and you'll have it before the end of the weekend, with your seat already held.
-```
-
-**Do not send variant B without a deadline in it.** "I'll be in touch" is where a registration list quietly dies. Name the day you will come back, then come back on it.
-
-### Variant C. The series is pausing, not moving
-
-Only if you are not running again before the autumn. Replace paragraphs three and four:
-
-```
-I'm holding the next Table until the autumn so I can build the room properly rather than assemble one in a fortnight. You're on the list for it, and you'll get the date before anyone else does.
-```
-
-**What each paragraph is doing, so you can edit it without breaking it:**
-
-| Paragraph | Job |
+| Line | Job |
 |---|---|
-| "I'd rather you heard that from me" | Establishes that you moved first. The cost of a late cancellation is mostly the feeling of being an afterthought |
-| "The evening depends on the mix" | The reason. Stated as a standard, not an apology |
-| "I'm not going to run a smaller version and give it the same name" | The line that converts this from a failure into a rule. Keep it, it is the whole message |
-| "Your registration carries over" | Removes the only real cost to them, which is having to act again |
-| "Reply with the weeks that work" | The re-commitment ask. Somebody who answers this is a confirmed guest for the next one |
-| One apology, at the end, one line | More than one reads as anxiety, and anxiety is the thing you are managing |
+| "isn't going ahead" | Unambiguous. No "postponed", no "moved", nothing that leaves a door swinging |
+| "I'm changing the way these evenings run" | The only reason given. A decision, not a shortfall |
+| "rather stop now than put on one more of the current version" | Converts the cancellation into standards. This is the sentence carrying the whole message |
+| "Nothing needed from you, and nothing to cancel" | Removes the last cost to them |
+| One apology, one line | More than one reads as anxiety, and anxiety is the thing being managed |
+| "When the next one is built properly I'll come to you first" | Keeps the list warm, commits to no date, and pre-frames a relaunch in a different shape |
+
+**Do not add:** a date, a month, a season, "in the autumn", "in a few weeks". Every one of those is a promise, and an unkept one is the expensive outcome this whole message exists to avoid.
 
 ---
 
-## 3. One to one. Anyone who confirmed personally
+## 2. One to one. Anyone who confirmed personally
 
-Send individually, not as a group. These are the people whose goodwill is the actual asset.
+Sent individually, and before the email above goes out. If you have their number, send it there. Email is where cancellations get missed.
 
 ```
-[name], a note before Wednesday. I'm moving the Table to a later date.
+[name], Wednesday's dinner isn't happening. I'm changing the format rather than running one more of the current version.
 
-Confirmations came in late this week and the table wasn't going to be the mixed one I described to you. I'd rather move it than run a thin version and call it the same evening.
+Sorry for the short notice, particularly to you, since you were one of the few who answered straight away. That's noted.
 
-Your seat carries. New date is Wednesday [23 September], and if that week is bad tell me and I'll work around it.
-
-You answered early, which is more than most, and I'll remember it when I'm seating the next one.
-
-Ali
+I'll come to you when the next one is ready.
 ```
 
-The last line matters more than it looks. Early confirmation is the exact behaviour that failed this room, and this is the cheapest way to pay for it.
+The middle line is the only place in this whole exercise where early confirmation gets acknowledged. It costs one sentence and it is the behaviour every future room depends on.
 
 ---
 
-## 4. The people who withdrew, or never answered
+## 3. Owners and CEOs, one to one only
 
-Short. No guilt, no chasing, no request for a reason.
+Only to someone who runs the business. Never in a group send, never in a newsletter, never on social.
 
 ```
-[name], Wednesday's Table is moving to a later date, so nothing needed from you either way.
+[name], Wednesday's dinner isn't happening. I'm changing the format rather than running one more of the current version.
 
-I'll send the new date when it's set. If health tech dinners in Mississauga aren't a fit, say so and I'll take you off without any hard feelings.
+Straight with you: the version I actually want to run is much smaller, and it's people who run the business rather than a mixed room. It takes longer to put together than a few weeks. When it's ready you're one of the first calls.
 
-Ali
+Sorry for the short notice.
 ```
 
-The opt-out offer is deliberate. A list you have cleaned is worth more than a list you have inflated, and asking makes the people who stay slightly more committed than they were.
+> **Hard constraint.** The second paragraph is one to one and stays one to one. On a mixed list it tells every clinician, researcher and founder that they are the room being replaced, which `CLAUDE.md` rule 6 forbids and which cannot be walked back once seen.
 
 ---
 
-## 5. The dining lounge
+## 4. Anyone who withdrew or never answered
 
-They see the booking sheet, so do not spin them. Straight, and lead with what they need to know operationally.
+One line. No follow-up asked of them.
 
 ```
-Hi [name],
-
-I need to move Wednesday's booking. My guest numbers didn't hold this week and I'd rather reschedule than bring you a table well under what we discussed.
-
-Two things:
-
-Are you able to move the booking to Wednesday [23 September], same time, same room? If that date is taken, tell me which Wednesdays in September and October are open and I'll take one of them.
-
-If there's a cancellation fee or a deposit that applies, send it through and I'll settle it this week.
-
-Sorry for the short notice. This is the venue I want for the series, so I'd like to get the next date in the book now rather than come back to you cold in a month.
-
-Ali
+[name], Wednesday's dinner isn't going ahead, so nothing needed either way. I'll let you know when the next one's on.
 ```
-
-Paying a fee without being asked twice, and booking the replacement date in the same message, is what keeps a venue willing to hold a room for someone with no track record.
 
 ---
 
-## 6. If somebody asks publicly
+## 5. If somebody asks when the next one is
 
-One line, no thread, no post of its own.
+Do not improvise this on the spot. It is the question that produces an accidental promise.
 
 ```
-Moved to a later date. The table hadn't composed the way it needed to and I'd rather move it than run a smaller version of the same evening.
+Changing the format, so it'll be a while. Smaller, and put together properly. I'll let you know when there's a date.
 ```
 
-**Do not post an announcement.** There was no public countdown, so a cancellation notice creates an event out of a non-event and puts the word in front of people who never knew the date.
+**If pressed on why:** "The mixed free-dinner version had run its course and I'd rather build the next one properly than keep repeating that one." Nothing beyond that. No numbers, ever.
 
 ---
 
-## 7. Never appears in any of these messages
+## 6. On the night
 
-- A number of any kind. Registrations, confirmations, withdrawals, expected attendance
-- "Low turnout", "not enough people", "poor response", "under-subscribed"
-- Any invented cause: venue, catering, illness, travel, a speaker
-- Blame pointed at guests, however softly. "Since so many of you didn't confirm" ends the relationship with the ones who did
+Keep your phone on between 6:00 and 7:30 on Wednesday. Somebody always misses a cancellation. One person arriving at your building and finding nothing is a worse outcome than the cancellation itself, and it is the only part of this that is still preventable on the day.
+
+---
+
+## 7. Never appears in any message
+
+- Any number. Registrations, confirmations, withdrawals, expected attendance
+- Any word implying a shortfall: turnout, numbers, response, interest, filled
+- A date, a month or a season for the next room
+- Any invented cause: venue, catering, illness, travel, scheduling
+- Blame at guests, however softly phrased
 - More than one apology
-- "Postponed indefinitely", "on hold for now", or any date you cannot hold
-- Anything about cameras, filming or portraits. Still a private lever, per the kit
+- **Anything about tickets or pricing.** The paid format launches later as its own thing, to a list that has been left in good standing. Announcing paid events inside a cancellation notice is the single most damaging line available
+- **The CEO table**, in anything a mixed list receives
+- Cameras, filming or portraits. Still a private lever
 - The word sponsor
 
 ---
 
-## 8. The actual fix, for Table #4
+## 8. What happens to the list
 
-The cancellation is a symptom. Late confirmation and no-shows on a free evening are the failure mode of every free room, and room 002 already showed it: three physicians accepted and all three no-showed (`data/verified-stats.md`).
+The list is the only asset that survives this week, and it survives in good condition if nothing further is asked of it.
 
-Six changes, none of which need new copy:
-
-1. **Publish a confirmation cut-off.** "Seats confirm by the Friday before. Unconfirmed seats go back to the list." That is scarcity stated as a property of the format, which `docs/07-brand-and-voice.md` allows, and it moves the decision off the day before.
-2. **Invite in waves against an assumed show rate**, not one to one against the seat count. Fill to a target that survives attrition rather than to the number of chairs.
-3. **Make the portrait slot the confirmation mechanism.** Section 6 of the event kit already sends a booking email. Someone who books a time has committed twice and is materially more likely to walk through the door than someone who clicked register.
-4. **Two touches, seven days out and 48 hours out**, both requiring a reply rather than announcing information.
-5. **Track it.** Invited, registered, confirmed, attended, per room. Without the table there is no way to know whether the fix worked, and the funnel is already an outstanding item in `HANDOFF.md`.
-6. **No deposit, ever, for clinicians, researchers or academics.** `CLAUDE.md` rule 1 and `ADR-002`. The obvious no-show fix is the one permanently unavailable on the scarce side. Founders already pay under `ADR-023`, and that is the only side where money is the lever.
+- **Do not delete anyone.** Nobody has done anything wrong
+- **Do not send a follow-up explaining more.** The cancellation note is the last message about room 003. A second one turns an event nobody will remember into a subject
+- **Next contact is the new format**, whatever it turns out to be, sent as an invitation rather than a resumption. It does not open with "as I mentioned in August"
+- **Log who confirmed early and who withdrew late.** That is the most useful thing to come out of this room, and it is currently in your head rather than in a file. `data/` needs it before it fades
