@@ -60,3 +60,5 @@ Physicians are invited, are listed publicly among the invited, and are expected 
 **ASSUMPTION, pending Ali's confirmation: tickets are sold to builders, founders, operators and service providers. Clinicians and researchers remain free at restaurant dinners as they are everywhere else.** That reading is consistent with both the ticket revenue and the hard rule.
 
 If the intent is instead that everyone pays, that reverses `ADR-002` and needs its own ADR that argues the reversal directly rather than arriving as a side effect of a venue decision.
+
+> **Answered 22 August 2026.** Everyone pays. `ADR-026` makes the reversal directly: a seat is free only when a co-host has funded it. This paragraph is left in place because the requirement it set, that the reversal be argued on its own terms, is what `ADR-026` does.

@@ -1,5 +1,8 @@
 # Financial Model
 
+> **Stale as of 22 August 2026. `ADR-026` reverses `ADR-002`.** Every seat is now ticketed unless a co-host has paid the convening fee up front, in which case that buyer's guests sit free. Unit economics, LTV and the capacity ceiling all assume a free clinical side. The XLSX has not been rebuilt and its outputs should not be quoted until it is.
+
+
 Basis for a full model, not the full model. Built as an 11-tab XLSX with 246 live formulas. This document carries the findings and the drivers.
 
 **Framing for any external reader:** this projects a business that has held one room. Every number is a hypothesis with arithmetic attached. Presented that way it is credible.

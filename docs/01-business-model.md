@@ -6,7 +6,7 @@ The asset is not events. It is a trusted network connecting four groups: **clini
 
 ## The one non-negotiable design rule
 
-**Only monetise the sides that receive commercial value. Never charge the scarce side.**
+**Only monetise the sides that receive commercial value. Never run an unfunded room** (`ADR-026`).
 
 Clinicians, researchers, academics, students and policy leaders are the reason founders join and the reason corporates pay attention. The moment they are asked to pay, even a token amount, the signal that makes the model work erodes.
 
@@ -63,7 +63,7 @@ That claim is only credible because the paid subscription filters for genuine co
 
 ## Guardrails
 
-- **Never charge clinicians, researchers or policy creators.** Cross this line and sponsorship value collapses with it.
+- **A guest seat is free only when a co-host has paid for it** (`ADR-026`). Outside a funded room, everyone buys a ticket. The risk this creates is composition inverting into a vendor floor, which is managed with per-segment caps, not with free seats.
 - **Price membership as a turnstile, not a product.** The value is the room. The fee creates commitment and should not be judged on ROI alone.
 - **Protect category exclusivity.** Selling one vertical twice destroys the premium logic.
 - **Do not let phase 3 compromise phase 1 trust.** Any paid advisory or scouting must be visibly walled off from clinical relationships and event curation.

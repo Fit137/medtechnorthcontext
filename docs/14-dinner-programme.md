@@ -1,5 +1,8 @@
 # Dinner Programme: Five Cities
 
+> **Stale as of 22 August 2026. `ADR-026` reverses `ADR-002`.** Every seat is now ticketed unless a co-host has paid the convening fee up front, in which case that buyer's guests sit free. Seat mix, the "never charged" clinician row and the no-show devices all predate the change.
+
+
 > **INTERNAL.** Sequence: Toronto, Ottawa, Montreal, Calgary, Vancouver.
 
 ---

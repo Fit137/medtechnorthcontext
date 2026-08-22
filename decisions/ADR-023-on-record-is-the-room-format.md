@@ -37,7 +37,7 @@ The deep interview moves off the event because a dinner venue produces generic f
 
 ## Constraints carried forward
 
-- Owners pay nothing, permanently (`ADR-002`). They are never pitched on the night
+- Owners pay nothing **only in a co-host funded room** (`ADR-026`, superseding `ADR-002`). Outside one, they buy a ticket like everyone else. They are never pitched on the night either way
 - Owners own their footage outright. Any use by MedTech North needs separate written permission, and site publication needs its own ADR (`CLAUDE.md` rule 3)
 - No patient information on camera, in any frame
 - Professional advertising rules per college must be checked before the first shoot. No superlatives or comparative claims in any edit, and every interviewee approves their cut
