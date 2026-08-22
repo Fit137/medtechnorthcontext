@@ -1,6 +1,6 @@
 # Handoff — Current State
 
-**Last updated:** 2026-07-30
+**Last updated:** 2026-08-22
 
 ---
 
@@ -53,7 +53,7 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Condo amenity written permission** | Not requested | Assumption only that commercial use is prohibited |
 | **First revenue** | None | Insight brief is the fastest path |
 | **Website v2** | Specified, not built | Prompts ready in `prompts/claude-code/` |
-| **Room 003** | **Scheduled and published.** Wednesday 26 August 2026, 6:30 to 9:00 pm, Mississauga. Live on Luma as "The MedTech North Table", the first room on MedTech North's own theme rather than a co-host's. Format is On Record (`ADR-023`). Copy, outreach ladder and social kit in `assets/events/room-003-long-table-kit.md` | Not filled yet. Production quotes not obtained, sample footage not shot, per-college advertising rules not checked |
+| **Room 003** | **Cancelled 22 August 2026, four days out.** The table did not compose: confirmations arrived late, confirmed guests withdrew, and the expected show rate on a free evening put the likely table well below what the format and the venue need. Moved rather than run thin, per `ADR-025`. Guest, venue and public messages in `assets/events/room-003-cancellation-kit.md`. Event copy, outreach ladder and social kit still valid in `assets/events/room-003-long-table-kit.md` | New date not yet set. Confirmation cut-off, wave invitations and a per-room funnel table are the fix, see `ADR-025`. Production quotes not obtained, sample footage not shot, per-college advertising rules not checked |
 | **Physician recruitment** | Zero MDs to date | Two documented dropouts, both structural |
 | **Corporate outreach** | Strategy, firmographic screen and named target list written. No conversations started | Vendor readiness pack. See `docs/11-corporate-outreach.md` and `ADR-015` |
 | **Miro reference permission** | Not requested | Closing act on a finished engagement. No further Miro rooms are pursued: healthcare is not their ICP and the annual budget is spent. See `ADR-017` |
