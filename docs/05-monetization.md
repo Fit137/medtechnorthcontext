@@ -1,5 +1,8 @@
 # Monetization Strategy
 
+> **Stale as of 22 August 2026. `ADR-026` reverses `ADR-002`.** Every seat is now ticketed unless a co-host has paid the convening fee up front, in which case that buyer's guests sit free. The one-sentence architecture below is no longer accurate: the free room is not free any more, and it is not the asset engine.
+
+
 **The architecture in one sentence:** the free room produces the asset, paid corporate engagements elsewhere produce the revenue, and nothing is ever charged for anything held in the condo amenity.
 
 Two machines, not one. That separation answers the venue question and the legal question at the same time.

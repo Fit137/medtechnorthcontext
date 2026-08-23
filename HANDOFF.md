@@ -1,6 +1,6 @@
 # Handoff — Current State
 
-**Last updated:** 2026-07-30
+**Last updated:** 2026-08-22
 
 ---
 
@@ -53,7 +53,8 @@ The strategic question was resolved in late July: the room that actually assembl
 | **Condo amenity written permission** | Not requested | Assumption only that commercial use is prohibited |
 | **First revenue** | None | Insight brief is the fastest path |
 | **Website v2** | Specified, not built | Prompts ready in `prompts/claude-code/` |
-| **Room 003** | **Scheduled and published.** Wednesday 26 August 2026, 6:30 to 9:00 pm, Mississauga. Live on Luma as "The MedTech North Table", the first room on MedTech North's own theme rather than a co-host's. Format is On Record (`ADR-023`). Copy, outreach ladder and social kit in `assets/events/room-003-long-table-kit.md` | Not filled yet. Production quotes not obtained, sample footage not shot, per-college advertising rules not checked |
+| **Room 003** | **Cancelled 22 August 2026, four days out.** Confirmations arrived late, confirmed guests withdrew, and the expected show rate on a free evening put the real table far below what the venue is set for. Cancelled outright with no replacement date, and **the free mixed open-registration table is retired**, per `ADR-025`. Guest messages in `assets/events/room-003-cancellation-kit.md`. `assets/events/room-003-long-table-kit.md` is now historical | Free is reserved for a CEO and owner-operator table, which needs its own ADR. Ticketing now extends to everyone: `ADR-026` supersedes `ADR-002`. Guest ticket price not set. Room 003 attendance record not yet logged in `data/` |
+| **Pricing reversal migration** | **Decided 22 August 2026. `ADR-026` supersedes `ADR-002`: every seat is ticketed unless a co-host funds the room.** Primer, README, glossary, `ADR-002`, `ADR-019`, `ADR-023`, `ADR-024`, `docs/01`, `docs/03` all updated | Not done: guest ticket price, `docs/04` Guest tier, `docs/05`, the `docs/06` XLSX and its 246 formulas, `docs/14`, `docs/17`, investor and partner decks, and **the live website, which needs explicit approval before any copy changes**. Banners added to the stale docs |
 | **Physician recruitment** | Zero MDs to date | Two documented dropouts, both structural |
 | **Corporate outreach** | Strategy, firmographic screen and named target list written. No conversations started | Vendor readiness pack. See `docs/11-corporate-outreach.md` and `ADR-015` |
 | **Miro reference permission** | Not requested | Closing act on a finished engagement. No further Miro rooms are pursued: healthcare is not their ICP and the annual budget is spent. See `ADR-017` |

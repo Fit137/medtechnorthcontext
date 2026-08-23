@@ -1,5 +1,8 @@
 # Event Formats: Room 003 Onwards
 
+> **Stale as of 22 August 2026. `ADR-026` reverses `ADR-002`.** Every seat is now ticketed unless a co-host has paid the convening fee up front, in which case that buyer's guests sit free. The On Record economics assume owners attend free and always will. That premise is gone unless the room is co-host funded.
+
+
 > **INTERNAL. Status: Format D chosen. See `ADR-023` and the production model in Part 3.** Part 1 records a rejected set and why, because the reason is the useful part. Part 2 is the set that replaced it. Part 3 is how D actually runs inside an evening. Related: `docs/13-buyer-led-room-design.md`, `docs/16-product-architecture.md`, `ADR-012`, `ADR-016`.
 
 ---

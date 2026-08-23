@@ -1,6 +1,8 @@
 # ADR-002 — Never charge clinicians, researchers, students or policy
 
-**Status:** Accepted. **Permanent.** This does not change in any phase.
+**Status:** **Superseded by `ADR-026`, 22 August 2026.** Kept as the record of the argument, which is still worth reading before anyone proposes reinstating it.
+
+> **What changed.** This ADR assumed unfunded free rooms were affordable. Rooms 001 and 002 were paid for by Miro, so the assumption was never tested until room 003, which was cancelled four days out (`ADR-025`). A free seat carries no commitment and the cost of the evening landed entirely on the founder. `ADR-026` replaces the rule with: every seat has a price, and a guest sits free when a co-host has paid for them.
 
 ## Decision
 Clinicians, researchers, academics, students and public sector leaders attend at no cost, forever. Access is by nomination or invitation, reviewed individually.

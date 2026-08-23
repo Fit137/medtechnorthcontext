@@ -1,6 +1,7 @@
 # ADR-019: Seat fees cover food, the funder cheque is the profit
 
-**Status:** Accepted. **Service provider price superseded by `ADR-020`: $350 becomes $500.**
+**Status:** **Seat mix superseded by `ADR-026`, 22 August 2026.** The twelve free clinician and researcher seats below no longer exist by default. Guests buy a ticket unless a co-host has funded the room. The whole ladder needs rebuilding around a paid guest seat, and the argument in "Rejected: a $20 to $25 clinician fee" is now a live risk to manage rather than a settled position.
+**Also:** service provider price superseded by `ADR-020`: $350 becomes $500.
 
 ## Decision
 Per dinner of 24 seats: 12 clinicians and researchers free, 7 builders at $150, 4 service providers at $500, 1 funder seat included in their fee.

@@ -6,14 +6,14 @@ You are working on **MedTech North**, a curated network for Canadian health inno
 
 ## The project in six lines
 
-Canada is the 8th largest medical device market in the world and a new device still takes over a year to reach a Canadian patient. That is a proximity problem, not an invention problem. MedTech North convenes four groups in small invitation-only rooms so the right people meet early enough for it to matter. Clinicians and researchers attend free, permanently. Founders join by application. Corporates pay for structured access to insight and input, privately, never on the website. Two rooms have been held, both commissioned by Miro.
+Canada is the 8th largest medical device market in the world and a new device still takes over a year to reach a Canadian patient. That is a proximity problem, not an invention problem. MedTech North convenes four groups in small invitation-only rooms so the right people meet early enough for it to matter. Rooms are ticketed. Clinicians and researchers sit free only when a paying co-host has funded their seats. Founders join by application. Corporates pay for structured access to insight and input, privately, never on the website. Two rooms have been held, both commissioned by Miro.
 
 ---
 
 ## Hard rules — violating any of these means the work gets reverted
 
-### 1. Never charge the scarce side
-Clinicians, researchers, academics, students and public sector leaders attend at no cost, in every phase, permanently. This is not a launch promotion. Charging them collapses the asset every other revenue line depends on.
+### 1. Never run an unfunded room
+Every seat has a price and the only question is who pays it. By default everyone buys a ticket, clinicians, researchers, academics and students included. A seat is free to the guest only when a commercial co-host or sponsor has paid the convening fee up front and needs that guest in the room. Free is an accounting position, never a marketing one, and never a goodwill exception. A sold seat is still not an entitlement: composition governs the room. See `ADR-026`, which supersedes `ADR-002`.
 
 ### 2. No sponsorship language in public
 Sponsor, sponsorship, partner tier, anchor, category-exclusive, exhibitor, underwriter, booth, media rights, lead access. None of these appear on the website, in social content, in event material, or in anything a member reads. Monetisation lives in private documents shared on calls.

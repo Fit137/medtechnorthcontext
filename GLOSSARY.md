@@ -28,7 +28,7 @@ Every term used across this repo with a specific meaning. One line each. If a te
 | **Validators** | People who judge whether a thing works in practice: clinicians, practice owners, operations leaders. The other half of the room |
 | **Guest** | Someone attending free: clinician, researcher, academic, student, public sector. Never a discount tier |
 | **Service provider** | Agencies, consultants, law firms, recruiters, vendors selling into the sector. A paid segment, capped hard, never free |
-| **The scarce side** | The groups who create the room's value and are never charged. Internal term only |
+| **The scarce side** | The groups who create the room's value: clinicians, researchers, academics, students, policy. Internal term only. They are no longer free by default, see `ADR-026` |
 | **The magnet** | The free side, whose presence makes the paid side sellable. Internal only |
 | **Chapter** | A city. Also the name of the entry paid membership tier |
 | **Chapter ceiling** | Maximum paying members one city supports, around 35 at quarterly cadence |

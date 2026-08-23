@@ -1,5 +1,8 @@
 # Membership Pricing
 
+> **Stale as of 22 August 2026. `ADR-026` reverses `ADR-002`.** Every seat is now ticketed unless a co-host has paid the convening fee up front, in which case that buyer's guests sit free. The Guest tier at $0 and every savings scenario built on free dinner attendance need repricing before this document is used.
+
+
 All prices CAD, **exclusive of GST/HST/QST**, charged at the rate of the member's province.
 
 ---

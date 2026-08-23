@@ -8,7 +8,7 @@ Four groups. Each is named in full because a pharmacist, a dental hygiene studen
 
 ## 1. Clinicians, researchers and academics
 
-**Access:** free, permanently. By nomination or invitation, reviewed individually.
+**Access:** by nomination or invitation, reviewed individually. Ticketed, unless a co-host has funded the room, in which case the seat is free to the guest (`ADR-026`).
 
 **Vocabulary for this audience:** point of care, workflow, care pathway, evidence generation, scope of practice, translational, multidisciplinary.
 
@@ -46,7 +46,7 @@ Four groups. Each is named in full because a pharmacist, a dental hygiene studen
 
 ## 3. Policy and government
 
-**Access:** free, permanently. By invitation.
+**Access:** by invitation. Ticketed, unless a co-host has funded the room (`ADR-026`).
 
 **Vocabulary:** capacity, procurement pathways, health technology assessment, value-based procurement, interoperability, jurisdictional, evidence-informed, domestic capacity.
 
@@ -66,7 +66,7 @@ Four groups. Each is named in full because a pharmacist, a dental hygiene studen
 
 ## 4. Students and graduates
 
-**Access:** free, permanently. Seats limited per room to protect balance.
+**Access:** ticketed, unless a co-host has funded the room (`ADR-026`). Seats limited per room to protect balance.
 
 **Vocabulary:** training, supervisor, cohort, translational, career pathway. Warmer than other pages, never junior in tone.
 

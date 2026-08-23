@@ -64,7 +64,7 @@ The single source of truth for MedTech North. Built so any agent or collaborator
 
 ## The five things that matter most
 
-1. **Clinicians, researchers, academics, students and policy leaders are never charged.** Permanent design rule, not a promotion. Everything else in the model rests on it.
+1. **Free seats are funded seats.** Every seat has a price and the only question is who pays it. Guests sit free when a co-host has paid the convening fee up front, and buy a ticket otherwise. See `ADR-026`, which supersedes `ADR-002`.
 2. **Each chapter has a hard membership ceiling of about 35 paying members** at quarterly cadence. Growth comes from more cities and more evenings, never from selling harder into a full room.
 3. **Membership is under 30% of revenue at every stage.** Corporate engagements and sponsorship carry the business. Membership exists to make composition provable.
 4. **No sponsorship language appears anywhere public.** Monetisation happens in private documents and calls.
