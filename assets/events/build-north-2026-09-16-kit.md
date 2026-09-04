@@ -23,7 +23,10 @@
 | **Regulated titles as labels: Resident, Fellow, Chair, Consultant, Specialist, Associate** | Rule 5 |
 | **Ranking one group above another, in copy or in the running order** | Rule 6 |
 | **Anyone buying a longer slot, a better slot, or a slot at all** | Nobody buys a microphone. `docs/07-brand-and-voice.md` |
-| **Explaining the pricing model to justify the price** | `docs/07-brand-and-voice.md`. State what the ticket does, not why it costs what it costs |
+| **Explaining the pricing model to justify the price** | `docs/07-brand-and-voice.md`. State what the ticket does and stop there |
+| **"It is not X, it is Y", and every variant, including "X, not Y"** | Ali's rule, 4 September. See section 5c |
+| **Three parallel clauses in a row, especially "the X, the Y, the Z"** | Ali's rule, 4 September. See section 5c |
+| **Cold or official register anywhere a guest reads it** | Ali runs this room himself. Every guest-facing line is first person and warm |
 
 **The theme is domestic capacity, not politics.** Build North argues that something built here should reach a patient here faster than it currently does. It characterises no country, no government and no trade dispute. Three dated procurement facts carry the whole argument and none of them is contestable. Keep it there.
 
@@ -104,34 +107,36 @@ build-north
 
 ## 5. Event description. Copy and paste
 
-**Four sections, in this order: the recognition, why now, how the evening runs, the seats.** Everything else that used to be on this page is gone. The bullets listing who is in the room, the house-rules block, the separate working session, all cut. They were logistics wearing the clothes of an argument.
+**Four sections, in this order: the recognition, why now, how the evening runs, the seats.** Everything else that used to sit on this page is gone.
+
+**Written in first person, warm, the way Ali talks.** Ali is running this room himself and the page should sound like him inviting somebody, not like an organisation announcing a programme. Two structures are banned on sight and section 5c explains why.
 
 **Recommended.**
 
 ```
-Build North is an evening for people building health technology in Canada, and it exists to give them credit for it.
+Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
 
-If you are one of them you already know that nobody claps. The work is slow, the buyers are careful, the wins are quiet, and most of them never make it past your own team. This is three hours where it gets said out loud, in front of twenty people who understand exactly what it took.
+Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 16th I'm getting twenty of you in a room, and every single one of you is getting the stage.
 
 Why now
 
 Buy Canadian took effect in December 2025, with health named as one of five strategic sectors. In June, the threshold for Canadian preference dropped from $25 million to $5 million.
 
-A new device still takes more than a year, best case, to get from a lab to a bedside. Several years is normal. Procurement policy moved. The care pathway didn't, and it won't until the people standing on either side of it know each other.
+A new device still takes more than a year, best case, to get from a lab to a bedside. Several years is normal. So the policy moved and the pathway didn't, and the people who carried on building here through all of it have had a rough couple of years with very little said about it out loud.
 
-So the people who kept building here anyway are worth an evening.
+That's the whole reason for this evening.
 
 How it runs
 
-Everyone gets the stage. Three minutes each, no slides, no deck, nothing to prepare, and two things to talk about:
+Everyone gets the stage. Three minutes each, no slides, nothing to prepare. Two things I'll ask you:
 
 What are you building, and why did you decide to build it here?
 
-Nobody can buy a longer slot. This isn't a pitch night, nobody is selling anything to anybody, and I'll step in if it starts.
+Nobody can buy a longer slot. I'm not selling anything from the front and I'll step in if somebody starts working the room, because you're coming to be heard.
 
-The rest of the evening is a celebration, and it's meant to feel like one. Food and drinks from the moment you walk in, and the room stays open until nine.
+The rest of the night is a celebration and I want it to feel like one. Food and drinks from the moment you walk in, music on, and the room stays open until nine.
 
-Twenty seats. That's the whole room, and it's the reason everyone gets a turn.
+Twenty seats. Twenty is the most people I can fit and still hand everybody three minutes, so that's where I capped it.
 
 Seats
 
@@ -141,74 +146,79 @@ First ten, $20
 Next five, $40
 Last five, $60
 
-Registration closes Friday 11 September at 6:00 pm, or when the twentieth seat goes. I read every registration, and if the room is already full for your group I'll refund you the same day and hold you for the next one.
+Registration closes Friday 11 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's already full for your group I'll refund you that day and hold you one at the next.
 
-Wednesday 16 September, 6:00 to 9:00 pm. Mississauga, address sent when you're approved. Food and drinks included.
+Wednesday 16 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
 
 Sources: ISED, Medtech Canada, University of Waterloo.
 ```
 
-**Shorter, if the page reads long on a phone.** Cuts the third paragraph of the opening and the sources line, and tightens the seats block. Nothing load bearing is lost.
+**Shorter, if it reads long on a phone.** Nothing load bearing is lost.
 
 ```
-Build North is an evening for people building health technology in Canada, and it exists to give them credit for it.
+Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
 
-If you are one of them you already know that nobody claps. The work is slow, the buyers are careful, and the wins are quiet ones. This is three hours where it gets said out loud, in front of twenty people who understand what it took.
+Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 16th I'm getting twenty of you in a room, and every single one of you is getting the stage.
 
 Why now
 
 Buy Canadian took effect in December 2025, with health named as one of five strategic sectors. In June, the threshold for Canadian preference dropped from $25 million to $5 million.
 
-A new device still takes more than a year, best case, to get from a lab to a bedside. Several years is normal. Procurement policy moved. The care pathway didn't. So the people who kept building here anyway are worth an evening.
+A new device still takes more than a year, best case, to get from a lab to a bedside. So the policy moved and the pathway didn't, and the people who carried on building here anyway are worth an evening.
 
 How it runs
 
-Everyone gets the stage. Three minutes each, no slides, nothing to prepare, and two things to talk about:
+Everyone gets the stage. Three minutes each, no slides, nothing to prepare. Two things I'll ask you:
 
 What are you building, and why did you decide to build it here?
 
-Nobody can buy a longer slot. This isn't a pitch night, and nobody is selling anything to anybody.
+Nobody can buy a longer slot, and nobody is selling anything to anybody. The rest of the night is a celebration, with food and drinks from the moment you walk in.
 
-The rest of the evening is a celebration, with food and drinks from the moment you walk in.
-
-Twenty seats. That's the whole room, and it's the reason everyone gets a turn.
+Twenty seats. Twenty is the most I can fit and still hand everybody three minutes.
 
 Seats
 
-First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 11 September at 6:00 pm, or when the twentieth seat goes. I read every registration, and if the room is full for your group I'll refund you the same day.
+First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 11 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's full for your group I'll refund you that day.
 
-Wednesday 16 September, 6:00 to 9:00 pm. Mississauga, address sent when you're approved. Food and drinks included.
+Wednesday 16 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
 ```
 
 ### 5a. Lines that are load bearing. Do not cut them
 
 | Line | Why it stays |
 |---|---|
-| "nobody claps" | The whole offer in two words. It is also the only line on the page a reader will still remember tomorrow |
-| "why did you decide to build it here?" | The second half of the question is what makes this Build North rather than an open mic |
-| "Nobody can buy a longer slot" | The only thing separating this from a pay-to-pitch event, and that distinction is the brand |
-| "This isn't a pitch night... I'll step in if it starts" | With twenty people holding a stage and a $20 door, this is the sentence standing between a celebration and a vendor floor |
-| "I read every registration... I'll refund you the same day" | `ADR-026` requires it. A sold seat is not an entitlement to attend, and the refund promise is the mechanism |
-| "Twenty seats. That's the whole room, and it's the reason everyone gets a turn." | Scarcity as a property of the format, which is the only form `docs/07-brand-and-voice.md` permits |
-| The sources line | Rule 4. Three cited figures with no attribution is worse than no figures |
+| "somebody says well done" | The offer, in four words, and the warmest thing on the page |
+| "Nobody claps for this work" | The line a reader will still have in their head tomorrow |
+| "why did you decide to build it here?" | The second half of the question is what makes this Build North instead of an open mic |
+| "Nobody can buy a longer slot" | The only thing standing between this and a pay-to-pitch night |
+| "I'm not selling anything from the front and I'll step in if somebody starts working the room" | With twenty people holding a stage and a $20 door, this sentence is what keeps it a celebration |
+| "I read every registration myself... I'll refund you that day" | `ADR-026` requires it. A sold seat is not an entitlement to attend, and the refund is the mechanism |
+| "Twenty is the most people I can fit and still hand everybody three minutes" | Scarcity as a property of the format, the only version `docs/07-brand-and-voice.md` allows |
+| The sources line | Rule 4 |
 
 **Do not add:** a headcount from a past room, a past-event photo, a testimonial, a logo, the word sponsor, a tariff figure, or a line about limited spots.
 
-### 5b. Two notes on the brief, worth knowing before you edit
+### 5b. Two notes on the brief
 
-**On "highlight the exclusivity".** The word itself cannot go on the page. `docs/07-brand-and-voice.md` allows "exclusive" at most once and only in the literal sense of category exclusivity, and it lists "limited spots" and "only a select few are invited" as the exact failures to avoid. So the room is made scarce by explaining the constraint instead: twenty seats, and the reason for twenty is that it is the largest number where everybody still gets three minutes. That reads as a design decision rather than a sales tactic, and it is harder to argue with.
+**On "highlight the exclusivity".** The word cannot go on the page. `docs/07-brand-and-voice.md` allows "exclusive" once, only in the literal sense of category exclusivity, and it names "limited spots" and "only a select few are invited" as the failures. So the page gives the reason for twenty instead, which is that twenty is where everybody still gets three minutes. That lands as a decision somebody made for a reason, and a reader cannot argue with it.
 
-**On recognition without implying a credential.** Rule 7 forbids implying accreditation, endorsement or outcomes. So the copy never says honoured, award, recognised leader, or anything a reader could mistake for a designation. What it promises is precise and deliverable: three minutes, twenty people listening, and their attention. Nobody is certifying anything.
+**On recognition without implying a credential.** Rule 7 forbids implying accreditation, endorsement or outcomes. Nothing on the page says honoured, award, or recognised leader. What it promises is small and real: three minutes, twenty people listening, and somebody saying well done. Nobody is certifying anything.
 
-### 5c. What the voice pass changed
+### 5c. The two structures that are banned on sight
 
-Run against `references/ai-tells-catalog.md` and `docs/07-brand-and-voice.md`.
+Ali's rule, 4 September. Both are in the `ai-slop-humanizer` catalogue and both survive rewrites unless you go looking for them.
 
-1. **The opening leads with the reader, not the event.** The old first line described what Build North was. This one describes something true about the reader's week.
-2. **Contractions throughout.** "didn't", "won't", "isn't", "you're". Rare contractions are a soft AI tell and the old draft had almost none.
-3. **The closing bow is gone.** No summary paragraph. The page ends on a date, an address and a food line, which is where a real invitation ends.
-4. **Clinical and operator vocabulary, not startup vocabulary.** Care pathway, lab to bedside. A clinician should recognise their own language.
-5. **Rhythm broken up deliberately.** Short, then long, then a fragment. Four medium sentences in a row is the most reliable tell in the catalogue and the hardest to spot in your own writing.
+**1. "It is not X, it is Y", and every variant.** That includes "X, not Y", "this isn't a pitch night, it's a celebration", "not an event, a room". It reads as a writer performing a reveal, and once you notice it you cannot stop noticing it. Say the thing you mean and drop the half you were going to negate. An earlier draft of this page had "You came to be heard, not sold to" and it now reads "because you're coming to be heard", which says the same thing without the swivel.
+
+**2. Three parallel clauses in a row, especially "the X, the Y, the Z".** An earlier draft had "The work is slow, the buyers are careful, the wins are quiet". Three clauses, same shape, same article, and it is the loudest tell in the catalogue. It became "You ship something, then you wait", which is two beats instead of three and sounds like somebody talking. Two is fine. Four is fine. Three in matching shape is the one to watch.
+
+### 5d. What else the warmth pass changed
+
+1. **First person, all the way through.** I'm putting it on, I'll ask you, I read every registration, food and drinks are on me. The page has a person behind it now and that person is the reason anybody comes.
+2. **Contractions everywhere they fit.** didn't, isn't, room's, you're.
+3. **The formal connective tissue is gone.** No "that is why", no "which means", no "the rest of the evening is". Sentences start with So and And where a person would.
+4. **Times are written the way people say them.** "6 to 9pm", not "6:00 to 9:00 pm".
+5. **No closing summary.** The page ends on the address and the food, which is where a real invitation ends.
 
 ## 6. Luma metadata. Copy and paste
 
@@ -280,7 +290,7 @@ All four are visible from day one. A ladder only works if somebody buying at $20
 
 ```
 First release
-$20. Three minutes on the stage, food and drinks, and the rest of the evening. Same three minutes as every other seat in the room.
+$20. Three minutes on the stage, food and drinks, and the rest of the night. Same three minutes as everyone else in the room.
 
 Second release
 $40. Same seat, same three minutes. The price goes up as the room fills.
@@ -289,7 +299,7 @@ Final release
 $60. The last five seats. Same seat, same three minutes.
 
 Service provider seat
-$150. For anyone who sells services to founders or clinics: agencies, consultancies, recruitment, legal, accounting. Four of these, so the evening stays a celebration rather than a sales floor. Same seat, same three minutes.
+$150. If you sell services to founders or clinics, this one's yours: agencies, consultancies, recruitment, legal, accounting. I keep it to four so the night stays a celebration and doesn't turn into a sales floor. Same seat, same three minutes.
 ```
 
 **Refund policy field**
@@ -301,7 +311,7 @@ Full refund up to Friday 11 September at 6:00 pm. After that the seat is transfe
 **Link preview description, 155 characters**
 
 ```
-An evening for people building health technology in Canada. Twenty seats, three minutes each on the stage. Wednesday 16 September, Mississauga.
+An evening for the people building health technology in Canada. Twenty seats, and everyone gets the stage for three minutes. Wednesday 16 September, Mississauga.
 ```
 
 **Calendar and tags**
@@ -321,17 +331,17 @@ Subject: You're in for Build North on the 16th
 
 Hi [name],
 
-You're approved for Build North on Wednesday 16 September, 6:00 to 9:00. The address is [address], and [parking detail].
+You're in. Wednesday 16 September, 6 to 9pm, at [address]. [parking detail].
 
-Two things worth knowing now rather than at the door.
+Two things I'd rather you heard now than at the door.
 
-You get three minutes on the stage, same as everyone else in the room. Two things to talk about: what you're building, and why you decided to build it here. Order gets drawn on the night, there's nothing to prepare, and there are no slides. If you'd rather pass when it comes to you, pass. Nobody will make anything of it.
+You get three minutes on the stage, same as everyone else. What you're building, and why you decided to build it here. I draw the order on the night so there's nothing to prepare, and there are no slides. And if you'd rather pass when it comes round to you, pass. Nobody will think a thing of it.
 
-There's a photographer for part of the evening. Anything with you in it is yours, and nothing gets published anywhere with you in it unless you tell me in writing that it can be. Say the word at the door and nothing gets pointed at you.
+There's a photographer for part of the night. Anything with you in it is yours, and I won't publish a single frame of you anywhere unless you tell me in writing that I can. Say the word at the door and nothing gets pointed at you.
 
-I'll send a reminder with the address on the Monday.
+I'll send a reminder on the Monday.
 
-See you on the 16th,
+Really glad you're coming,
 Ali
 ```
 
@@ -416,20 +426,20 @@ Set type large enough to read at thumbnail size. Panel 6 is the only one that ca
 
 ## 10. Social kit
 
-Seven days. Post daily, and expect the direct messages to do the real work.
+Seven days. Post daily, and expect the direct messages to do the real work. All six are first person and none of them opens on a hook the writer is pleased with.
 
 ### Post 1. Announcement
 
 ```
-If you build health technology in Canada, nobody claps.
+Nobody claps for this work.
 
-The work is slow, the buyers are careful, and the wins are quiet ones that mostly never leave your own team. Build North is three hours where that gets said out loud.
+You build something for the health system in this country, you ship it, and then you wait. The only people who really know what it cost you are already on your payroll.
 
-Wednesday 16 September, Mississauga. Twenty seats, and everyone in the room gets three minutes on the stage. Two things to talk about: what you're building, and why you decided to build it here.
+So on Wednesday 16 September I'm getting twenty of you in a room in Mississauga, and every single one of you is getting the stage for three minutes. What you're building, and why you decided to build it here.
 
-Not a pitch night. Food and drinks, and a room that came to listen.
+Food and drinks, music on, and a room that came to listen.
 
-$20 for the first ten seats. Link in the comments.
+$20 for the first ten seats. Link's in the comments.
 ```
 
 ### Post 2. Why now
@@ -439,87 +449,93 @@ Buy Canadian took effect in December 2025, with health named as one of five stra
 
 A new device still takes more than a year, best case, to get from a lab to a bedside. Several years is normal.
 
-So procurement policy moved and the care pathway didn't. Which means the people who kept building here anyway did it without much help, and mostly without anyone saying so.
+So the policy moved and the pathway didn't. Which means everyone who carried on building here anyway did it the hard way, mostly without anyone saying so out loud.
 
-That's what Build North is for. Wednesday the 16th, Mississauga. Link in the comments.
+That's what the 16th is for. Link's in the comments.
 
 Sources: ISED, Medtech Canada, University of Waterloo.
 ```
 
-### Post 3. The three minutes
+### Post 3. Everyone gets three minutes
 
 ```
-Most events in this sector give the stage to four people and a chair to everybody else.
+Most events in this sector hand the stage to four people and a chair to everybody else.
 
-At Build North all twenty seats get three minutes. Same clock, order drawn on the night, and nobody can pay for a longer one.
+I'm doing it the other way round on the 16th. Twenty seats, and all twenty get three minutes. Same clock, order drawn on the night, and nobody can pay me for a longer one.
 
-Two things to talk about. What you're building, and why you decided to build it here instead of somewhere easier. The second one is the reason the room exists.
+Two things I'll ask you. What are you building, and why did you decide to build it here rather than somewhere easier.
 
-Wednesday 16 September, Mississauga. $20 for the first ten seats. Link in the comments.
+The second one is the reason the whole evening exists.
+
+Mississauga, Wednesday 16 September. $20 for the first ten seats. Link's in the comments.
 ```
 
-### Post 4. Not a pitch night
+### Post 4. Nobody sells
 
 ```
-Build North isn't a pitch night, and I want to be blunt about why.
+I want to be blunt about one thing before the 16th.
 
-The moment a room like this becomes twenty people selling, the clinicians stop coming, then the founders stop getting anything out of it, and within two rooms you've built a trade show with worse catering.
+Nobody sells anything in that room. Not from the stage, and not quietly over a drink either.
 
-So nobody sells anything to anybody, and I'll step in if it starts. What's left is twenty people talking about work they're proud of, in front of people who understand it.
+I've watched what happens when a room like this goes the other way. The clinicians stop coming first. Then the founders work out there's nothing left to get from it. Two rooms later you've built a trade show with worse food.
 
-Wednesday the 16th, Mississauga. Link in the comments.
+So that's the rule, and I'll step in if it starts.
+
+Wednesday the 16th, Mississauga. Link's in the comments.
 ```
 
 ### Post 5. The celebration
 
 ```
-Most events in Canadian health tech are built around what's broken. Procurement, timelines, the pilot that went nowhere. All useful, all exhausting.
+Almost every event in Canadian health tech is built around what's broken. Procurement, timelines, the pilot that quietly died. Useful, and exhausting.
 
-Build North is built around what got made anyway. People shipped things here this year, in a market where shipping here is the harder choice, and that deserves an evening with food and drinks and people clapping rather than another panel about barriers.
+Build North is about what got made anyway.
 
-Wednesday 16 September, Mississauga. Twenty seats, price goes up as they fill. Link in the comments.
+People shipped real things here this year, in a market where shipping here is the harder choice, and I think that's worth an evening with proper food and people clapping instead of another panel about barriers.
+
+Wednesday 16 September, Mississauga. Twenty seats, and the price goes up as they fill. Link's in the comments.
 ```
 
 ### Post 6. The close
 
 ```
-Build North is Wednesday. Registration closes Friday at 6 because I need a number.
+Build North is Wednesday and registration closes Friday at 6, because I need a number.
 
-Twenty seats, three minutes each on the stage, and one question: what are you building, and why did you decide to build it here.
+Twenty seats, three minutes each on the stage, and one question. What are you building, and why did you decide to build it here.
 
-Link in the comments.
+Link's in the comments.
 ```
 
 **Never in a post:** how many seats are left or sold, a headcount from a previous room, a photo with people in it, or a testimonial. Sections 12 and 13.
 
 ## 11. Direct messages. This is what actually fills the room
 
-Seven days is short. The page confirms, the messages sell. Send fifty to fill twenty, and start today.
+Seven days is short. The page confirms, these sell. Send fifty to fill twenty and start today.
 
 ### Message A. Founders and operators
 
 ```
-Hi [name], I run a small series in Mississauga called MedTech North. The next one is Wednesday 16 September and it's called Build North.
+Hi [name], I run a small series in Mississauga called MedTech North. The next one's Wednesday 16 September and I'm calling it Build North.
 
-Twenty people, three hours, and everyone in the room gets three minutes on the stage. Two things to talk about: what you're building, and why you decided to build it here rather than somewhere easier. No slides, no deck, nothing to prepare, and nobody can buy a longer slot, me included.
+Twenty people, three hours, and everyone in the room gets three minutes on the stage. What you're building, and why you decided to build it here rather than somewhere easier. No slides, nothing to prepare, and nobody can buy a longer slot, me included.
 
-I'm writing to you because of [specific thing they built or shipped]. That's exactly the three minutes I want in the room, and I don't think enough people have heard about it.
+I'm writing to you because of [specific thing they built or shipped]. I don't think enough people have heard about it and I'd like the room to.
 
-It isn't a pitch night. Food and drinks, and a room that came to listen.
+Nobody sells anything in there, which is a rule I actually enforce. Food and drinks, and a room that came to listen.
 
 $20 while the first ten seats last, and it goes up as they fill. Registration closes on the 11th.
 
-If it's a yes I'll send the address.
+Say the word and I'll send you the address.
 ```
 
 ### Message B. Clinicians, and people running a practice or clinical service
 
 ```
-Hi [name], I run a small series in Mississauga. The next one is Wednesday 16 September, twenty people, three hours, and it's an evening for the people building health technology in this country.
+Hi [name], I run a small series in Mississauga. Next one's Wednesday 16 September, twenty people, three hours, and it's a night for the people building health technology in this country.
 
-Why I'm writing to you. Everyone getting three minutes on that stage is building something that is eventually meant to reach a patient, and most of them have never had an honest clinical read on whether it would survive contact with a real workflow. You get the same three minutes as everyone else, to use however you want.
+Here's why I'm writing to you. Everyone getting three minutes on that stage is building something that's meant to end up in front of a patient one day, and hardly any of them have ever had an honest clinical read on whether it would survive a real workflow. You'd get the same three minutes as everyone else, to use however you want.
 
-Nobody pitches you. That's a rule I enforce, not a hope.
+Nobody pitches you in there. That's a rule I enforce, and I'd rather you held me to it.
 
 $20 while the first ten seats last, food and drinks included. Registration closes on the 11th.
 ```
@@ -527,11 +543,11 @@ $20 while the first ten seats last, food and drinks included. Registration close
 ### Message C. Investors
 
 ```
-Hi [name], I run a series in Mississauga. Next one is Wednesday 16 September, twenty seats, three hours, and it's an evening for people building health technology in Canada.
+Hi [name], I run a series in Mississauga. Next one's Wednesday 16 September, twenty seats, three hours, for people building health technology in Canada.
 
-Being straight about the format. You get three minutes like everyone else, and no, it isn't twenty pitches. The question is what people are building and why they chose to build it here, so what you'd hear is founders and clinicians talking about the decision itself, before anyone has tidied it up for a deck.
+Being straight with you about the format. You get three minutes like everyone else, and no, it isn't twenty pitches. I'm asking people what they're building and why they chose to build it here, so what you'd actually hear is founders and clinicians talking about that decision before anyone has tidied it up for a deck.
 
-No demo slots, no pitch competition, nobody working the room.
+No demo slots, no pitch competition, and nobody working the room.
 
 $20 while the first ten seats last. Registration closes on the 11th.
 ```
@@ -539,11 +555,11 @@ $20 while the first ten seats last. Registration closes on the 11th.
 ### Message D. Researchers, and people early in their career
 
 ```
-Hi [name], I run a series in Mississauga. Next one is Wednesday 16 September, twenty people, three hours, for the people building health technology in this country.
+Hi [name], I run a series in Mississauga. Next one's Wednesday 16 September, twenty people, three hours, for the people building health technology in this country.
 
-You'd get the same three minutes on the stage as everyone else. What you're working on, and why you're doing it here. Order drawn on the night, nothing to prepare.
+You'd get the same three minutes on the stage as everyone else. What you're working on, and why you're doing it here. I draw the order on the night so there's nothing to prepare.
 
-It's the rare room where nobody has to explain their job before they can talk about it.
+It's the rare room where you don't have to explain your job before you can talk about it.
 
 $20 while the first ten seats last, food and drinks included. Registration closes on the 11th.
 ```
@@ -551,11 +567,11 @@ $20 while the first ten seats last, food and drinks included. Registration close
 ### Message E. Service providers, only if they ask
 
 ```
-Hi [name], there are four seats for people who sell services to founders or clinics, and they're $150 rather than $20. Four of them, so the evening stays a celebration rather than a sales floor.
+Hi [name], I keep four seats for people who sell services to founders or clinics, and those are $150 rather than $20. Four of them, so the night stays a celebration and doesn't turn into a sales floor.
 
-Same seat, same three minutes as everyone else. No selling from the stage or in the room, and that one ends the invitation permanently if it happens.
+Same seat and the same three minutes as everyone else. No selling from the stage or around the room, and that one ends the invitation for good if it happens.
 
-If that works I'll hold one for you.
+If that works for you I'll hold one.
 ```
 
 ## 12. Never appears in public copy or images
@@ -571,6 +587,8 @@ If that works I'll hold one for you.
 - Food described as the reason to come. It is part of the celebration, not the offer
 - Award, honoured, recognised leader, or any word a reader could mistake for a credential. Rule 7
 - leverage, unlock, seamless, streamline, empower, cutting-edge, game-changer, robust, elevate, transform, landscape, foster
+- "It is not X, it is Y", and every variant of it, including "X, not Y"
+- Three parallel clauses in a row, especially "the X, the Y, the Z". Two is fine, four is fine, three in matching shape is the tell
 - Em dashes and en dashes, anywhere
 
 ## 13. Three things are blocked. Read before publishing
