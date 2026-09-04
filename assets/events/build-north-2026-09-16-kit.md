@@ -352,21 +352,31 @@ Ali
 **Four hard rules:**
 
 1. **No people, no crowds, no audience shots.** An image of a full room implies attendance you cannot evidence. Rule 3
-2. **No flags, no maple leaves, no hockey, no mountains.** The red is the only national cue and it is already the brand colour
-3. **No wordmarks or logos generated in the image.** Type is added at layout. Image models mangle letterforms
-4. **No dinner imagery and no construction clichés.** No plates, no cutlery, no hard hats, no cranes, no gears, no lightbulbs, no handshakes
+2. **No wordmarks or logos generated in the image.** Type is added at layout. Image models mangle letterforms
+3. **No dinner imagery and no construction clichés.** No plates, no cutlery, no hard hats, no cranes, no gears, no lightbulbs, no handshakes
+4. **Flag references are in, hockey and beavers and mountains are out.** Ali's call, 4 September. The flag is used as geometry and as a leaf, never as a costume
 
-Palette throughout: ink `#16191d`, red `#c41230`, warm off-white. Red on one element only, never as a field.
+Palette throughout: ink `#16191d`, red `#c41230`, warm off-white.
 
-### Direction 1: Build North, typographic
+**The one thing that will ruin any of these: two different reds.** The Canadian flag red is roughly `#EF3340`, the brand red is `#c41230`, and side by side they look like a printing error rather than a decision. **Every prompt below builds the flag out of `#c41230` only.** A guest reads the shape as Canadian. A designer reads the colour as MedTech North. Nobody sees a clash.
 
-*Cheapest, most on-brand, strongest at thumbnail size. Recommended.*
+### Direction 1: The Flag, as structure
+
+*Recommended for the Luma cover. Reads as Canadian at thumbnail size without a single cliche in the frame.*
 
 ```
-A typographic poster. The words "BUILD NORTH" set very large in a confident modern serif, stacked on two lines, left aligned, filling most of the frame, in near-black ink #16191d on a warm off-white background with faint paper tooth. A single thin horizontal rule in deep crimson #c41230 sits directly under the word NORTH and runs past it to the edge of the frame. Nothing else in the frame: no illustration, no icons, no decoration, no border. Letterpress feel with slight ink bite at the letterform edges. Confident and quiet, closer to a university press book jacket than an event graphic. Leave a clear band across the bottom eighth.
+A minimal letterpress poster in a 2:1 landscape format, on a warm off-white paper ground with faint visible tooth. The composition is built on the proportions of the Canadian flag: a solid vertical band of deep crimson #c41230 running full height down the left quarter of the frame, a matching band down the right quarter, and a wide open cream field between them. Centred in that open field sits a single maple leaf, drawn as a simple flat silhouette in the same deep crimson #c41230, sized modestly so that generous empty space surrounds it on all sides. A thin horizontal rule in near-black ink #16191d runs edge to edge across the lower third, passing behind the leaf. No text, no letters, no numerals, no logos, no borders, no stars, no other symbols. Completely flat vector shapes: no gradients, no shadows, no fabric texture, no waving fabric, no 3D, no photographic realism, no lens effects. The feel of a letterpress broadside or a university press book jacket, calm and confident, never a sports graphic. Leave the centre of the cream field clear enough to sit a headline over it later.
 ```
 
-### Direction 2: The Seam
+### Direction 2: The Flag, leaf high
+
+*Same idea with the leaf lifted out of the headline's way. Use whichever of the two crops better at 2:1.*
+
+```
+A minimal letterpress poster in a 2:1 landscape format on a warm off-white paper ground with faint visible tooth. A solid vertical band of deep crimson #c41230 runs full height down the left quarter of the frame and a matching band runs down the right quarter, echoing the proportions of the Canadian flag. In the open cream field between them, one small flat maple leaf silhouette in the same deep crimson #c41230 sits high and centred, with a thin near-black #16191d horizontal rule running edge to edge below it across the lower third. Everything else is empty space, kept clear for a headline to be set over it later. No text, no letters, no numerals, no logos, no borders, no stars. Flat vector shapes only: no gradients, no shadows, no fabric texture, no waving fabric, no 3D, no photographic realism. The feel of a letterpress broadside, calm and confident, never a sports graphic.
+```
+
+### Direction 3: The Seam
 
 *Uses the brand mark's structural rule: an up-triangle and a down-triangle meeting at a line.*
 
@@ -374,7 +384,7 @@ A typographic poster. The words "BUILD NORTH" set very large in a confident mode
 A minimal geometric composition on a warm off-white ground with visible paper texture. A single horizontal line runs edge to edge across the lower third of the frame. Above it, a solid upward-pointing triangle in near-black ink #16191d, tall and narrow, sitting precisely on the line. Below the line, a smaller downward triangle in mid gray, its point just touching. One short crimson #c41230 tick mark sits on the horizontal line, off to the right. Flat vector shapes, no gradients, no shadows, no blur, no 3D. Large empty space in the upper half for typography. Silkscreen print feel, calm and structural.
 ```
 
-### Direction 3: Twenty Equal Marks
+### Direction 4: Twenty Equal Marks
 
 *Encodes the format without depicting a performance: twenty identical slots, one of them yours.*
 
