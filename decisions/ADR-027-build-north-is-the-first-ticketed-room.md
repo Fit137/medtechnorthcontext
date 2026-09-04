@@ -1,4 +1,4 @@
-# ADR-027 — Build North is the first ticketed room, it is a programme rather than a dinner, and every seat carries the same three minutes
+# ADR-027 — Build North is the first ticketed room, it sells recognition rather than a dinner, and every seat carries the same three minutes
 
 **Status:** Proposed. Price, venue and time of day are Ali's to confirm
 **Date:** 4 September 2026
@@ -16,9 +16,13 @@ Two things about it are new. It is **not a dinner**, and it is priced at a fract
 
 ## Decision
 
-### 1. It is a programme, and the copy sells the programme
+### 1. It is not a dinner, and what it sells is recognition
 
-Three hours, two named segments, a stated finish time. Food is logistics mentioned once, never the offer. Every previous room was sold as a dinner and this one is not, because the guests it is built for are founders, clinicians and researchers coming to do something rather than to eat.
+Three hours. One segment with a stage in it, then a celebration with food and drinks out from the start. Every previous room was sold as a dinner and this one is not.
+
+**The offer is being heard.** People building health technology in Canada are doing work almost nobody claps for, and the page leads on that rather than on the format, the composition or the venue. Everything else in the design serves it: the stage is flat so nobody is featured, the question is retrospective so it cannot become a pitch, and the food is out from the start so the evening reads as a celebration rather than a programme with a reception bolted on.
+
+The page carries four sections and no more: the recognition, why now, how it runs, the seats. The who-is-in-the-room bullets and the house-rules block are cut. Both were logistics presented as an argument, and on a page whose job is to make somebody want something, they were the noise.
 
 Published as **Session #3** rather than Table #3. A newcomer reads "Table" as a dinner. Edition numbering continues unbroken from `ADR-024`, since room 003 was cancelled without consuming a number.
 
@@ -43,15 +47,17 @@ Event capacity is **20**. Ticket quantities sum to 24 because the service provid
 
 ### 3. Every seat carries three minutes, and nobody can buy more
 
-One question, identical for everyone, in the same words: **what did you build this year, and what would make the next one easier to build here.** Three minutes each, order **drawn at the table on the night**. No slides, no decks, no demos.
+One question, identical for everyone, in the same words: **what are you building, and why did you decide to build it here.** Three minutes each, order **drawn at the table on the night**. No slides, no decks, no demos.
 
-The second segment collects the barriers named in the first and works through the repeats. That is the structured question `ADR-019` requires of every room, so this one produces material rather than an evening.
+The second half of that question is the decision. A product list is an update. Saying out loud why you chose the harder market is the thing that gets recognised, and twenty answers to it are an argument about the country rather than twenty updates. It is also the structured question `ADR-019` requires of every room, so the evening produces material rather than just an evening. The answers get written down the same night.
 
-### 4. Publishing "twenty seats" is a deliberate exception
+### 4. Scarcity is published as a reason, not as pressure, and "twenty seats" is a deliberate exception
 
 `docs/07-brand-and-voice.md` and `data/verified-stats.md` both say not to publish a fixed seat count, because "forty seats" becomes a claim to defend when the first room held 16.
 
 Twenty is published anyway. The ladder discloses it arithmetically the moment the tiers are visible, so hiding it is theatre. `ADR-019` already lists a stated seat count among the devices that stop an invitation reading as "you are the product". And the rule exists to stop an unfillable number being claimed as a track record, which is not what a capacity for a dated room is.
+
+**The word "exclusive" does not appear.** `docs/07-brand-and-voice.md` permits it once per page and only in the literal sense of category exclusivity, and it names "limited spots" and "only a select few are invited" as the failures. So the page gives the reason for twenty instead: it is the largest number where everyone still gets three minutes. That reads as a design constraint rather than a sales tactic, and a reader cannot argue with it.
 
 **The rule is not repealed.** It still holds for the website, for any past room, and for any number describing attendance rather than capacity.
 
@@ -65,7 +71,8 @@ Twenty is published anyway. The ladder discloses it arithmetically the moment th
 
 ## What this costs, stated plainly
 
-- **The floor can run long and eat the second segment.** Twenty people at three minutes is sixty-five minutes only if it is run hard. Visible timer, and cut the first overrun off warmly and publicly.
+- **The stage can run long and eat the celebration.** Twenty people at three minutes is sixty-five minutes only if it is run hard. Visible timer, and cut the first overrun off warmly and publicly. The celebration is the thing people paid for.
+- **The house rules came off the public page.** No selling and nothing leaves the room both still stand and are said aloud at the open, and the no-selling rule survives in the description as a sentence. A rules block on an invitation to a celebration reads as a list of restrictions, which is the wrong first impression. The risk is that somebody arrives not having read it. The open is the mitigation and it has to actually happen.
 - **Composition risk is live and it is the serious one.** A $20 ticket on a celebratory builder theme is the exact shape that fills with founders and service providers and no clinicians. `ADR-026` binds here: **a sold seat is not an entitlement to attend.** Approval is required on every registration and a buyer whose group is full is refunded the same day rather than seated.
 - **$700 does not buy a venue.** See condition 1.
 - **The theme is politically adjacent and the copy is not.** Build North argues for domestic capacity from three dated procurement facts in `data/verified-stats.md`. It characterises no country, government or dispute and carries no tariff figure, because none is verified. Rule 4 applies to a Luma page exactly as it applies to the site.
