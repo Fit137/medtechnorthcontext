@@ -1,6 +1,6 @@
 # Build North. Session #3 publishing kit
 
-> **Wednesday 16 September 2026, 6:00 to 9:00 pm.** Set by Ali.
+> **Wednesday 30 September 2026, 6:00 to 9:00 pm.** Moved from 16 September by Ali on 15 September. Every date in this kit is the real one, not a derived one.
 >
 > **Not a dinner, and the offer is recognition.** Everyone in the room gets three minutes on a stage to say what they are building and why they chose to build it here. The rest of the evening is a celebration with food and drinks out from the start. The page leads with that, because that is what a guest is actually buying.
 >
@@ -116,7 +116,7 @@ build-north
 ```
 Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
 
-Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 16th I'm getting twenty of you in a room, and every single one of you is getting the stage.
+Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 30th I'm getting twenty of you in a room, and every single one of you is getting the stage.
 
 Why now
 
@@ -146,9 +146,9 @@ First ten, $20
 Next five, $40
 Last five, $60
 
-Registration closes Friday 11 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's already full for your group I'll refund you that day and hold you one at the next.
+Registration closes Friday 25 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's already full for your group I'll refund you that day and hold you one at the next.
 
-Wednesday 16 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
+Wednesday 30 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
 
 Sources: ISED, Medtech Canada, University of Waterloo.
 ```
@@ -158,7 +158,7 @@ Sources: ISED, Medtech Canada, University of Waterloo.
 ```
 Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
 
-Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 16th I'm getting twenty of you in a room, and every single one of you is getting the stage.
+Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 30th I'm getting twenty of you in a room, and every single one of you is getting the stage.
 
 Why now
 
@@ -178,9 +178,9 @@ Twenty seats. Twenty is the most I can fit and still hand everybody three minute
 
 Seats
 
-First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 11 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's full for your group I'll refund you that day.
+First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 25 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's full for your group I'll refund you that day.
 
-Wednesday 16 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
+Wednesday 30 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
 ```
 
 ### 5a. Lines that are load bearing. Do not cut them
@@ -231,7 +231,7 @@ Build North. MedTech North Session #3
 **Date and time**
 
 ```
-Wednesday 16 September 2026
+Wednesday 30 September 2026
 6:00 PM to 9:00 PM
 Timezone: America/Toronto
 ```
@@ -253,7 +253,7 @@ Set the full address to **hidden until approved**. It goes out in the approval e
 | Show remaining ticket count | **Off** | A public counter is a live-looking counter. Rule 3 |
 | Event capacity | **20** | Ticket quantities sum to 24. Capacity is the real ceiling |
 | Waitlist | **On** | Turns a sell-out into the next room's list. `ADR-019` no-show device |
-| Registration close | **Fri 11 September 2026, 6:00 PM** | Headcount for food and seating |
+| Registration close | **Fri 25 September 2026, 6:00 PM** | Headcount for food and seating |
 | Guests can invite friends | **Off** | Uncomposed seats |
 | Show on public calendar | **On** | |
 | Collect payment | **On**, Stripe | |
@@ -305,13 +305,13 @@ $150. If you sell services to founders or clinics, this one's yours: agencies, c
 **Refund policy field**
 
 ```
-Full refund up to Friday 11 September at 6:00 pm. After that the seat is transferable to a named person. If registration is reviewed and your group is already full, you're refunded the same day.
+Full refund up to Friday 25 September at 6:00 pm. After that the seat is transferable to a named person. If registration is reviewed and your group is already full, you're refunded the same day.
 ```
 
 **Link preview description, 155 characters**
 
 ```
-An evening for the people building health technology in Canada. Twenty seats, and everyone gets the stage for three minutes. Wednesday 16 September, Mississauga.
+An evening for the people building health technology in Canada. Twenty seats, and everyone gets the stage for three minutes. Wednesday 30 September, Mississauga.
 ```
 
 **Calendar and tags**
@@ -327,11 +327,11 @@ Host name: Ali Elshenawy, MedTech North
 Goes out the moment you approve somebody. It carries the address, which the page does not.
 
 ```
-Subject: You're in for Build North on the 16th
+Subject: You're in for Build North on the 30th
 
 Hi [name],
 
-You're in. Wednesday 16 September, 6 to 9pm, at [address]. [parking detail].
+You're in. Wednesday 30 September, 6 to 9pm, at [address]. [parking detail].
 
 Two things I'd rather you heard now than at the door.
 
@@ -408,7 +408,7 @@ Luma crops covers hard on mobile. Keep every word inside the centre square of th
 ## 9. Prompt to paste into Claude for the layout
 
 ```
-Build a set of event graphics for "Build North. MedTech North Session #3", a three-hour evening celebrating people building health technology in Canada, on Wednesday 16 September 2026 in Mississauga. Everyone in the room gets three minutes on a stage. The audience is founders, clinicians, researchers and investors. No food imagery anywhere.
+Build a set of event graphics for "Build North. MedTech North Session #3", a three-hour evening celebrating people building health technology in Canada, on Wednesday 30 September 2026 in Mississauga. Everyone in the room gets three minutes on a stage. The audience is founders, clinicians, researchers and investors. No food imagery anywhere.
 
 Design system, follow it exactly:
 - Ink #16191d for type and structure. Deep crimson #c41230 on exactly one element per composition, only where something is an action or an emphasis. Warm off-white ground.
@@ -421,10 +421,10 @@ Produce, as clean HTML and CSS I can screenshot at exact pixel sizes:
 2. LinkedIn feed image, 1080 x 1350
 3. A six-panel carousel at 1080 x 1350
 
-Cover copy: "BUILD NORTH" as the headline. Beneath it, "Wednesday 16 September. Mississauga." Small footer: "MedTech North Session #3".
+Cover copy: "BUILD NORTH" as the headline. Beneath it, "Wednesday 30 September. Mississauga." Small footer: "MedTech North Session #3".
 
 Carousel panels, one idea each, headline plus at most two lines:
-1. BUILD NORTH. 16 September, Mississauga. MedTech North Session #3
+1. BUILD NORTH. 30 September, Mississauga. MedTech North Session #3
 2. If you build health technology in Canada, nobody claps
 3. Buy Canadian took effect in December 2025. Health is one of five named strategic sectors
 4. A new device still takes more than a year, best case, to get from a lab to a bedside
@@ -436,7 +436,7 @@ Set type large enough to read at thumbnail size. Panel 6 is the only one that ca
 
 ## 10. Social kit
 
-Seven days. Post daily, and expect the direct messages to do the real work. All six are first person and none of them opens on a hook the writer is pleased with.
+Ten days. Post every other day, and expect the direct messages to do the real work. All six are first person and none of them opens on a hook the writer is pleased with.
 
 ### Post 1. Announcement
 
@@ -445,7 +445,7 @@ Nobody claps for this work.
 
 You build something for the health system in this country, you ship it, and then you wait. The only people who really know what it cost you are already on your payroll.
 
-So on Wednesday 16 September I'm getting twenty of you in a room in Mississauga, and every single one of you is getting the stage for three minutes. What you're building, and why you decided to build it here.
+So on Wednesday 30 September I'm getting twenty of you in a room in Mississauga, and every single one of you is getting the stage for three minutes. What you're building, and why you decided to build it here.
 
 Food and drinks, music on, and a room that came to listen.
 
@@ -461,7 +461,7 @@ A new device still takes more than a year, best case, to get from a lab to a bed
 
 So the policy moved and the pathway didn't. Which means everyone who carried on building here anyway did it the hard way, mostly without anyone saying so out loud.
 
-That's what the 16th is for. Link's in the comments.
+That's what the 30th is for. Link's in the comments.
 
 Sources: ISED, Medtech Canada, University of Waterloo.
 ```
@@ -471,19 +471,19 @@ Sources: ISED, Medtech Canada, University of Waterloo.
 ```
 Most events in this sector hand the stage to four people and a chair to everybody else.
 
-I'm doing it the other way round on the 16th. Twenty seats, and all twenty get three minutes. Same clock, order drawn on the night, and nobody can pay me for a longer one.
+I'm doing it the other way round on the 30th. Twenty seats, and all twenty get three minutes. Same clock, order drawn on the night, and nobody can pay me for a longer one.
 
 Two things I'll ask you. What are you building, and why did you decide to build it here rather than somewhere easier.
 
 The second one is the reason the whole evening exists.
 
-Mississauga, Wednesday 16 September. $20 for the first ten seats. Link's in the comments.
+Mississauga, Wednesday 30 September. $20 for the first ten seats. Link's in the comments.
 ```
 
 ### Post 4. Nobody sells
 
 ```
-I want to be blunt about one thing before the 16th.
+I want to be blunt about one thing before the 30th.
 
 Nobody sells anything in that room. Not from the stage, and not quietly over a drink either.
 
@@ -491,7 +491,7 @@ I've watched what happens when a room like this goes the other way. The clinicia
 
 So that's the rule, and I'll step in if it starts.
 
-Wednesday the 16th, Mississauga. Link's in the comments.
+Wednesday the 30th, Mississauga. Link's in the comments.
 ```
 
 ### Post 5. The celebration
@@ -503,13 +503,13 @@ Build North is about what got made anyway.
 
 People shipped real things here this year, in a market where shipping here is the harder choice, and I think that's worth an evening with proper food and people clapping instead of another panel about barriers.
 
-Wednesday 16 September, Mississauga. Twenty seats, and the price goes up as they fill. Link's in the comments.
+Wednesday 30 September, Mississauga. Twenty seats, and the price goes up as they fill. Link's in the comments.
 ```
 
 ### Post 6. The close
 
 ```
-Build North is Wednesday and registration closes Friday at 6, because I need a number.
+Build North is a week on Wednesday, and registration closes this Friday at 6 because I need a number.
 
 Twenty seats, three minutes each on the stage, and one question. What are you building, and why did you decide to build it here.
 
@@ -520,12 +520,12 @@ Link's in the comments.
 
 ## 11. Direct messages. This is what actually fills the room
 
-Seven days is short. The page confirms, these sell. Send fifty to fill twenty and start today.
+Ten days is short. The page confirms, these sell. Send fifty to fill twenty and start today.
 
 ### Message A. Founders and operators
 
 ```
-Hi [name], I run a small series in Mississauga called MedTech North. The next one's Wednesday 16 September and I'm calling it Build North.
+Hi [name], I run a small series in Mississauga called MedTech North. The next one's Wednesday 30 September and I'm calling it Build North.
 
 Twenty people, three hours, and everyone in the room gets three minutes on the stage. What you're building, and why you decided to build it here rather than somewhere easier. No slides, nothing to prepare, and nobody can buy a longer slot, me included.
 
@@ -533,7 +533,7 @@ I'm writing to you because of [specific thing they built or shipped]. I don't th
 
 Nobody sells anything in there, which is a rule I actually enforce. Food and drinks, and a room that came to listen.
 
-$20 while the first ten seats last, and it goes up as they fill. Registration closes on the 11th.
+$20 while the first ten seats last, and it goes up as they fill. Registration closes on the 25th.
 
 Say the word and I'll send you the address.
 ```
@@ -541,37 +541,37 @@ Say the word and I'll send you the address.
 ### Message B. Clinicians, and people running a practice or clinical service
 
 ```
-Hi [name], I run a small series in Mississauga. Next one's Wednesday 16 September, twenty people, three hours, and it's a night for the people building health technology in this country.
+Hi [name], I run a small series in Mississauga. Next one's Wednesday 30 September, twenty people, three hours, and it's a night for the people building health technology in this country.
 
 Here's why I'm writing to you. Everyone getting three minutes on that stage is building something that's meant to end up in front of a patient one day, and hardly any of them have ever had an honest clinical read on whether it would survive a real workflow. You'd get the same three minutes as everyone else, to use however you want.
 
 Nobody pitches you in there. That's a rule I enforce, and I'd rather you held me to it.
 
-$20 while the first ten seats last, food and drinks included. Registration closes on the 11th.
+$20 while the first ten seats last, food and drinks included. Registration closes on the 25th.
 ```
 
 ### Message C. Investors
 
 ```
-Hi [name], I run a series in Mississauga. Next one's Wednesday 16 September, twenty seats, three hours, for people building health technology in Canada.
+Hi [name], I run a series in Mississauga. Next one's Wednesday 30 September, twenty seats, three hours, for people building health technology in Canada.
 
 Being straight with you about the format. You get three minutes like everyone else, and no, it isn't twenty pitches. I'm asking people what they're building and why they chose to build it here, so what you'd actually hear is founders and clinicians talking about that decision before anyone has tidied it up for a deck.
 
 No demo slots, no pitch competition, and nobody working the room.
 
-$20 while the first ten seats last. Registration closes on the 11th.
+$20 while the first ten seats last. Registration closes on the 25th.
 ```
 
 ### Message D. Researchers, and people early in their career
 
 ```
-Hi [name], I run a series in Mississauga. Next one's Wednesday 16 September, twenty people, three hours, for the people building health technology in this country.
+Hi [name], I run a series in Mississauga. Next one's Wednesday 30 September, twenty people, three hours, for the people building health technology in this country.
 
 You'd get the same three minutes on the stage as everyone else. What you're working on, and why you're doing it here. I draw the order on the night so there's nothing to prepare.
 
 It's the rare room where you don't have to explain your job before you can talk about it.
 
-$20 while the first ten seats last, food and drinks included. Registration closes on the 11th.
+$20 while the first ten seats last, food and drinks included. Registration closes on the 25th.
 ```
 
 ### Message E. Service providers, only if they ask
@@ -622,7 +622,7 @@ Hi [name], you wrote something publicly about the session back in [month] and I 
 
 Two asks, both small. Can I quote it, with your name and title, when I'm describing these rooms to people? It's public already, so this is courtesy rather than necessity, but I'd rather ask than assume.
 
-Second, and only if you're up for it. I'm running the next session on Wednesday 16 September in Mississauga. Three hours, twenty people, on what got built in Canadian health tech this year, and everyone in the room gets the same three minutes. I'd like you in it.
+Second, and only if you're up for it. I'm running the next session on Wednesday 30 September in Mississauga. Three hours, twenty people, on what got built in Canadian health tech this year, and everyone in the room gets the same three minutes. I'd like you in it.
 ```
 
 Two jobs in one message, and the second job is why it goes out today.
@@ -640,11 +640,35 @@ Selling tickets makes this a commercial event in a residential amenity space, an
 
 ### 13c. The runway
 
-**Seven selling days, from a standing start, to a list that was told three weeks ago that room 003 was cancelled.**
+**Ten selling days, to a list that has not heard from you since room 003 was cancelled in August.**
 
-Room 003 failed on late confirmations for a free room. A ticket fixes the signal, which is exactly what `ADR-026` says a ticket is for. It does not fix volume. Twenty seats in seven days needs roughly fifty direct messages out in the first forty-eight hours, and the page will not do that for you.
+The move bought three more days of selling than the original date had, which is the one good thing about it. It did not buy volume.
 
-**Decide this today, not on the 14th.** Fewer than ten seats sold by end of Monday 8 September and the date moves. `ADR-025` is unambiguous that a room which has not composed gets moved, and moving on the 8th is an ordinary scheduling note while moving on the 14th is a second cancellation in a month, to the same people.
+Room 003 failed on late confirmations for a free room. A ticket fixes the signal, which is exactly what `ADR-026` says a ticket is for. It does not fix how many people see the thing. Twenty seats in ten days still needs roughly fifty direct messages out in the first forty-eight hours, and the page will not do that for you.
+
+**Decide this on the 21st, not on the 28th.** Fewer than ten seats sold by end of Monday 21 September and the date moves again. `ADR-025` is unambiguous that a room which has not composed gets moved, and moving on the 21st is an ordinary scheduling note while moving on the 28th is the third date this room has carried.
+
+**One date has already moved, so the next one costs more.** A second move is not free with anybody who registered for the 16th, and it is not free with the people you are about to message either. If the 30th looks thin on the 21st, the honest option is a move with a real reason attached, not another quiet slide.
+
+### 13d. If the page is already live, or anyone has already registered
+
+`HANDOFF.md` records this room as unpublished, so the cleanest version of the move is silent: change the date on Luma before anybody sees the old one and nothing else happens.
+
+If that is no longer true, a date change is a message, not an edit. Luma will not tell people for you in a way they will read, and somebody who blocked out the 16th finding out by noticing a different number on a page is how you lose them for the 30th as well.
+
+Send this the same day the date changes, to anyone registered and to anyone you told in a direct message:
+
+```
+Hi [name], quick one and I'm sorry about it. Build North has moved to Wednesday 30 September, same time, same room, everything else unchanged.
+
+Your seat came with you, so there's nothing for you to do. If the new date doesn't work, tell me and I'll refund you today with no awkwardness about it.
+
+[one plain sentence: the real reason]
+
+Ali
+```
+
+**Fill the bracket in with the actual reason and keep it to one sentence.** A move with a reason attached is an ordinary scheduling problem. A move with no reason reads as a room that is not filling, which is the thing `ADR-025` says costs the most, and people are good at telling the two apart.
 
 ---
 

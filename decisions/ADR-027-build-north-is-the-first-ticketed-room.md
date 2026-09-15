@@ -2,15 +2,16 @@
 
 **Status:** Proposed. Price, venue and time of day are Ali's to confirm
 **Date:** 4 September 2026
+**Amended:** 15 September 2026. The room moved from Wednesday 16 September to **Wednesday 30 September 2026**. Registration now closes Friday 25 September, and the go or move decision is Monday 21 September. Price, format, seat count and all three publishing conditions are unchanged
 **Implements:** `ADR-026` (free seats are funded seats) for the first time in a published room
 **Departs from:** `ADR-023`'s no-stage-time rule, and `ADR-020`'s $500 service provider price. Both scoped to this format
-**Kit:** `assets/events/build-north-2026-09-16-kit.md`
+**Kit:** `assets/events/build-north-2026-09-30-kit.md`
 
 ## Context
 
 `ADR-026` settled that every seat is ticketed unless a co-host has funded the room, and left the price unset because it depended on a venue and a menu that were not decided. `ADR-025` required that "everything else is ticketed" be resolved by an ADR rather than by accident in a Luma listing.
 
-Build North is the first room published under that regime. Wednesday 16 September 2026, twenty seats, no co-host, so the guests fund it. That is the default case `ADR-026` describes.
+Build North is the first room published under that regime. Wednesday 30 September 2026, twenty seats, no co-host, so the guests fund it. That is the default case `ADR-026` describes.
 
 Two things about it are new. It is **not a dinner**, and it is priced at a fraction of anything in `ADR-019`.
 
@@ -81,7 +82,7 @@ Twenty is published anyway. The ladder discloses it arithmetically the moment th
 
 1. **The venue is settled first, and money can no longer solve it.** A ticketed event in a residential amenity room, with no written permission and no commercial general liability insurance, is recorded as open in `HANDOFF.md`. At $700 gross the room cannot buy its way into a restaurant. A programme, unlike a dinner, fits a borrowed seminar room, hospital innovation office, incubator or co-working space, most of which are free or nearly free to a healthcare audience. That is the recommended route and it also fixes the legitimacy problem that cost a confirmed speaker at room 001. Insurance gets quoted today either way, because it has the longest lead time on the list.
 2. **Nothing from rooms 001 or 002 appears on the page.** No testimonial, no photograph, no video. Rule 3 forbids it, permission from the four testimonial authors has never been requested, and that footage carries a third party's branding under `ADR-017`. Section 13a of the kit holds the permission message and the route to clearing it.
-3. **Fewer than ten seats sold by end of Monday 8 September and the date moves.** Decided now, in advance, because `ADR-025` is unambiguous that a room which has not composed gets moved, and because moving on the 8th is a scheduling note while moving on the 14th is a second cancellation in a month to the same list.
+3. **Fewer than ten seats sold by end of Monday 21 September and the date moves.** Decided in advance, because `ADR-025` is unambiguous that a room which has not composed gets moved, and because moving on the 21st is a scheduling note while moving on the 28th is the third date this room has carried. **The room has already moved once**, from 16 September, so a second move is more expensive than the first and needs a stated reason rather than a quiet slide.
 
 ## What this does not decide
 

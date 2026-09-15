@@ -1,6 +1,6 @@
 # Build North cover images
 
-Two Luma covers for Build North, MedTech North Session #3, 16 September 2026.
+Two Luma covers for Build North, MedTech North Session #3, 30 September 2026.
 
 | File | Use |
 |---|---|

@@ -25,7 +25,7 @@ font-size:{foots}px;letter-spacing:.24em;text-transform:uppercase;color:{footc}}
 <div class="stage">
 <svg class="leaf" viewBox="-70 -66 140 132" fill="#c41230"><path d="{leaf}"/></svg>
 <h1>BUILD NORTH</h1><div class="rule"></div>
-<div class="meta">Wednesday 16 September, Mississauga</div>
+<div class="meta">Wednesday 30 September, Mississauga</div>
 </div>
 <div class="foot">MedTech North &nbsp;&middot;&nbsp; Session #3</div>
 <div class="grain"></div>
