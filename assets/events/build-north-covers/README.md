@@ -1,6 +1,6 @@
 # Build North cover images
 
-For Build North, MedTech North Session #3, Wednesday 30 September 2026.
+For Build North: A Celebration of Canadian Health Tech, Wednesday 30 September 2026.
 
 ## Luma wants a square
 

@@ -1,8 +1,8 @@
-# Build North. Session #3 publishing kit
+# Build North publishing kit
 
 > **Wednesday 30 September 2026, 6:00 to 9:00 pm.** Moved from 16 September by Ali on 15 September. Every date in this kit is the real one, not a derived one.
 >
-> **Not a dinner, and the offer is recognition.** Everyone in the room gets three minutes on a stage to say what they are building and why they chose to build it here. The rest of the evening is a celebration with food and drinks out from the start. The page leads with that, because that is what a guest is actually buying.
+> **A celebration of the people who choose Canada.** Founders who build here, investors who back Canadian medtech and health tech, and talent who could work anywhere and stay. Every one of the twenty seats gets three minutes on a stage, then food, drinks and the room until nine. The page leads with the celebration and with what those choices do for a Canadian patient.
 >
 > **First ticketed room MedTech North has run.** Prices, format and the published seat count are in `ADR-027`. Read section 13 before publishing: three items are blocked.
 
@@ -34,13 +34,13 @@
 
 ## 1. The name and the series word
 
-**Build North**, published as **Build North. MedTech North Session #3**.
+**Build North**, published as **Build North: A Celebration of Canadian Health Tech**.
 
 Short, works at thumbnail size, sets as a wordmark, and it is a direction rather than a slogan. "Build in Canada" is longer, harder to set, and reads as somebody else's campaign.
 
-**"Table" is retired for this edition and "Session" replaces it.** The series is still the MedTech North Table internally, but a newcomer reads "Table #3" as a dinner, which is the one thing this is not. Session is already the repo's word for a room with a programme in it (`docs/16-product-architecture.md`). Edition numbering continues unbroken: room 003 was cancelled without consuming a number (`ADR-025`), so this is #3.
+**Both "Table" and "Session" come off the title.** Table reads as a dinner and Session reads as work, and the evening is neither. The subtitle now carries what the room is for, which is the job a subtitle should do.
 
-Whether the series renames permanently is a separate decision and does not need making this week.
+**The edition number moves out of the title.** `ADR-024` says number every edition publicly and that still holds, so the number goes in the first line of a direct message and in the footer of any printed piece. It is off the Luma title because "No. 3" next to "Celebration" reads as bureaucracy. The alternate title in section 4 carries it for anyone who wants it there. Edition numbering continues unbroken: room 003 was cancelled without consuming a number (`ADR-025`), so this is the third.
 
 Brand discipline is unchanged. MedTech North appears in the title, the image footer, slide one, and the opening line of a direct message. Not in the middle of a human sentence.
 
@@ -89,15 +89,18 @@ The second half of the question is the one that matters. Anybody can list a prod
 **Primary:**
 
 ```
-Build North. MedTech North Session #3
+Build North: A Celebration of Canadian Health Tech
 ```
 
 **Alternates:**
 
 ```
-Build North: An Evening for People Building Health Technology in Canada
-Build North. MedTech North Session #3, Mississauga
+Build North No. 3: A Celebration of Canadian Health Tech
+Build North: Celebrating the People Who Choose Canada
+Build North: A Celebration of Canadian Health Tech, Mississauga
 ```
+
+The first alternate carries the edition number for anyone who wants `ADR-024` satisfied in the title itself.
 
 **Luma URL slug:**
 
@@ -107,125 +110,116 @@ build-north
 
 ## 5. Event description. Copy and paste
 
-**Four sections, in this order: the recognition, why now, how the evening runs, the seats.** Everything else that used to sit on this page is gone.
+**Four blocks: what is being celebrated, why now, the evening, the seats.** The value lands in the first sentence and the three groups are named right under it.
 
-**Written in first person, warm, the way Ali talks.** Ali is running this room himself and the page should sound like him inviting somebody, not like an organisation announcing a programme. Two structures are banned on sight and section 5c explains why.
+**No via negativa anywhere on the page.** Ali's rule, 15 September, and it is stricter than the one in section 0. The page never defines the evening by what it lacks, so "nobody pitches", "no slides", "this isn't a pitch night" and every cousin of those are gone. The no-selling rule still holds, it moves to the approval email and the open, and the page carries it as "everyone speaks, everyone listens" instead.
 
 **Recommended.**
 
 ```
-Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
+Build North is a celebration of the people who choose Canada.
 
-Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 30th I'm getting twenty of you in a room, and every single one of you is getting the stage.
+Founders who build here.
+Investors who back Canadian medtech and health tech.
+Talent who could work anywhere and stay.
+
+Every one of those choices shortens the road from a Canadian idea to a Canadian patient, and builds the strength of the sector behind it.
+
+Twenty of them get the stage on Wednesday 30 September in Mississauga.
 
 Why now
 
 Buy Canadian took effect in December 2025, with health named as one of five strategic sectors. In June, the threshold for Canadian preference dropped from $25 million to $5 million.
 
-A new device still takes more than a year, best case, to get from a lab to a bedside. Several years is normal. So the policy moved and the pathway didn't, and the people who carried on building here through all of it have had a rough couple of years with very little said about it out loud.
+A new device still takes more than a year, best case, to get from a lab to a bedside. The people who keep building here are how that number moves.
 
-That's the whole reason for this evening.
+The evening
 
-How it runs
-
-Everyone gets the stage. Three minutes each, no slides, nothing to prepare. Two things I'll ask you:
+Three minutes each, same question for everyone:
 
 What are you building, and why did you decide to build it here?
 
-Nobody can buy a longer slot. I'm not selling anything from the front and I'll step in if somebody starts working the room, because you're coming to be heard.
-
-The rest of the night is a celebration and I want it to feel like one. Food and drinks from the moment you walk in, music on, and the room stays open until nine.
-
-Twenty seats. Twenty is the most people I can fit and still hand everybody three minutes, so that's where I capped it.
+Everyone speaks, everyone listens. Then food, drinks and the room until nine.
 
 Seats
 
-The price goes up as they fill.
+Twenty, and the price rises as they fill.
 
 First ten, $20
 Next five, $40
 Last five, $60
 
-Registration closes Friday 25 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's already full for your group I'll refund you that day and hold you one at the next.
+Registration closes Friday 25 September at 6pm. I read every one, and if the room is full for your group I'll refund you that day and hold you a seat at the next.
 
-Wednesday 30 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
+Wednesday 30 September, 6 to 9pm. Mississauga, address on approval. Food and drinks are on me.
 
 Sources: ISED, Medtech Canada, University of Waterloo.
 ```
 
-**Shorter, if it reads long on a phone.** Nothing load bearing is lost.
+**Shorter, if it reads long on a phone.** Loses the policy dates and the sources line, so use it only where the argument is already made elsewhere.
 
 ```
-Build North is an evening for the people building health technology here in Canada, and I'm putting it on because I think you're owed a night where somebody says well done.
+Build North is a celebration of the people who choose Canada.
 
-Nobody claps for this work. You ship something, then you wait, and the only people who really understand what it cost you are already on your payroll. So on the 30th I'm getting twenty of you in a room, and every single one of you is getting the stage.
+Founders who build here.
+Investors who back Canadian medtech and health tech.
+Talent who could work anywhere and stay.
 
-Why now
+Every one of those choices shortens the road from a Canadian idea to a Canadian patient, and builds the strength of the sector behind it.
 
-Buy Canadian took effect in December 2025, with health named as one of five strategic sectors. In June, the threshold for Canadian preference dropped from $25 million to $5 million.
-
-A new device still takes more than a year, best case, to get from a lab to a bedside. So the policy moved and the pathway didn't, and the people who carried on building here anyway are worth an evening.
-
-How it runs
-
-Everyone gets the stage. Three minutes each, no slides, nothing to prepare. Two things I'll ask you:
+Twenty of them get the stage on Wednesday 30 September in Mississauga. Three minutes each, same question for everyone:
 
 What are you building, and why did you decide to build it here?
 
-Nobody can buy a longer slot, and nobody is selling anything to anybody. The rest of the night is a celebration, with food and drinks from the moment you walk in.
+Everyone speaks, everyone listens. Then food, drinks and the room until nine.
 
-Twenty seats. Twenty is the most I can fit and still hand everybody three minutes.
+Twenty seats. First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 25 September at 6pm, and I read every one.
 
-Seats
-
-First ten, $20. Next five, $40. Last five, $60. Registration closes Friday 25 September at 6pm, or when the twentieth seat goes. I read every registration myself, and if the room's full for your group I'll refund you that day.
-
-Wednesday 30 September, 6 to 9pm. Mississauga, and I'll send you the address once you're in. Food and drinks are on me.
+Wednesday 30 September, 6 to 9pm. Mississauga, address on approval. Food and drinks are on me.
 ```
 
 ### 5a. Lines that are load bearing. Do not cut them
 
 | Line | Why it stays |
 |---|---|
-| "somebody says well done" | The offer, in four words, and the warmest thing on the page |
-| "Nobody claps for this work" | The line a reader will still have in their head tomorrow |
-| "why did you decide to build it here?" | The second half of the question is what makes this Build North instead of an open mic |
-| "Nobody can buy a longer slot" | The only thing standing between this and a pay-to-pitch night |
-| "I'm not selling anything from the front and I'll step in if somebody starts working the room" | With twenty people holding a stage and a $20 door, this sentence is what keeps it a celebration |
-| "I read every registration myself... I'll refund you that day" | `ADR-026` requires it. A sold seat is not an entitlement to attend, and the refund is the mechanism |
-| "Twenty is the most people I can fit and still hand everybody three minutes" | Scarcity as a property of the format, the only version `docs/07-brand-and-voice.md` allows |
+| "a celebration of the people who choose Canada" | The whole event in nine words, and the line the title is built from |
+| The three-line list | Builders, capital and talent, each named by the choice they made. Cutting any one of them shrinks the room |
+| "shortens the road from a Canadian idea to a Canadian patient" | The patient is the reason any of this matters, and this is the only line that says so |
+| "why did you decide to build it here?" | The second half of the question is what makes this Build North |
+| "Everyone speaks, everyone listens" | Carries the no-selling rule without naming it, which is what keeps the page positive |
+| "I read every one, and if the room is full for your group I'll refund you that day" | `ADR-026` requires it. A sold seat is not an entitlement to attend, and the refund is the mechanism |
 | The sources line | Rule 4 |
 
 **Do not add:** a headcount from a past room, a past-event photo, a testimonial, a logo, the word sponsor, a tariff figure, or a line about limited spots.
 
-### 5b. Two notes on the brief
+### 5b. Three notes on the brief
 
-**On "highlight the exclusivity".** The word cannot go on the page. `docs/07-brand-and-voice.md` allows "exclusive" once, only in the literal sense of category exclusivity, and it names "limited spots" and "only a select few are invited" as the failures. So the page gives the reason for twenty instead, which is that twenty is where everybody still gets three minutes. That lands as a decision somebody made for a reason, and a reader cannot argue with it.
+**On the celebration.** The word is in the title and in the first line, and then the page stops saying it and starts being it. Three minutes each, everyone heard, food out, room open. A page that keeps announcing that it is a celebration is a page nobody believes.
 
-**On recognition without implying a credential.** Rule 7 forbids implying accreditation, endorsement or outcomes. Nothing on the page says honoured, award, or recognised leader. What it promises is small and real: three minutes, twenty people listening, and somebody saying well done. Nobody is certifying anything.
+**On "exclusive".** The word cannot go on the page. `docs/07-brand-and-voice.md` allows it once, only in the literal sense of category exclusivity, and it names "limited spots" as the failure. Twenty is stated as a fact and the price ladder does the rest.
 
-### 5c. The two structures that are banned on sight
+**On recognition without implying a credential.** Rule 7 forbids implying accreditation, endorsement or outcomes. Nothing says honoured, award, or recognised leader. The promise is three minutes and twenty people listening.
 
-Ali's rule, 4 September. Both are in the `ai-slop-humanizer` catalogue and both survive rewrites unless you go looking for them.
+### 5c. Structures banned on sight
 
-**1. "It is not X, it is Y", and every variant.** That includes "X, not Y", "this isn't a pitch night, it's a celebration", "not an event, a room". It reads as a writer performing a reveal, and once you notice it you cannot stop noticing it. Say the thing you mean and drop the half you were going to negate. An earlier draft of this page had "You came to be heard, not sold to" and it now reads "because you're coming to be heard", which says the same thing without the swivel.
+Ali's rules, 4 and 15 September. All three survive rewrites unless you go looking.
 
-**2. Three parallel clauses in a row, especially "the X, the Y, the Z".** An earlier draft had "The work is slow, the buyers are careful, the wins are quiet". Three clauses, same shape, same article, and it is the loudest tell in the catalogue. It became "You ship something, then you wait", which is two beats instead of three and sounds like somebody talking. Two is fine. Four is fine. Three in matching shape is the one to watch.
+**1. Via negativa. Defining the evening by what it lacks.** No "nobody pitches", no "no slides", no "there's no agenda". The reader should never have to assemble the offer out of absences. Where a rule matters, state the positive behaviour: "everyone speaks, everyone listens".
 
-### 5d. What else the warmth pass changed
+**2. "It is not X, it is Y", and every variant, including "X, not Y".** It reads as a writer performing a reveal. Say the thing and drop the half you were going to negate.
 
-1. **First person, all the way through.** I'm putting it on, I'll ask you, I read every registration, food and drinks are on me. The page has a person behind it now and that person is the reason anybody comes.
-2. **Contractions everywhere they fit.** didn't, isn't, room's, you're.
-3. **The formal connective tissue is gone.** No "that is why", no "which means", no "the rest of the evening is". Sentences start with So and And where a person would.
-4. **Times are written the way people say them.** "6 to 9pm", not "6:00 to 9:00 pm".
-5. **No closing summary.** The page ends on the address and the food, which is where a real invitation ends.
+**3. Three parallel clauses in a row, especially "the X, the Y, the Z".** Two is fine, four is fine, three in matching shape is the tell. The three groups on this page are set as a list rather than a sentence for exactly that reason: an enumeration reads as information, a triad reads as rhythm.
+
+### 5d. What the warmth pass held on to
+
+First person throughout, contractions where they fit, times written the way people say them, and no closing summary. The page ends on the address and the food, which is where a real invitation ends.
 
 ## 6. Luma metadata. Copy and paste
 
 **Event name**
 
 ```
-Build North. MedTech North Session #3
+Build North: A Celebration of Canadian Health Tech
 ```
 
 **Date and time**
@@ -311,7 +305,7 @@ Full refund up to Friday 25 September at 6:00 pm. After that the seat is transfe
 **Link preview description, 155 characters**
 
 ```
-An evening for the people building health technology in Canada. Twenty seats, and everyone gets the stage for three minutes. Wednesday 30 September, Mississauga.
+A celebration of the people who choose to build, invest and work in Canadian health tech. Twenty seats, three minutes each. Wednesday 30 September, Mississauga.
 ```
 
 **Calendar and tags**
@@ -409,7 +403,7 @@ A minimal print composition on a warm off-white ground with paper texture. Twent
 ## 9. Prompt to paste into Claude for the layout
 
 ```
-Build a set of event graphics for "Build North. MedTech North Session #3", a three-hour evening celebrating people building health technology in Canada, on Wednesday 30 September 2026 in Mississauga. Everyone in the room gets three minutes on a stage. The audience is founders, clinicians, researchers and investors. No food imagery anywhere.
+Build a set of event graphics for "Build North: A Celebration of Canadian Health Tech", a three-hour evening on Wednesday 30 September 2026 in Mississauga celebrating the people who choose to build, invest and work in Canadian health technology. Everyone in the room gets three minutes on a stage. No food imagery anywhere.
 
 Design system, follow it exactly:
 - Ink #16191d for type and structure. Deep crimson #c41230 on exactly one element per composition, only where something is an action or an emphasis. Warm off-white ground.
@@ -425,7 +419,7 @@ Produce, as clean HTML and CSS I can screenshot at exact pixel sizes:
 Cover copy: "BUILD NORTH" stacked on two lines, and nothing else. No date, no city, no footer text. Luma prints the date and the city beside the image already, and type small enough to need squinting reads as clutter at thumbnail size. Carry everything else with marks: a maple leaf above the headline, and the up-triangle over down-triangle seam mark below it.
 
 Carousel panels, one idea each, headline plus at most two lines:
-1. BUILD NORTH. 30 September, Mississauga. MedTech North Session #3
+1. BUILD NORTH. A celebration of Canadian health tech. 30 September, Mississauga
 2. If you build health technology in Canada, nobody claps
 3. Buy Canadian took effect in December 2025. Health is one of five named strategic sectors
 4. A new device still takes more than a year, best case, to get from a lab to a bedside
@@ -442,13 +436,15 @@ Ten days. Post every other day, and expect the direct messages to do the real wo
 ### Post 1. Announcement
 
 ```
-Nobody claps for this work.
+Build North is a celebration of the people who choose Canada.
 
-You build something for the health system in this country, you ship it, and then you wait. The only people who really know what it cost you are already on your payroll.
+Founders who build here. Investors who back Canadian medtech and health tech. Talent who could work anywhere and stay.
 
-So on Wednesday 30 September I'm getting twenty of you in a room in Mississauga, and every single one of you is getting the stage for three minutes. What you're building, and why you decided to build it here.
+Every one of those choices shortens the road from a Canadian idea to a Canadian patient, and builds the strength of the sector behind it.
 
-Food and drinks, music on, and a room that came to listen.
+Twenty of them get the stage on Wednesday 30 September in Mississauga. Three minutes each, one question: what are you building, and why did you decide to build it here.
+
+Then food, drinks, and a room that came to listen.
 
 $20 for the first ten seats. Link's in the comments.
 ```

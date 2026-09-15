@@ -1,8 +1,8 @@
-# ADR-027 — Build North is the first ticketed room, it sells recognition rather than a dinner, and every seat carries the same three minutes
+# ADR-027 — Build North is the first ticketed room, it celebrates the choice to build in Canada, and every seat carries the same three minutes
 
 **Status:** Proposed. Price, venue and time of day are Ali's to confirm
 **Date:** 4 September 2026
-**Amended:** 15 September 2026. The room moved from Wednesday 16 September to **Wednesday 30 September 2026**. Registration now closes Friday 25 September, and the go or move decision is Monday 21 September. Price, format, seat count and all three publishing conditions are unchanged
+**Amended:** 15 September 2026, twice. The room moved from Wednesday 16 September to **Wednesday 30 September 2026**, so registration now closes Friday 25 September and the go or move decision is Monday 21 September. The title and the page then changed to lead on the celebration rather than the format. Price, seat count, the three-minute rule and all three publishing conditions are unchanged
 **Implements:** `ADR-026` (free seats are funded seats) for the first time in a published room
 **Departs from:** `ADR-023`'s no-stage-time rule, and `ADR-020`'s $500 service provider price. Both scoped to this format
 **Kit:** `assets/events/build-north-2026-09-30-kit.md`
@@ -17,15 +17,19 @@ Two things about it are new. It is **not a dinner**, and it is priced at a fract
 
 ## Decision
 
-### 1. It is not a dinner, and what it sells is recognition
+### 1. What it celebrates is the choice to build, invest and work in Canada
 
-Three hours. One segment with a stage in it, then a celebration with food and drinks out from the start. Every previous room was sold as a dinner and this one is not.
+Three hours. One segment with a stage in it, then food, drinks and an open room. Every previous room was sold as a dinner. This one is sold as a celebration, and the page says so in its first sentence.
 
-**The offer is being heard.** People building health technology in Canada are doing work almost nobody claps for, and the page leads on that rather than on the format, the composition or the venue. Everything else in the design serves it: the stage is flat so nobody is featured, the question is retrospective so it cannot become a pitch, and the food is out from the start so the evening reads as a celebration rather than a programme with a reception bolted on.
+**The offer is being heard, and the argument is what being heard is for.** People who choose Canada for a health technology company are choosing the slower market, and the page names that choice and then prices it in patient terms: a shorter road from a Canadian idea to a Canadian patient, and a stronger domestic sector. Everything else in the design serves that. The stage is flat so nobody is featured, the question is retrospective so it cannot become a pitch, and the food is out from the start.
 
-The page carries four sections and no more: the recognition, why now, how it runs, the seats. The who-is-in-the-room bullets and the house-rules block are cut. Both were logistics presented as an argument, and on a page whose job is to make somebody want something, they were the noise.
+The page carries four blocks and no more: what is being celebrated, why now, the evening, the seats. The who-is-in-the-room bullets and the house-rules block stay cut. Both were logistics presented as an argument, and on a page whose job is to make somebody want something, they were the noise.
 
-Published as **Session #3** rather than Table #3. A newcomer reads "Table" as a dinner. Edition numbering continues unbroken from `ADR-024`, since room 003 was cancelled without consuming a number.
+**Published as Build North: A Celebration of Canadian Health Tech.** Both "Table" and "Session" come off the title, since Table reads as a dinner and Session reads as work. The edition number leaves the title too and lives in direct messages and printed pieces instead, which keeps `ADR-024` satisfied without putting "No. 3" next to "Celebration". Numbering continues unbroken, since room 003 was cancelled without consuming a number.
+
+**What the page celebrates is a choice.** Founders who build here, investors who back Canadian medtech and health tech, and talent who could work anywhere and stay. The page names those three and then says what the choices buy: a shorter road from a Canadian idea to a Canadian patient, and a stronger domestic sector. That is the value, and it is in the first four lines.
+
+**No via negativa on the page** (Ali, 15 September). The evening is never defined by what it lacks, so the no-selling rule is carried as "everyone speaks, everyone listens" and enforced in the approval email and at the open.
 
 ### 2. A published three-step price ladder, twenty seats
 
