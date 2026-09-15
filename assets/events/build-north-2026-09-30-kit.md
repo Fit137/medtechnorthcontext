@@ -396,14 +396,15 @@ A minimal print composition on a warm off-white ground with paper texture. Twent
 
 | Use | Ratio | Pixels |
 |---|---|---|
-| Luma cover | 2:1 | 1600 × 800 |
-| Luma cover, square crop safe | 1:1 | 1080 × 1080 |
+| **Luma cover** | **1:1** | **2400 × 2400** |
 | LinkedIn feed | 4:5 | 1080 × 1350 |
 | Carousel page | 4:5 | 1080 × 1350 |
 | Story | 9:16 | 1080 × 1920 |
 | Link preview | 1.91:1 | 1200 × 627 |
 
-Luma crops covers hard on mobile. Keep every word inside the centre square of the 2:1 file.
+**Luma event covers are square, minimum 800 × 800, and Luma rounds the corners when it renders them**, so nothing that matters goes near a corner. A landscape file gets centre-cropped to a square in the editor, which is how the first upload turned "BUILD NORTH" into "UILD NORT". Source: [Event Cover Images, Luma Help](https://help.luma.com/p/event-cover-images).
+
+**Finished files already exist** in `assets/events/build-north-covers/`, built rather than generated, with `gen.py` to rebuild them. The prompts below are for a fresh direction, not for reproducing what is already there.
 
 ## 9. Prompt to paste into Claude for the layout
 
@@ -417,11 +418,11 @@ Design system, follow it exactly:
 - No exclamation marks, no urgency language, no countdowns, no stock photography, no people, no flags.
 
 Produce, as clean HTML and CSS I can screenshot at exact pixel sizes:
-1. Luma cover, 1600 x 800, with all type inside the centre 800 x 800 square
+1. Luma cover, 2400 x 2400 square, with nothing important within 120px of a corner because Luma rounds them
 2. LinkedIn feed image, 1080 x 1350
 3. A six-panel carousel at 1080 x 1350
 
-Cover copy: "BUILD NORTH" as the headline. Beneath it, "Wednesday 30 September. Mississauga." Small footer: "MedTech North Session #3".
+Cover copy: "BUILD NORTH" stacked on two lines, and nothing else. No date, no city, no footer text. Luma prints the date and the city beside the image already, and type small enough to need squinting reads as clutter at thumbnail size. Carry everything else with marks: a maple leaf above the headline, and the up-triangle over down-triangle seam mark below it.
 
 Carousel panels, one idea each, headline plus at most two lines:
 1. BUILD NORTH. 30 September, Mississauga. MedTech North Session #3
