@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#16191d}
+.canvas{width:1600px;height:800px;position:relative;overflow:hidden;background:#16191d;
+  font-family:"Bitstream Charter",Charter,Georgia,"Liberation Serif",serif;color:#F2ECE1}
+.grain{position:absolute;inset:0;opacity:.05;pointer-events:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>")}
+.bar{position:absolute;top:0;bottom:0;width:112px;background:#c41230}
+.bar.l{left:0} .bar.r{right:0}
+.stage{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;padding-top:30px}
+.leaf{width:104px;height:104px;margin-bottom:26px}
+h1{font-size:168px;line-height:.9;letter-spacing:.005em;font-weight:400;text-align:center;white-space:nowrap}
+.seam{margin-top:36px;width:168px;height:72px}
+</style></head><body><div class="canvas">
+<div class="bar l"></div><div class="bar r"></div>
+<div class="stage">
+  <svg class="leaf" viewBox="-70 -66 140 132" fill="#c41230"><path d="m 0,-60 -11.9,22.2 c -1.35,2.41 -2.59,1.71 -3.75,1.11 L -24,-41.3 l 6.25,33.2 c 1.31,6.06 -2.9,6.06 -4.97,3.45 l -14.6,-16.3 -2.37,8.3 c -0.27,1.09 -1.48,2.24 -3.3,1.93 l -18.5,-3.89 4.86,17.7 c 1.04,3.92 1.85,5.54 -1.04,6.57 l -6.56,3.08 31.7,25.7 c 3.15,2.44 3.71,4.06 2.57,7.55 l -2.77,9.11 30,-3.46 c 0.93,0 1.55,0.53 1.55,1.61 l -1.87,34.1 h 5.61 l -1.08,-34 c -0.02,-1.14 0.51,-1.7 1.44,-1.7 l 30,3.46 -2.77,-9.11 c -1.14,-3.49 -0.58,-5.11 2.57,-7.55 l 31.7,-25.7 -6.56,-3.08 c -2.89,-1.03 -2.08,-2.65 -1.04,-6.57 l 4.86,-17.7 -18.5,3.89 c -1.82,0.31 -3.03,-0.84 -3.3,-1.93 l -2.37,-8.3 -14.6,16.3 c -2.07,2.61 -6.28,2.61 -4.97,-3.45 l 6.25,-33.2 -8.34,4.79 c -1.16,0.6 -2.4,1.3 -3.75,-1.11 z"/></svg>
+  <h1>BUILD NORTH</h1>
+  <svg class="seam" viewBox="0 0 200 86">
+    <polygon points="100,4 128,38 72,38" fill="#c41230"/>
+    <rect x="0" y="41" width="200" height="3" fill="#F2ECE1"/>
+    <polygon points="100,81 72,47 128,47" fill="#F2ECE1"/>
+  </svg>
+</div>
+<div class="grain"></div>
+</div></body></html>
