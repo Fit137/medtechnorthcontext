@@ -2,7 +2,7 @@
 
 **Room date:** Wednesday 30 September 2026
 **Deck name:** Build in Canada
-**Status:** Part A and Part B ready. Per-attendee content pending the registration list.
+**Status:** Part A and Part B ready. **The person-slide section is superseded by `build-north-slide-content.md`**, which carries the fourteen confirmed speakers, the headshot and logo specification, the contribution line and the three constant marks. Everything else here stands. The event's registered name is Build North: A Celebration of Canadian Health Tech Builders, so slide 1 carries that, with building in Canada as the frame.
 
 Three parts. Part A is the programme frame and the reasoning behind the deck's shape. Part B is the paste-ready instruction for Claude Design. Part C is the message to send attendees tonight, because two lines from each person makes the whole deck buildable.
 
