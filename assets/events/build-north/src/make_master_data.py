@@ -17,7 +17,7 @@ for r in csv.DictReader(open(src)):
     rid=slug(name)
     if name=='Rellia Health': name='Megan Kane'; rid='rellia-health'
     if name.lower() in skip: continue
-    title=r['What is your job title?'].strip().replace(' - ',', ')
+    title=r['What is your job title?'].strip().replace(' - ',', ').replace(' / ','\u00a0/ ')   # the slash stays on the first line
     company=r['What company do you work for?'].strip()
     cat=', '.join(t.strip() for t in r['Ecosystem contribution'].split(',') if t.strip() and t.strip()!='Other')
     note=''
