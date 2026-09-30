@@ -81,7 +81,7 @@ function renderList(){
   add.innerHTML='<span class="pic">'+picSVG(0,22,C.mist)+'</span><span class="n">Add a name</span>';
   add.addEventListener('click',addPerson); list.appendChild(add);
   /* longer lists tighten so the column never reaches the rail */
-  const rows=Math.ceil((order.length+(editing?1:0))/2); list.style.gridAutoRows=(rows>8?Math.max(54,Math.floor(672/rows)):84)+'px';
+  const rows=Math.ceil((order.length+(editing?1:0))/2); list.style.gridAutoRows=Math.max(50,Math.min(84,Math.floor(630/Math.max(1,rows))))+'px';
 }
 function setText(el,v){ if(document.activeElement!==el&&el.textContent!==(v||'')) el.textContent=v||''; }
 function renderInfo(){
