@@ -10,6 +10,12 @@ fonts=("/* DM Sans (display) and Inter (UI), embedded so the slide runs with no 
   font('DM Sans','dmsans-latinext.woff2',EXT)+font('DM Sans','dmsans-latin.woff2',LAT)+
   font('Inter','inter-latinext.woff2',EXT)+font('Inter','inter-latin.woff2',LAT))
 data=json.loads((SP/'master-data.json').read_text())
+# what each company does and what it brings, researched per speaker; sources stay in value-lines.json
+V=json.loads((SP/'value-lines.json').read_text())
+for p in data['people']:
+    v=V.get(p['id'])
+    if v:
+        for k in ('whatLabel','what','system','clinicians','healthtech','check'): p[k]=v.get(k,'')
 # stamp the build time so this file's data outranks edits saved from an older build in the same browser
 data['rev']=int(time.time()*1000)
 dj=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')

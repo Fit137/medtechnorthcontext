@@ -2,11 +2,11 @@
 
 ## The master slide and speaker slides: `build-north-master.html`
 
-One file, two surfaces. The names slide lists every speaker, alphabetical by first name. Click a name and that speaker's own slide opens: portrait card with photo and company, job title, company, ecosystem contribution, the five-mark timer, and the three questions (working on, why Canada, the word). Every speaker slide has **All speakers** at the top left to return to the names; Esc or the browser's back button does the same.
+One file, two surfaces. The names slide lists every speaker, alphabetical by first name. Click a name and that speaker's own slide opens: portrait card with photo and company, job title, company, ecosystem contribution, the five-mark timer, and a value map. Every speaker slide has **All speakers** at the top left to return to the names; Esc or the browser's back button does the same.
 
 On a speaker slide, Right, Down, Space or Page Down moves to the next speaker and Left, Up or Page Up to the previous one. After the last speaker it returns to the names. "Next" at the bottom left shows who is up and is clickable. The timer restarts with each speaker slide; T pauses it. Each speaker slide has its own address (`build-north-master.html#rozhen-asrani`), so a link or a reload opens that speaker directly.
 
-**The word.** Click the line beside THE WORD, type what the speaker says, press Enter. It stays on their slide. No edit mode needed.
+**The value map.** Below the seam, each speaker's company sits at the hub, with what it does in one line, and three lanes run out from it: what it brings to the health system, to healthcare professionals, and to health tech. The slabs stand in 3D, follow the pointer, and a pulse runs from the hub along each lane. The lines come from the three registration answers plus each company's public description, and live in `src/value-lines.json` with their sources. They carry no figures and no outcome claims. Five rest on thin public information and say so in edit mode: EESI (Amr), Sanaré Tech (Sarim), the stealth venture beside ZKSCool (Nancy), and Eman's and Ganiat's lines, which come from their titles alone. Press E on a slide to reword any line.
 
 Only those three registration fields are shown. Email, phone, payment, coupon and referral data are never on the page. Three fields stay held back until confirmed: Reham's title and workplace, Esraa's registered organisation (her regulator), and Diaa's University of Toronto listing. Open their slide and press E to type them in once confirmed.
 

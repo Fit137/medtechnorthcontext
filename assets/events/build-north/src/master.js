@@ -97,14 +97,38 @@ function moveCursor(d){ const ids=order.map(p=>p.id); if(!ids.length) return;
   let i=ids.indexOf(cursor); i=i<0?0:clamp(i+d,0,ids.length-1);
   const el=$('.nm[data-id="'+ids[i]+'"]'); if(el) el.focus({preventScroll:true}); markCursor(ids[i]); }
 
+/* ---------- the value map: the company at the hub, what it brings along three lanes ---------- */
+const VF=['what','system','clinicians','healthtech'];
+const LANES=[{t:3,c:C.sage},{t:1,c:'#ffffff'},{t:0,c:C.redB}];   /* health system · healthcare professionals · health tech */
+const LY=[50,165,280], HUB=[330,165], ROWX=420;
+const vmap=$('.vmap',person), vrig=$('.vm-rig',person), vlinks=$('.vm-links',person), vhub=$('.vm-hub',person), vrows=$$('.vm-row',person);
+vlinks.innerHTML=LY.map((y,i)=>{ const d='M'+HUB[0]+' '+HUB[1]+'C'+(HUB[0]+54)+' '+HUB[1]+' '+(ROWX-54)+' '+y+' '+ROWX+' '+y;
+  return '<g data-i="'+i+'"><path d="'+d+'" fill="none" stroke="rgba(255,255,255,.17)" stroke-width="1.6"></path>'+
+    '<path class="u" d="'+d+'" fill="none" stroke="'+LANES[i].c+'" stroke-width="2.8" stroke-linecap="round"></path>'+
+    '<circle cx="'+ROWX+'" cy="'+y+'" r="4.5" fill="'+LANES[i].c+'"></circle></g>'; }).join('')+
+  '<circle cx="'+HUB[0]+'" cy="'+HUB[1]+'" r="11" fill="none" stroke="rgba(255,255,255,.32)" stroke-width="1.4"></circle><circle cx="'+HUB[0]+'" cy="'+HUB[1]+'" r="5.5" fill="#fff"></circle>';
+const pulses=$$('.u',vlinks).map(el=>{ const L=el.getTotalLength(); el.setAttribute('stroke-dasharray','18 '+(L+40).toFixed(1)); return {el:el,L:L}; });
+vrows.forEach((r,i)=>{ $('.vm-pic',r).innerHTML=picSVG(LANES[i].t,26,LANES[i].c); });
+const wm=document.createElement('div'); wm.className='vm-wm'; $('.face',vhub).insertBefore(wm,$('.face',vhub).firstChild);
+function paintValue(p){
+  vmap.classList.toggle('none',!VF.some(k=>p[k]));
+  $('.vm-hk .pic',vhub).innerHTML=picSVG(p.marker,18);
+  $('.vm-hk .k',vhub).textContent=p.whatLabel||p.company||'What they do';
+  wm.innerHTML=picSVG(p.marker,230,'#ffffff');
+  setText($('.vm-ht',vhub),p.what);
+  vrows.forEach((r,i)=>{ const f=r.dataset.f; setText($('.vm-v',r),p[f]); r.classList.toggle('off',!p[f]);
+    $('g[data-i="'+i+'"]',vlinks).style.display=(p[f]||editing)?'':'none'; });
+  fitText($('.vm-ht',vhub),27,19,5); vrows.forEach(r=>fitText($('.vm-v',r),22,17,2));
+}
+
 /* ---------- a speaker's slide ---------- */
 function paintPerson(){
   const p=cur&&byId(cur); if(!p) return;
   $('.p-eye .pic',person).innerHTML=picSVG(p.marker,22);
   setText($('.p-name',person),p.name); setText($('.p-role .t',person),p.title); setText($('.p-role .o',person),p.company);
   setText($('.p-contrib',person),p.category); $('.p-cf',person).classList.toggle('empty',!p.category);
-  setText($('.p-word',person),p.word);
-  note.textContent=p.note||'';
+  paintValue(p);
+  note.textContent=[p.note,p.check].filter(Boolean).join(' ');
   ph.querySelector('.ini').textContent=initials(p.name);
   let img=$('img',ph);
   const put=src=>{ if(!img){img=document.createElement('img');img.alt='';ph.insertBefore(img,ph.firstChild);} img.src=src; ph.classList.add('has'); };
@@ -155,6 +179,11 @@ function frame(now){ cancelAnimationFrame(raf);clearTimeout(tmrId);
   else { const p=tkP.read(); ent=Math.min(1,ent+DT*1.05); const e=easeOut(ent);
     pc.style.transform='translate3d(0,'+((1-e)*50).toFixed(1)+'px,'+((1-e)*-200).toFixed(1)+'px) rotateY('+(-15-(1-e)*28+p.x*11+Math.sin(t*.33)*2.2).toFixed(2)+'deg) rotateX('+(4-p.y*7+Math.sin(t*.26)*1.1).toFixed(2)+'deg)';
     pc.style.opacity=clamp(e*1.6,0,1).toFixed(2); floor.style.opacity=e.toFixed(2); floor.style.transform='scaleX('+(0.7+e*0.3).toFixed(3)+')';
+    vrig.style.transform='rotateX('+(9-p.y*5+Math.sin(t*.19)*.8).toFixed(2)+'deg) rotateY('+(-8+p.x*9+Math.sin(t*.13)*2).toFixed(2)+'deg)';
+    [vhub].concat(vrows).forEach((s,i)=>{ const k=easeOut(clamp(ent*1.5-i*.16,0,1)), bob=i?Math.sin(t*.7+i*1.7)*5:Math.sin(t*.45)*3;
+      s.style.transform='translate3d('+((1-k)*-34).toFixed(1)+'px,0,'+((1-k)*-190+(i?10:24)+bob).toFixed(1)+'px)'; s.style.opacity=clamp(k*1.4,0,1).toFixed(2); });
+    vlinks.style.opacity=clamp(ent*1.8-.5,0,1).toFixed(2);
+    pulses.forEach((q,i)=>{ const u=((RM?.62:t*.42)+i*.29)%1; q.el.setAttribute('stroke-dashoffset',(18-u*(q.L+36)).toFixed(1)); });
     if(!PAUSED) elapsed+=DT; renderTimer(); }
   schedule(); }
 
@@ -193,10 +222,6 @@ $$('.ed',person).forEach(el=>{
   el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();el.blur();} });
   el.addEventListener('blur',()=>{ if(el.dataset.f==='name') renderList(); paintPerson(); });
 });
-/* the word: typed as the speaker says it, no edit mode needed */
-const word=$('.p-word',person); word.contentEditable=ceMode;
-word.addEventListener('input',()=>{ const p=cur&&byId(cur); if(!p) return; p.word=word.textContent.replace(/\s+/g,' ').trim(); persist(); });
-word.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();word.blur();} });
 $$('[data-edit]').forEach(el=>{ const k=el.getAttribute('data-edit'); if(DATA.text[k]!=null) el.textContent=DATA.text[k];
   el.addEventListener('input',()=>{DATA.text[k]=el.textContent.replace(/\s+/g,' ').trim();persist();});
   el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();el.blur();} }); });
