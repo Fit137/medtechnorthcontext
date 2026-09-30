@@ -3,6 +3,7 @@
 **Event:** Build North. A Celebration of Canadian Health Tech Builders
 **Date:** Wednesday 30 September 2026
 **Speakers:** 14. Fifteen registrations are approved, one of which is MedTech North, which is the host and gets no slide
+**Built:** the deck no longer goes through Claude Design. It is built directly at `assets/events/build-north/build-north-deck.html`, to the partner deck's standard. Parts A, B and G below still hold for content, checks and the message to attendees. Parts D to F are superseded by the build.
 **Supersedes:** the person-slide section of `build-in-canada-deck.md`. Everything else in that file stands, including the writing rules, the colour discipline and slides 0 to 4
 
 Source: Luma guest export, 29 September 2026, 18:42.
