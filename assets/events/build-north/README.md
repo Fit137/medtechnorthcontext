@@ -46,7 +46,9 @@ logos/lugu.svg
 - **Reham Saied El Nahrawy**: title and organisation left off. Registered as Pharmacist, logged in July as a pharmacy assistant, and Pharmacist is a protected title.
 - **Esraa Hassan**: organisation left off. She listed the BC regulator; confirm whether she works there or is registered with it.
 - **Diaa Abdallah**: only Lifescience Dynamics shows. He listed University of Toronto from a humber.ca address.
-- **Rellia Health** registered under the company name. Type the person's name over it; the order re-sorts itself.
+- **Megan Kane** now holds the Rellia Health seat and sorts into block two.
+
+Speaker contribution lines for Megan Kane, Catherine Demers, Rozhen Asrani, Saher Ghattas, Zahan Cooper and Amr Kayid were rewritten from their own public profiles and their companies' public descriptions. Each is editable in edit mode.
 
 Nothing on any slide claims a track record, and every figure traces to `data/verified-stats.md`.
 

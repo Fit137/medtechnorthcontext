@@ -10,6 +10,8 @@ fonts=("/* DM Sans (display) and Inter (UI), embedded so the deck runs with no n
   font('DM Sans','dmsans-latinext.woff2',EXT)+font('DM Sans','dmsans-latin.woff2',LAT)+
   font('Inter','inter-latinext.woff2',EXT)+font('Inter','inter-latin.woff2',LAT))
 data=json.loads((SP/'data.json').read_text())
+# stamp the build time so this file's data outranks edits saved from an older build in the same browser
+import time; data['rev']=int(time.time()*1000)
 dj=json.dumps(data,ensure_ascii=False,indent=1).replace('<','\\u003c')
 html=('<!DOCTYPE html>\n<html lang="en"><head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
  '<title>Build North · MedTech North</title>\n'
