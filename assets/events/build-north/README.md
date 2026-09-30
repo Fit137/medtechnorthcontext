@@ -1,12 +1,16 @@
 # Build North, 30 September 2026
 
-## The master slide: `build-north-master.html`
+## The master slide and speaker slides: `build-north-master.html`
 
-This replaces the per-speaker deck. One slide: every speaker's name on the left, alphabetical by first name. Click a name, or use the arrow keys, and that person stands up on the right with what they registered: job title, company, ecosystem contribution. Esc returns to the idle view with the three questions. A five-mark timer starts with each selection; T pauses it.
+One file, two surfaces. The names slide lists every speaker, alphabetical by first name. Click a name and that speaker's own slide opens: portrait card with photo and company, job title, company, ecosystem contribution, the five-mark timer, and the three questions (working on, why Canada, the word). Every speaker slide has **All speakers** at the top left to return to the names; Esc or the browser's back button does the same.
 
-Only those three registration fields are shown. Email, phone, payment, coupon and referral data are never on the page. Three fields stay held back until confirmed: Reham's title and workplace, Esraa's registered organisation (her regulator), and Diaa's University of Toronto listing. Press E to type them in once confirmed.
+On a speaker slide, Right, Down, Space or Page Down moves to the next speaker and Left, Up or Page Up to the previous one. After the last speaker it returns to the names. "Next" at the bottom left shows who is up and is clickable. The timer restarts with each speaker slide; T pauses it. Each speaker slide has its own address (`build-north-master.html#rozhen-asrani`), so a link or a reload opens that speaker directly.
 
-E is edit mode: change any field, add a walk-in (Add a name), remove a no-show, drop a photo on the portrait or a logo on the strip under it. Ctrl or Cmd S saves one file with everything inside. Rebuild from source with `python3 src/build_master.py build-north-master.html`. When a new Luma export arrives, refresh the names first with `python3 src/make_master_data.py <export.csv> --skip "Name"`, listing anyone who has said they are not coming. Photos already on the slide carry over.
+**The word.** Click the line beside THE WORD, type what the speaker says, press Enter. It stays on their slide. No edit mode needed.
+
+Only those three registration fields are shown. Email, phone, payment, coupon and referral data are never on the page. Three fields stay held back until confirmed: Reham's title and workplace, Esraa's registered organisation (her regulator), and Diaa's University of Toronto listing. Open their slide and press E to type them in once confirmed.
+
+E is edit mode: on a speaker slide, change any outlined field or drop a photo on the portrait or a logo on the strip under it; Remove this speaker takes a no-show off. Add a name adds a walk-in and opens their slide. Ctrl or Cmd S saves one file with everything inside. Rebuild from source with `python3 src/build_master.py build-north-master.html`. When a new Luma export arrives, refresh the names first with `python3 src/make_master_data.py <export.csv> --skip "Name"`, listing anyone who has said they are not coming. Photos already on the slide carry over.
 
 ## The earlier per-speaker deck: `build-north-deck.html`
 

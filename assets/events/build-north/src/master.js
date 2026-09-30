@@ -1,9 +1,11 @@
 /* ============================================================
-   BUILD NORTH · master slide engine
-   Click a name, or use the arrow keys: the person stands up on
-   the right with what they registered. Esc returns to the idle
-   view. Operator keys: E edit · T timer · F full screen ·
-   Ctrl or Cmd S saves a copy with every edit and image inside.
+   BUILD NORTH · names slide and speaker slides
+   Click a name and that speaker's slide opens. All speakers
+   (top left), Esc or the browser's back returns to the names.
+   On a speaker slide the arrow keys, Page Up and Page Down move
+   to the previous or next speaker. Operator keys: E edit · T
+   timer · F full screen · Ctrl or Cmd S saves a copy with every
+   edit and image inside.
    ============================================================ */
 (function(){
 "use strict";
@@ -21,7 +23,7 @@ let DT=1/60; const kf=k=>1-Math.pow(1-k,Math.min(4,DT*60));
 const LS='mn-build-north-master-2026-09-30';
 let DATA=JSON.parse($('#mn-data').textContent);
 try{const s=JSON.parse(localStorage.getItem(LS)||'null'); if(s&&s.people&&s.rev>(DATA.rev||0)) DATA=s;}catch(e){}
-DATA.text=DATA.text||{}; DATA.logos=DATA.logos||{};
+DATA.text=DATA.text||{}; DATA.logos=DATA.logos||{}; delete DATA.lugu;
 let storeOK=true, saveT=0;
 function persist(){ DATA.rev=Date.now(); clearTimeout(saveT);
   saveT=setTimeout(()=>{try{localStorage.setItem(LS,JSON.stringify(DATA));storeOK=true;}catch(e){storeOK=false;} opMsg();},200); }
@@ -65,72 +67,94 @@ function fitText(el,max,min,lines){ if(!el) return; let s=max; el.style.fontSize
 function fitLine(el,max,min){ if(!el) return; let s=max; el.style.fontSize=s+'px'; while(s>min&&el.scrollWidth>el.clientWidth+1){s-=1;el.style.fontSize=s+'px';} }
 const initials=n=>{const w=String(n||'').trim().split(/\s+/).filter(Boolean);return w.length?(w[0][0]+(w.length>1?w[w.length-1][0]:'')).toUpperCase():'';};
 const logoKey=p=>slug(p.company)||slug(p.name)||p.id;
+function probe(l,ok){ let i=0; const t=new Image(); t.onload=()=>ok(l[i]); t.onerror=()=>{i++; if(i<l.length) t.src=l[i];}; t.src=l[0]; }
+function setText(el,v){ if(document.activeElement!==el&&el.textContent!==(v||'')) el.textContent=v||''; }
+
+/* ---------- the two surfaces ---------- */
+const stage=$('#stage'), master=$('#master'), person=$('#person');
+const list=$('.names'), note=$('.note',person), ph=$('.ph',person), lg=$('.lg',person), tmr=$('.p-timer',person), nextup=$('.nextup',person);
+let view='names', cur=null, cursor=null, editing=false, order=[];
 
 /* ---------- the names ---------- */
-const list=$('.names'), info=$('.info'), note=$('.note'), ph=$('.ph'), lg=$('.lg'), tmr=$('.info .tmr');
-let sel=null, editing=false, order=[];
 function renderList(){
   order=people(); list.innerHTML='';
-  order.forEach((p,i)=>{ const d=document.createElement('div'); d.className='nm'; d.tabIndex=0; d.setAttribute('role','option'); d.dataset.id=p.id;
-    d.setAttribute('aria-selected',String(p.id===sel));
+  order.forEach(p=>{ const d=document.createElement('div'); d.className='nm'+(p.id===cursor?' cur':''); d.tabIndex=0; d.setAttribute('role','button'); d.dataset.id=p.id;
     d.innerHTML='<span class="pic">'+picSVG(p.marker,22)+'</span><span class="n">'+esc(p.name||'New name')+'</span>';
-    d.addEventListener('click',()=>select(p.id===sel&&!editing?null:p.id));
-    d.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();select(p.id);} });
+    d.setAttribute('aria-label','Open '+(p.name||'this speaker')+"'s slide");
+    d.addEventListener('click',()=>open(p.id));
+    d.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();open(p.id);} });
+    d.addEventListener('focus',()=>markCursor(p.id));
     list.appendChild(d); fitLine($('.n',d),28,21); });
-  const add=document.createElement('div'); add.className='nm add'; add.tabIndex=0;
+  const add=document.createElement('div'); add.className='nm add'; add.tabIndex=0; add.setAttribute('role','button');
   add.innerHTML='<span class="pic">'+picSVG(0,22,C.mist)+'</span><span class="n">Add a name</span>';
-  add.addEventListener('click',addPerson); list.appendChild(add);
+  add.addEventListener('click',addPerson); add.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();addPerson();} });
+  list.appendChild(add);
   /* longer lists tighten so the column never reaches the rail */
   const rows=Math.ceil((order.length+(editing?1:0))/2); list.style.gridAutoRows=Math.max(50,Math.min(84,Math.floor(630/Math.max(1,rows))))+'px';
 }
-function setText(el,v){ if(document.activeElement!==el&&el.textContent!==(v||'')) el.textContent=v||''; }
-function renderInfo(){
-  const p=sel&&byId(sel); document.body.classList.toggle('sel',!!p);
-  if(!p){ note.textContent=''; return; }
-  $('.i-eye .pic').innerHTML=picSVG(p.marker,22);
-  setText($('.i-name'),p.name);
-  ['title','company','category'].forEach(f=>{ const row=$('.fld[data-f="'+f+'"]'); setText($('dd',row),p[f]); row.classList.toggle('empty',!p[f]); });
+function markCursor(id){ cursor=id; $$('.nm[data-id]').forEach(el=>el.classList.toggle('cur',el.dataset.id===id)); }
+function moveCursor(d){ const ids=order.map(p=>p.id); if(!ids.length) return;
+  let i=ids.indexOf(cursor); i=i<0?0:clamp(i+d,0,ids.length-1);
+  const el=$('.nm[data-id="'+ids[i]+'"]'); if(el) el.focus({preventScroll:true}); markCursor(ids[i]); }
+
+/* ---------- a speaker's slide ---------- */
+function paintPerson(){
+  const p=cur&&byId(cur); if(!p) return;
+  $('.p-eye .pic',person).innerHTML=picSVG(p.marker,22);
+  setText($('.p-name',person),p.name); setText($('.p-role .t',person),p.title); setText($('.p-role .o',person),p.company);
+  setText($('.p-contrib',person),p.category); $('.p-cf',person).classList.toggle('empty',!p.category);
+  setText($('.p-word',person),p.word);
   note.textContent=p.note||'';
   ph.querySelector('.ini').textContent=initials(p.name);
   let img=$('img',ph);
   const put=src=>{ if(!img){img=document.createElement('img');img.alt='';ph.insertBefore(img,ph.firstChild);} img.src=src; ph.classList.add('has'); };
   if(p.photo) put(p.photo); else { if(img){img.remove();img=null;} ph.classList.remove('has');
-    const s=slug(p.name); if(s) probe(['headshots/'+s+'.jpg','headshots/'+s+'.jpeg','headshots/'+s+'.png','headshots/'+s+'.webp'],src=>{ if(sel===p.id&&!p.photo) put(src); }); }
+    const s=slug(p.name); if(s) probe(['headshots/'+s+'.jpg','headshots/'+s+'.jpeg','headshots/'+s+'.png','headshots/'+s+'.webp'],src=>{ if(cur===p.id&&!p.photo) put(src); }); }
   const key=logoKey(p);
   if(DATA.logos[key]) lg.innerHTML='<img alt="'+esc(p.company)+'" src="'+DATA.logos[key]+'">';
   else { lg.innerHTML=p.company?'<div class="lt">'+esc(p.company)+'</div>':'<span class="lp">'+picSVG(p.marker,30,'rgba(255,255,255,.8)')+'</span>';
-    fitText($('.lt',lg),25,16,2);
-    probe(['logos/'+key+'.svg','logos/'+key+'.png'],src=>{ if(sel===p.id&&!DATA.logos[key]) lg.innerHTML='<img alt="'+esc(p.company)+'" src="'+src+'">'; }); }
-  fitText($('.i-name'),60,40,2);
+    fitText($('.lt',lg),27,17,2);
+    probe(['logos/'+key+'.svg','logos/'+key+'.png'],src=>{ if(cur===p.id&&!DATA.logos[key]) lg.innerHTML='<img alt="'+esc(p.company)+'" src="'+src+'">'; }); }
+  const ids=order.map(q=>q.id), nx=byId(ids[ids.indexOf(p.id)+1]);
+  $('.nn',nextup).textContent=nx?(nx.name||'New name'):'All speakers';
+  fitText($('.p-name',person),92,64,2); fitLine($('.p-role',person),28,19); fitText($('.p-contrib',person),36,26,2);
 }
-function probe(l,ok){ let i=0; const t=new Image(); t.onload=()=>ok(l[i]); t.onerror=()=>{i++; if(i<l.length) t.src=l[i];}; t.src=l[0]; }
 
-/* ---------- selection, the card arriving, the timer ---------- */
+/* ---------- moving between them: the address follows, so the browser's back works too ---------- */
+function fromHash(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} return byId(h)?h:null; }
+function go(id){ try{ if((fromHash()||null)!==(id||null)) location.hash=id||''; }catch(e){} show(id); }
+function open(id){ if(byId(id)) go(id); }
+function back(){ go(null); }
 let ent=0, elapsed=0, PAUSED=false, bars=[];
-function select(id){
-  const changed=id!==sel; sel=id;
-  $$('.nm[data-id]').forEach(el=>el.setAttribute('aria-selected',String(el.dataset.id===id)));
-  if(changed){ ent=RM?1:0; elapsed=0; }
-  renderInfo(); renderTimer();
-  const el=$('.nm[data-id="'+id+'"]'); if(el&&document.activeElement!==el&&!editing) el.focus({preventScroll:true});
+function show(id){
+  const p=id&&byId(id);
+  if(p){ const fresh=view!=='person'||cur!==p.id; cur=p.id; markCursor(p.id); view='person';
+    if(fresh){ paintPerson(); ent=RM?1:0; elapsed=0; renderTimer();
+      person.classList.remove('live'); master.classList.remove('on'); person.classList.add('on'); void person.offsetWidth; person.classList.add('live'); }
+  } else if(view!=='names'){ view='names'; person.classList.remove('on','live'); master.classList.add('on');
+    const el=cursor&&$('.nm[data-id="'+cursor+'"]'); if(el&&!editing) el.focus({preventScroll:true}); }
+  const a=document.activeElement; if(a&&a!==document.body&&!(view==='names'?master:person).contains(a)&&!opbar.contains(a)) a.blur();
+  document.body.dataset.view=view; $('#opbar [data-act="remove"]').disabled=view!=='person'; opMsg();
 }
+function step(d){ const ids=order.map(p=>p.id); const i=ids.indexOf(cur)+d; if(i<0||i>=ids.length) back(); else open(ids[i]); }
+addEventListener('hashchange',()=>show(fromHash()));
+
+/* ---------- the timer ---------- */
 function renderTimer(){ if(bars.length!==SLOT()){ tmr.innerHTML=''; bars=[]; for(let i=0;i<SLOT();i++){const t=document.createElement('i');t.innerHTML='<b></b>';tmr.appendChild(t);bars.push(t.firstChild);} }
   bars.forEach((b,i)=>{ b.style.height=(clamp((elapsed-i*60)/60,0,1)*100).toFixed(1)+'%'; });
   tmr.classList.toggle('over',elapsed>=bars.length*60); tmr.classList.toggle('paused',PAUSED); }
-function step(d){ const ids=order.map(p=>p.id); if(!ids.length) return;
-  let i=ids.indexOf(sel); i=i<0?(d>0?0:ids.length-1):clamp(i+d,0,ids.length-1); select(ids[i]); }
 
 /* ---------- one loop ---------- */
-const stage=$('#stage'), master=$('#master'), pc=$('.pc'), floor=$('.floor'), mapRig=$('.mapstage .rig');
+const pc=$('.pc',person), floor=$('.p-floor',person), mapRig=$('.mapstage .rig',master);
 dotField(mapRig,{step:15,r:2.4,planes:[-80,-26,26,80],seed:11});
-const tk=tracker(master); let last=performance.now(), t0=last, raf=0, tmrId=0;
+const tkM=tracker(master), tkP=tracker(person); let last=performance.now(), t0=last, raf=0, tmrId=0;
 function schedule(){cancelAnimationFrame(raf);clearTimeout(tmrId);raf=requestAnimationFrame(frame);tmrId=setTimeout(()=>frame(performance.now()),40);}
 function frame(now){ cancelAnimationFrame(raf);clearTimeout(tmrId);
-  DT=Math.min(.06,Math.max(.004,(now-last)/1000)); last=now; const t=RM?0:(now-t0)/1000, p=tk.read();
-  mapRig.style.transform='rotateX('+(18+p.y*5).toFixed(2)+'deg) rotateY('+(-12+Math.sin(t*.08)*8+p.x*8).toFixed(2)+'deg)';
-  if(sel){ ent=Math.min(1,ent+DT*1.3); const e=easeOut(ent);
-    pc.style.transform='translate3d(0,'+((1-e)*40).toFixed(1)+'px,'+((1-e)*-220).toFixed(1)+'px) rotateY('+(-16-(1-e)*34+p.x*10+Math.sin(t*.33)*2).toFixed(2)+'deg) rotateX('+(4-p.y*6+Math.sin(t*.26)*1).toFixed(2)+'deg)';
-    pc.style.opacity=clamp(e*1.6,0,1).toFixed(2); floor.style.opacity=e.toFixed(2);
+  DT=Math.min(.06,Math.max(.004,(now-last)/1000)); last=now; const t=RM?0:(now-t0)/1000;
+  if(view==='names'){ const p=tkM.read(); mapRig.style.transform='rotateX('+(18+p.y*5).toFixed(2)+'deg) rotateY('+(-12+Math.sin(t*.08)*8+p.x*8).toFixed(2)+'deg)'; }
+  else { const p=tkP.read(); ent=Math.min(1,ent+DT*1.05); const e=easeOut(ent);
+    pc.style.transform='translate3d(0,'+((1-e)*50).toFixed(1)+'px,'+((1-e)*-200).toFixed(1)+'px) rotateY('+(-15-(1-e)*28+p.x*11+Math.sin(t*.33)*2.2).toFixed(2)+'deg) rotateX('+(4-p.y*7+Math.sin(t*.26)*1.1).toFixed(2)+'deg)';
+    pc.style.opacity=clamp(e*1.6,0,1).toFixed(2); floor.style.opacity=e.toFixed(2); floor.style.transform='scaleX('+(0.7+e*0.3).toFixed(3)+')';
     if(!PAUSED) elapsed+=DT; renderTimer(); }
   schedule(); }
 
@@ -138,47 +162,53 @@ function frame(now){ cancelAnimationFrame(raf);clearTimeout(tmrId);
 function fit(){ const k=Math.min(innerWidth/1920,innerHeight/1080); stage.style.transform='translate(-50%,-50%) scale('+k+')'; }
 addEventListener('resize',fit);
 
-/* ---------- the rail ---------- */
-let luguFound=null;
+/* ---------- the rail, on both surfaces ---------- */
 const rail=document.createElement('div'); rail.className='mnrail';
-function paintRail(){ const src=DATA.lugu||luguFound;
-  rail.innerHTML='<span class="mn">'+mark(22,'#ffffff','rgba(255,255,255,.46)')+'MedTech North</span><i class="sep"></i><span class="lugu drop">'+(src?'<img alt="Lugu" src="'+src+'">':'Lugu')+'</span><i class="sep"></i><span class="leaf">'+leaf(24,C.redB)+'</span>';
-  wireDrop($('.lugu',rail),'lugu'); }
-master.appendChild(rail); paintRail();
-if(!DATA.lugu) probe(['logos/lugu.svg','logos/lugu.png'],src=>{luguFound=src;paintRail();});
+rail.innerHTML='<span class="mn">'+mark(22,'#ffffff','rgba(255,255,255,.46)')+'MedTech North</span><i class="sep"></i><span class="leaf">'+leaf(24,C.redB)+'</span>';
+stage.appendChild(rail);
 
 /* ---------- HUD, idle cursor ---------- */
 const hud=$('#hud'); let hudT=0, idleT=0;
-function flash(msg){ hud.textContent=msg||'Click a name, or ↑ ↓ · Esc clears · E edit · T timer · F full screen'; hud.classList.add('show'); clearTimeout(hudT); hudT=setTimeout(()=>hud.classList.remove('show'),1800); }
+function flash(msg){ hud.textContent=msg||(view==='names'
+  ?'Click a name to open their slide · E edit · F full screen'
+  :'← → previous and next speaker · Esc all speakers · T timer · E edit · F full screen');
+  hud.classList.add('show'); clearTimeout(hudT); hudT=setTimeout(()=>hud.classList.remove('show'),1800); }
 addEventListener('mousemove',()=>{ document.body.classList.remove('idle'); clearTimeout(idleT); idleT=setTimeout(()=>{ if(!editing) document.body.classList.add('idle'); },2600); },{passive:true});
 
 /* ---------- edit mode ---------- */
 let ceMode='plaintext-only'; (function(){const t=document.createElement('div');t.contentEditable='plaintext-only';if(t.contentEditable!=='plaintext-only')ceMode='true';})();
 const opbar=$('#opbar');
-function opMsg(){ $('.msg',opbar).innerHTML=storeOK
-  ?'Editing. Select a name, then click any outlined field to change it. Drop a photo on the portrait, a logo on the strip under it, the Lugu mark on the rail. <b>Save a copy</b> writes one file with everything inside.'
-  :'<span class="warn">This browser is out of storage, so the last change is not saved here.</span> Use Save a copy now.'; }
+function opMsg(){ $('.msg',opbar).innerHTML=!storeOK
+  ?'<span class="warn">This browser is out of storage, so the last change is not saved here.</span> Use Save a copy now.'
+  :view==='names'
+  ?'Editing. Open a name to change what their slide shows, or add a walk-in. <b>Save a copy</b> writes one file with everything inside.'
+  :'Editing. Click any outlined field to change it. Drop a photo on the portrait, a logo on the strip under it. <b>Save a copy</b> writes one file with everything inside.'; }
 function setEditing(on){ editing=on; document.body.classList.toggle('editing',on); document.body.classList.remove('idle');
   $$('.ed,[data-edit]').forEach(el=>{el.contentEditable=on?ceMode:'false';});
   if(!on&&document.activeElement&&document.activeElement.blur) document.activeElement.blur();
-  renderList(); renderInfo(); opMsg(); }
-$$('.info .ed').forEach(el=>{
-  el.addEventListener('input',()=>{ const p=sel&&byId(sel); if(!p) return; p[el.dataset.f]=el.textContent.replace(/\s+/g,' ').trim(); persist();
-    if(el.dataset.f==='name'){ ph.querySelector('.ini').textContent=initials(p.name); const n=$('.nm[data-id="'+p.id+'"] .n'); if(n) n.textContent=p.name||'New name'; } });
+  renderList(); paintPerson(); opMsg(); }
+$$('.ed',person).forEach(el=>{
+  el.addEventListener('input',()=>{ const p=cur&&byId(cur); if(!p) return; p[el.dataset.f]=el.textContent.replace(/\s+/g,' ').trim(); persist();
+    if(el.dataset.f==='name') ph.querySelector('.ini').textContent=initials(p.name); });
   el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();el.blur();} });
-  el.addEventListener('blur',()=>{ if(el.dataset.f==='name') renderList(); renderInfo(); });
+  el.addEventListener('blur',()=>{ if(el.dataset.f==='name') renderList(); paintPerson(); });
 });
+/* the word: typed as the speaker says it, no edit mode needed */
+const word=$('.p-word',person); word.contentEditable=ceMode;
+word.addEventListener('input',()=>{ const p=cur&&byId(cur); if(!p) return; p.word=word.textContent.replace(/\s+/g,' ').trim(); persist(); });
+word.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();word.blur();} });
 $$('[data-edit]').forEach(el=>{ const k=el.getAttribute('data-edit'); if(DATA.text[k]!=null) el.textContent=DATA.text[k];
   el.addEventListener('input',()=>{DATA.text[k]=el.textContent.replace(/\s+/g,' ').trim();persist();});
   el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key==='Escape'){e.preventDefault();el.blur();} }); });
 function addPerson(){ const p={id:'added-'+Date.now(),name:'',title:'',company:'',category:'',marker:0,photo:null,note:'Added on the night.'};
-  DATA.people.push(p); persist(); renderList(); select(p.id); setTimeout(()=>{ const n=$('.i-name'); if(n) n.focus(); },80); }
-function removeSelected(){ if(!sel) return; const p=byId(sel); if(!p||!confirm('Remove '+(p.name||'this name')+' from the master slide?')) return;
-  DATA.people=DATA.people.filter(q=>q.id!==sel); persist(); sel=null; renderList(); renderInfo(); }
+  DATA.people.push(p); persist(); renderList(); if(!editing) setEditing(true); open(p.id);
+  setTimeout(()=>{ const n=$('.p-name',person); if(n) n.focus(); },80); }
+function removeCurrent(){ if(view!=='person') return; const p=byId(cur); if(!p||!confirm('Remove '+(p.name||'this name')+' from tonight?')) return;
+  DATA.people=DATA.people.filter(q=>q.id!==p.id); persist(); cursor=null; renderList(); back(); }
 
 /* ---------- images in ---------- */
 const picker=$('#filepick'); let pickFor=null;
-function wireDrop(el,kind){ if(!el) return;
+function wireDrop(el,kind){
   el.addEventListener('dragover',e=>{ if(!editing) return; e.preventDefault(); el.classList.add('over'); });
   el.addEventListener('dragleave',()=>el.classList.remove('over'));
   el.addEventListener('drop',e=>{ if(!editing) return; e.preventDefault(); e.stopPropagation(); el.classList.remove('over'); const f=e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files[0]; if(f) take(f,kind); });
@@ -198,10 +228,9 @@ async function toLogo(file){
   if(opaque){ for(let i=0;i<a.length;i+=4){ const m=Math.min(a[i],a[i+1],a[i+2]); if(m>236) a[i+3]=0; else if(m>212) a[i+3]=Math.round(255*(236-m)/24); } g.putImageData(d,0,0); }
   return c.toDataURL('image/png'); }
 async function take(file,kind){ if(!/^image\//.test(file.type)&&!/\.svg$/i.test(file.name)) return;
-  try{ const p=sel&&byId(sel);
-    if(kind==='photo'&&p){ p.photo=await toPhoto(file); persist(); renderInfo(); }
-    else if(kind==='logo'&&p){ DATA.logos[logoKey(p)]=await toLogo(file); persist(); renderInfo(); }
-    else if(kind==='lugu'){ DATA.lugu=await toLogo(file); persist(); paintRail(); }
+  try{ const p=cur&&byId(cur); if(!p) return;
+    if(kind==='photo'){ p.photo=await toPhoto(file); persist(); paintPerson(); }
+    else if(kind==='logo'){ DATA.logos[logoKey(p)]=await toLogo(file); persist(); paintPerson(); }
   }catch(err){ console.error('[build-north] image',err); } }
 addEventListener('dragover',e=>e.preventDefault()); addEventListener('drop',e=>e.preventDefault());
 
@@ -211,28 +240,40 @@ function saveCopy(){ const json=JSON.stringify(DATA).replace(/</g,'\\u003c');
   const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([out],{type:'text/html'})); a.download='build-north-master.html';
   document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1500); }
 $$('[data-act]').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); const a=b.getAttribute('data-act');
-  if(a==='add') addPerson(); if(a==='remove') removeSelected(); if(a==='save') saveCopy(); if(a==='exit') setEditing(false); }));
+  if(a==='back') back(); if(a==='next') step(1);
+  if(a==='add') addPerson(); if(a==='remove') removeCurrent(); if(a==='save') saveCopy(); if(a==='exit') setEditing(false); }));
 
 /* ---------- keys ---------- */
 addEventListener('keydown',e=>{
   if((e.metaKey||e.ctrlKey)&&(e.key==='s'||e.key==='S')){ e.preventDefault(); saveCopy(); return; }
-  const t=e.target; if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(t.tagName))) return;
+  if(e.defaultPrevented) return;
+  const t=e.target; if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+  if(t&&t.tagName==='BUTTON'&&(e.key==='Enter'||e.key===' ')) return;
   if(e.metaKey||e.ctrlKey||e.altKey) return;
   const k=e.key;
-  if(k==='ArrowDown'||k==='ArrowRight'||k==='PageDown'){ e.preventDefault(); step(1); }
-  else if(k==='ArrowUp'||k==='ArrowLeft'||k==='PageUp'){ e.preventDefault(); step(-1); }
-  else if(k==='Escape'){ if(editing) setEditing(false); else select(null); }
-  else if(k==='Home'){ e.preventDefault(); step(-999); }
-  else if(k==='End'){ e.preventDefault(); step(999); }
-  else if(k==='f'||k==='F'){ const d=document.documentElement; if(document.fullscreenElement) document.exitFullscreen(); else if(d.requestFullscreen) d.requestFullscreen(); }
+  if(k==='Escape'&&editing){ setEditing(false); return; }
+  if(view==='person'){
+    if(k==='ArrowRight'||k==='ArrowDown'||k==='PageDown'||k===' '){ e.preventDefault(); step(1); }
+    else if(k==='ArrowLeft'||k==='ArrowUp'||k==='PageUp'){ e.preventDefault(); step(-1); }
+    else if(k==='Escape'||k==='Backspace'){ e.preventDefault(); back(); }
+  } else {
+    if(k==='ArrowRight'){ e.preventDefault(); moveCursor(1); }
+    else if(k==='ArrowLeft'){ e.preventDefault(); moveCursor(-1); }
+    else if(k==='ArrowDown'){ e.preventDefault(); moveCursor(cursor?2:0); }
+    else if(k==='ArrowUp'){ e.preventDefault(); moveCursor(cursor?-2:0); }
+    else if(k==='Home'){ e.preventDefault(); moveCursor(-999); }
+    else if(k==='End'){ e.preventDefault(); moveCursor(999); }
+    else if(k==='Enter'||k==='PageDown'||k===' '){ e.preventDefault(); open(cursor||(order[0]&&order[0].id)); }
+  }
+  if(k==='f'||k==='F'){ const d=document.documentElement; if(document.fullscreenElement) document.exitFullscreen(); else if(d.requestFullscreen) d.requestFullscreen(); }
   else if(k==='e'||k==='E'){ setEditing(!editing); }
   else if(k==='t'||k==='T'){ PAUSED=!PAUSED; renderTimer(); flash(PAUSED?'Timer paused':'Timer running'); }
   else if(k==='?'||k==='h'||k==='H'){ flash(); }
 });
 
 /* ---------- boot ---------- */
-renderList(); fit(); renderTimer();
-if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>{ renderList(); renderInfo(); });
+renderList(); fit(); renderTimer(); show(fromHash());
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>{ renderList(); if(cur) paintPerson(); });
 schedule(); flash();
-window.BuildNorth={data:()=>DATA,select:select,edit:setEditing,saveCopy:saveCopy};
+window.BuildNorth={data:()=>DATA,open:open,back:back,edit:setEditing,saveCopy:saveCopy};
 })();

@@ -1,11 +1,11 @@
 <div id="viewport"><div id="stage">
-<section id="master">
+<section id="master" class="view on" aria-label="All speakers">
   <div class="stage3d mapstage"><div class="rig"></div></div>
   <div class="left">
     <div class="eyebrow" data-edit="m.eyebrow">MedTech North · Wednesday 30 September 2026</div>
     <div class="ttl">Build North</div>
     <p class="sub" data-edit="m.sub">Tonight's speakers, alphabetical by first name.</p>
-    <div class="names" role="listbox" aria-label="Speakers"></div>
+    <div class="names" aria-label="Speakers"></div>
   </div>
   <div class="vseam"></div>
   <div class="idle">
@@ -13,27 +13,34 @@
     <div class="q"><b>01</b>What you are working on</div>
     <div class="q"><b>02</b>Why you chose Canada</div>
     <div class="q"><b>03</b>One word for the room</div>
-    <div class="hint">Select a name.</div>
+    <div class="hint">Select a name to open their slide.</div>
   </div>
-  <div class="stage3d cardstage"><div class="floor"></div><div class="rig">
+</section>
+<section id="person" class="view" aria-live="polite">
+  <button type="button" class="back" data-act="back"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M11 3.5 5.5 9l5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>All speakers</button>
+  <div class="seam"></div>
+  <div class="stage3d p-stage"><div class="p-floor"></div><div class="rig">
     <div class="pc"><div class="sr"></div><div class="sb"></div>
       <div class="fc"><div class="ph drop" data-drop="photo"><div class="ini"></div><div class="t2"></div></div><div class="lg drop" data-drop="logo"></div></div>
     </div>
   </div></div>
-  <div class="info" aria-live="polite">
-    <div class="eyebrow i-eye"><span class="pic"></span>Building in Canada</div>
-    <div class="i-name ed" data-f="name" data-ph="Name"></div>
-    <dl>
-      <div class="fld" data-f="title"><dt>Job title</dt><dd class="ed" data-f="title" data-ph="Job title"></dd></div>
-      <div class="fld" data-f="company"><dt>Company</dt><dd class="ed" data-f="company" data-ph="Company"></dd></div>
-      <div class="fld" data-f="category"><dt>Ecosystem contribution</dt><dd class="ed" data-f="category" data-ph="Ecosystem contribution"></dd></div>
-    </dl>
-    <div class="tmr"></div>
+  <div class="eyebrow p-eye" data-in><span class="pic"></span>Building in Canada</div>
+  <div class="p-namebox" data-in style="--d:1"><div class="p-name ed" data-f="name" data-ph="Name"></div></div>
+  <div class="p-role" data-in style="--d:2"><span class="t ed" data-f="title" data-ph="Job title"></span><span class="dot">·</span><span class="o ed" data-f="company" data-ph="Company"></span></div>
+  <div class="p-cf" data-in style="--d:3">
+    <div class="eyebrow p-cl">Ecosystem contribution</div>
+    <div class="p-contrib ed" data-f="category" data-ph="Ecosystem contribution"></div>
   </div>
+  <div class="p-timer tmr" data-in style="--d:4"></div>
+  <div class="p-rows" data-in style="--d:4">
+    <div class="p-row"><span class="lb">Working on</span></div>
+    <div class="p-row"><span class="lb">Why Canada</span></div>
+    <div class="p-row w"><span class="lb">The word</span><div class="p-word" spellcheck="false" data-f="word"></div></div>
+  </div>
+  <button type="button" class="nextup" data-act="next"><span class="k">Next</span><span class="nn"></span><svg viewBox="0 0 18 18" width="15" height="15" aria-hidden="true"><path d="M7 3.5 12.5 9 7 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
   <div class="note"></div>
-  <div class="foot">As registered for Build North.</div>
 </section>
 </div></div>
 <div id="hud"></div>
-<div id="opbar"><span class="msg"></span><button type="button" data-act="add">Add a name</button><button type="button" data-act="remove">Remove selected</button><button type="button" data-act="save" class="go">Save a copy</button><button type="button" data-act="exit">Done editing</button></div>
+<div id="opbar"><span class="msg"></span><button type="button" data-act="add">Add a name</button><button type="button" data-act="remove">Remove this speaker</button><button type="button" data-act="save" class="go">Save a copy</button><button type="button" data-act="exit">Done editing</button></div>
 <input type="file" id="filepick" accept="image/*,.svg">
