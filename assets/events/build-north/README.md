@@ -29,7 +29,7 @@ The timer starts when a speaker's slide comes up: one mark per minute, the fifth
 
 **The word.** Click the line beside THE WORD on a speaker's slide, type, press Enter. It appears on the word wall automatically. This works without edit mode.
 
-**Photos, logos and the Lugu mark.** Press E, then drop an image on the portrait, on the strip under it, or on "Lugu" in the bottom rail. You can also click them to choose a file. Photos are cropped square and rendered in the deck's blue-grey monochrome, so any photo quality sits level with the rest. Logos render as a white mark, and a white background on a JPG is lifted out automatically.
+**Photos, logos and the Lugu mark.** Press E, then drop an image on the portrait, on the strip under it, or on "Lugu" in the bottom rail. You can also click them to choose a file. Photos are cropped square and shown in full colour. Logos render as a white mark, and a white background on a JPG is lifted out automatically.
 
 Or put files beside the deck before you open it:
 

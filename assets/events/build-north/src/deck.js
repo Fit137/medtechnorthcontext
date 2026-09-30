@@ -499,7 +499,7 @@ function buildPerson(p){
       '<div class="seam"></div>'+
       '<div class="stage3d p-stage"><div class="p-floor"></div><div class="rig">'+
         '<div class="pc"><div class="sr"></div><div class="sb"></div>'+
-          '<div class="fc"><div class="ph drop" data-drop="headshot"><div class="ini"></div><div class="t1"></div><div class="t2"></div></div><div class="lg drop" data-drop="logo"></div></div>'+
+          '<div class="fc"><div class="ph drop" data-drop="headshot"><div class="ini"></div><div class="t2"></div></div><div class="lg drop" data-drop="logo"></div></div>'+
         '</div></div></div>'+
       '<div class="eyebrow p-eye" data-in><span class="pic"></span>Building in Canada</div>'+
       '<div class="p-namebox" data-in style="--d:1"><div class="p-name ed" data-f="name" data-ph="Name"></div></div>'+
