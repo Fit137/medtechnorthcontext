@@ -1,4 +1,14 @@
-# Build North deck, 30 September 2026
+# Build North, 30 September 2026
+
+## The master slide: `build-north-master.html`
+
+This replaces the per-speaker deck. One slide: every speaker's name on the left, alphabetical by first name. Click a name, or use the arrow keys, and that person stands up on the right with what they registered: job title, company, ecosystem contribution. Esc returns to the idle view with the three questions. A five-mark timer starts with each selection; T pauses it.
+
+Only those three registration fields are shown. Email, phone, payment, coupon and referral data are never on the page. Three fields stay held back until confirmed: Reham's title and workplace, Esraa's registered organisation (her regulator), and Diaa's University of Toronto listing. Press E to type them in once confirmed.
+
+E is edit mode: change any field, add a walk-in (Add a name), remove a no-show, drop a photo on the portrait or a logo on the strip under it. Ctrl or Cmd S saves one file with everything inside. Rebuild from source with `python3 src/build_master.py build-north-master.html`.
+
+## The earlier per-speaker deck: `build-north-deck.html`
 
 `build-north-deck.html` is the whole deck in one file. Fonts are embedded, nothing loads from the network, so it runs from a laptop on the venue projector with no wifi. Open it in Chrome and press **F** for full screen.
 
