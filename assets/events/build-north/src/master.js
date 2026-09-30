@@ -1,6 +1,8 @@
 /* ============================================================
-   BUILD NORTH · names slide and speaker slides
-   Click a name and that speaker's slide opens. All speakers
+   BUILD NORTH · the opening, the names slide, speaker slides
+   The file opens on six scenes that sit behind the host's
+   welcome; the last hands over to the names. Click a name and
+   that speaker's slide opens. All speakers
    (top left), Esc or the browser's back returns to the names.
    On a speaker slide the arrow keys, Page Up and Page Down move
    to the previous or next speaker. Operator keys: E edit · T
@@ -73,7 +75,7 @@ function setText(el,v){ if(document.activeElement!==el&&el.textContent!==(v||'')
 /* ---------- the two surfaces ---------- */
 const stage=$('#stage'), master=$('#master'), person=$('#person');
 const list=$('.names'), note=$('.note',person), ph=$('.ph',person), lg=$('.lg',person), tmr=$('.p-timer',person), nextup=$('.nextup',person);
-let view='names', cur=null, cursor=null, editing=false, order=[];
+let view='', cur=null, cursor=null, editing=false, order=[];
 
 /* ---------- the names ---------- */
 function renderList(){
@@ -144,24 +146,99 @@ function paintPerson(){
   fitText($('.p-name',person),92,64,2); fitLine($('.p-role',person),28,19); fitText($('.p-contrib',person),36,26,2);
 }
 
+/* ---------- the opening: six scenes behind the host's welcome ---------- */
+const speech=$('#speech'), scenes=$$('.scene',speech), spNext=$('.sp-next',speech), spProg=$('.sp-prog',speech);
+$('.sp-logo .m',speech).innerHTML=mark(46,'#ffffff','rgba(255,255,255,.46)');
+let sc=0, sEnt=0, sT=performance.now();
+function upTri(size,fill,stroke){ return '<svg viewBox="0 0 20 18" width="'+size+'" height="'+(size*.9).toFixed(1)+'" style="display:block;overflow:visible"><polygon points="10,1 19,17 1,17" fill="'+(fill||'none')+'" stroke="'+(stroke||'none')+'" stroke-width="1.5" stroke-linejoin="round"></polygon></svg>'; }
+spProg.innerHTML=scenes.map((el,i)=>'<button type="button" data-s="'+i+'" aria-label="'+esc(el.dataset.label)+'"></button>').join('')+'<i class="sep"></i><span class="leaf">'+leaf(22,C.redB)+'</span>';
+$$('button',spProg).forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); toScene(+b.dataset.s); }));
+function paintProg(){
+  $$('button',spProg).forEach((b,i)=>{ b.innerHTML=upTri(14,i===sc?'#ffffff':i<sc?'rgba(255,255,255,.42)':null,i>sc?'rgba(255,255,255,.45)':null); b.setAttribute('aria-current',String(i===sc)); });
+  $('.nn',spNext).textContent=sc<scenes.length-1?scenes[sc+1].dataset.label:"Tonight's speakers"; }
+const rot=(x,y)=>'rotateX('+x.toFixed(2)+'deg) rotateY('+y.toFixed(2)+'deg)';
+const SCN=[];
+/* 1 · welcome: Canada as dots, turning slowly */
+(function(){ const rig=$('.sc-map .rig',speech); dotField(rig,{step:13,r:2.3,planes:[-90,-30,30,90],seed:5});
+  SCN.push({tick(t,p){ rig.style.transform=rot(22+p.y*5,-18+Math.sin(t*.07)*7+p.x*8); }}); })();
+/* 2 · among us tonight: four groups, four equal panels in a shallow arc */
+(function(){ const rig=$('.sc-room .rig',speech), gps=$$('.gp',speech), GW=352, GAP=44, ARC=[-13,-4.5,4.5,13], GZ=[0,28,28,0];
+  gps.forEach((g,i)=>{ g.style.left=((1920-(GW*4+GAP*3))/2+i*(GW+GAP))+'px'; $('.gp-pic',g).innerHTML=picSVG(+g.dataset.t,64,'#ffffff'); });
+  SCN.push({tick(t,p,e){ rig.style.transform=rot(5-p.y*5+Math.sin(t*.17)*.8,p.x*8+Math.sin(t*.1)*2.5);
+    gps.forEach((g,i)=>{ const k=easeOut(clamp(e*1.6-i*.17,0,1)), bob=Math.sin(t*.6+i*1.4)*6;
+      g.style.transform='translate3d(0,'+((1-k)*60).toFixed(1)+'px,'+((1-k)*-260+GZ[i]+bob).toFixed(1)+'px) rotateY('+ARC[i]+'deg)'; g.style.opacity=clamp(k*1.4,0,1).toFixed(2); }); }}); })();
+/* 3 · every decision counts, and compounds: one up-triangle, then two, four, eight */
+(function(){ const rig=$('.sc-tree .rig',speech), W=900, H=640, G=6, HS=[0,130,290,440,570,630], SZ=[34,24,18,14,11,8.5], L=[];
+  const X=g=>60+g*158, Y=(g,i)=>{ const n=1<<g; return n===1?H/2:H/2-HS[g]/2+i*HS[g]/(n-1); };
+  for(let g=0;g<G;g++){ const n=1<<g, z=SZ[g]; let m='';
+    if(g) for(let i=0;i<n;i++){ const px=X(g-1), py=Y(g-1,i>>1), x=X(g), y=Y(g,i);
+      m+='<path d="M'+px+' '+py.toFixed(1)+'C'+(px+78)+' '+py.toFixed(1)+' '+(x-78)+' '+y.toFixed(1)+' '+x+' '+y.toFixed(1)+'" fill="none" stroke="rgba(185,206,221,.5)" stroke-width="'+(g<3?1.7:1.1)+'" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"></path>'; }
+    for(let i=0;i<n;i++){ const x=X(g), y=Y(g,i);
+      m+='<polygon points="'+x+','+(y-z*.58).toFixed(1)+' '+(x+z*.55).toFixed(1)+','+(y+z*.42).toFixed(1)+' '+(x-z*.55).toFixed(1)+','+(y+z*.42).toFixed(1)+'" fill="'+(g?C.mist:'#ffffff')+'"></polygon>'; }
+    const box=svgBox('0 0 '+W+' '+H,m,g*16); rig.appendChild(box); L.push({box:box,paths:$$('path',box)}); }
+  SCN.push({tick(t,p,e,te){ rig.style.transform=rot(4-p.y*5+Math.sin(t*.15)*.8,-13+p.x*8+Math.sin(t*.09)*2.5);
+    L.forEach((l,g)=>{ const k=clamp((te-.35-g*.42)/.55,0,1), draw=(1-easeOut(k)).toFixed(3);
+      l.box.style.opacity=(clamp(k*1.8,0,1)*(g?.8+.2*Math.sin(t*1.5-g*.9):1)).toFixed(2);
+      if(l.d!==draw){ l.d=draw; l.paths.forEach(pa=>pa.setAttribute('stroke-dashoffset',draw)); } }); }}); })();
+/* 4 · your decision: five slabs, each one stepping forward */
+(function(){ const rig=$('.sc-dec .rig',speech), dcs=$$('.dc',speech);
+  dcs.forEach((d,i)=>{ d.style.top=(i*138)+'px'; const k=d.dataset.t;
+    $('.dc-pic',d).innerHTML=k==='up'?upTri(30,'#ffffff'):k==='leaf'?leaf(34,'#ffffff'):picSVG(+k,36,'#ffffff'); });
+  SCN.push({tick(t,p,e){ rig.style.transform=rot(5-p.y*5+Math.sin(t*.16)*.8,-16+p.x*8+Math.sin(t*.09)*2);
+    dcs.forEach((d,i)=>{ const k=easeOut(clamp(e*1.7-i*.15,0,1)), bob=Math.sin(t*.55+i*1.3)*4;
+      d.style.transform='translate3d('+((1-k)*90).toFixed(1)+'px,0,'+((1-k)*-240+i*14+bob).toFixed(1)+'px)'; d.style.opacity=clamp(k*1.4,0,1).toFixed(2); }); }}); })();
+/* 5 · from the patient to the nation: rings on the floor, a ripple running out, each reach named where its ring turns away */
+(function(){ const rig=$('.sc-rip .rig',speech), plane=$('.rp-plane',speech), svg=$('.rp-rings',speech), TILT=56;
+  const RR=[150,232,314,396,478], RL=['Jobs','Investment','National GDP','The sector','The nation'];
+  let m=RR.map(r=>'<circle r="'+r+'" fill="none" stroke="rgba(185,206,221,.34)" stroke-width="1.5"></circle>').join('');
+  m+='<g class="wv">'+[0,1,2].map(()=>'<circle r="60" fill="none" stroke="#b9cedd" stroke-width="2.4" opacity="0"></circle>').join('')+'</g>';
+  m+=RR.map(r=>'<circle cy="'+(-r)+'" r="6" fill="#b9cedd"></circle>').join('');
+  m+='<circle r="62" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.5)" stroke-width="1.5"></circle><circle r="5" fill="#fff"></circle>';
+  svg.innerHTML=m; const waves=$$('.wv circle',svg), labs=[];
+  const stand=(el,x,y,ax)=>{ el.style.transform='translate3d('+(560+x)+'px,'+(560+y)+'px,0) rotateX(-'+TILT+'deg) translate('+ax+')'; plane.appendChild(el); labs.push(el); };
+  const core=document.createElement('div'); core.className='rp-core'; core.innerHTML=picSVG(1,60,'#ffffff'); stand(core,0,0,'-50%,-100%');
+  const pt=document.createElement('div'); pt.className='rp-pt'; pt.innerHTML='<b data-edit="sp.rc">The Canadian patient</b>'; stand(pt,0,70,'-50%,0');
+  RR.forEach((r,i)=>{ const el=document.createElement('div'); el.className='rp-lb'; el.innerHTML='<b data-edit="sp.r'+i+'">'+RL[i]+'</b>'; stand(el,0,-r,'-50%,-100%'); });
+  SCN.push({tick(t,p,e){ rig.style.transform='rotateX('+(TILT-p.y*4+Math.sin(t*.14)*.8).toFixed(2)+'deg) rotateZ('+(p.x*4+Math.sin(t*.08)*2).toFixed(2)+'deg)';
+    svg.style.opacity=clamp(e*2,0,1).toFixed(2);
+    labs.forEach((l,i)=>{ l.style.opacity=clamp(e*2.4-i*.2,0,1).toFixed(2); });
+    waves.forEach((w,k)=>{ const u=((RM?.3:t*.24)+k/3)%1; w.setAttribute('r',(62+u*430).toFixed(1)); w.setAttribute('opacity',((1-u)*.65*clamp(e*2-.4,0,1)).toFixed(3)); }); }}); })();
+/* 6 · thank you: the country lights up from one point */
+(function(){ const rig=$('.sc-map2 .rig',speech), reveal=$('.sc-reveal',speech); dotField(rig,{step:14,r:2.3,planes:[-70,-20,30,80],seed:9});
+  SCN.push({tick(t,p,e,te){ rig.style.transform=rot(20+p.y*4,-6+Math.sin(t*.06)*5+p.x*6);
+    reveal.style.setProperty('--r',(easeOut(clamp(te/2.8,0,1))*130).toFixed(1)+'%'); }}); })();
+function enterScene(i){ sc=clamp(i,0,scenes.length-1); sEnt=RM?1:0; sT=performance.now();
+  scenes.forEach((el,k)=>{ el.classList.toggle('on',k===sc); el.classList.remove('live'); });
+  void speech.offsetWidth; scenes[sc].classList.add('live'); paintProg(); }
+function toScene(i){ nav({v:'speech',s:clamp(i,0,scenes.length-1)}); }
+function sStep(d){ const i=sc+d; if(i>=scenes.length) back(); else if(i>=0) toScene(i); }
+
 /* ---------- moving between them: the address follows, so the browser's back works too ---------- */
-function fromHash(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} return byId(h)?h:null; }
-function go(id){ try{ if((fromHash()||null)!==(id||null)) location.hash=id||''; }catch(e){} show(id); }
-function open(id){ if(byId(id)) go(id); }
-function back(){ go(null); }
+/* #open, #open-2 … the opening · #speakers the names · #<id> a speaker */
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){}
+  if(h==='speakers') return {v:'names'};
+  if(byId(h)) return {v:'person',id:h};
+  const m=/^open-(\d+)$/.exec(h); return {v:'speech',s:m?clamp(+m[1]-1,0,scenes.length-1):0}; }
+const hashOf=r=>r.v==='names'?'speakers':r.v==='person'?r.id:(r.s?'open-'+(r.s+1):'open');
+function nav(r){ try{ const h=hashOf(r); if(location.hash.slice(1)!==h) location.hash=h; }catch(e){} show(r); }
+function open(id){ if(byId(id)) nav({v:'person',id:id}); }
+function back(){ nav({v:'names'}); }
 let ent=0, elapsed=0, PAUSED=false, bars=[];
-function show(id){
-  const p=id&&byId(id);
+function surface(sec){ [speech,master,person].forEach(x=>{ if(x!==sec) x.classList.remove('on','live'); }); sec.classList.add('on'); }
+function show(r){
+  const p=r.v==='person'&&byId(r.id);
   if(p){ const fresh=view!=='person'||cur!==p.id; cur=p.id; markCursor(p.id); view='person';
     if(fresh){ paintPerson(); ent=RM?1:0; elapsed=0; renderTimer();
-      person.classList.remove('live'); master.classList.remove('on'); person.classList.add('on'); void person.offsetWidth; person.classList.add('live'); }
-  } else if(view!=='names'){ view='names'; person.classList.remove('on','live'); master.classList.add('on');
-    const el=cursor&&$('.nm[data-id="'+cursor+'"]'); if(el&&!editing) el.focus({preventScroll:true}); }
-  const a=document.activeElement; if(a&&a!==document.body&&!(view==='names'?master:person).contains(a)&&!opbar.contains(a)) a.blur();
+      person.classList.remove('live'); surface(person); void person.offsetWidth; person.classList.add('live'); }
+  } else if(r.v==='names'){ if(view!=='names'){ view='names'; surface(master);
+    const el=cursor&&$('.nm[data-id="'+cursor+'"]'); if(el&&!editing) el.focus({preventScroll:true}); } }
+  else { const fresh=view!=='speech'||sc!==r.s; view='speech'; surface(speech); if(fresh) enterScene(r.s); }
+  const host=view==='names'?master:view==='person'?person:speech, a=document.activeElement;
+  if(a&&a!==document.body&&!host.contains(a)&&!opbar.contains(a)) a.blur();
   document.body.dataset.view=view; $('#opbar [data-act="remove"]').disabled=view!=='person'; opMsg();
 }
 function step(d){ const ids=order.map(p=>p.id); const i=ids.indexOf(cur)+d; if(i<0||i>=ids.length) back(); else open(ids[i]); }
-addEventListener('hashchange',()=>show(fromHash()));
+addEventListener('hashchange',()=>show(route()));
 
 /* ---------- the timer ---------- */
 function renderTimer(){ if(bars.length!==SLOT()){ tmr.innerHTML=''; bars=[]; for(let i=0;i<SLOT();i++){const t=document.createElement('i');t.innerHTML='<b></b>';tmr.appendChild(t);bars.push(t.firstChild);} }
@@ -171,11 +248,12 @@ function renderTimer(){ if(bars.length!==SLOT()){ tmr.innerHTML=''; bars=[]; for
 /* ---------- one loop ---------- */
 const pc=$('.pc',person), floor=$('.p-floor',person), mapRig=$('.mapstage .rig',master);
 dotField(mapRig,{step:15,r:2.4,planes:[-80,-26,26,80],seed:11});
-const tkM=tracker(master), tkP=tracker(person); let last=performance.now(), t0=last, raf=0, tmrId=0;
+const tkM=tracker(master), tkP=tracker(person), tkS=tracker(speech); let last=performance.now(), t0=last, raf=0, tmrId=0;
 function schedule(){cancelAnimationFrame(raf);clearTimeout(tmrId);raf=requestAnimationFrame(frame);tmrId=setTimeout(()=>frame(performance.now()),40);}
 function frame(now){ cancelAnimationFrame(raf);clearTimeout(tmrId);
   DT=Math.min(.06,Math.max(.004,(now-last)/1000)); last=now; const t=RM?0:(now-t0)/1000;
-  if(view==='names'){ const p=tkM.read(); mapRig.style.transform='rotateX('+(18+p.y*5).toFixed(2)+'deg) rotateY('+(-12+Math.sin(t*.08)*8+p.x*8).toFixed(2)+'deg)'; }
+  if(view==='speech'){ const p=tkS.read(); sEnt=Math.min(1,sEnt+DT*.9); SCN[sc].tick(t,p,sEnt,RM?99:(now-sT)/1000); }
+  else if(view==='names'){ const p=tkM.read(); mapRig.style.transform='rotateX('+(18+p.y*5).toFixed(2)+'deg) rotateY('+(-12+Math.sin(t*.08)*8+p.x*8).toFixed(2)+'deg)'; }
   else { const p=tkP.read(); ent=Math.min(1,ent+DT*1.05); const e=easeOut(ent);
     pc.style.transform='translate3d(0,'+((1-e)*50).toFixed(1)+'px,'+((1-e)*-200).toFixed(1)+'px) rotateY('+(-15-(1-e)*28+p.x*11+Math.sin(t*.33)*2.2).toFixed(2)+'deg) rotateX('+(4-p.y*7+Math.sin(t*.26)*1.1).toFixed(2)+'deg)';
     pc.style.opacity=clamp(e*1.6,0,1).toFixed(2); floor.style.opacity=e.toFixed(2); floor.style.transform='scaleX('+(0.7+e*0.3).toFixed(3)+')';
@@ -198,8 +276,10 @@ stage.appendChild(rail);
 
 /* ---------- HUD, idle cursor ---------- */
 const hud=$('#hud'); let hudT=0, idleT=0;
-function flash(msg){ hud.textContent=msg||(view==='names'
-  ?'Click a name to open their slide · E edit · F full screen'
+function flash(msg){ hud.textContent=msg||(view==='speech'
+  ?'→ next · ← previous · F full screen · E edit'
+  :view==='names'
+  ?'Click a name to open their slide · Page Up the opening · E edit · F full screen'
   :'← → previous and next speaker · Esc all speakers · T timer · E edit · F full screen');
   hud.classList.add('show'); clearTimeout(hudT); hudT=setTimeout(()=>hud.classList.remove('show'),1800); }
 addEventListener('mousemove',()=>{ document.body.classList.remove('idle'); clearTimeout(idleT); idleT=setTimeout(()=>{ if(!editing) document.body.classList.add('idle'); },2600); },{passive:true});
@@ -209,6 +289,8 @@ let ceMode='plaintext-only'; (function(){const t=document.createElement('div');t
 const opbar=$('#opbar');
 function opMsg(){ $('.msg',opbar).innerHTML=!storeOK
   ?'<span class="warn">This browser is out of storage, so the last change is not saved here.</span> Use Save a copy now.'
+  :view==='speech'
+  ?'Editing. Click any outlined line to change its wording. <b>Save a copy</b> writes one file with everything inside.'
   :view==='names'
   ?'Editing. Open a name to change what their slide shows, or add a walk-in. <b>Save a copy</b> writes one file with everything inside.'
   :'Editing. Click any outlined field to change it. Drop a photo on the portrait, a logo on the strip under it. <b>Save a copy</b> writes one file with everything inside.'; }
@@ -265,7 +347,7 @@ function saveCopy(){ const json=JSON.stringify(DATA).replace(/</g,'\\u003c');
   const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([out],{type:'text/html'})); a.download='build-north-master.html';
   document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1500); }
 $$('[data-act]').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); const a=b.getAttribute('data-act');
-  if(a==='back') back(); if(a==='next') step(1);
+  if(a==='back') back(); if(a==='next') step(1); if(a==='snext') sStep(1); if(a==='opening') toScene(0);
   if(a==='add') addPerson(); if(a==='remove') removeCurrent(); if(a==='save') saveCopy(); if(a==='exit') setEditing(false); }));
 
 /* ---------- keys ---------- */
@@ -277,7 +359,12 @@ addEventListener('keydown',e=>{
   if(e.metaKey||e.ctrlKey||e.altKey) return;
   const k=e.key;
   if(k==='Escape'&&editing){ setEditing(false); return; }
-  if(view==='person'){
+  if(view==='speech'){
+    if(k==='ArrowRight'||k==='ArrowDown'||k==='PageDown'||k===' '||k==='Enter'){ e.preventDefault(); sStep(1); }
+    else if(k==='ArrowLeft'||k==='ArrowUp'||k==='PageUp'||k==='Backspace'){ e.preventDefault(); sStep(-1); }
+    else if(k==='Home'){ e.preventDefault(); toScene(0); }
+    else if(k==='End'){ e.preventDefault(); toScene(scenes.length-1); }
+  } else if(view==='person'){
     if(k==='ArrowRight'||k==='ArrowDown'||k==='PageDown'||k===' '){ e.preventDefault(); step(1); }
     else if(k==='ArrowLeft'||k==='ArrowUp'||k==='PageUp'){ e.preventDefault(); step(-1); }
     else if(k==='Escape'||k==='Backspace'){ e.preventDefault(); back(); }
@@ -289,6 +376,7 @@ addEventListener('keydown',e=>{
     else if(k==='Home'){ e.preventDefault(); moveCursor(-999); }
     else if(k==='End'){ e.preventDefault(); moveCursor(999); }
     else if(k==='Enter'||k==='PageDown'||k===' '){ e.preventDefault(); open(cursor||(order[0]&&order[0].id)); }
+    else if(k==='PageUp'||k==='Backspace'){ e.preventDefault(); toScene(scenes.length-1); }
   }
   if(k==='f'||k==='F'){ const d=document.documentElement; if(document.fullscreenElement) document.exitFullscreen(); else if(d.requestFullscreen) d.requestFullscreen(); }
   else if(k==='e'||k==='E'){ setEditing(!editing); }
@@ -297,7 +385,7 @@ addEventListener('keydown',e=>{
 });
 
 /* ---------- boot ---------- */
-renderList(); fit(); renderTimer(); show(fromHash());
+renderList(); fit(); renderTimer(); show(route());
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>{ renderList(); if(cur) paintPerson(); });
 schedule(); flash();
 window.BuildNorth={data:()=>DATA,open:open,back:back,edit:setEditing,saveCopy:saveCopy};

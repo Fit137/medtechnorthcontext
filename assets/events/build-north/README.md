@@ -2,7 +2,26 @@
 
 ## The master slide and speaker slides: `build-north-master.html`
 
-One file, two surfaces. The names slide lists every speaker, alphabetical by first name. Click a name and that speaker's own slide opens: portrait card with photo and company, job title, company, ecosystem contribution, the five-mark timer, and a value map. Every speaker slide has **All speakers** at the top left to return to the names; Esc or the browser's back button does the same.
+### The opening
+
+The file opens on six scenes that sit behind the welcome speech. Each one carries a single beat of it; the speech itself stays spoken, so the screen shows only the line the room should hold on to.
+
+| # | Scene | The beat in the speech | The object |
+|---|---|---|---|
+| 1 | Welcome | Thank you for coming. Tonight we celebrate you. | Canada as dots, turning, the beacon lit |
+| 2 | Among us tonight | Builders, expertise, healthcare, academia | Four equal panels in a shallow arc, one group marker each, none ranked |
+| 3 | Every decision counts | One of these times, where every decision counts and compounds | One up-triangle becomes two, four, eight: the mark's growth sign, drawn out generation by generation |
+| 4 | Your decision | Build, join a startup, work in Canadian healthcare, invest, start a career here | Five slabs stepping forward, each with its marker; the leaf for choosing Canada |
+| 5 | From the patient to the nation | Jobs, investment, national GDP, the sector, the nation | Rings on the floor around the patient, a ripple running out, each reach named where its ring turns away |
+| 6 | Thank you | On behalf of every Canadian, thank you | The country lights up outward from one point |
+
+After the last scene comes the names slide. Right, Space, Page Down or Enter moves forward; Left, Page Up or Backspace moves back; the up-triangles at the bottom right jump to any scene. From the names slide, Page Up or **Opening** at the bottom left returns. Addresses: `#open` to `#open-6`, `#speakers`, then each speaker's id.
+
+**The system.** One grid, one type scale, one object per scene. MedTech North's mark and wordmark sit top left on every scene, the date top right, the way forward bottom left, progress as up-triangles bottom right beside the leaf. Type runs display 176, headlines 84 to 132, lead 40, panel text 30, eyebrows 15. White carries the words, mist carries what the room gains (the reaches in scene 5), red is kept for what can be clicked and the leaf. The four group markers are told apart by shape, never colour. Objects enter once and hold; only the ripple and the compounding pulse keep moving, because there the motion is the point. No figures appear anywhere in the opening. Press E to reword any line.
+
+### The names and speaker slides
+
+One file, two surfaces after the opening. The names slide lists every speaker, alphabetical by first name. Click a name and that speaker's own slide opens: portrait card with photo and company, job title, company, ecosystem contribution, the five-mark timer, and a value map. Every speaker slide has **All speakers** at the top left to return to the names; Esc or the browser's back button does the same.
 
 On a speaker slide, Right, Down, Space or Page Down moves to the next speaker and Left, Up or Page Up to the previous one. After the last speaker it returns to the names. "Next" at the bottom left shows who is up and is clickable. The timer restarts with each speaker slide; T pauses it. Each speaker slide has its own address (`build-north-master.html#rozhen-asrani`), so a link or a reload opens that speaker directly.
 

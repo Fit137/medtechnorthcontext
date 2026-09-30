@@ -119,6 +119,74 @@ body.editing .vm-row.off{display:block}
 .nextup .k{font:500 13px/1 var(--font-ui);letter-spacing:.16em;text-transform:uppercase;color:rgba(185,206,221,.7)}
 .nextup svg{display:block;flex:none;opacity:.7}
 .nextup:hover,.nextup:focus-visible{color:#fff;outline:none}
+/* ============ the opening: six scenes behind the host's welcome ============
+   One system for every scene. Type: display 176 · headline 84 to 132 ·
+   lead 40 · panel 30 · eyebrow 15. Grid: 100 px margins, the logo top
+   left, the date top right, the way forward bottom left, progress as
+   up-triangles bottom right. Colour: white carries the words, mist
+   carries what the room gains, red stays for what can be clicked.
+   One 3D object per scene, entering once and then holding. */
+#speech .scene{position:absolute;inset:0;visibility:hidden;opacity:0;transition:opacity .5s ease,visibility 0s linear .5s}
+#speech .scene.on{visibility:visible;opacity:1;transition:opacity .5s ease;z-index:1}
+#speech .scene.live [data-in]{opacity:1;transform:none;transition-delay:calc(var(--d,0) * 110ms + 140ms)}
+body[data-view="speech"] .mnrail{display:none}
+.sp-logo{position:absolute;left:var(--pad-x);top:62px;display:flex;align-items:center;gap:16px;z-index:9;color:#fff}
+.sp-logo .m{line-height:0}
+.sp-logo .w{font:500 18px/1 var(--font-display);letter-spacing:.18em;text-transform:uppercase}
+.sp-date{position:absolute;right:var(--pad-x);top:84px;z-index:9}
+.sp-prog{position:absolute;right:var(--pad-x);bottom:36px;height:30px;display:flex;align-items:center;gap:6px;z-index:9}
+.sp-prog button{background:none;border:0;padding:6px;cursor:pointer;line-height:0;border-radius:4px}
+.sp-prog button:focus-visible{outline:1.5px solid var(--mn-mist)}
+.sp-prog .sep{width:1px;height:20px;background:rgba(255,255,255,.24);margin:0 12px 0 10px}
+.sp-prog .leaf{line-height:0}
+.sp-col{position:absolute;left:var(--pad-x);z-index:4}
+.sp-top{position:absolute;left:var(--pad-x);top:176px;width:1300px;z-index:4}
+.sp-narrow2{width:860px}
+.sp-mid{top:0;bottom:0;width:700px;display:flex;flex-direction:column;justify-content:center}
+.sp-narrow{width:600px}
+.sp-welcome{top:0;bottom:0;width:860px;display:flex;flex-direction:column;justify-content:center}
+.sp-display{font:400 176px/.92 var(--font-display);letter-spacing:-.035em;margin-top:26px}
+.sp-rule{width:120px;height:1px;background:rgba(255,255,255,.42);margin:48px 0 38px}
+.sp-lead{font:400 40px/1.24 var(--font-display);letter-spacing:-.01em;color:rgba(255,255,255,.88);max-width:740px;text-wrap:balance}
+.sp-h{font:400 84px/1.02 var(--font-display);letter-spacing:-.022em;margin-top:20px;text-wrap:balance}
+.sp-h.xl{font-size:100px;line-height:1}
+.sp-h.xxl{font-size:132px;line-height:.95}
+.sp-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:4}
+.sp-center::before{content:"";position:absolute;left:50%;top:50%;width:1500px;height:620px;margin:-300px 0 0 -750px;background:radial-gradient(50% 50% at 50% 50%,rgba(22,25,29,.9),rgba(22,25,29,.55) 55%,transparent 75%);z-index:-1;pointer-events:none}
+.sp-center .eyebrow{justify-content:center}
+.sp-display.thanks{font-size:220px;margin-top:30px}
+.sc-fade{position:absolute;inset:0;pointer-events:none;opacity:.62}
+.sc-map{left:800px;right:-60px;top:90px;bottom:90px;perspective:1500px;perspective-origin:50% 45%}
+.sc-reveal{opacity:.5;-webkit-mask-image:radial-gradient(circle at 60% 60%,#000 var(--r,0%),transparent calc(var(--r,0%) + 16%));mask-image:radial-gradient(circle at 60% 60%,#000 var(--r,0%),transparent calc(var(--r,0%) + 16%))}
+.sc-map2{left:160px;right:160px;top:40px;bottom:40px;perspective:1600px;perspective-origin:50% 45%}
+/* the room: four groups, four equal panels */
+.sc-room{left:0;right:0;top:360px;bottom:110px;perspective:1800px;perspective-origin:50% 26%}
+.gp{top:30px;width:352px;height:450px}
+.gp .face{display:flex;flex-direction:column;padding:38px 34px 40px}
+.gp-pic{line-height:0}
+.gp-k{margin-top:auto;font:500 14px/1 var(--font-ui);letter-spacing:.16em;text-transform:uppercase;color:var(--mn-mist)}
+.gp-t{margin-top:16px;font:400 31px/1.16 var(--font-display);letter-spacing:-.01em;text-wrap:balance}
+/* compounding: one up-triangle becomes many */
+.sc-tree{left:860px;right:130px;top:190px;bottom:150px;perspective:1800px;perspective-origin:20% 50%}
+/* five decisions */
+.sc-dec{left:740px;right:40px;top:150px;bottom:120px;perspective:1700px;perspective-origin:15% 40%}
+.dc{left:40px;width:980px;height:114px}
+.dc .face{display:flex;align-items:center;gap:26px;padding:0 38px 0 30px}
+.dc-n{flex:none;width:28px;font:500 14px/1 var(--font-ui);letter-spacing:.14em;color:rgba(255,255,255,.46)}
+.dc-pic{flex:none;width:40px;display:flex;justify-content:center;line-height:0}
+.dc-t{font:400 28px/1.2 var(--font-display);letter-spacing:-.005em;text-wrap:balance}
+/* from the patient to the nation: rings on the floor, labels standing */
+.sc-rip{left:560px;right:0;top:230px;bottom:70px;perspective:1600px;perspective-origin:50% 10%}
+.rp-plane{position:absolute;left:50%;top:50%;width:1120px;height:1120px;margin:-560px 0 0 -560px;transform-style:preserve-3d}
+.rp-rings{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.rp-lb{position:absolute;left:0;top:0;transform-origin:0 0;white-space:nowrap;padding:0 14px 12px}
+.rp-lb b{display:block;font:400 30px/1 var(--font-display);letter-spacing:-.005em;color:var(--mn-mist)}
+.rp-core{position:absolute;left:0;top:0;transform-origin:0 0;line-height:0;padding-bottom:6px}
+.rp-pt{position:absolute;left:0;top:0;transform-origin:0 0;white-space:nowrap;padding-top:14px}
+.rp-pt b{display:block;font:400 30px/1 var(--font-display);color:#fff}
+/* the names slide, back to the opening */
+.prevup{bottom:34px}
+.prevup .k{color:rgba(255,255,255,.5)}
 /* ============ the timer ============ */
 .tmr{display:flex;align-items:flex-end;gap:8px}
 .tmr i{position:relative;display:block;width:10px;height:30px;background:rgba(255,255,255,.16);overflow:hidden}
