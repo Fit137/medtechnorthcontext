@@ -6,7 +6,7 @@ This replaces the per-speaker deck. One slide: every speaker's name on the left,
 
 Only those three registration fields are shown. Email, phone, payment, coupon and referral data are never on the page. Three fields stay held back until confirmed: Reham's title and workplace, Esraa's registered organisation (her regulator), and Diaa's University of Toronto listing. Press E to type them in once confirmed.
 
-E is edit mode: change any field, add a walk-in (Add a name), remove a no-show, drop a photo on the portrait or a logo on the strip under it. Ctrl or Cmd S saves one file with everything inside. Rebuild from source with `python3 src/build_master.py build-north-master.html`.
+E is edit mode: change any field, add a walk-in (Add a name), remove a no-show, drop a photo on the portrait or a logo on the strip under it. Ctrl or Cmd S saves one file with everything inside. Rebuild from source with `python3 src/build_master.py build-north-master.html`. When a new Luma export arrives, refresh the names first with `python3 src/make_master_data.py <export.csv> --skip "Name"`, listing anyone who has said they are not coming. Photos already on the slide carry over.
 
 ## The earlier per-speaker deck: `build-north-deck.html`
 
