@@ -1,0 +1,176 @@
+{
+ "_about": "What each speaker's company does, and what that brings to the health system, to healthcare professionals and to health tech. Built from the three registration answers plus public descriptions of each company. No figures. build_master.py merges these into the page; sources and check stay in this file and in edit mode only.",
+ "amr-kayid": {
+  "whatLabel": "EESI",
+  "what": "Conversational voice AI, built on custom voice models.",
+  "system": "Voice as a way into care for people who find screens and forms a barrier.",
+  "clinicians": "Software care teams can speak to, where today they type.",
+  "healthtech": "Early Cohere team experience, now building voice AI in Toronto.",
+  "check": "EESI has almost no public description. The health lines are inferred from its voice AI work: confirm with Amr what EESI builds and for whom.",
+  "sources": [
+   "https://www.linkedin.com/in/amrmkayid/",
+   "https://kayid.ca/",
+   "https://huggingface.co/AmrMKayid"
+  ]
+ },
+ "diaa-abdallah": {
+  "whatLabel": "Lifescience Dynamics",
+  "what": "Market research, competitive intelligence and market access for pharma and biotech.",
+  "system": "Market access, pricing and reimbursement: the work between approval and a patient.",
+  "clinicians": "Teaches chemistry to the people who will enter the field next.",
+  "healthtech": "Competitive intelligence for companies deciding where and how to compete.",
+  "check": "",
+  "sources": [
+   "https://www.lifesciencedynamics.com/practice-areas/market-research/",
+   "https://legacy.vault.com/company-profiles/health-care-and-pharmaceutical-consulting/lifescience-dynamics-ltd"
+  ]
+ },
+ "eman-yehia": {
+  "whatLabel": "Care planning and design",
+  "what": "Plans how and where care is delivered, before anything is built.",
+  "system": "Care settings planned around how patients move through them.",
+  "clinicians": "Spaces and workflows designed around the people who work in them.",
+  "healthtech": "Knows where a new device or service has to fit in a real care setting.",
+  "check": "No organisation registered and no public profile found. Lines come from her job title only.",
+  "sources": []
+ },
+ "esraa-hassan": {
+  "whatLabel": "Clinical dietetics",
+  "what": "Clinical nutrition care, in practice in British Columbia.",
+  "system": "Nutrition as part of treatment, delivered inside clinical care.",
+  "clinicians": "A dietitian's view from inside the care team.",
+  "healthtech": "What nutrition care needs, from someone who delivers it every day.",
+  "check": "",
+  "sources": [
+   "https://x.com/DietitianEsraa",
+   "https://daughtersforlife.com/2022/11/22/dfl-scholar-sets-eyes-on-global-health-initiatives/"
+  ]
+ },
+ "ganiat-animashaun": {
+  "whatLabel": "Independent",
+  "what": "Healthcare operations: how a service runs day to day, and where it breaks.",
+  "system": "The operating side of care: capacity, flow and the handoffs between them.",
+  "clinicians": "The operations clinicians depend on every shift.",
+  "healthtech": "What a service can realistically adopt and run, from operations experience.",
+  "check": "No public profile matched with confidence. Lines come from her job title only.",
+  "sources": []
+ },
+ "rellia-health": {
+  "whatLabel": "Rellia Health",
+  "what": "A digital health incubator pairing founders with clinical, regulatory and technical experts.",
+  "system": "Regulatory and quality work built into health products from the start.",
+  "clinicians": "Brings practitioners into product decisions while they can still change.",
+  "healthtech": "Regulatory strategy for AI software and diagnostics across Health Canada, FDA and EU MDR.",
+  "check": "",
+  "sources": [
+   "https://www.relliahealth.com/",
+   "https://www.linkedin.com/in/megankane1/"
+  ]
+ },
+ "meraj-khan": {
+  "whatLabel": "DigiBiomics",
+  "what": "LungSense: AI for early detection and monitoring of respiratory disease.",
+  "system": "Designed for earlier detection of respiratory disease, and monitoring between visits.",
+  "clinicians": "Cough sound, symptoms and imaging read together in one picture.",
+  "healthtech": "Diagnostic AI from a Mississauga company grounded in biomedical research.",
+  "check": "",
+  "sources": [
+   "https://h2i.utoronto.ca/startup/digibiomics-inc/",
+   "https://innovationfactory.ca/clients/digibiomics-inc/",
+   "https://www.crunchbase.com/person/meraj-khan-cea0"
+  ]
+ },
+ "mostafa-abdelmeguid": {
+  "whatLabel": "DMZ",
+  "what": "Toronto Metropolitan University's incubator, with programmes for founders from around the world.",
+  "system": "Brings founders from abroad to build their companies in Canada.",
+  "clinicians": "An entry point for clinicians with an idea and no company yet.",
+  "healthtech": "Soft landing programmes for international founders entering the Canadian market.",
+  "check": "",
+  "sources": [
+   "https://dmz.torontomu.ca/dmz-global/",
+   "https://dmz.torontomu.ca/post/dmz-yyz-a-gateway-to-the-north-american-market",
+   "https://dmz.torontomu.ca/pre-incubator"
+  ]
+ },
+ "nancy-zhou": {
+  "whatLabel": "ZKSCool",
+  "what": "Cold chain monitoring for vaccines and medicines: sensors, gateways and cloud records.",
+  "system": "Continuous temperature records for vaccines and medicines, in storage and in transit.",
+  "clinicians": "Alerts to clinic staff when a vaccine fridge drifts out of range.",
+  "healthtech": "Monitoring infrastructure from central depot to remote clinic.",
+  "check": "She registered ZKSCool x Stealth. These lines describe ZKSCool; the stealth venture has no public description.",
+  "sources": [
+   "https://www.zkscool.net/industries/cdc-vaccine-cold-chain/",
+   "https://www.linkedin.com/in/nancy-zhou-0b2b57148/"
+  ]
+ },
+ "reham-saied-el-nahrawy": {
+  "whatLabel": "Community pharmacy",
+  "what": "The pharmacy counter: where patients arrive with a prescription and their questions.",
+  "system": "Care at the pharmacy counter, close to where patients live.",
+  "clinicians": "The pharmacy side of the care team.",
+  "healthtech": "What patients ask at the counter, heard firsthand.",
+  "check": "Worded so no protected title is implied. Her registered workplace was 'Pharmacy'.",
+  "sources": []
+ },
+ "rozhen-asrani": {
+  "whatLabel": "Dynacare",
+  "what": "Laboratory diagnostics across Canada, with digital access to testing.",
+  "system": "Lab testing people can order and follow digitally, including at home.",
+  "clinicians": "The diagnostics behind decisions clinicians make every day.",
+  "healthtech": "Product management where laboratory medicine meets digital health.",
+  "check": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dynacare",
+   "https://www.dynacareplus.com/gdml/"
+  ]
+ },
+ "saher-ghattas": {
+  "whatLabel": "GenieAI Now",
+  "what": "AI patient communication for medical and dental clinics, starting with voice.",
+  "system": "An AI agent that answers patient calls and books visits, hosted in Canada.",
+  "clinicians": "Chairside voice scribing and periodontal charting.",
+  "healthtech": "Built to work with the practice systems clinics already run, ClearDent and OSCAR Pro.",
+  "check": "",
+  "sources": [
+   "https://www.genieainow.com/"
+  ]
+ },
+ "sarim-shiraz": {
+  "whatLabel": "Sanaré Tech",
+  "what": "A new health technology company.",
+  "system": "Operations: the work of getting a new health product to the people it is for.",
+  "clinicians": "Biomedical innovation training at McMaster, where clinical need drives the build.",
+  "healthtech": "A founder's view of taking a health product from idea to operation.",
+  "check": "Sanaré Tech has no public description. Lines come from his role and his McMaster Master of Biomedical Innovation: ask Sarim what it builds.",
+  "sources": [
+   "https://www.datanyze.com/people/Sarim-Shiraz/7503683937",
+   "https://healthinnovation.mcmaster.ca/heersink-school/mbi/"
+  ]
+ },
+ "zahan-cooper": {
+  "whatLabel": "InclusifAI",
+  "what": "An AI funding platform matching underrepresented founders with grants and investors.",
+  "system": "Capital for founders the funding system has overlooked, including in health.",
+  "clinicians": "A route to funding for clinician and researcher founders.",
+  "healthtech": "Funding matching and readiness coaching, with a pilot for health and life sciences founders.",
+  "check": "",
+  "sources": [
+   "https://www.inclusifai.com/",
+   "https://www.inclusifai.com/en/inclusifai"
+  ]
+ },
+ "zainab-ashraf": {
+  "whatLabel": "CorLibra",
+  "what": "Heart failure care at home for seniors: a connected scale and a tablet designed for them.",
+  "system": "Heart failure care that continues at home, between clinic visits.",
+  "clinicians": "A validated diuretic algorithm behind each daily adjustment.",
+  "healthtech": "Designed with seniors, for homecare, primary care teams and specialized clinics.",
+  "check": "",
+  "sources": [
+   "https://innovationfactory.ca/clients/corlibra/",
+   "https://www.medrxiv.org/content/10.1101/2025.09.03.25335068v1.full.pdf"
+  ]
+ }
+}
